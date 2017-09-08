@@ -14,17 +14,17 @@ R studio installed on your computer at course start.
 
 For the course we will use the latest version of R and R-studio. Both
 of these works on computers running Linux, Windows and Macintosh
-operative systems. R-studio is a set of tools as well as an editor
-that facilitates the use of R and in many ways create a superior
-environment to integrate directly with R. Over the last years it has
-become a very popular tool and in many ways become a de-facto standard
-for working with R.
+operative systems. R-studio is both a set of tools and an editor that
+facilitates the use of R and in many ways create a superior computing
+environment that integrates directly with R. Over the last years it has
+become a very popular tool and has for many become the standard way of
+interacting with R.
 
 Note that on same operative systems it will be easier to install and
-run R and R-studio if you are administrator of your own computer and
-hence are allowed to install software on your machine. If you do not
-have these privileges please ask your system administrator to install
-the latest version of R and R-studio.
+run R and R-studio if you have an administrator account on your
+computer and hence are allowed to install software on your machine. If
+you do not have these privileges please ask your system administrator
+to install the latest version of R and R-studio.
 
 ## Install R
 
@@ -38,8 +38,8 @@ the latest version of R and R-studio.
 
 Once you clicked on the "Download R for Windows" you will come to a
 new web page where you will have a set of options. Click on the first
-link named "base". This will take you to the web page entitled "R-3.3.3
-for Windows" where you can download the "R-3.3.3-win.exe"
+link named "base". This will take you to the web page entitled "R-3.4.1
+for Windows" where you can download the "R-3.4.1-win.exe"
 that will can be run to install R on your computer.
 
 ### Details for Macintosh
@@ -47,7 +47,7 @@ that will can be run to install R on your computer.
 Once you clicked on the "Download R for Macintosh" you will come to a
 new web page where you will have a set of options. Unless you have an
 old version of your operative system you should select the first link
-named "R-3.3.3.pkg" that will download R to your computer. If you are
+named "R-3.4.1.pkg" that will download R to your computer. If you are
 not sure what version you are running click the apple on the top left
 of your screen and select "About this mac" (Om den här datorn). In
 case you are running something older than 10.9, you should instead
@@ -68,7 +68,7 @@ apt-get. If you run this make sure that you update your information to
 the installer first, otherwise you might end up installing at outdated
 version of R. For some systems you might need to install not only
 r-base, but also r-devel or you will lack important features of your R
-installation. 
+installation.
 
 ## Install R-studio
 
@@ -84,24 +84,26 @@ to fire up R-studio and see something like the following:
 <img src="files/R-studio.png" style="width:400px;" />
 
 If you do not see a screen like this one please send an email to
-thomas.kallman@nbis.se describing the error as well which operative operative
-system you are running.
+thomas.kallman@nbis.se describing the error together with the name of
+your operative system and version of R/R-studio that you are trying to
+install.
 
 # Other tools
 
 To be able to follow in this class we do recommend to use R-studio,
 but in case it does not fit your needs all the R code we describe will
-of course work irrespective of the environment that you use. The main
+of course work irrespective of the environment that you work with. The main
 benefits of using r-studio is that there are bundled packages with
 this software that greatly helps for documenting the R-code that you
 use and write.
 
-While this is NOT absolutely necessary, to be able to get the most from the 
-part of the course that covers explanatory programming, we advise you to have 
-a distribution of LaTeX system installed on your machine so that the R-Studio 
-can call it. Please follow guidelines on [LaTeX site](http://www.latex-project.org/get/)
+While this is NOT absolutely necessary, the explanatory programming
+approach we are using in the course will be easier to follow if you
+have a distribution of LaTeX system installed on your machine so that
+the R-Studio can call it. Please follow guidelines on
+[LaTeX site](http://www.latex-project.org/get/)
 
-Mac users can follow [this link](https://www.tug.org/mactex/mactex-download.html) 
+Mac users can follow [this link](https://www.tug.org/mactex/mactex-download.html)
 and installation instructions therein.
 
 Some commonly used tools besides R-studio are:
@@ -121,19 +123,19 @@ Some commonly used tools besides R-studio are:
 If you are eager to try things out before the course starts the
 following links goes to some useful material on using R.
 
-- [Best first R tutorial](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf)  
+- [Best first R tutorial](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf)
   A nice self learn tutorial to R, introducing many central concepts to R.
-- [A short introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)  
+- [A short introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
   A very short intro to using R.
-- [An introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)  
+- [An introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
   A fairly comprehensive document on R. As a beginner one can start
-  with Appendix A that is a short practical session. 
-- [The art of R programming](http://heather.cs.ucdavis.edu/~matloff/132/NSPpart.pdf)  
+  with Appendix A that is a short practical session.
+- [The art of R programming](http://heather.cs.ucdavis.edu/~matloff/132/NSPpart.pdf)
   A pdf copy of a book that deals with R as a programming
   language. Is a great source of information for anyone that wants to
   use R not only as a statistical analysis tools, but also use it as a
   more general programming language.
-- [R for data science](http://r4ds.had.co.nz)  
+- [R for data science](http://r4ds.had.co.nz)
   The basics of getting data into R, clean the data do your
   analysis. One of the authors of this book Hadley Wickham is also
   behind R-studio and has published several books on different aspects
@@ -150,16 +152,15 @@ following links goes to some useful material on using R.
   the [tidyverse](https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0)
   that offers a more unified interaction with objects and functions
   under this approach to data analysis.
+- [R-help mailing list](https://stat.ethz.ch/mailman/listinfo/r-help)
+  List of R-help mailing lists, where one often can find hints and
+  solutions to commonly occuring problems. Please read the posting
+  guide carefully before publishing any questions
 
 # Useful Non-R specific online resources
 
-- [http://biosupport.se/](http://biosupport.se/)  
-  Forum where NBIS and Scilifelab related personal tries to answer
-  questions submitted by the community
-- [http://www.biostars.org/](http://www.biostars.org/)  
-  Online Question and answer resource aimed at bioinformatics
-- [http://seqanswers.com/](http://seqanswers.com/)  
-  Online forum focusing on analysis of ngs data
-- [Stackoverflow](http://stackoverflow.com)  
+- [Stackoverflow](http://stackoverflow.com)
   Online community for programmers.
-  
+-
+- [Biostars/](http://www.biostars.org/)
+  Online Question and answer resource aimed at bioinformatics
