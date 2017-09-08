@@ -17,27 +17,26 @@ Room: [Room](files/bmc_map.jpg)
 
 **Tuesday**
 Room: [Room](files/bmc_map.jpg)
-**09:00-10:00** [Lecture: Elements of R programming language - vectors, strings](Lectures/Lecture_4_-_Elements2.pdf) (Marcin Kierczak)
-**10:00-11:00** [Lecture: Elements of R programming language - matrices, lists, data frames and objects](Lectures/Lecture_5_-_Elements3.pdf) (Marcin Kierczak)
-**11:00-12:00** [Exercise: Working with vectors](Exercises/Vectors) (Marcin Kierczak, Dag Ahren, Markus Ringner)
-**12:00-13:00** Lunch
-**13:00-17:00** [Exercise: Matrices, lists, data frames](Exercises/Dataframes) (Marcin Kierczak, Dag Ahren, Markus Ringner)
+- **09:00-10:00** [Lecture: Elements of R programming language - vectors, strings](Lectures/Lecture_4_-_Elements2.pdf) (Marcin Kierczak)
+- **10:00-11:00** [Lecture: Elements of R programming language - matrices, lists, data frames and objects](Lectures/Lecture_5_-_Elements3.pdf) (Marcin Kierczak)
+- **11:00-12:00** [Exercise: Working with vectors](Exercises/Vectors) (Marcin Kierczak, Dag Ahren, Markus Ringner)
+- **12:00-13:00** Lunch
+- **13:00-17:00** [Exercise: Matrices, lists, data frames](Exercises/Dataframes) (Marcin Kierczak, Dag Ahren, Markus Ringner)
 
 **Wednesday**
 Room: [Room](files/bmc_map.jpg)
-**09:00-10:00** [Lecture: Elements of R programming language - control structures, iteration, recursion, variable scope](Lectures/Lecture_6_-_Elements4.pdf) (Marcin Kierczak)
-**10:00-11:00** [Lecture: Loading data into R](Lectures/Lecture_7_-_Loading_data.pdf) (Marcin Kierczak)
-**11:00-12:00** [Exercise: Loding data](Exercises/LoadData) (Marcin Kierczak, Dag Ahren, Markus Ringner)
-**12:00-13:00** Lunch
-**13:00-17:00** [Exercise: Loops, conditional statements, functions, variable scope](Exercises/Loops) (Dag Ahren, Markus Ringner)
-
-**18:00-** Course dinner?
+- **09:00-10:00** [Lecture: Elements of R programming language - control structures, iteration, recursion, variable scope](Lectures/Lecture_6_-_Elements4.pdf) (Marcin Kierczak)
+- **10:00-11:00** [Lecture: Loading data into R](Lectures/Lecture_7_-_Loading_data.pdf) (Marcin Kierczak)
+- **11:00-12:00** [Exercise: Loding data](Exercises/LoadData) (Marcin Kierczak, Dag Ahren, Markus Ringner)
+- **12:00-13:00** Lunch
+- **13:00-17:00** [Exercise: Loops, conditional statements, functions, variable scope](Exercises/Loops) (Dag Ahren, Markus Ringner)
+- **18:00-** Course dinner?
 
 **Thursday**
 Room: [Room](files/bmc_map.jpg)
-**13:00-14:00** [Lecture: Selected functions in R](Lecture/XXX.pdf) (Thomas Källman)
-**14:00-15:00** [Lecture: Graphics in R](Lecture/PlotHandson) (Thomas Källman)
-**15:00-17:00** [Exercise: Graphics in R](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
+- **13:00-14:00** [Lecture: Selected functions in R](Lecture/XXX.pdf) (Thomas Källman)
+- **14:00-15:00** [Lecture: Graphics in R](Lecture/PlotHandson) (Thomas Källman)
+- **15:00-17:00** [Exercise: Graphics in R](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
 **Friday**
 Room: [Room](files/bmc_map.jpg)
@@ -47,9 +46,14 @@ Room: [Room](files/bmc_map.jpg)
 **12.00-13.00** Lunch
 **13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
+
 **Extra Material**
 - [Color names list in R](files/Rcolor.pdf)
 - [Visualizing data](files/rules_for_using_color.pdf)
 - [Naming conventions in R](files/Rnaming.pdf)
 - [Introduction to statistical tests in R](files/statests.pdf)
 - [Bioconductor examples](https://f1000research.com/channels/bioconductor)
+
+
+
+
