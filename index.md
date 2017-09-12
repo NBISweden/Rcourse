@@ -1,23 +1,25 @@
 ---
 layout: default
-title:  'R Programming Foundations for Life Scientists, 2 hp (ECTS) - Mars 2017'
---- 
+---
 
+[NBIS](//nbis.se) offers practical courses
+in R programming for the complete novice. It is geared towards life
+scientists and are suitable for researchers in all aspects of life
+sciences.
 
-# R Programming Foundations for Life Scientists, 2 hp
+# Current courses
 
-Held in Uppsala Mars 27 - Mars 31, 2017.
+<dl> <dt> <a href="VT17">October 2017</a> </dt>
+<dd>
+This course organised by the Research School in Stem Cell Biology in
+collaboration with the National Bioinformatics Infrastructure Sweden
+(NBIS).
 
-## Important Links
-[Pre-course material](precourse)   
-[Schedule](schedule)  
+</dd>
 
-## Maps & Travel Info
-[Map over Uppsala](https://www.google.se/maps/@59.8557755,17.6369985,13.5z)  
-[Map over Uppsala Biomedical Centre (BMC)](../ngsintro/common/images/bmc_map.jpg)  
-[Travel Info](travel)  
+</dl>
 
-## Teachers
-Marcin Kierczak - marcin.kierczak at scilifelab dot se, Uppsala University, NBIS, SciLifeLab  
-Thomas Källman - thomas.kallman at nbis dot se, Uppsala University, NBIS, ScliLifeLab  
-et al.
+## Past courses
+
+* [HT 2016 uppsala](https://scilifelab.github.io/courses/r_programming/1611/)
+* [VT 2017 uppsala](https://scilifelab.github.io/courses/r_programming/1703)
