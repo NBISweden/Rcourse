@@ -9,7 +9,7 @@ sciences.
 
 # Current courses
 
-<dl> <dt> <a href="VT17">October 2017</a> </dt>
+<dl> <dt> <a href="vt17">October 2017</a> </dt>
 <dd>
 This course organised by the Research School in Stem Cell Biology in
 collaboration with the National Bioinformatics Infrastructure Sweden
