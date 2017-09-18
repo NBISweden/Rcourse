@@ -24,7 +24,7 @@ Note that the links to lectures and exercises will be made active at the day of 
 
 **Monday**
 Room: [Room](files/bmc_map.jpg)<br>
-**09.00-09.15** [Registration and Welcome](Lectures/XXX.pdf) (John Doe)<br>
+**09.00-09.15** [Registration and Welcome](Lectures/XXX.pdf) (John Doe2)<br>
 **09:15-10:00** [Lecture: Introduction to R programming](Lectures/Lecture_1_-_Introduction.pdf)(Marcin Kierczak)<br>
 **10:15-10:45** [Lecture: Introduction to R environment](Lectures/Lecture_2_-_REnvironment.pdf)(Marcin Kierczak)<br>
 **11:00-12:00** [Exercise and video: Using R-studio]() (Marcin Kierczak, Dag Ahren)<br>
