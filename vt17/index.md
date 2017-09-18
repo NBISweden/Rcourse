@@ -25,8 +25,8 @@ Note that the links to lectures and exercises will be made active at the day of 
 **Monday**
 Room: [Room](files/bmc_map.jpg)<br>
 **09.00-09.15** [Registration and Welcome](Lectures/XXX.pdf) (John Doe2)<br>
-**09:15-10:00** [Lecture: Introduction to R programming](Lectures/Lecture_1_-_Introduction.pdf)(Marcin Kierczak)<br>
-**10:15-10:45** [Lecture: Introduction to R environment](Lectures/Lecture_2_-_REnvironment.pdf)(Marcin Kierczak)<br>
+**09:15-10:00** [Lecture: Introduction to R programming](Lectures/Lecture_1_-_Introduction.pdf) (Marcin Kierczak)<br>
+**10:15-10:45** [Lecture: Introduction to R environment](Lectures/Lecture_2_-_REnvironment.pdf) (Marcin Kierczak)<br>
 **11:00-12:00** [Exercise and video: Using R-studio]() (Marcin Kierczak, Dag Ahren)<br>
 **12:00-13:00** Lunch<br>
 **13:00-15:00** [Lecture: Elements of R programming - variable types, operators](Lectures/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)<br>
@@ -71,8 +71,8 @@ Room: [Room](files/bmc_map.jpg)<br>
 
 ## Teachers
 Marcin Kierczak - marcin.kierczak at scilifelab dot se, Uppsala University, NBIS<br>
-Thomas Källman - thomas.kallman at nbis dot se, Uppsala University, NBIS
-Dag Ahren<br>
-Markus Ringner<br>
-Nikolay Oskolkov<br>
-Fredrik Levander<br>
+Thomas Källman - thomas.kallman at nbis dot se, Uppsala University, NBIS<br>
+Dag Ahren - dag.ahren at nbis dot se, Lund University, NBIS<br>
+Markus Ringner - markus.ringer at scilifelab dot se, Lund University, NBIS<br>
+Nikolay Oskolkov - nikolay.oskolkov at scilifelab dot se, Lund University, NBIS<br>
+Fredrik Levander - fredrik.levander at nbis dot se, Lund University, NBIS<br>
