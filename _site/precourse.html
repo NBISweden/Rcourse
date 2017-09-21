@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>R Courses @ NBIS</title>
+
+        <meta name="description" content="R Courses offered by NBIS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="http://localhost:4000/img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" />
+
+        <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
+        <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+	<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
+	<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<header>
+	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo" /><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo" /></a>
+	</header>
+	<main>
+          <h1 id="pre-course-material">Pre-course Material</h1>
+
+<p>You are not required to have any experience with the R language nor
+with the software R-studio to follow the course, but to save time and
+get a smooth start we ask everyone to have the latest version of R and
+R studio installed on your computer at course start.</p>
+
+<h1 id="software-needed-for-the-course">Software needed for the course</h1>
+
+<p>For the course we will use the latest version of R and R-studio. Both
+of these works on computers running Linux, Windows and Macintosh
+operative systems. R-studio is both a set of tools and an editor that
+facilitates the use of R and in many ways create a superior computing
+environment that integrates directly with R. Over the last years it has
+become a very popular tool and has for many become the standard way of
+interacting with R.</p>
+
+<p>Note that on same operative systems it will be easier to install and
+run R and R-studio if you have an administrator account on your
+computer and hence are allowed to install software on your machine. If
+you do not have these privileges please ask your system administrator
+to install the latest version of R and R-studio.</p>
+
+<h2 id="install-r">Install R</h2>
+
+<ol>
+  <li>Go to <a href="https://cran.rstudio.com">CRAN</a></li>
+  <li>Click on the link corresponding to your operative system</li>
+  <li>Download the recommended files for your system.</li>
+  <li>Run the installer or move the downloaded files to suitable place on
+your computer.</li>
+</ol>
+
+<h3 id="details-for-windows">Details for Windows</h3>
+
+<p>Once you clicked on the “Download R for Windows” you will come to a
+new web page where you will have a set of options. Click on the first
+link named “base”. This will take you to the web page entitled “R-3.4.1
+for Windows” where you can download the “R-3.4.1-win.exe”
+that will can be run to install R on your computer.</p>
+
+<h3 id="details-for-macintosh">Details for Macintosh</h3>
+
+<p>Once you clicked on the “Download R for Macintosh” you will come to a
+new web page where you will have a set of options. Unless you have an
+old version of your operative system you should select the first link
+named “R-3.4.1.pkg” that will download R to your computer. If you are
+not sure what version you are running click the apple on the top left
+of your screen and select “About this mac” (Om den här datorn). In
+case you are running something older than 10.9, you should instead
+pick the “R-3.2.1-snowleopard.pkg” to install. Note that this will not
+give you the latest version of R, but it will be sufficient for most
+sections of the course.</p>
+
+<p>You can then double-click the downloaded package that will prompt you
+with some questions for installation details. Stick with the default
+settings and you should be fine.</p>
+
+<h3 id="details-for-linux">Details for Linux</h3>
+
+<p>Once you clicked on the “Download R for Linux” you will come to a
+new web page where you can select the linux version you use. On most
+distributions this will be via a software install system like yum or
+apt-get. If you run this make sure that you update your information to
+the installer first, otherwise you might end up installing at outdated
+version of R. For some systems you might need to install not only
+r-base, but also r-devel or you will lack important features of your R
+installation.</p>
+
+<h2 id="install-r-studio">Install R-studio</h2>
+
+<p>Go to the
+web page <a href="https://www.rstudio.com/products/rstudio/download/">rstudio</a>
+download the installer corresponding to your operative system. Unpack
+the installer and install the app on a suitable place on your system.</p>
+
+<h2 id="test-your-environment">Test your environment</h2>
+
+<p>If the installation above went without any problem you should be able
+to fire up R-studio and see something like the following:
+<img src="files/R-studio.png" style="width:400px;" /></p>
+
+<p>If you do not see a screen like this one please send an email to
+thomas.kallman@nbis.se describing the error together with the name of
+your operative system and version of R/R-studio that you are trying to
+install.</p>
+
+<h1 id="other-tools">Other tools</h1>
+
+<p>To be able to follow in this class we do recommend to use R-studio,
+but in case it does not fit your needs all the R code we describe will
+of course work irrespective of the environment that you work with. The main
+benefits of using r-studio is that there are bundled packages with
+this software that greatly helps for documenting the R-code that you
+use and write.</p>
+
+<p>While this is NOT absolutely necessary, the explanatory programming
+approach we are using in the course will be easier to follow if you
+have a distribution of LaTeX system installed on your machine so that
+the R-Studio can call it. Please follow guidelines on
+<a href="http://www.latex-project.org/get/">LaTeX site</a></p>
+
+<p>Mac users can follow <a href="https://www.tug.org/mactex/mactex-download.html">this link</a>
+and installation instructions therein.</p>
+
+<p>Some commonly used tools besides R-studio are:</p>
+
+<ul>
+  <li>The built in GUI that comes with R.
+Gives the basic functionality and if you are not a heavy R users
+this might be suitable as it comes with the R package.</li>
+  <li>ESS, emacs speaks statistics. If you are already using emacs this
+offers nice possibities to interact with R from emacs. It offers
+nice debugging features as well as support for building packages.</li>
+  <li>Any text editor that you are happy with. This means that you can focus on
+writing your code and then just run the code from within R using
+copy/paste or by submitting all your code as scripts to R.</li>
+</ul>
+
+<h1 id="useful-r-online-resources">Useful R online resources</h1>
+
+<p>If you are eager to try things out before the course starts the
+following links goes to some useful material on using R.</p>
+
+<ul>
+  <li><a href="https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf">Best first R tutorial</a>
+A nice self learn tutorial to R, introducing many central concepts to R.</li>
+  <li><a href="https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf">A short introduction to R</a>
+A very short intro to using R.</li>
+  <li><a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.html">An introduction to R</a>
+A fairly comprehensive document on R. As a beginner one can start
+with Appendix A that is a short practical session.</li>
+  <li><a href="http://heather.cs.ucdavis.edu/~matloff/132/NSPpart.pdf">The art of R programming</a>
+A pdf copy of a book that deals with R as a programming
+language. Is a great source of information for anyone that wants to
+use R not only as a statistical analysis tools, but also use it as a
+more general programming language.</li>
+  <li><a href="http://r4ds.had.co.nz">R for data science</a>
+The basics of getting data into R, clean the data do your
+analysis. One of the authors of this book Hadley Wickham is also
+behind R-studio and has published several books on different aspects
+of using R, many of them available for free via his web page. He has
+also created many packages for R that facilitate structured data
+analysis. His most popular packages is ggplot2 for creating beautiful
+graphics with limited set of commands. This is one of the few
+external packages that we will use more extensively in
+class. Besides ggplot2 he has created many other packages that make
+use of novel objects and often use slightly different R syntax to
+interact with them. This means that code using them will look
+different to most other R code. If you like this way of working,
+there is a whole set of packages often referred to as
+the <a href="https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0">tidyverse</a>
+that offers a more unified interaction with objects and functions
+under this approach to data analysis.</li>
+  <li><a href="https://stat.ethz.ch/mailman/listinfo/r-help">R-help mailing list</a>
+List of R-help mailing lists, where one often can find hints and
+solutions to commonly occuring problems. Please read the posting
+guide carefully before publishing any questions</li>
+</ul>
+
+<h1 id="useful-non-r-specific-online-resources">Useful Non-R specific online resources</h1>
+
+<ul>
+  <li><a href="http://stackoverflow.com">Stackoverflow</a>
+Online community for programmers.
+-</li>
+  <li><a href="http://www.biostars.org/">Biostars/</a>
+Online Question and answer resource aimed at bioinformatics</li>
+</ul>
+
+	</main>
+
+	<footer>
+	  <a href="//www.nbis.se">NBIS</a>
+	</footer>
+
+	
+
+
+    </body>
+</html>

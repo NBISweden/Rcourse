@@ -1,0 +1,402 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>R Courses @ NBIS</title>
+
+        <meta name="description" content="R Courses offered by NBIS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="http://localhost:4000/img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" />
+
+        <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
+        <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+	<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
+	<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<header>
+	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo" /><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo" /></a>
+	</header>
+	<main>
+          <h1 id="introduction">Introduction<a id="orgheadline2"></a></h1>
+
+<p>There are different data modes used in R. The mode of a variable will
+for example determine what kind of operators that can be done on it. At the end of
+this exercise you should know:</p>
+
+<ul>
+  <li>What are the data types commonly used in R and how to create them</li>
+  <li>Use some basic operators in R</li>
+  <li>Understand how R coerce data if needed</li>
+  <li>Basic text manipulations</li>
+</ul>
+
+<h2 id="data-types">Data types<a id="orgheadline1"></a></h2>
+
+<p>From the lectures you might remember that all elements in any data
+stuctures found in R will be of a certain type (or have a certain
+mode). The four most commonly used data types in R are: logical,
+integer, double (often called numeric), and character. The names hints
+at what they are.</p>
+
+<ul>
+  <li>Logical = TRUE or FALSE (or NA)</li>
+  <li>Integer = Numbers that can be represented without fractional component</li>
+  <li>Numeric = Any number that is not a complex number.</li>
+  <li>Character = Text</li>
+</ul>
+
+<p>In many cases the mode of on entry is determined by the content so if
+you save the value 5.1 as a variable in R, the variable will
+automatically be recognised as numeric. If you instead have a text
+string like “hello world” it will have the mode character. Below you
+will also see examples of how you can specify the mode and not rely on
+R inferring the right mode based on content.</p>
+
+<h1 id="exercise-basic-operations-and-data-types-in-r">Exercise: Basic operations and data types in R<a id="orgheadline4"></a></h1>
+
+<p>In all exercises on this course it is important that you prior to
+running the commands in R, try to figure out what you expect the
+result to be. You should then verify that this will indeed be the
+qresult by running the command in an R session. In case there is a
+discrepency between your expectations and the actual output make sure
+you understand why before you move forward. If you can not figure out
+how to, or which command to run you can click the key to reveal
+example code including expected output. If you after peaking at the
+code and trying out things on your own have a hard time understanding
+what is going on, ask the TAs or or your someone sitting next to you
+who might have wrapped their head around the issue.</p>
+
+<p>Also note that in many cases there multiple solutions that solve the
+problem equally well.</p>
+
+<p>We do recommend to write all code in a R markdown document in R-studio
+as that will at the end of the course be your own R tutorial with
+comments and code solutions.</p>
+
+<h2 id="create-and-retrieve-information-about-variables-in-r">Create and retrieve information about variables in R<a id="orgheadline3"></a></h2>
+
+<p>Open R-studio and make sure to set your working directory. Double
+check that you do not have stored objects in your current session with
+the following command. This will list all objects that you have in
+your current R session.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>ls()
+</code></pre>
+</div>
+<p>In case you have objects that you want to remove from the current
+session you can do so with the rm function. NB! This command will
+remove all objects available in your current session.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>rm(list = ls())
+</code></pre>
+</div>
+<p>This command uses commands that we have not talked about yet. If you
+do not understand how it works now, you will do so after tomorrows
+lectures and exercises.</p>
+
+<ol>
+  <li>
+    <p>Create variables <em>var1</em> and <em>var2</em> and initialize them with two integers of choice.</p>
+
+    <details>
+<summary> Click to see how</summary>
+<pre>
+var1 &lt;- 11
+var2 &lt;- 34
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>
+    <p>Add the two variables and save them as a new variable named <em>var3</em>
+and print the result.</p>
+
+    <details>
+<summary> Click to see how</summary>
+<pre>
+var3 &lt;- var1 + var2
+var3
+
+[1] 45
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>
+    <p>Check the class, mode, and type for var1, var2, var3 and π (is
+found under the variable name pi in R)</p>
+
+    <details>
+<summary> Click to see how for var1</summary>
+<pre>
+mode(var1)
+
+[1] "numeric"
+
+class(var1)
+
+[1] "numeric"
+
+typeof(var1)
+
+[1] "double"
+</pre>
+</details>
+
+    <details>
+<summary> Click to see how for &pi;</summary>
+<pre>
+mode(pi)
+class(pi)
+typeof(pi)
+
+[1] "numeric"
+[1] "numeric"
+[1] "double"
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Create two character variables containing a text of choice.
+    <ul>
+      <li>
+        <p>check mode, class, and type of the first one</p>
+
+        <details>
+<summary> Click to see how create character variables</summary>
+<pre>
+text1 &lt;- "test1"
+text2 &lt;- "test2"
+</pre>
+</details>
+      </li>
+      <li>
+        <p>add var1 to it and report the result</p>
+
+        <details>
+<summary> Click to see how to add variables</summary>
+<pre>
+text1 + var1
+
+Error in text1 + var1 : non-numeric argument to binary operator
+</pre>
+</details>
+        <p><br /></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Cast var3 to integer, cast an integer variable to double, cast a
+string to a double.</p>
+
+    <details>
+<summary> Click to see how</summary>
+<pre>
+as.integer(var3)
+
+[1] 45
+
+i &lt;- 175
+as.double(i)
+
+[1] 175
+
+as.double(text1)
+
+[1] NA
+Warning message:
+NAs introduced by coercion
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Report floor and ceiling of π and round π to 3 decimal places.
+    <details>
+<summary> Click to see how</summary>
+<pre>
+floor(pi)
+[1] 3
+
+ceiling(pi)
+[1] 4
+
+round(pi, digits = 3)
+[1] 3.142
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Is floor of π an integer?
+    <details>
+<summary> Click to see how</summary>
+<pre>
+is.integer(floor(pi))
+
+[1] FALSE
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Treat ‘3.56437’ string as number.
+    <details>
+<summary> Click to see how</summary>
+<pre>
+as.numeric('3.56437')
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Divide ∞ by - ∞
+    <details>
+<summary> Click to see how</summary>
+<pre>
+-Inf/Inf
+
+[1] NaN
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Create two freely chosen complex numbers.
+    <ul>
+      <li>Check that they are complex indeed.</li>
+      <li>Add, multiply and divide one by another.</li>
+      <li>Add an integer to their sum.</li>
+    </ul>
+    <details>
+<summary> Click to see how</summary>
+<pre>
+c1 &lt;- 23 + 4i
+c2 &lt;- -15 - 7i
+is.complex(c1)
+[1] TRUE
+is.complex(c2)
+[1] TRUE
+
+c1 + c2
+[1] 8-3i
+
+c1 / c2
+[1] -1.361314+0.368613i
+
+c1 + c2 + 7
+[1] 15-3i
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>
+    <p>Print a truth table for OR (for three distinct logical
+values). Read about truth tables here
+https://en.wikipedia.org/wiki/Truth_table
+A truth table is hence the pairwise comparison of the different
+boolean values available. It should hence contain the output from:<br />
+TRUE OR FALSE <br />
+TRUE OR NA<br />
+TRUE OR TRUE<br />
+FALSE OR FALSE<br />
+FALSE OR NA<br />
+NA OR NA<br />
+You can create the table manually by doing the comparisons one by
+one in R, but the solution below uses a more advanced approach and
+is likely a bit overwhelming, but look at the commands and try to
+read about the function in the R manual.</p>
+
+    <details>
+<summary> Click to see how</summary>
+<pre>
+x &lt;- c(NA, FALSE, TRUE)
+names(x) &lt;- as.character(x)
+outer(x, x, "|")
+
+NA FALSE TRUE
+NA      NA    NA TRUE
+FALSE   NA FALSE TRUE
+TRUE  TRUE  TRUE TRUE
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Multiply a logical TRUE by a logical FALSE.
+Rise the logical true to the 7-th power.
+    <details>
+<summary> Click to see how</summary>
+<pre>
+TRUE * FALSE
+T^7
+[1] 0
+[1] 1
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+  <li>Create two character variables containing two verses of your favorite song.
+    <ul>
+      <li>concatenate the two variables,</li>
+      <li>paste the variables with ‘*’ as separator.</li>
+      <li>find if ‘and’ occurs in the second line,</li>
+      <li>substitute a word for another,</li>
+      <li>extract substring starting at the 5th character and 5 characters long.</li>
+    </ul>
+    <details>
+<summary> Click to see how</summary>
+<pre>
+line1 &lt;- "Hello darkness my old friend"
+line2 &lt;- "I've come to talk to you again"
+paste(line1, line2, sep = "")
+[1] "Hello darkness my old friendI've come to talk to you again"
+
+paste(line1, line2, sep = "*")
+[1] "Hello darkness my old friend*I've come to talk to you again"
+
+grep('and', line2)
+integer(0)
+
+sub('Hello', 'Goodbye', line1)
+[1] "Goodbye darkness my old friend"
+
+substr(line1, 5, 5 + 5)
+[1] "o dark"
+</pre>
+</details>
+    <p><br /></p>
+  </li>
+</ol>
+
+<h2 id="r-environment">R Environment</h2>
+<ul>
+  <li>get help for the <em>t.test</em>, <em>table</em>, <em>locator</em> and <em>identify</em> functions,</li>
+  <li>check for all occurences of <em>fisher.test</em> in the docs,</li>
+  <li>which package contains the <em>plot.ecdf</em> function. What does it do?</li>
+  <li>find package ‘reshaape’-related questions on StackOverflow,</li>
+  <li><em>google</em> how to load an XML file into R,</li>
+  <li>install the ‘cgmisc’ package from GitHub,</li>
+  <li>look up the ‘cgmisc’ vignette,</li>
+  <li>see all the demos available for you and run one you like,</li>
+  <li>run examples for the <em>fisher.test</em>,</li>
+  <li>check out CRANs view for genetics,</li>
+  <li>install a CRAN package of choice,</li>
+  <li>install the R-Forge pckage ‘bigRR’</li>
+</ul>
+
+	</main>
+
+	<footer>
+	  <a href="//www.nbis.se">NBIS</a>
+	</footer>
+
+	
+
+
+    </body>
+</html>
