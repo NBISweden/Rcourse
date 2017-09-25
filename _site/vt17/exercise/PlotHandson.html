@@ -1,6 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>R Courses @ NBIS</title>
@@ -9,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="http://localhost:4000/img/apple-touch-icon.png">
-	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" />
+	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico">
 
         <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
         <link rel="stylesheet" href="http://localhost:4000/css/main.css">
@@ -26,14 +27,16 @@
         <![endif]-->
 
 	<header>
-	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo" /><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo" /></a>
+	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo"><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo"></a>
 	</header>
 	<main>
-          <h1 id="introduction">Introduction<a id="orgheadline1"></a></h1>
+          <h1 id="introduction">Introduction<a id="orgheadline1"></a>
+</h1>
 <p>In this lab, we will go step-by-step through points that are necessary
 to create some nice-looking plots.</p>
 
-<h1 id="generating-data">Generating data<a id="orgheadline2"></a></h1>
+<h1 id="generating-data">Generating data<a id="orgheadline2"></a>
+</h1>
 <p>First, we will produce some random data that we will later plot. 
 Make a data frame with</p>
 
@@ -50,7 +53,7 @@ Make a data frame with</p>
 <ul>
   <li>plot the data in the simplest possible way.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 #20 random datapoints
 x &lt;- sample(c(1:25), size=20, replace=T)
@@ -61,11 +64,12 @@ data &lt;- data.frame(cbind(X=x,Y=y, R=r), row.names=names)
 plot(data[,1:2])
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ul>
 
-<h1 id="generating-plot-step-by-step">Generating plot step-by-step<a id="orgheadline3"></a></h1>
+<h1 id="generating-plot-step-by-step">Generating plot step-by-step<a id="orgheadline3"></a>
+</h1>
 <p>As you see, the points are displayed in a simple way, axes are set
 automatically, the radius is not reflected on the plot in any way (3rd
 dimension).</p>
@@ -73,17 +77,17 @@ dimension).</p>
 <ul>
   <li>build the plot from scratch, begin by displaying no points.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 plot(data[,1:2], type='n')
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>we still got a box around the plot and axes, we do not want these
 either, remove these elements from the previous plot.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 plot(data[,1:2], type='n',xaxt='n', yaxt='n', 
    xlab="", ylab="", frame.plot=F)
@@ -92,7 +96,7 @@ plot(data[,1:2], type='n',xaxt='n', yaxt='n',
 </ul>
 <p>&lt;/pre&gt;
  &lt;/details&gt;
-<br /></p>
+<br></p>
 
 <ul>
   <li>create X and Y axis so that they cover the whole range of <em>x</em> and
@@ -101,7 +105,7 @@ axis, set 10 equidistant tickmarks and set labels to their values
 rounded to two decimals. Turn the labels, so that they are parallel
 to the OX axis.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 #Create X axis
 coords.x &lt;- seq(min(data$X),max(data$X), by=1)
@@ -121,27 +125,27 @@ axis(side=2,
    )
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>plot auxiliary lines (a grid) so that it is easier to read the
 plot. There should be a grey dashed line from each tickmark on both
 axes.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 abline(v=coords.x, col="darkgrey", lty=3)
 abline(h=coords.y, col="darkgrey", lty=3)
 #you could also use grid()
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>define a new <em>mycol</em> function that takes a color name and a
 transparency value as two arguments and returns the corresponding
 rgb color value. OPTIONAL – if it seems to difficult, look up the
 answer.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 #Function for adding transparency to a given color.
 mycol &lt;- function(colname="olivedrab", transparency=.5) {
@@ -154,13 +158,13 @@ mycol &lt;- function(colname="olivedrab", transparency=.5) {
  }
  </pre>
  </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>plot datapoints so that their size is proportional to $e^r$ where
 $r$ is the radius, points at even X should be round and blue and
 points at odd X square and grey.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 #Plot radii
 points(data[data$X%%2 == 0,], pch=19, 
@@ -169,46 +173,46 @@ points(data[data$X%%2 == 0,], pch=19,
       cex=exp(r), col=mycol("grey", .5))
  </pre>
  </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>plot centers of the points as a cross: grey for blue/even points and
 red for grey/odd points.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 points(data[data$X%%2 == 0,], pch=3, cex=1, col="darkgrey")
 points(data[data$X%%2 != 0,], pch=3, cex=1, col="red")
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>add grey text ‘Center’ at the center of the plot.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 center.x &lt;- mean(range(data[,1]))
 center.y &lt;- mean(range(data[,2]))
 text(x=center.x, y=center.y, "Center", col="lightgrey")
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>add title ‘Odds and Ends’ and text ‘X’ and ‘Y’ on the margins of the
 appropriate axes.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 title("Odds and Ends")
 mtext("Y", side=2, line=3, cex.lab=1,las=2, col="blue")
 mtext("X", side=1, line=3, cex.lab=1,las=1, col="blue")
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>add a legend for ‘odd’ and ‘even’ points. Place it in the top-right
 corner.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
   legend('topright',
@@ -222,11 +226,12 @@ corner.
      )
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ul>
 
-<h1 id="visualizing-baby-growth-data-on-a-who-centile-grid">Visualizing baby growth data on a WHO centile grid<a id="orgheadline4"></a></h1>
+<h1 id="visualizing-baby-growth-data-on-a-who-centile-grid">Visualizing baby growth data on a WHO centile grid<a id="orgheadline4"></a>
+</h1>
 
 <p>A female child was measured at the following dates:</p>
 
@@ -259,7 +264,7 @@ weight/length/circumference depending on the month you was born:</p>
 <ol>
   <li>use function <em>dmy</em> from the <em>lubridate</em> package to create a vector of timepoints.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  library(lubridate) 
@@ -270,11 +275,11 @@ weight/length/circumference depending on the month you was born:</p>
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>enter the measurement of choice as a vector
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  weight &lt;- c(3300, 3540, 3895, 4070, 4230, 4385, 4855, 5865, NA, 6736, 7065, 7080, 7530, 7640)
@@ -283,7 +288,7 @@ weight/length/circumference depending on the month you was born:</p>
    
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>WHO months is 30.4375 days long. Transform timepoints into OX
 coordinates so that the distance between them corresponds to the
@@ -292,7 +297,7 @@ days between the two measurements. HINT: check <em>as.duration</em> and
 key. Working with dates is not an easy piece. The point is to know
 the <em>lubridate</em> exists…
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  who.month &lt;- 30.4375 #days
@@ -300,7 +305,7 @@ the <em>lubridate</em> exists…
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>
     <p>go to WHO website (http://www.who.int/childgrowth/standards/en/)
@@ -311,7 +316,7 @@ http://www.who.int/entity/childgrowth/standards/tab_wfa_girls_p_0_5.txt</p>
   <li>load the data using URL from the previous point and the
 <em>read.table</em> function.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  uri &lt;- "http://www.who.int/entity/childgrowth/standards/tab_wfa_girls_p_0_5.txt"
@@ -321,11 +326,11 @@ http://www.who.int/entity/childgrowth/standards/tab_wfa_girls_p_0_5.txt</p>
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>create an empty plot to show your and WHO data,
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  plot(1, xlim=c(0, max(myData$Month)), type='n', bty='n', 
@@ -335,12 +340,12 @@ http://www.who.int/entity/childgrowth/standards/tab_wfa_girls_p_0_5.txt</p>
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>plot WHO mean and percentiles: P25, P75, P0.1 and P99.9, use
 different colors and line types to make the plot pretty.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  lines(myData$M, col='grey', lty=1)
@@ -351,12 +356,12 @@ different colors and line types to make the plot pretty.
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>plot your data on top of the percentiles, mind the units so that
 they match with the WHO ones,
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  points(xpoints, weight/1000, pch=3, type='l', cex=.5)
@@ -364,11 +369,11 @@ they match with the WHO ones,
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>add some descriptions on the margins
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
  mtext(text = c('P0.1','P25','P75','P99.9'), side = 4,
@@ -376,11 +381,12 @@ they match with the WHO ones,
  las=1, cex=.5)
 </pre> 
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ol>
 
-<h1 id="visualizing-gapminder-data">Visualizing Gapminder data<a id="orgheadline4"></a></h1>
+<h1 id="visualizing-gapminder-data">Visualizing Gapminder data<a id="orgheadline4"></a>
+</h1>
 <p>You task here is to use the already acquired R knowledge to plot an
 interesting relationship between two freely selected variables
 available at Hans Rosling’s Gapminder Foundation page.</p>

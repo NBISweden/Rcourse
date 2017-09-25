@@ -1,6 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>R Courses @ NBIS</title>
@@ -9,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="http://localhost:4000/img/apple-touch-icon.png">
-	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" />
+	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico">
 
         <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
         <link rel="stylesheet" href="http://localhost:4000/css/main.css">
@@ -26,7 +27,7 @@
         <![endif]-->
 
 	<header>
-	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo" /><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo" /></a>
+	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo"><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo"></a>
 	</header>
 	<main>
           <h1 id="matrices-data-frames-and-lists">Matrices, data frames and lists</h1>
@@ -35,17 +36,20 @@
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#orgheadline1">1. Introduction</a></li>
-<li><a href="#orgheadline3">2. Matrices in R</a>
+<li>
+<a href="#orgheadline3">2. Matrices in R</a>
 <ul>
 <li><a href="#orgheadline2">2.1. Exercise: Working with matrices in R</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline5">3. Data frames</a>
+<li>
+<a href="#orgheadline5">3. Data frames</a>
 <ul>
 <li><a href="#orgheadline4">3.1. Exercise: Working with data frames</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline7">4. Lists</a>
+<li>
+<a href="#orgheadline7">4. Lists</a>
 <ul>
 <li><a href="#orgheadline6">4.1. Exercise: Working with lists</a></li>
 </ul>
@@ -54,7 +58,8 @@
 </div>
 </div>
 
-<h1 id="introduction">Introduction<a id="orgheadline1"></a></h1>
+<h1 id="introduction">Introduction<a id="orgheadline1"></a>
+</h1>
 
 <p>A data set that have more than one dimension is conceptually hard to
 store as a vector. For two-dimensional data set the solution to this
@@ -75,13 +80,15 @@ store any type of data set and are not restricted by types or dimensions.</p>
   <li>Create S3 object from a list</li>
 </ul>
 
-<h1 id="matrices-in-r">Matrices in R<a id="orgheadline3"></a></h1>
+<h1 id="matrices-in-r">Matrices in R<a id="orgheadline3"></a>
+</h1>
 
 <p>The command to create a matrix in R is <code class="highlighter-rouge">matrix()</code>. 
 As input it takes a vector of values, the number of
 rows and the number of columns.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>X &lt;- matrix(1:12, nrow = 4, ncol = 3)
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>X &lt;- matrix(1:12, nrow = 4, ncol = 3)
 X
 
     [,1] [,2] [,3]
@@ -99,7 +106,8 @@ column-wise, so the first values from the vector ends up in column 1
 of the matrix. If you instead wants to fill the matrix row by row you
 can set the byrow flag to TRUE.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>X &lt;- matrix(1:12, nrow = 4, ncol = 3, byrow = TRUE)
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>X &lt;- matrix(1:12, nrow = 4, ncol = 3, byrow = TRUE)
 X
 
      [,1] [,2] [,3]
@@ -114,7 +122,8 @@ X
 more than one dimension to work with. So you specify the rows and
 column needed.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>X[1,2]
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>X[1,2]
 
 [1] 2
 </code></pre>
@@ -124,7 +133,8 @@ column needed.</p>
 leaving the other dimension empty, hence this code will print all
 values in the second column.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>X[,2]
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>X[,2]
 
 [1]  2  5  8 11
 </code></pre>
@@ -134,14 +144,15 @@ values in the second column.</p>
 vector (eg one of the dimension have the length 1) R will convert it
 to a vector otherwise it will still be a matrix.</p>
 
-<h2 id="exercise-working-with-matrices-in-r">Exercise: Working with matrices in R<a id="orgheadline2"></a></h2>
+<h2 id="exercise-working-with-matrices-in-r">Exercise: Working with matrices in R<a id="orgheadline2"></a>
+</h2>
 
 <p>Create a matrix containing 1:12 as shown for the matrix X above.</p>
 
 <ol>
   <li>What is the length and the mode of the matrix?
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     mode(X)
@@ -151,12 +162,12 @@ to a vector otherwise it will still be a matrix.</p>
     [1] 12
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Use similar ideas as when you worked with vectors to extract all
 values in the matrix that is larger than 6
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     X[X&gt;6]
@@ -165,11 +176,11 @@ values in the matrix that is larger than 6
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Shift places of column 1 and 3 in X
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
     X[,c(3,2,1)]
@@ -182,13 +193,13 @@ values in the matrix that is larger than 6
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>
     <p>Add a vector with three zeros as a fifth row to the matrix</p>
 
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     X.2 &lt;- rbind(X, rep(0, 3))
@@ -202,11 +213,11 @@ values in the matrix that is larger than 6
     [5,]    0    0    0
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Replace all values the first two columns in your matrix with “NA”.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     X[,1:2] &lt;- NA
@@ -219,11 +230,11 @@ values in the matrix that is larger than 6
     [4,]   NA   NA   12
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Replace all values in the matrix with 0 and convert it to a vector
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     X[] &lt;- 0
@@ -232,7 +243,7 @@ values in the matrix that is larger than 6
     [1] 0 0 0 0 0 0 0 0 0 0 0 0
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>In the the exercies earlier you created a vector with the names of
 the type Geno_a_1, Geno_a_2, Geno_a_3, Geno_b_1, Geno_b_2…,
@@ -243,7 +254,7 @@ is very powerful, but can be hard to wrap you head around, so try
 to follow the logics, perhaps by creating a simple example to start
 with.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     letnum &lt;- outer(paste("Geno",letters[1:19], sep = "_"), 1:3, paste, sep = "_")
@@ -266,20 +277,20 @@ with.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Create two different 2 by 2 matrices named A and B. A should
 contain the values 1 - 4 and B the values 5-8. Try out the
 following commands and by looking at the results see if you can
-figure out what is going on.<br />
-A. A * B<br />
-B. A / B<br />
-C. A %x% B<br />
-D. A + B<br />
-E. A - B<br />
+figure out what is going on.<br>
+A. A * B<br>
+B. A / B<br>
+C. A %x% B<br>
+D. A + B<br>
+E. A - B<br>
 F. A == B
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     A &lt;- matrix(1:4, ncol = 2, nrow = 2)
@@ -337,12 +348,12 @@ F. A == B
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Generate a 10 by 10 matrix with random numbers. Add row and
 columnnames and calculate mean and median over rows and save these
 in a new matrix.
-    <details> <summary>:key: Click to see how</summary> 
+    <details> <summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary> 
 <pre>
     
     e &lt;- rnorm(n = 100)
@@ -363,11 +374,12 @@ in a new matrix.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ol>
 
-<h1 id="data-frames">Data frames<a id="orgheadline5"></a></h1>
+<h1 id="data-frames">Data frames<a id="orgheadline5"></a>
+</h1>
 
 <p>Even though vectors are at the very base of R usage, data frames are
 central to R as the most common ways to import data into R
@@ -377,7 +389,8 @@ consists of a set of equally long vectors. As data frames can contain
 several different data types the command <code class="highlighter-rouge">str()</code>
 is very useful to run on data frames</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>vector1 &lt;- 1:10
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>vector1 &lt;- 1:10
 vector2 &lt;- letters[1:10]
 vector3 &lt;- rnorm(10, sd = 10)
 df &lt;- data.frame(vector1, vector2, vector3)
@@ -396,7 +409,8 @@ observations for three variables that all have different modes, column
 3 a numeric vector. It is noteworthy that the second column is a
 factor even though we just gave it a character vector.</p>
 
-<h2 id="exercise-working-with-data-frames">Exercise: Working with data frames<a id="orgheadline4"></a></h2>
+<h2 id="exercise-working-with-data-frames">Exercise: Working with data frames<a id="orgheadline4"></a>
+</h2>
 
 <ol>
   <li>Use the built-in help in R to figure out what is going on with the
@@ -404,7 +418,7 @@ second column in df data frame described above and modify the
 creation of the data frame so that the second column is stored as a
 character vector.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     df &lt;- data.frame(vector1, vector2, vector3, stringsAsFactors = FALSE)
@@ -417,13 +431,13 @@ character vector.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>One can select columns from a data frame using either the name or
 the position. Use both methods to print the last two columns from
 the df data frame.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>   
     
     df[,2:3]
@@ -454,12 +468,12 @@ the df data frame.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Print all letters in the vector2 column of the data frame where the
 vector3 column has a positive value.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     df[df$vector3&gt;0,2]
@@ -470,11 +484,11 @@ vector3 column has a positive value.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Create a new vector combining the all columns of df seperated by a underscore.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     paste(df$vector1, df$vector2, df$vector3, sep = "_")
@@ -486,12 +500,12 @@ vector3 column has a positive value.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>There is a data frame of car information that comes with the base
 installation of R. Have a look at this data by typing <code class="highlighter-rouge">mtcars</code>.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     mtcars
@@ -532,23 +546,23 @@ installation of R. Have a look at this data by typing <code class="highlighter-r
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Re-arrange the row names of this data frame and save as a vector.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     car.names &lt;- sample(row.names(mtcars))
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Create a data frame containg the vector from the previous question
 and two vectors with random numbers named random1 and random2.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     random1 &lt;- rnorm(length(car.names))
@@ -591,7 +605,7 @@ and two vectors with random numbers named random1 and random2.
     32          Merc 450SL  1.0369179 -0.256698993
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Now you have two data frames that both contains information on a
 set of cars. A collaborator asks you to create a new data frame
@@ -599,7 +613,7 @@ with all this information combined. Create this
 merged data frame and make sure that it corresponds that is combined 
 in the correct way.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     mt.merged &lt;- merge(mtcars, mtcars2, by.x = "row.names", by.y = "car.names")
@@ -673,12 +687,12 @@ in the correct way.
     32  1.4695465  1.822855299
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Calculate the mean value for the two columns that you added to the
 mtcars data frame.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
   
     colMeans(mtcars2[, c("random1", "random2")])
@@ -692,7 +706,7 @@ mtcars data frame.
     <p>Try to modify so you get the mean by cylinder
 number instead.</p>
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
     aggregate(mtcars2$random1,  by = list(mtcars$cyl), FUN = mean)
@@ -709,11 +723,12 @@ number instead.</p>
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ol>
 
-<h1 id="lists">Lists<a id="orgheadline7"></a></h1>
+<h1 id="lists">Lists<a id="orgheadline7"></a>
+</h1>
 
 <p>The last data structure that we will explore are lists, which is a
 very flexible structure. Lists can i R combine different data
@@ -724,14 +739,16 @@ requires a bit more work to interact with.</p>
 <p>The syntax to create a list is similar to creation of the other data
 structures in R.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>l &lt;- list(1, 2, 3)
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>l &lt;- list(1, 2, 3)
 </code></pre>
 </div>
 
 <p>As with the data frames the str() command is very useful for the
 sometimes fairly complex lists instances.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>str(l)
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>str(l)
 
 List of 3
  $ : num 1
@@ -744,7 +761,8 @@ List of 3
 example given the flebility a list structure offers so lets create a
 more complex example</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>vec1 &lt;- letters
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>vec1 &lt;- letters
 vec2 &lt;- 1:4
 mat1 &lt;- matrix(1:100, nrow = 5)
 df1 &lt;- as.data.frame(cbind(10:1, 91:100))
@@ -757,7 +775,8 @@ can also contain other lists.</p>
 
 <p>Looking at the str command reveals much of the details of a list</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>str(u.2)
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>str(u.2)
 
 List of 5
  $ : chr [1:26] "a" "b" "c" "d" ...
@@ -780,7 +799,8 @@ with more the more homogenous objects we have looked at so far.</p>
 for the simplier structures, but note that this will give you a list
 of length 1 irrespective of the actual type of data structure found.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>u.2[1]
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>u.2[1]
 str(u.2[1])
 
 [[1]]
@@ -794,7 +814,8 @@ List of 1
 <p>If one instead wants to extract the list entry as the structure that
 is stored, one needs to “dig” deeper in the object.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>u.2[[1]]
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>u.2[[1]]
 str(u.2[[1]])
 
  [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
@@ -809,19 +830,21 @@ data structure stored in a list can be daunting, examplified by
 extracting the second column of the data fram stored at position 4 in
 the list u.2.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>u.2[[4]][,2]
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>u.2[[4]][,2]
 
 [1]  91  92  93  94  95  96  97  98  99 100
 </code></pre>
 </div>
 
-<h2 id="exercise-working-with-lists">Exercise: Working with lists<a id="orgheadline6"></a></h2>
+<h2 id="exercise-working-with-lists">Exercise: Working with lists<a id="orgheadline6"></a>
+</h2>
 
 <ol>
   <li>Create a list containing 1 character vector, a numeric vector, a
 character matrix.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     list.2 &lt;- list(vec1 = c("hi", "ho", "merry", "christmas"), vec2 = 4:19, mat1 = matrix(as.character(100:81), nrow = 4))
@@ -841,11 +864,11 @@ character matrix.
     [4,]   97   93   89   85   81
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Create a data fram and add this to the list.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     df &lt;- data.frame(letters, LETTERS, letters == LETTERS)
@@ -853,11 +876,11 @@ character matrix.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Remove the the second entry of your list
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 		
     list.2[-2]
@@ -902,12 +925,12 @@ $mat1
 26       z       Z              FALSE
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Create a new list that contain 20 entries, with each entry holding
 a numeric vector.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     vec1 &lt;- rnorm(1000)
@@ -915,12 +938,12 @@ a numeric vector.
     
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>How long is your list, and how long are each of the vectors
 that are part of the list?
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     length(list.a)
@@ -988,7 +1011,7 @@ that are part of the list?
     [1] 50
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>
     <p>Figure out what the main differences are between the function
@@ -998,7 +1021,7 @@ What are the pros and cons of the two approaches to calculate the
 same summary statistics?</p>
 
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     lapply(X = list.a, FUN = "summary")
@@ -1106,7 +1129,7 @@ same summary statistics?</p>
     Max.     1.8250  1.66200  2.75000  2.7100
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ol>
 

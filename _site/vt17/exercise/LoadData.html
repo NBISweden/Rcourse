@@ -1,6 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>R Courses @ NBIS</title>
@@ -9,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="http://localhost:4000/img/apple-touch-icon.png">
-	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" />
+	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico">
 
         <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
         <link rel="stylesheet" href="http://localhost:4000/css/main.css">
@@ -26,7 +27,7 @@
         <![endif]-->
 
 	<header>
-	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo" /><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo" /></a>
+	  <img src="http://localhost:4000/img/Rlogo.png" alt="R Logo"><span>@</span><a href="//nbis.se"><img src="http://localhost:4000/img/nbis.png" alt="NBIS logo"></a>
 	</header>
 	<main>
           <h1 id="loading-data">Loading data</h1>
@@ -34,10 +35,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline4">1. Introduction</a>
+<li>
+<a href="#orgheadline4">1. Introduction</a>
 <ul>
 <li><a href="#orgheadline1">1.1. The scan function</a></li>
-<li><a href="#orgheadline3">1.2. The read.table function</a>
+<li>
+<a href="#orgheadline3">1.2. The read.table function</a>
 </li>
 </ul>
 </li>
@@ -45,7 +48,8 @@
 </div>
 </div>
 
-<h1 id="introduction">Introduction<a id="orgheadline4"></a></h1>
+<h1 id="introduction">Introduction<a id="orgheadline4"></a>
+</h1>
 
 <p>Up until now we have mostly created the object we worked with on the
 fly from within R. The most common use-case is however to read in
@@ -63,7 +67,8 @@ a list.</li>
   <li>Write data to a file</li>
 </ul>
 
-<h2 id="the-scan-function">The scan function<a id="orgheadline1"></a></h2>
+<h2 id="the-scan-function">The scan function<a id="orgheadline1"></a>
+</h2>
 
 <p>The function scan() can be used both to read data from files and
 directly from keyboard. The function is very flexible and have many
@@ -74,7 +79,8 @@ enter and R will prompt you for new input. After the last word have
 been typed press enter twice to get back to your R prompt and have
 your character vector named words available in R your session.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>words &lt;- scan(what = character())
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>words &lt;- scan(what = character())
 </code></pre>
 </div>
 
@@ -85,7 +91,7 @@ scan and read the text file named book_chapter.txt into R, first as
 vector and then as a list, with each word in the chapter saved as a
 entry in the vector or as a single vector in a list.</p>
 <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
     shelley.vec &lt;- scan(file = "book_chapter.txt", what = character())
@@ -101,7 +107,7 @@ entry in the vector or as a single vector in a list.</p>
     [1] "list"
 </pre>
 </details>
-<p><br /></p>
+<p><br></p>
 
 <p>Check that your newly created objects contain the correct information
 and have been saved as you have intended eg. each entry of the vector
@@ -111,7 +117,7 @@ have a sound word vector and list.</p>
 <ol>
   <li>Identify the longest word in your vector.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     sort(nchar(shelley.vec), decreasing = TRUE)
@@ -146,13 +152,13 @@ have a sound word vector and list.</p>
 [1] "By the sacred earth on which I kneel, by the shades that wander near me, by the deep and eternal grief that I feel, I swear; and by thee, O Night, and the spirits that preside over thee, to pursue the daemon who caused this misery, until he or I shall perish in mortal conflict. For this purpose I will preserve my life; to execute this dear revenge will I again behold the sun and tread the green herbage of earth, which otherwise should vanish from my eyes forever. And I call on you, spirits of the dead, and on you, wandering ministers of vengeance, to aid and conduct me in my work. Let the cursed and hellish monster drink deep of agony; let him feel the despair that now torments me."
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Go back and fix the way you read in the text to make sure that you
 get a vector with all words in chapter as individual entries also
 filter any non-letter characters and now identify the longest word.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     shelley.vec2 &lt;- scan(file = "book_chapter.txt", what = " ", quote = NULL)
     shelley.filt2 &lt;- gsub(pattern = '[^[:alnum:] ]', replacement = "", x = shelley.vec2)
@@ -164,11 +170,12 @@ filter any non-letter characters and now identify the longest word.
     [1] "uninterested"
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ol>
 
-<h2 id="the-readtable-function">The read.table function<a id="orgheadline3"></a></h2>
+<h2 id="the-readtable-function">The read.table function<a id="orgheadline3"></a>
+</h2>
 
 <p>This is the by far most common way to get data into R. As the function
 creates a data frame at import it will only work for data set that
@@ -182,7 +189,8 @@ arguments in the function. With this settings R will read it as a tab
 delimited file and will use the first row of the data as colnames
 (header) and the first column as rownames.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>expr.At &lt;- read.table("normalized.txt")
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>expr.At &lt;- read.table("normalized.txt")
 head(expr.At)
 
               bZIP29_1  bZIP29_2  bZIP29_3        WT_1      WT_2       WT_3
@@ -199,7 +207,8 @@ AT1G01070.1   8.230858 17.871625 14.924906   7.9996663  8.824486 13.8554244
 disk, instead one can read data from online resources. The following
 command will read in a file from a web server.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data'
+<div class="highlighter-rouge">
+<pre class="codehilite"><code>url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data'
 abalone = read.table(url, header = F , sep = ',') 
 head(abalone)
 
@@ -223,7 +232,7 @@ in R validate that it looks okay and export it using the
 write.table function. Encode all NA values as “missing”, at
 export.
     <details> 
-<summary>:key: Click to see how</summary> 
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary> 
 <pre>
     
     ed &lt;- read.table("example.data", sep = ":")
@@ -232,15 +241,15 @@ export.
     
                     V1               V2               V3               V4
     1         bZIP29_1         bZIP29_2         bZIP29_3             WT_1
-    2             <NA> 14.1671426761817 12.9727029171751 14.8181737869517
-    3 1.41723379939617 1.20145379585993             <NA>             <NA>
+    2             <na> 14.1671426761817 12.9727029171751 14.8181737869517
+    3 1.41723379939617 1.20145379585993             <na>             <na>
     4 41.8629060744716 41.1998530830302 42.6965659118674  37.528635786519
     5 102.422396502516 98.3189689612045 92.0684061403395 104.210417827802
-    6             <NA> 4.00484598619978 3.58953430232514 3.70454344673793
+    6             <na> 4.00484598619978 3.58953430232514 3.70454344673793
                     V5               V6
     1             WT_2             WT_3
-    2             <NA>             <NA>
-    3   1.096828754225             <NA>
+    2             <na>             <na>
+    3   1.096828754225             <na>
     4 34.8492408728761 48.6456870599298
     5 97.4183357161658  86.065446336799
     6 2.64236018063295 6.27033804098888
@@ -254,7 +263,7 @@ export.
      $ V6: Factor w/ 3287 levels "0","0.0505672422660393",..: 3287 NA NA 2187 3047 2495 NA 2494 1143 944 ...
  &lt;/pre&gt;
  &lt;/details&gt;
-<br />
+<br>
 
 <details>
 <summary>:key: Click to see how</summary>
@@ -263,20 +272,20 @@ export.
     write.table(x = ed, na = "missing", file = "example_mis.data")
 </pre>
 </details>
-<br />
+<br>
 
-</NA></NA></NA></NA></NA></NA></NA></pre></details>
+</na></na></na></na></na></na></na></pre></details>
   </li>
   <li>Read in the file you just created and double-check that you have the same data as earlier.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     df.test &lt;- read.table("example_mis.data", na.strings = "missing")
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Analysing genome annotation in R using read.table</li>
 </ol>
@@ -320,23 +329,23 @@ providing additional information about each feature.</li>
 
 
 <colgroup>
-<col class="org-right" />
+<col class="org-right">
 
-<col class="org-left" />
+<col class="org-left">
 
-<col class="org-left" />
+<col class="org-left">
 
-<col class="org-right" />
+<col class="org-right">
 
-<col class="org-right" />
+<col class="org-right">
 
-<col class="org-left" />
+<col class="org-left">
 
-<col class="org-left" />
+<col class="org-left">
 
-<col class="org-left" />
+<col class="org-left">
 
-<col class="org-left" />
+<col class="org-left">
 </colgroup>
 <thead>
 <tr>
@@ -396,7 +405,7 @@ file and keep track of where your store the file.</p>
 <p>With this done read this file into R using the function read.table and
 add meaningful column names to the table.</p>
 <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
 	d.gtf &lt;- read.table("Drosophila_melanogaster.BDGP6.86.gtf",
@@ -405,7 +414,7 @@ add meaningful column names to the table.</p>
                          "End", "Score", "Strand", "Frame", "Attribute")
 </pre>
 </details>
-<p><br /></p>
+<p><br></p>
 
 <p>Prior to any analysis you should make sure that your attempt to read
 in the file has worked as expected. This can for example be done by
@@ -413,7 +422,7 @@ having a look at the dimension of the stored object and making sure
 that it has the structure you expect.</p>
 
 <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
     dim(d.gtf)
@@ -432,12 +441,12 @@ that it has the structure you expect.</p>
      $ Attribute : Factor w/ 455338 levels "gene_id FBgn0000003; gene_name 7SLRNA:CR32864; gene_source FlyBase; gene_biotype lincRNA;",..: 348579 348581 348580 453172 453215 453194 453195 453193 453199 453200 ...
 </pre>
 </details>
-<p><br /></p>
+<p><br></p>
 
 <ol>
   <li>How many chromosome names can be found in the annotation file?
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     levels(d.gtf$Chromosome)
@@ -474,11 +483,11 @@ that it has the structure you expect.</p>
 
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>How many exons is there in total and per chromosome?
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     aggregate(d.gtf$Feature, by = list(d.gtf$Chromosome), summary)
@@ -543,9 +552,9 @@ that it has the structure you expect.</p>
     57                      rDNA     0                0     21                0	
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 		
     by(data = d.gtf$Feature, d.gtf[,"Chromosome"], summary)
@@ -892,20 +901,20 @@ that it has the structure you expect.</p>
                   0               0               0              19
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Filter the data frame to only retain gene annotations
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     d.gtf.gene &lt;- d.gtf[d.gtf$Feature == "gene",]
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>What is the average gene length of in the Drosophila genome?
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
 mean(abs(d.gtf.gene$Start - d.gtf.gene$End))
@@ -913,12 +922,12 @@ mean(abs(d.gtf.gene$Start - d.gtf.gene$End))
 [1] 5753.282
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>What fraction of the genes are encoded on the plus strand of
 the genome.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
 
 sum(d.gtf.gene$Strand == "+") / length(d.gtf.gene$Strand)
@@ -926,12 +935,12 @@ sum(d.gtf.gene$Strand == "+") / length(d.gtf.gene$Strand)
 [1] 0.5016231
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>What is the median and mean length of the exons found on chromosome
 3R in the data set?
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
     d.gtf3R &lt;- d.gtf[d.gtf$Chromosome == "3R",]
@@ -943,12 +952,12 @@ sum(d.gtf.gene$Strand == "+") / length(d.gtf.gene$Strand)
     [1] 468.6693
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
   <li>Do the same calculations for the chromosomes 2L, 2R, 3L, 4, X and Y
 using a for loop.
     <details>
-<summary>:key: Click to see how</summary>
+<summary><img class="emoji" title=":key:" alt=":key:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" height="20" width="20" align="absmiddle"> Click to see how</summary>
 <pre>
     
          chr &lt;- c("2L", "2R", "3L", "4", "X", "Y")
@@ -969,7 +978,7 @@ using a for loop.
     [1] "The median and mean exon length for Y is 410.5 and 657.055, respectively"
 </pre>
 </details>
-    <p><br /></p>
+    <p><br></p>
   </li>
 </ol>
 

@@ -1,4 +1,62 @@
-Hans Rosling (27 July 1948 – 7 February 2017) was a Swedish physician, academic, statistician, and public speaker. He was the Professor of International Health at Karolinska Institutet and was the co-founder and chairman of the Gapminder Foundation, which developed the Trendalyzer software system. He held presentations around the world, including several TED Talks in which he promoted the use of data to explore development issues. [source: Wikipedia](https://en.wikipedia.org/wiki/Hans_Rosling)
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Ggplot2 Lab -- a tribute to Hans Rosling | R Programming... | HT17 @ NBIS</title>
+
+        <meta name="description" content="R programming course by NBIS in HT17">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="http://localhost:4000/img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" />
+
+        <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
+        <link rel="stylesheet" href="http://localhost:4000/css/vt17.css">
+	<link rel="stylesheet" href="http://localhost:4000/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="http://localhost:4000/css/pygments/style.css">
+
+        <script src="http://localhost:4000/js/modernizr-2.8.3.min.js"></script>
+	<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
+	<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 9]>
+            <p class="browserupgrade">
+	      You are using an <strong>outdated</strong> browser.
+	      Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+	    </p>
+        <![endif]-->
+
+	<header>
+	  <nav>
+            <a href="https://nbis.se">
+	      <img src="http://localhost:4000/img/nbis.png" alt="NBIS" />
+	    </a>
+	    <a href="http://localhost:4000/vt17/"><i class="fa fa-fw fa-home"></i></a>
+	    <a  href="http://localhost:4000/vt17/lectures">
+	      <i class="fa fa-fw fa-tasks"></i> Lectures
+	    </a>
+	    <a  href="http://localhost:4000/vt17/exercises">
+	      <i class="fa fa-briefcase"></i> Exercises
+	    </a>
+	    <a  href="http://localhost:4000/vt17/precourse">
+	      <i class="fa fa-fw fa-hourglass-start"></i> Pre-course prep.
+	    </a>
+	    <a  href="http://localhost:4000/vt17/help">
+	      <i class="fa fa-fw fa-support"></i> Help
+	    </a>
+	  </nav>
+
+	  <h2>Ggplot2 Lab -- a tribute to Hans Rosling</h2>
+          <h1>R programming for life scientist <small>HT17</small></h1>
+	</header>
+	<main>
+          Hans Rosling (27 July 1948 – 7 February 2017) was a Swedish physician, academic, statistician, and public speaker. He was the Professor of International Health at Karolinska Institutet and was the co-founder and chairman of the Gapminder Foundation, which developed the Trendalyzer software system. He held presentations around the world, including several TED Talks in which he promoted the use of data to explore development issues. [source: Wikipedia](https://en.wikipedia.org/wiki/Hans_Rosling)
 
 # The Lab
 In this excercise we will plot a Hans Rosling's Gapminder-style plot using *ggplot2* library. It will not be as nice as the original, but it will be a good starting point for making more advanced graphics.
@@ -144,3 +202,19 @@ And now, make an interactive plot with plotly. Have fun!
 plotly <- ggplotly(g, tooltip=c('country', 'x', 'y', 'col'), )
 plotly
 ```
+	</main>
+
+	<footer>
+	  <span>Main Teachers: Marcin Kierczak, Thomas Källman</span>
+	  <span><a href="https://www.nbis.se">NBIS</a> &copy; 2017</span>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="http://localhost:4000/js/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="http://localhost:4000/js/vt17.js"></script>
+
+	
+
+
+    </body>
+</html>

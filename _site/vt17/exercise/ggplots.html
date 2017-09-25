@@ -74,7 +74,7 @@ working directory:<br />
 <p>If you cannot load the library install it either via the menu of
 RStudio or by typing <code class="highlighter-rouge">install.packages("ggmap")</code> in R.</p>
 
-<div class="language-R highlighter-rouge"><pre class="highlight"><code><span class="c1"># Load the libraries necessary for working with maps
+<div class="language-R highlighter-rouge"><pre class="codehilite"><code><span class="c1"># Load the libraries necessary for working with maps
 # Install them if missing
 </span><span class="n">library</span><span class="p">(</span><span class="n">ggmap</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">maptools</span><span class="p">)</span><span class="w">
@@ -126,7 +126,7 @@ RStudio or by typing <code class="highlighter-rouge">install.packages("ggmap")</
 </span></code></pre>
 </div>
 
-<div class="language-R highlighter-rouge"><pre class="highlight"><code><span class="c1"># ICA &amp; Coop
+<div class="language-R highlighter-rouge"><pre class="codehilite"><code><span class="c1"># ICA &amp; Coop
 </span><span class="n">ica.kml</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">getKMLcoordinates</span><span class="p">(</span><span class="n">kmlfile</span><span class="o">=</span><span class="s2">"ica_Uppsala.kml"</span><span class="p">,</span><span class="w"> </span><span class="n">ignoreAltitude</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w">
 </span><span class="n">tmp</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">unlist</span><span class="p">(</span><span class="n">ica.kml</span><span class="p">)</span><span class="w">
 </span><span class="n">ica.coords</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">data.frame</span><span class="p">(</span><span class="n">lat</span><span class="o">=</span><span class="n">tmp</span><span class="p">[</span><span class="m">1</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span><span class="w"> </span><span class="o">%%</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">0</span><span class="p">],</span><span class="w"> </span><span class="n">lon</span><span class="o">=</span><span class="n">tmp</span><span class="p">[</span><span class="m">1</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span><span class="w"> </span><span class="o">%%</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">],</span><span class="w"> </span><span class="n">type</span><span class="o">=</span><span class="s1">'ica'</span><span class="p">)</span><span class="w">
