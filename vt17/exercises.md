@@ -12,65 +12,44 @@ Data types in R
 </li>
 
 <li>
-<a href="lecture/Lecture_2_-_REnvironment.pdf">
-<h3>Monday lecture 2</h3>
-The R environment
+<a href="exercise/Vectors...">
+<h3>Tuesday</h3>
+Vectors
 </a>
 </li>
 
 <li>
-<a href="lecture/Lecture_3_-_Elements1.pdf">
-<h3>Monday lecture 3</h3>
-Elements of the R programming language - 1:
-Variables and their types, operators
+<a href="exercise/Vectors...">
+<h3>Tuesday</h3>
+Matrices, lists and dataframes
 </a>
 </li>
 
 <li>
-<a href="lecture/Lecture_4_-_Elements4.pdf">
-<h3>Tuesday lecture 1</h3>
-Elements of the R programming language - 2:
-Vectors, numbers as vectors, strings as vectors
+<a href="exercise/Vectors...">
+<h3>Wednesday</h3>
+Loading data
 </a>
 </li>
 
 <li>
-<a href="lecture/5">
-<h3>Tuesday lecture 2</h3>
-Elements of the R programming language - 3:
-Matrices, lists, data frames, objects
+<a href="exercises/">
+<h3>Wednesday</h3>
+Loops, conditional statements, functions, variable scope
 </a>
 </li>
 
 <li>
-<a href="lecture/5">
-<h3>Wednesday lecture 1</h3>
-Elements of the R programming language - 4:
-Control structures, iteration, recursion, variable scope
+<a href="exercises">
+<h3>Thursday</h3>
+Base R graphics
 </a>
 </li>
 
 <li>
-<a href="lecture/5">
-<h3>Wednesday lecture 2</h3>
-
-Loading data into R
-</a>
-</li>
-
-<li>
-<a href="lecture/5">
-<h3>Thursday lecture 1</h3>
-
-Selected functions in R
-</a>
-</li>
-
-<li>
-<a href="lecture/5">
-<h3>Thursday lecture 2</h3>
-
-Graphics in R
+<a href="exercises/">
+<h3>Friday</h3>
+ggplot2 graphics
 </a>
 </li>
 

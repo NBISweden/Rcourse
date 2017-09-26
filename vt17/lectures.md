@@ -6,21 +6,21 @@ menu: Lectures
 <ol class="lecture" id="topics">
 <li>
 <a href="lecture/Lecture_1_-_Introduction.pdf">
-<h3>Monday lecture 1</h3>
+<h3>Monday part 1</h3>
 Introduction to programming in R
 </a>
 </li>
 
 <li>
 <a href="lecture/Lecture_2_-_REnvironment.pdf">
-<h3>Monday lecture 2</h3>
+<h3>Monday part 2</h3>
 The R environment
 </a>
 </li>
 
 <li>
 <a href="lecture/Lecture_3_-_Elements1.pdf">
-<h3>Monday lecture 3</h3>
+<h3>Monday part 3</h3>
 Elements of the R programming language - 1:
 Variables and their types, operators
 </a>
@@ -28,7 +28,7 @@ Variables and their types, operators
 
 <li>
 <a href="lecture/Lecture_4_-_Elements4.pdf">
-<h3>Tuesday lecture 1</h3>
+<h3>Tuesday part 1</h3>
 Elements of the R programming language - 2:
 Vectors, numbers as vectors, strings as vectors
 </a>
@@ -36,7 +36,7 @@ Vectors, numbers as vectors, strings as vectors
 
 <li>
 <a href="lecture/5">
-<h3>Tuesday lecture 2</h3>
+<h3>Tuesday part 2</h3>
 Elements of the R programming language - 3:
 Matrices, lists, data frames, objects
 </a>
@@ -44,7 +44,7 @@ Matrices, lists, data frames, objects
 
 <li>
 <a href="lecture/5">
-<h3>Wednesday lecture 1</h3>
+<h3>Wednesday part 1</h3>
 Elements of the R programming language - 4:
 Control structures, iteration, recursion, variable scope
 </a>
@@ -52,7 +52,7 @@ Control structures, iteration, recursion, variable scope
 
 <li>
 <a href="lecture/5">
-<h3>Wednesday lecture 2</h3>
+<h3>Wednesday part 2</h3>
 
 Loading data into R
 </a>
@@ -60,7 +60,7 @@ Loading data into R
 
 <li>
 <a href="lecture/5">
-<h3>Thursday lecture 1</h3>
+<h3>Thursday part 1</h3>
 
 Selected functions in R
 </a>
@@ -68,7 +68,7 @@ Selected functions in R
 
 <li>
 <a href="lecture/5">
-<h3>Thursday lecture 2</h3>
+<h3>Thursday part 2</h3>
 
 Graphics in R
 </a>
