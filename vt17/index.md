@@ -30,7 +30,7 @@ Room: BMC I1341 and/or BMC H1023 computer room<br>
 **11:00-12:00** [Exercise and video: Using R-studio]() (Marcin Kierczak, Dag Ahren)<br>
 **12:00-13:00** Lunch<br>
 **13:00-15:00** [Lecture: Elements of R programming - variable types, operators](Lectures/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)<br>
-**15:00-17:00** [Exercise: Data types in R](Exercises/DataTypes) (Marcin Kierczak, Dag Ahren, Marus Ringner)<br>
+**15:00-17:00** [Exercise: Data types in R](Exercises/DataTypes) (Marcin Kierczak, Dag Ahren, Markus Ringner)<br>
 
 **Tuesday**
 Room: BMC I1341 and/or BMC H1023 computer room<br>
