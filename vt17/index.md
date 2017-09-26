@@ -67,6 +67,6 @@ Room: BMC I1341 and/or BMC H1023 computer room<br>
 Marcin Kierczak - marcin.kierczak at scilifelab dot se, Uppsala University, NBIS<br>
 Thomas Källman - thomas.kallman at nbis dot se, Uppsala University, NBIS<br>
 Dag Ahren - dag.ahren at nbis dot se, Lund University, NBIS<br>
-Markus Ringner - markus.ringer at scilifelab dot se, Lund University, NBIS<br>
+Markus Ringner - markus.ringner at scilifelab dot se, Lund University, NBIS<br>
 Nikolay Oskolkov - nikolay.oskolkov at scilifelab dot se, Lund University, NBIS<br>
 Fredrik Levander - fredrik.levander at nbis dot se, Lund University, NBIS<br>
