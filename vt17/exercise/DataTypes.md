@@ -55,7 +55,7 @@ We do recommend to write all code in a R markdown document in R-studio
 as that will at the end of the course be your own R tutorial with
 comments and code solutions.
 
-## Create and retrieve information about variables in R<a id="orgheadline3"></a>
+## Create and retrieve information about variables in R
 
 Open R-studio and make sure to set your working directory. Double
 check that you do not have stored objects in your current session with
@@ -73,6 +73,155 @@ rm(list = ls())
 This command uses commands that we have not talked about yet. If you
 do not understand how it works now, you will do so after tomorrows
 lectures and exercises.
+
+## Basic R operators
+
+As in other programming languages there are a set of basic operators in R.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Operation</th>
+<th scope="col" class="org-left">Description</th>
+<th scope="col" class="org-left">Example</th>
+<th scope="col" class="org-left">Example Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">x + y</td>
+<td class="org-left">Addition</td>
+<td class="org-left">1 + 3</td>
+<td class="org-left">4</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x - y</td>
+<td class="org-left">Subtraction</td>
+<td class="org-left">1 - 3</td>
+<td class="org-left">-2</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x * y</td>
+<td class="org-left">Multiplication</td>
+<td class="org-left">2 * 3</td>
+<td class="org-left">6</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x / y</td>
+<td class="org-left">Division</td>
+<td class="org-left">1 / 2</td>
+<td class="org-left">0.5</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x ^ y</td>
+<td class="org-left">Exponent</td>
+<td class="org-left">2 ^ 2</td>
+<td class="org-left">4</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x %% y</td>
+<td class="org-left">Modular arethmetic</td>
+<td class="org-left">1 %% 2</td>
+<td class="org-left">1</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x %/% y</td>
+<td class="org-left">Integer division</td>
+<td class="org-left">1 %/% 2</td>
+<td class="org-left">0</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x == y</td>
+<td class="org-left">Test for equality</td>
+<td class="org-left">1 == 1</td>
+<td class="org-left">TRUE</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x <= y</td>
+<td class="org-left">Test less or equal</td>
+<td class="org-left">1 <= 1</td>
+<td class="org-left">TRUE</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x >= y</td>
+<td class="org-left">Test for greater or equal</td>
+<td class="org-left">1 >= 2</td>
+<td class="org-left">FALSE</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x && y</td>
+<td class="org-left">Non-vectorized boolean AND</td>
+<td class="org-left">3 >= 2 &&  3 < 10</td>
+<td class="org-left">TRUE</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x & y</td>
+<td class="org-left">Vectorized boolean AND</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x || y</td>
+<td class="org-left">Non-vectorized boolean OR</td>
+<td class="org-left">1 >= 2 || 3 < 10</td>
+<td class="org-left">TRUE</td>
+</tr>
+
+
+<tr>
+<td class="org-left">x |  y</td>
+<td class="org-left">Vectorized boolean OR</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">!x</td>
+<td class="org-left">Boolean not</td>
+<td class="org-left">1 != 2</td>
+<td class="org-left">TRUE</td>
+</tr>
+</tbody>
+</table>
+
+
 
 1.  Create variables *var1* and *var2* and initialize them with two integers of choice.
 
