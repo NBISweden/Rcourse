@@ -34,49 +34,11 @@ string like "hello world" it will have the mode character. Below you
 will also see examples of how you can specify the mode and not rely on
 R inferring the right mode based on content.
 
-# Exercise: Basic operations and data types in R<a id="orgheadline4"></a>
-
-In all exercises on this course it is important that you prior to
-running the commands in R, try to figure out what you expect the
-result to be. You should then verify that this will indeed be the
-qresult by running the command in an R session. In case there is a
-discrepency between your expectations and the actual output make sure
-you understand why before you move forward. If you can not figure out
-how to, or which command to run you can click the key to reveal
-example code including expected output. If you after peaking at the
-code and trying out things on your own have a hard time understanding
-what is going on, ask the TAs or or your someone sitting next to you
-who might have wrapped their head around the issue.
-
-Also note that in many cases there multiple solutions that solve the
-problem equally well.
-
-We do recommend to write all code in a R markdown document in R-studio
-as that will at the end of the course be your own R tutorial with
-comments and code solutions.
-
-## Create and retrieve information about variables in R
-
-Open R-studio and make sure to set your working directory. Double
-check that you do not have stored objects in your current session with
-the following command. This will list all objects that you have in
-your current R session.
-```
-ls()
-```
-In case you have objects that you want to remove from the current
-session you can do so with the rm function. NB! This command will
-remove all objects available in your current session.
-```
-rm(list = ls())
-```
-This command uses commands that we have not talked about yet. If you
-do not understand how it works now, you will do so after tomorrows
-lectures and exercises.
-
 ## Basic R operators
 
-As in other programming languages there are a set of basic operators in R.
+As in other programming languages there are a set of basic operators
+in R. Some of these are not used until later in the course, but is
+included here as some kind of reference information.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -221,6 +183,45 @@ As in other programming languages there are a set of basic operators in R.
 </tbody>
 </table>
 
+# Exercise: Basic operations and data types in R<a id="orgheadline4"></a>
+
+In all exercises on this course it is important that you prior to
+running the commands in R, try to figure out what you expect the
+result to be. You should then verify that this will indeed be the
+qresult by running the command in an R session. In case there is a
+discrepency between your expectations and the actual output make sure
+you understand why before you move forward. If you can not figure out
+how to, or which command to run you can click the key to reveal
+example code including expected output. If you after peaking at the
+code and trying out things on your own have a hard time understanding
+what is going on, ask the TAs or or your someone sitting next to you
+who might have wrapped their head around the issue.
+
+Also note that in many cases there multiple solutions that solve the
+problem equally well.
+
+We do recommend to write all code in a R markdown document in R-studio
+as that will at the end of the course be your own R tutorial with
+comments and code solutions.
+
+## Create and retrieve information about variables in R
+
+Open R-studio and make sure to set your working directory. Double
+check that you do not have stored objects in your current session with
+the following command. This will list all objects that you have in
+your current R session.
+```
+ls()
+```
+In case you have objects that you want to remove from the current
+session you can do so with the rm function. NB! This command will
+remove all objects available in your current session.
+```
+rm(list = ls())
+```
+This command uses commands that we have not talked about yet. If you
+do not understand how it works now, you will do so after tomorrows
+lectures and exercises.
 
 
 1.  Create variables *var1* and *var2* and initialize them with two integers of choice.
@@ -392,37 +393,7 @@ As in other programming languages there are a set of basic operators in R.
 	</pre>
 	</details>
 <br>
-11. Print a truth table for OR (for three distinct logical
-    values). Read about truth tables here
-    https://en.wikipedia.org/wiki/Truth_table
-	A truth table is hence the pairwise comparison of the different
-    boolean values available. It should hence contain the output from:<br>
-	TRUE OR FALSE <br>
-	TRUE OR NA<br>
-	TRUE OR TRUE<br>
-	FALSE OR FALSE<br>
-	FALSE OR NA<br>
-	NA OR NA<br>
-	You can create the table manually by doing the comparisons one by
-	one in R, but the solution below uses a more advanced approach and
-	is likely a bit overwhelming, but look at the commands and try to
-	read about the function in the R manual.
-
-	<details>
-	<summary> Click to see how</summary>
-	<pre>
-	x <- c(NA, FALSE, TRUE)
-	names(x) <- as.character(x)
-	outer(x, x, "|")
-
-	NA FALSE TRUE
-	NA      NA    NA TRUE
-	FALSE   NA FALSE TRUE
-	TRUE  TRUE  TRUE TRUE
-	</pre>
-	</details>
-<br>
-12. Multiply a logical TRUE by a logical FALSE.
+11. Multiply a logical TRUE by a logical FALSE.
 	Rise the logical true to the 7-th power.
 	<details>
 	<summary> Click to see how</summary>
@@ -434,7 +405,7 @@ As in other programming languages there are a set of basic operators in R.
 	</pre>
 	</details>
 <br>
-13. Create two character variables containing two verses of your favorite song.
+12. Create two character variables containing two verses of your favorite song.
 	-  concatenate the two variables,
 	-  paste the variables with '\*' as separator.
 	-  find if 'and' occurs in the second line,
