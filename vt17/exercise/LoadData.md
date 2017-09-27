@@ -3,22 +3,6 @@ layout: default
 title:  'Loading data'
 ---
 # Loading data
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgheadline4">1. Introduction</a>
-<ul>
-<li><a href="#orgheadline1">1.1. The scan function</a></li>
-<li><a href="#orgheadline3">1.2. The read.table function</a>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-# Introduction<a id="orgheadline4"></a>
 
 Up until now we have mostly created the object we worked with on the
 fly from within R. The most common use-case is however to read in
@@ -34,7 +18,7 @@ R. After this exercise you will know how to:
 -   Read data from online resource
 -   Write data to a file
 
-## The scan function<a id="orgheadline1"></a>
+## The scan function
 
 The function scan() can be used both to read data from files and
 directly from keyboard. The function is very flexible and have many
@@ -59,12 +43,12 @@ entry in the vector or as a single vector in a list.
 
     shelley.vec <- scan(file = "book_chapter.txt", what = character())
     str(shelley.vec)
-    
+
     shelley.list <- scan(file = "book_chapter.txt", what = list(character()))
     class(shelley.list)
 
     Read 420 items
-     
+
     chr [1:420] "My" "present" "situation" "was" "one" "in" ...
     Read 420 records
     [1] "list"
@@ -81,7 +65,7 @@ have a sound word vector and list.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
         sort(nchar(shelley.vec), decreasing = TRUE)
         which(nchar(shelley.vec) == max(nchar(shelley.vec)))
         shelley.vec[381]
@@ -125,7 +109,7 @@ have a sound word vector and list.
         shelley.filt2 <- gsub(pattern = '[^[:alnum:] ]', replacement = "", x = shelley.vec2)
         which(nchar(shelley.filt2) == max(nchar(shelley.filt2)))
         shelley.filt2[301]
-    
+
         Read 551 items
         [1] 301
         [1] "uninterested"
@@ -133,13 +117,13 @@ have a sound word vector and list.
 	</details>
 <br>
 
-## The read.table function<a id="orgheadline3"></a>
+## The read.table function
 
 This is the by far most common way to get data into R. As the function
 creates a data frame at import it will only work for data set that
 fits those criteria, meaning that the data needs to have a set of
 columns of equal length that are separated with a common string
-eg. tab, comma, semicolon etc. 
+eg. tab, comma, semicolon etc.
 
 In this code block with first import the data from normalized.txt from
 a file (that you can get [here](../files/normalized.txt)) and accept the defaults for all other
@@ -163,7 +147,7 @@ disk, instead one can read data from online resources. The following
 command will read in a file from a web server.
 
     url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data'
-    abalone = read.table(url, header = F , sep = ',') 
+    abalone = read.table(url, header = F , sep = ',')
     head(abalone)
 
       V1    V2    V3    V4     V5     V6     V7    V8 V9
@@ -181,15 +165,15 @@ command will read in a file from a web server.
     files consist of gene expression values. Once you have the object
     in R validate that it looks okay and export it using the
     write.table function. Encode all NA values as "missing", at
-    export.  
-	<details> 
-	<summary>:key: Click to see how</summary> 
+    export.
+	<details>
+	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
         ed <- read.table("example.data", sep = ":")
         head(ed)
         str(ed)
-    
+
                         V1               V2               V3               V4
         1         bZIP29_1         bZIP29_2         bZIP29_3             WT_1
         2             <NA> 14.1671426761817 12.9727029171751 14.8181737869517
@@ -204,7 +188,7 @@ command will read in a file from a web server.
         4 34.8492408728761 48.6456870599298
         5 97.4183357161658  86.065446336799
         6 2.64236018063295 6.27033804098888
-		
+
         'data.frame':   18946 obs. of  6 variables:
          $ V1: Factor w/ 3053 levels "0","0.0545089922844682",..: 3053 NA 27 1844 85 NA 2715 2291 1260 1052 ...
          $ V2: Factor w/ 3265 levels "0","0.0500605748274972",..: 3265 579 25 1970 3242 1920 879 2473 1184 1313 ...
@@ -219,7 +203,7 @@ command will read in a file from a web server.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-   	
+
 		write.table(x = ed, na = "missing", file = "example_mis.data")
 	</pre>
 	</details>
@@ -229,7 +213,7 @@ command will read in a file from a web server.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
         df.test <- read.table("example_mis.data", na.strings = "missing")
 
 	</pre>
@@ -239,12 +223,12 @@ command will read in a file from a web server.
 3. Analysing genome annotation in R using read.table
 
 For this exercise we will load a GTF file into R and calculate some
-basic summary statistics from the file. In the first part we will use
-basic manipulations of data frames to extract the information. In the
-second part you get a try out a library designed to work with
-annotation data, that stores the information in a more complex format,
-that allow for easy manipulation and calculation of summaries from
-genome annotation files.
+basic summary statistics from the file. We will use basic
+manipulations of data frames to extract the information. For those
+interested in analysing/using this type of data in R there are
+packages designed to work with genome annotation data directly and
+that tend to offer more specific functions for handling this kind of
+information, but those are outside the scope of this course.
 
 For those not familiar with the gtf format it is a file format
 containing annotation information for a genome. It does not contain
@@ -342,7 +326,7 @@ As these files for many organisms are large we will in this exercise
 use the latest version of Drosophila melanogaster genome annotation
 available at
 <ftp://ftp.ensembl.org/pub/release-86/gtf/drosophila_melanogaster> that
-is small enough for analysis even on a laptop.  
+is small enough for analysis even on a laptop.
 
 Open this and download the file named
 Drosophila\_melanogaster.BDGP6.86.gtf.gz to your computer. Unzip this
@@ -353,7 +337,7 @@ add meaningful column names to the table.
 <details>
 <summary>:key: Click to see how</summary>
 <pre>
-    
+
 	d.gtf <- read.table("Drosophila_melanogaster.BDGP6.86.gtf",
                         header = FALSE, comment.char = "#", sep = "\t")
     colnames(d.gtf) <- c("Chromosome", "Source", "Feature", "Start",
@@ -365,7 +349,7 @@ add meaningful column names to the table.
 Prior to any analysis you should make sure that your attempt to read
 in the file has worked as expected. This can for example be done by
 having a look at the dimension of the stored object and making sure
-that it has the structure you expect. 
+that it has the structure you expect.
 
 <details>
 <summary>:key: Click to see how</summary>
@@ -393,36 +377,36 @@ that it has the structure you expect.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
         levels(d.gtf$Chromosome)
-    
-         [1] "211000022278158"           "211000022278279"          
-         [3] "211000022278282"           "211000022278298"          
-         [5] "211000022278307"           "211000022278309"          
-         [7] "211000022278436"           "211000022278449"          
-         [9] "211000022278498"           "211000022278522"          
-        [11] "211000022278603"           "211000022278604"          
-        [13] "211000022278664"           "211000022278724"          
-        [15] "211000022278750"           "211000022278760"          
-        [17] "211000022278875"           "211000022278877"          
-        [19] "211000022278878"           "211000022278879"          
-        [21] "211000022278880"           "211000022278985"          
-        [23] "211000022279055"           "211000022279108"          
-        [25] "211000022279132"           "211000022279134"          
-        [27] "211000022279165"           "211000022279188"          
-        [29] "211000022279222"           "211000022279264"          
-        [31] "211000022279342"           "211000022279392"          
-        [33] "211000022279446"           "211000022279528"          
-        [35] "211000022279529"           "211000022279531"          
-        [37] "211000022279555"           "211000022279681"          
-        [39] "211000022279708"           "211000022280133"          
-        [41] "211000022280328"           "211000022280341"          
-        [43] "211000022280347"           "211000022280481"          
-        [45] "211000022280494"           "211000022280645"          
-        [47] "211000022280703"           "2L"                       
-        [49] "2R"                        "3L"                       
-        [51] "3R"                        "4"                        
-        [53] "Unmapped_Scaffold_8"       "X"                        
+
+         [1] "211000022278158"           "211000022278279"
+         [3] "211000022278282"           "211000022278298"
+         [5] "211000022278307"           "211000022278309"
+         [7] "211000022278436"           "211000022278449"
+         [9] "211000022278498"           "211000022278522"
+        [11] "211000022278603"           "211000022278604"
+        [13] "211000022278664"           "211000022278724"
+        [15] "211000022278750"           "211000022278760"
+        [17] "211000022278875"           "211000022278877"
+        [19] "211000022278878"           "211000022278879"
+        [21] "211000022278880"           "211000022278985"
+        [23] "211000022279055"           "211000022279108"
+        [25] "211000022279132"           "211000022279134"
+        [27] "211000022279165"           "211000022279188"
+        [29] "211000022279222"           "211000022279264"
+        [31] "211000022279342"           "211000022279392"
+        [33] "211000022279446"           "211000022279528"
+        [35] "211000022279529"           "211000022279531"
+        [37] "211000022279555"           "211000022279681"
+        [39] "211000022279708"           "211000022280133"
+        [41] "211000022280328"           "211000022280341"
+        [43] "211000022280347"           "211000022280481"
+        [45] "211000022280494"           "211000022280645"
+        [47] "211000022280703"           "2L"
+        [49] "2R"                        "3L"
+        [51] "3R"                        "4"
+        [53] "Unmapped_Scaffold_8"       "X"
         [55] "Y"                         "dmel_mitochondrion_genome"
         [57] "rDNA"
 
@@ -433,9 +417,9 @@ that it has the structure you expect.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
         aggregate(d.gtf$Feature, by = list(d.gtf$Chromosome), summary)
-    
+
                              Group.1 x.CDS x.Selenocysteine x.exon x.five_prime_utr
         1            211000022278158     0                0      1                0
         2            211000022278279     0                0      1                0
@@ -493,355 +477,355 @@ that it has the structure you expect.
         54                         X 28967                2  34136             8824
         55                         Y   111                0    182               13
         56 dmel_mitochondrion_genome    13                0     37                0
-        57                      rDNA     0                0     21                0	
+        57                      rDNA     0                0     21                0
 	</pre>
 	</details>
-<br>	
+<br>
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-		
+
 		by(data = d.gtf$Feature, d.gtf[,"Chromosome"], summary)
 		d.gtf[, "Chromosome"]: 211000022278158
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278279
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278282
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278298
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278307
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278309
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278436
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278449
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               2               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               2               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278498
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278522
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278603
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278604
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278664
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278724
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278750
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278760
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      2               0               2               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      1               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      2               0               2               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      1               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278875
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278877
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
 			d.gtf[, "Chromosome"]: 211000022278878
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278879
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278880
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022278985
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279055
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279108
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279132
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279134
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279165
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279188
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      3               0               3               1               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      1               1               1               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      3               0               3               1               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      1               1               1               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279222
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279264
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279342
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279392
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279446
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279528
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279529
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279531
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279555
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279681
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022279708
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280133
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280328
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      4               0               4               1               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      1               1               1               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      4               0               4               1               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      1               1               1               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280341
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280347
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280481
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280494
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               2               0               2 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               2 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               2               0               2
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               2
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280645
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 211000022280703
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0               1               0               1 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      0               0               0               1 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0               1               0               1
+            start_codon      stop_codon three_prime_utr      transcript
+                      0               0               0               1
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 2L
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                  28047               2           32747            8374            3465 
-            start_codon      stop_codon three_prime_utr      transcript 
-                   5675            5656            6142            6632 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                  28047               2           32747            8374            3465
+            start_codon      stop_codon three_prime_utr      transcript
+                   5675            5656            6142            6632
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 2R
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                  33657               0           38551            8842            3601 
-            start_codon      stop_codon three_prime_utr      transcript 
-                   6028            6018            6484            6927 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                  33657               0           38551            8842            3601
+            start_codon      stop_codon three_prime_utr      transcript
+                   6028            6018            6484            6927
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 3L
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                  29473               0           34347            8738            3433 
-            start_codon      stop_codon three_prime_utr      transcript 
-                   5873            5853            6352            6676 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                  29473               0           34347            8738            3433
+            start_codon      stop_codon three_prime_utr      transcript
+                   5873            5853            6352            6676
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 3R
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                  37167               0           43159           10693            4125 
-            start_codon      stop_codon three_prime_utr      transcript 
-                   7105            7092            7782            8010 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                  37167               0           43159           10693            4125
+            start_codon      stop_codon three_prime_utr      transcript
+                   7105            7092            7782            8010
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: 4
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                   2732               0            3165             570             111 
-            start_codon      stop_codon three_prime_utr      transcript 
-                    295             289             339             343 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                   2732               0            3165             570             111
+            start_codon      stop_codon three_prime_utr      transcript
+                    295             289             339             343
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: Unmapped_Scaffold_8
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                     12               0              14               4               2 
-            start_codon      stop_codon three_prime_utr      transcript 
-                      3               3               2               3 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                     12               0              14               4               2
+            start_codon      stop_codon three_prime_utr      transcript
+                      3               3               2               3
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: X
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                  28967               2           34136            8824            2647 
-            start_codon      stop_codon three_prime_utr      transcript 
-                   5372            5351            5921            5973 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                  28967               2           34136            8824            2647
+            start_codon      stop_codon three_prime_utr      transcript
+                   5372            5351            5921            5973
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: Y
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                    111               0             182              13              71 
-            start_codon      stop_codon three_prime_utr      transcript 
-                     23              22              10              72 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                    111               0             182              13              71
+            start_codon      stop_codon three_prime_utr      transcript
+                     23              22              10              72
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: dmel_mitochondrion_genome
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                     13               0              37               0              37 
-            start_codon      stop_codon three_prime_utr      transcript 
-                     12              10               0              37 
-        ------------------------------------------------------------ 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                     13               0              37               0              37
+            start_codon      stop_codon three_prime_utr      transcript
+                     12              10               0              37
+        ------------------------------------------------------------
         d.gtf[, "Chromosome"]: rDNA
-                    CDS  Selenocysteine            exon  five_prime_utr            gene 
-                      0               0              21               0              19 
-            start_codon      stop_codon three_prime_utr      transcript 
+                    CDS  Selenocysteine            exon  five_prime_utr            gene
+                      0               0              21               0              19
+            start_codon      stop_codon three_prime_utr      transcript
                       0               0               0              19
     </pre>
 	</details>
@@ -885,12 +869,12 @@ that it has the structure you expect.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
         d.gtf3R <- d.gtf[d.gtf$Chromosome == "3R",]
-        exon.position <- d.gtf3R[d.gtf3R$Feature == "exon",c("Start", "End")]   
+        exon.position <- d.gtf3R[d.gtf3R$Feature == "exon",c("Start", "End")]
         median(abs(exon.position$Start - exon.position$End))
         mean(abs(exon.position$Start - exon.position$End))
-    
+
         [1] 251
         [1] 468.6693
 	</pre>
@@ -902,17 +886,17 @@ that it has the structure you expect.
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-    
+
              chr <- c("2L", "2R", "3L", "4", "X", "Y")
              for (i in chr) {
                   d.gtf.tmp <- d.gtf[d.gtf$Chromosome == i,]
-                  exon.position <- d.gtf.tmp[d.gtf.tmp$Feature == "exon", c("Start", "End")]   
+                  exon.position <- d.gtf.tmp[d.gtf.tmp$Feature == "exon", c("Start", "End")]
                   exon.med <- median(abs(exon.position$Start - exon.position$End))
                   exon.mean <- mean(abs(exon.position$Start - exon.position$End))
                   txt <- sprintf("The median and mean exon length for %s is %g and %g, respectively", i, exon.med, exon.mean)
                   print(txt)
         }
-    
+
         [1] "The median and mean exon length for 2L is 279 and 502.617, respectively"
         [1] "The median and mean exon length for 2R is 225 and 437.187, respectively"
         [1] "The median and mean exon length for 3L is 255 and 502.116, respectively"

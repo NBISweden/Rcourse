@@ -44,13 +44,13 @@ In this exercise you will learn how to:
 - Create and work with matrices, data frames and lists
 - Perform basic math operator on matrices
 - Use functions to summarize information from data frames
-- Extract subsets of data from macrices, data frames and lists
+- Extract subsets of data from matrices, data frames and lists
 - Create S3 object from a list
 
 
 # Matrices in R<a id="orgheadline3"></a>
 
-The command to create a matrix in R is `matrix()`. 
+The command to create a matrix in R is `matrix()`.
 As input it takes a vector of values, the number of
 rows and the number of columns.
 
@@ -81,7 +81,7 @@ can set the byrow flag to TRUE.
 
 Subsetting a matrix is done the same way as for vectors, but you have
 more than one dimension to work with. So you specify the rows and
-column needed. 
+column needed.
 
     X[1,2]
 
@@ -101,59 +101,62 @@ to a vector otherwise it will still be a matrix.
 
 ## Exercise: Working with matrices in R<a id="orgheadline2"></a>
 
-Create a matrix containing 1:12 as shown for the matrix X above. 
+Create a matrix containing 1:12 as shown for the matrix X above.
 
 1.  What is the length and the mode of the matrix?
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         mode(X)
         length(X)
-    
+
         [1] "numeric"
         [1] 12
     </pre>
     </details>
 <br>
+
 2.  Use similar ideas as when you worked with vectors to extract all
     values in the matrix that is larger than 6
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         X[X>6]
-    
+
         [1]  7 10  8 11  9 12
-    
+
     </pre>
     </details>
 <br>
+
 3.  Shift places of column 1 and 3 in X
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
 
         X[,c(3,2,1)]
-    
+
              [,1] [,2] [,3]
         [1,]    3    2    1
         [2,]    6    5    4
         [3,]    9    8    7
         [4,]   12   11   10
-    
+
     </pre>
     </details>
 <br>
+
 4.  Add a vector with three zeros as a fifth row to the matrix
 
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         X.2 <- rbind(X, rep(0, 3))
         X.2
-    
+
              [,1] [,2] [,3]
         [1,]    1    2    3
         [2,]    4    5    6
@@ -163,14 +166,15 @@ Create a matrix containing 1:12 as shown for the matrix X above.
     </pre>
     </details>
 <br>
+
 5.  Replace all values the first two columns in your matrix with "NA".
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         X[,1:2] <- NA
         X
-    
+
              [,1] [,2] [,3]
         [1,]   NA   NA    3
         [2,]   NA   NA    6
@@ -179,37 +183,40 @@ Create a matrix containing 1:12 as shown for the matrix X above.
     </pre>
     </details>
 <br>
+
 6.  Replace all values in the matrix with 0 and convert it to a vector
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         X[] <- 0
         as.vector(X)
-    
+
         [1] 0 0 0 0 0 0 0 0 0 0 0 0
     </pre>
     </details>
 <br>
+
 7.  In the the exercies earlier you created a vector with the names of
     the type Geno\_a\_1, Geno\_a\_2, Geno\_a\_3, Geno\_b\_1, Geno\_b\_2&#x2026;,
     Geno\_s\_3 using vectors. In todays lecture a function named outer
     that generate matrixes was mentioned. Try to generate the same
-    vector as yesterday using this function instead. The outer function
-    is very powerful, but can be hard to wrap you head around, so try
-    to follow the logics, perhaps by creating a simple example to start
-    with.
+    vector as yesterday using this function instead. There was an
+    example of the outer function also on the exercise yesterday and
+    it is a very powerful function, but can be hard to wrap you head around, so try
+    to follow the logics, perhaps comparing to the example from
+    yesterday.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         letnum <- outer(paste("Geno",letters[1:19], sep = "_"), 1:3, paste, sep = "_")
         class(letnum)
         sort(as.vector(letnum))
         #sort(paste("Geno", as.vector(letnum), sep = "_"))
-    
+
         [1] "matrix"
-        
+
         [1] "Geno_a_1" "Geno_a_2" "Geno_a_3" "Geno_b_1" "Geno_b_2" "Geno_b_3"
          [7] "Geno_c_1" "Geno_c_2" "Geno_c_3" "Geno_d_1" "Geno_d_2" "Geno_d_3"
         [13] "Geno_e_1" "Geno_e_2" "Geno_e_3" "Geno_f_1" "Geno_f_2" "Geno_f_3"
@@ -220,24 +227,25 @@ Create a matrix containing 1:12 as shown for the matrix X above.
         [43] "Geno_o_1" "Geno_o_2" "Geno_o_3" "Geno_p_1" "Geno_p_2" "Geno_p_3"
         [49] "Geno_q_1" "Geno_q_2" "Geno_q_3" "Geno_r_1" "Geno_r_2" "Geno_r_3"
         [55] "Geno_s_1" "Geno_s_2" "Geno_s_3"
-    
+
     </pre>
     </details>
 <br>
+
 8.  Create two different 2 by 2 matrices named A and B. A should
-    contain the values 1 - 4 and B the values 5-8. Try out the
+    contain the values 1 - 4 and B the values 5 - 8. Try out the
     following commands and by looking at the results see if you can
-    figure out what is going on.  
-    A. A \* B  
-    B. A / B  
-    C. A %x% B  
-    D. A + B  
-    E. A - B  
-    F. A == B  
+    figure out what is going on.
+    A. A \* B
+    B. A / B
+    C. A %x% B
+    D. A + B
+    E. A - B
+    F. A == B
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         A <- matrix(1:4, ncol = 2, nrow = 2)
         B <- matrix(5:8, ncol = 2, nrow = 2)
         A
@@ -245,7 +253,7 @@ Create a matrix containing 1:12 as shown for the matrix X above.
             [,1] [,2]
         [1,]    1    3
         [2,]    2    4
-		
+
 		B
 
             [,1] [,2]
@@ -253,53 +261,54 @@ Create a matrix containing 1:12 as shown for the matrix X above.
         [2,]    6    8
 
         A * B
-		
+
             [,1] [,2]
         [1,]    5   21
         [2,]   12   32
 
 		A / B
-		
+
                  [,1]      [,2]
         [1,] 0.2000000 0.4285714
         [2,] 0.3333333 0.5000000
-		
-		
+
+
         A %x% B
-		
+
             [,1] [,2] [,3] [,4]
         [1,]    5    7   15   21
         [2,]    6    8   18   24
         [3,]   10   14   20   28
         [4,]   12   16   24   32
-		
+
         A + B
-		
+
             [,1] [,2]
         [1,]    6   10
         [2,]    8   12
-		
+
         A - B
-		
+
             [,1] [,2]
         [1,]   -4   -4
         [2,]   -4   -4
-		
+
         A == B
-		
+
              [,1]  [,2]
         [1,] FALSE FALSE
         [2,] FALSE FALSE
-    
+
     </pre>
     </details>
 <br>
+
 9.  Generate a 10 by 10 matrix with random numbers. Add row and
     columnnames and calculate mean and median over rows and save these
-    in a new matrix.  
-    <details> <summary>:key: Click to see how</summary> 
+    in a new matrix.
+    <details> <summary>:key: Click to see how</summary>
     <pre>
-    
+
         e <- rnorm(n = 100)
         E <- matrix(e, nrow = 10, ncol = 10)
         colnames(E) <- LETTERS[1:10]
@@ -308,14 +317,14 @@ Create a matrix containing 1:12 as shown for the matrix X above.
         E.medians <- apply(E, MARGIN = 1, median)
         E.mm <- rbind(E.means, E.medians)
         E.mm
-    
+
                            A          B          C          D         E         F
         E.means   -0.01902767 0.01075332 -0.4137270 -0.1304978 0.2099126 0.2965743
         E.medians  0.53337938 0.18481261 -0.2248858 -0.1139851 0.3269634 0.2601974
                            G           H          I          J
         E.means   -0.6670421 -0.27378920 -0.1533350 -0.0437610
         E.medians -0.5247300 -0.09460231 -0.3547495 -0.2493248
-    
+
     </pre>
     </details>
 <br>
@@ -345,39 +354,41 @@ In the above example we can see that the data frame df contains 10
 observations for three variables that all have different modes, column
 1 is an integer vector, column 2 a vector with factors! and column
 3 a numeric vector. It is noteworthy that the second column is a
-factor even though we just gave it a character vector.
+factor even though we just gave it a character vector. See question 1
+below if you wonder why this is the case.
 
 ## Exercise: Working with data frames<a id="orgheadline4"></a>
 
 1.  Use the built-in help in R to figure out what is going on with the
     second column in df data frame described above and modify the
     creation of the data frame so that the second column is stored as a
-    character vector.  
+    character vector.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         df <- data.frame(vector1, vector2, vector3, stringsAsFactors = FALSE)
 			str(df)
-    
+
         'data.frame':   10 obs. of  3 variables:
          $ vector1: int  1 2 3 4 5 6 7 8 9 10
          $ vector2: chr  "a" "b" "c" "d" ...
          $ vector3: num  8.463 0.905 -0.255 -6.59 3.369 ...
-    
+
     </pre>
     </details>
 <br>
+
 2.  One can select columns from a data frame using either the name or
     the position. Use both methods to print the last two columns from
     the df data frame.
     <details>
     <summary>:key: Click to see how</summary>
-    <pre>   
-    
+    <pre>
+
         df[,2:3]
         df[,c("vector2", "vector3")]
-    
+
            vector2     vector3
         1        a   8.4628687
         2        b   0.9046253
@@ -400,7 +411,7 @@ factor even though we just gave it a character vector.
         8        h -10.4333097
         9        i   2.9716131
         10       j   8.1402695
-    
+
     </pre>
     </details>
 <br>
@@ -409,13 +420,13 @@ factor even though we just gave it a character vector.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         df[df$vector3>0,2]
         df$vector2[df$vector3>0]
-    
+
         [1] "a" "b" "e" "f" "g" "i" "j"
         [1] "a" "b" "e" "f" "g" "i" "j"
-    
+
     </pre>
     </details>
 <br>
@@ -423,14 +434,14 @@ factor even though we just gave it a character vector.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         paste(df$vector1, df$vector2, df$vector3, sep = "_")
-    
+
          [1] "1_a_8.46286871843976"  "2_b_0.904625308313597" "3_c_-0.25491171338376"
-         [4] "4_d_-6.59025808447186" "5_e_3.36853617579661"  "6_f_16.7773472039123" 
-         [7] "7_g_9.32036493453533"  "8_h_-10.4333097064694" "9_i_2.97161306345798" 
+         [4] "4_d_-6.59025808447186" "5_e_3.36853617579661"  "6_f_16.7773472039123"
+         [7] "7_g_9.32036493453533"  "8_h_-10.4333097064694" "9_i_2.97161306345798"
         [10] "10_j_8.14026953369552"
-    
+
     </pre>
     </details>
 <br>
@@ -439,9 +450,9 @@ factor even though we just gave it a character vector.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         mtcars
-    
+
                              mpg cyl  disp  hp drat    wt  qsec vs am gear carb
         Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
         Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
@@ -475,7 +486,7 @@ factor even though we just gave it a character vector.
         Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
         Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
         Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
-    
+
     </pre>
     </details>
 <br>
@@ -483,9 +494,9 @@ factor even though we just gave it a character vector.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         car.names <- sample(row.names(mtcars))
-    
+
     </pre>
     </details>
 <br>
@@ -494,12 +505,12 @@ factor even though we just gave it a character vector.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         random1 <- rnorm(length(car.names))
         random2 <- rnorm(length(car.names))
         mtcars2 <- data.frame(car.names, random1, random2)
         mtcars2
-    
+
                     car.names    random1      random2
         1        Toyota Corona  0.2672093  0.748625274
         2           Duster 360 -0.4127061 -0.289656962
@@ -539,15 +550,15 @@ factor even though we just gave it a character vector.
 8.  Now you have two data frames that both contains information on a
     set of cars. A collaborator asks you to create a new data frame
     with all this information combined. Create this
-    merged data frame and make sure that it corresponds that is combined 
+    merged data frame and make sure that it is combined
 	in the correct way.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         mt.merged <- merge(mtcars, mtcars2, by.x = "row.names", by.y = "car.names")
         mt.merged
-    
+
                      Row.names  mpg cyl  disp  hp drat    wt  qsec vs am gear carb
         1          AMC Javelin 15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
         2   Cadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
@@ -618,14 +629,14 @@ factor even though we just gave it a character vector.
     </details>
 <br>
 9.  Calculate the mean value for the two columns that you added to the
-    mtcars data frame. 
+    mtcars data frame.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-  
+
         colMeans(mtcars2[, c("random1", "random2")])
 
-            random1     random2 
+            random1     random2
          0.07930118 -0.19708361
 
     </pre>
@@ -638,17 +649,17 @@ factor even though we just gave it a character vector.
     <pre>
 
 		aggregate(mtcars2$random1,  by = list(mtcars$cyl), FUN = mean)
-    
+
           Group.1          x
         1       4 0.02470902
         2       6 0.16250439
         3       8 0.08059342
-    
+
           mtcars$cyl mtcars2$ex1
         1          4 -0.31758135
         2          6 -0.31712091
         3          8  0.01378375
-    
+
     </pre>
     </details>
 <br>
@@ -662,7 +673,7 @@ other restrictions. The drawback with a flexible structure is that it
 requires a bit more work to interact with.
 
 The syntax to create a list is similar to creation of the other data
-structures in R. 
+structures in R.
 
     l <- list(1, 2, 3)
 
@@ -729,13 +740,13 @@ is stored, one needs to "dig" deeper in the object.
 
      [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
     [20] "t" "u" "v" "w" "x" "y" "z"
-     
+
     chr [1:26] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" ...
 
 This means that the syntax to extract to exact specific value from a
 data structure stored in a list can be daunting, examplified by
 extracting the second column of the data fram stored at position 4 in
-the list u.2.  
+the list u.2.
 
     u.2[[4]][,2]
 
@@ -748,16 +759,16 @@ the list u.2.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         list.2 <- list(vec1 = c("hi", "ho", "merry", "christmas"), vec2 = 4:19, mat1 = matrix(as.character(100:81), nrow = 4))
         list.2
-    
+
         $vec1
         [1] "hi"        "ho"        "merry"     "christmas"
-        
+
         $vec2
          [1]  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
-        
+
         $mat1
              [,1] [,2] [,3] [,4] [,5]
         [1,]  100   96   92   88   84
@@ -771,10 +782,10 @@ the list u.2.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         df <- data.frame(letters, LETTERS, letters == LETTERS)
         list.2[[4]] <- df
-    
+
     </pre>
     </details>
 <br>
@@ -782,19 +793,19 @@ the list u.2.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-		
+
         list.2[-2]
-	
+
 	$vec1
     [1] "hi"        "ho"        "merry"     "christmas"
-    
+
     $mat1
          [,1] [,2] [,3] [,4] [,5]
     [1,]  100   96   92   88   84
     [2,]   99   95   91   87   83
     [3,]   98   94   90   86   82
     [4,]   97   93   89   85   81
-    
+
     [[3]]
        letters LETTERS letters....LETTERS
     1        a       A              FALSE
@@ -831,10 +842,10 @@ the list u.2.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         vec1 <- rnorm(1000)
         list.a <- split(vec1, 1:20)
-    
+
     </pre>
     </details>
 <br>
@@ -843,68 +854,68 @@ the list u.2.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         length(list.a)
         lapply(list.a, FUN = "length")
-    
+
         [1] 20
         $`1`
         [1] 50
-        
+
         $`2`
         [1] 50
-        
+
         $`3`
         [1] 50
-        
+
         $`4`
         [1] 50
-        
+
         $`5`
         [1] 50
-        
+
         $`6`
         [1] 50
-        
+
         $`7`
         [1] 50
-        
+
         $`8`
         [1] 50
-        
+
         $`9`
         [1] 50
-        
+
         $`10`
         [1] 50
-        
+
         $`11`
         [1] 50
-        
+
         $`12`
         [1] 50
-        
+
         $`13`
         [1] 50
-        
+
         $`14`
         [1] 50
-        
+
         $`15`
         [1] 50
-        
+
         $`16`
         [1] 50
-        
+
         $`17`
         [1] 50
-        
+
         $`18`
         [1] 50
-        
+
         $`19`
         [1] 50
-        
+
         $`20`
         [1] 50
     </pre>
@@ -915,92 +926,92 @@ the list u.2.
     summary on your newly created list.
     What are the pros and cons of the two approaches to calculate the
     same summary statistics?
-    
+
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
-    
+
         lapply(X = list.a, FUN = "summary")
         sapply(X = list.a, FUN = "summary")
-    
+
         $`1`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -1.91700 -0.98430 -0.10330 -0.09407  0.64310  2.57300 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -1.91700 -0.98430 -0.10330 -0.09407  0.64310  2.57300
+
         $`2`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.55600 -0.59190  0.06890  0.09146  0.98040  2.40500 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.55600 -0.59190  0.06890  0.09146  0.98040  2.40500
+
         $`3`
-           Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-        -1.7200 -0.2922  0.3422  0.4497  1.0440  3.4580 
-        
+           Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+        -1.7200 -0.2922  0.3422  0.4497  1.0440  3.4580
+
         $`4`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -1.65400 -0.77660 -0.06379  0.05182  0.68320  2.72800 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -1.65400 -0.77660 -0.06379  0.05182  0.68320  2.72800
+
         $`5`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.11200 -0.67370  0.09657  0.08760  0.78310  2.42000 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.11200 -0.67370  0.09657  0.08760  0.78310  2.42000
+
         $`6`
-           Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-        -2.3730 -1.1960 -0.1069 -0.1600  0.7839  2.5650 
-        
+           Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+        -2.3730 -1.1960 -0.1069 -0.1600  0.7839  2.5650
+
         $`7`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.08900 -0.84710 -0.31490 -0.25480  0.03034  1.86400 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.08900 -0.84710 -0.31490 -0.25480  0.03034  1.86400
+
         $`8`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -3.13100 -0.74770  0.25510 -0.03403  0.75410  1.98000 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -3.13100 -0.74770  0.25510 -0.03403  0.75410  1.98000
+
         $`9`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.58600 -0.36920  0.02267  0.10700  0.48530  2.19900 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.58600 -0.36920  0.02267  0.10700  0.48530  2.19900
+
         $`10`
-           Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-        -2.0500 -1.0210 -0.4427 -0.2017  0.5982  2.4700 
-        
+           Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+        -2.0500 -1.0210 -0.4427 -0.2017  0.5982  2.4700
+
         $`11`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.00300 -0.65670 -0.02114  0.04536  0.54900  2.47800 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.00300 -0.65670 -0.02114  0.04536  0.54900  2.47800
+
         $`12`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.08200 -0.76080 -0.17120 -0.09029  0.36670  2.58100 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.08200 -0.76080 -0.17120 -0.09029  0.36670  2.58100
+
         $`13`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.42300 -0.66920  0.02297 -0.01248  0.63560  2.35000 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.42300 -0.66920  0.02297 -0.01248  0.63560  2.35000
+
         $`14`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.18400 -0.99050 -0.06705 -0.18770  0.43920  2.40500 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.18400 -0.99050 -0.06705 -0.18770  0.43920  2.40500
+
         $`15`
-             Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
-        -2.194000 -0.638600  0.090650 -0.006298  0.599600  2.537000 
-        
+             Min.   1st Qu.    Median      Mean   3rd Qu.      Max.
+        -2.194000 -0.638600  0.090650 -0.006298  0.599600  2.537000
+
         $`16`
-           Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-        -1.9650 -0.8252 -0.1867 -0.1255  0.4426  2.4360 
-        
+           Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+        -1.9650 -0.8252 -0.1867 -0.1255  0.4426  2.4360
+
         $`17`
-           Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-        -2.5890 -0.8900 -0.3218 -0.3507  0.3900  1.8250 
-        
+           Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+        -2.5890 -0.8900 -0.3218 -0.3507  0.3900  1.8250
+
         $`18`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.17500 -0.52770  0.05985 -0.07110  0.41190  1.66200 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.17500 -0.52770  0.05985 -0.07110  0.41190  1.66200
+
         $`19`
-            Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-        -2.42600 -0.65740  0.06455  0.02680  0.48520  2.75000 
-        
+            Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+        -2.42600 -0.65740  0.06455  0.02680  0.48520  2.75000
+
         $`20`
-           Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+           Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
         -2.5350 -0.4091  0.2411  0.1381  0.6583  2.7100
                        1        2       3        4        5       6        7        8
         Min.    -1.91700 -2.55600 -1.7200 -1.65400 -2.11200 -2.3730 -2.08900 -3.13100
@@ -1035,9 +1046,9 @@ the list u.2.
    - The length of the protein sequence
    - Information on who and when it was discovered
    - Protein assay data
-   
+
    Create this hypethetical S3 object in R.
-   
+
 2. Among the test data sets that are part of base R, there is one
    called iris. It contains measurements on set of plants. You can
    access the data using by typing iris in R. Explore this data set
