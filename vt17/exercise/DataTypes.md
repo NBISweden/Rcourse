@@ -441,7 +441,7 @@ lectures and exercises.
 - find package 'reshape'-related questions on StackOverflow,
 - *google* how to load an XML file into R,
 - install the 'PTXQC' package from GitHub,
-- ~~look up the 'GenABEL' vignette~~,
+- DO NOT DO: DOESN'T WORK TODAY. look up the 'GenABEL' vignette,
 - see all the demos available for you and run one you like,
 - run examples for the *fisher.test*,
 - check out CRANs view for genetics,
