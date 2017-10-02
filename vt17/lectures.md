@@ -27,7 +27,7 @@ Variables and their types, operators
 </li>
 
 <li>
-<a href="lecture/Lecture_4_-_Elements4.pdf">
+<a href="lecture/Lecture_4_-_Elements2.pdf">
 <h3>Tuesday part 1</h3>
 Elements of the R programming language - 2:
 Vectors, numbers as vectors, strings as vectors
@@ -35,7 +35,7 @@ Vectors, numbers as vectors, strings as vectors
 </li>
 
 <li>
-<a href="lecture/5">
+<a href="lecture/Lecture_5_-_Elements3.pdf">
 <h3>Tuesday part 2</h3>
 Elements of the R programming language - 3:
 Matrices, lists, data frames, objects
