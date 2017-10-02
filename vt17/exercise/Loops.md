@@ -3,20 +3,6 @@ layout: default
 title:  'Loops in R'
 ---
 # Loops in R
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgheadline2">1. Introduction</a>
-<ul>
-<li><a href="#orgheadline1">1.1. Exercises: Loop structures</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-# Introduction<a id="orgheadline2"></a>
 
 In programming languages loop structures, either with or without
 conditions, are used to repeat commands over multiple entities. For
@@ -51,7 +37,6 @@ After this exercise you should know:
 - Some common alternatives to using loops in R
 - How one can convert a short script to a function.
 - Use that new function in R.
--  
 
 
 ## Exercises: Loop structures<a id="orgheadline1"></a>

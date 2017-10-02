@@ -438,7 +438,7 @@ lectures and exercises.
 - get help for the *t.test*, *table*, *locator* and *identify* functions,
 - check for all occurences of *fisher.test* in the docs,
 - which package contains the *plot.ecdf* function. What does it do?
-- find package 'reshaape'-related questions on StackOverflow,
+- find package 'reshape'-related questions on StackOverflow,
 - *google* how to load an XML file into R,
 - install the 'cgmisc' package from GitHub,
 - look up the 'cgmisc' vignette,
