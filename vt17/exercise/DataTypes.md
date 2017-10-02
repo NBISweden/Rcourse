@@ -440,8 +440,8 @@ lectures and exercises.
 - which package contains the *plot.ecdf* function. What does it do?
 - find package 'reshape'-related questions on StackOverflow,
 - *google* how to load an XML file into R,
-- install the 'cgmisc' package from GitHub,
-- look up the 'cgmisc' vignette,
+- install the 'xgboost' package from GitHub,
+- look up the 'xgboost' vignette,
 - see all the demos available for you and run one you like,
 - run examples for the *fisher.test*,
 - check out CRANs view for genetics,
