@@ -130,7 +130,15 @@ the entries in the vector.
 
 	[1] "A" "B" "C"
 
-With named vector the names can be used to
+With named vector the names can be used to select entries. One can
+hence do this
+
+	example.vector["A"]
+
+a command that is generating the same results as
+
+	example.vector[1]
+
 
 # Exercise: Creating and working with vectors<a id="orgheadline7"></a>
 
