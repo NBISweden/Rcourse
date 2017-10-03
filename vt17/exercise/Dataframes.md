@@ -641,7 +641,7 @@ below if you wonder why this is the case.
 # Lists<a id="orgheadline7"></a>
 
 The last data structure that we will explore are lists, which is a
-very flexible structure. Lists can i R combine different data
+very flexible structure. Lists can in R combine different data
 structures and they do not have to be of equal dimensions or have
 other restrictions. The drawback with a flexible structure is that it
 requires a bit more work to interact with.
@@ -719,14 +719,14 @@ is stored, one needs to "dig" deeper in the object.
 
 This means that the syntax to extract to exact specific value from a
 data structure stored in a list can be daunting, examplified by
-extracting the second column of the data fram stored at position 4 in
+extracting the second column of the data frame stored at position 4 in
 the list u.2.
 
     u.2[[4]][,2]
 
     [1]  91  92  93  94  95  96  97  98  99 100
 
-## Exercise: Working with lists<a id="orgheadline6"></a>
+## Exercise: Working with lists
 
 1.  Create a list containing 1 character vector, a numeric vector, a
     character matrix.
