@@ -27,7 +27,7 @@ Room: BMC I1341 and/or BMC H1023 computer room<br>
 **09.00-09.15** Registration and Welcome (Christine Karlsson)<br>
 **09:15-10:00** [Lecture: Introduction to R programming](lecture/Lecture_1_-_Introduction.pdf) (Marcin Kierczak)<br>
 **10:15-10:45** [Lecture: Introduction to R environment](lecture/Lecture_2_-_REnvironment.pdf) (Marcin Kierczak)<br>
-**11:00-12:00** [Exercise and video: Using R-studio]() (Marcin Kierczak, Dag Ahren)<br>
+**11:00-12:00** [Exercise and video: Using R-studio](https://www.dropbox.com/s/3sy4ou2o8jh5syf/RCourseVideo.mov?dl=0) (Marcin Kierczak, Dag Ahren)<br>
 **12:00-13:00** Lunch<br>
 **13:00-15:00** [Lecture: Elements of R programming - variable types, operators](lecture/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)<br>
 **15:00-17:00** [Exercise: Data types in R](exercise/DataTypes) (Marcin Kierczak, Dag Ahren, Markus Ringner)<br>
@@ -44,7 +44,7 @@ Room: BMC I1341 and/or BMC H1023 computer room<br>
 Room: BMC I1341 and/or BMC H1023 computer room<br>
 **09:00-10:00** [Lecture: Elements of R programming language - control structures, iteration, recursion, variable scope](lecture/Lecture_6_-_Elements4.pdf) (Marcin Kierczak)<br>
 **10:00-11:00** [Lecture: Loading data into R](lecture/Lecture_7_-_Loading_data.pdf) (Marcin Kierczak)<br>
-**11:00-12:00** [Exercise: Loding data](exercise/LoadData) (Marcin Kierczak, Dag Ahren, Markus Ringner)<br>
+**11:00-12:00** [Exercise: Loading data](exercise/LoadData) (Marcin Kierczak, Dag Ahren, Markus Ringner)<br>
 **12:00-13:00** Lunch<br>
 **13:00-17:00** [Exercise: Loops, conditional statements, functions, variable scope](exercise/Loops) (Dag Ahren, Markus Ringner)<br>
 
