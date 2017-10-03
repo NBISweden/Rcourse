@@ -27,7 +27,7 @@ Room: [Room](files/bmc_map.jpg)
 Room: [Room](files/bmc_map.jpg)
 **09:00-10:00** [Lecture: Elements of R programming language - control structures, iteration, recursion, variable scope](Lectures/Lecture_6_-_Elements4.pdf) (Marcin Kierczak)
 **10:00-11:00** [Lecture: Loading data into R](Lectures/Lecture_7_-_Loading_data.pdf) (Marcin Kierczak)
-**11:00-12:00** [Exercise: Loding data](Exercises/LoadData) (Marcin Kierczak, Dag Ahren, Markus Ringner)
+**11:00-12:00** [Exercise: Loading data](Exercises/LoadData) (Marcin Kierczak, Dag Ahren, Markus Ringner)
 **12:00-13:00** Lunch
 **13:00-17:00** [Exercise: Loops, conditional statements, functions, variable scope](Exercises/Loops) (Dag Ahren, Markus Ringner)
 **18:00-** Course dinner?
