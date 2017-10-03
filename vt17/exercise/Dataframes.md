@@ -3,32 +3,6 @@ layout: default
 title:  'Matrices, data frames and lists'
 ---
 # Matrices, data frames and lists
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgheadline1">1. Introduction</a></li>
-<li><a href="#orgheadline3">2. Matrices in R</a>
-<ul>
-<li><a href="#orgheadline2">2.1. Exercise: Working with matrices in R</a></li>
-</ul>
-</li>
-<li><a href="#orgheadline5">3. Data frames</a>
-<ul>
-<li><a href="#orgheadline4">3.1. Exercise: Working with data frames</a></li>
-</ul>
-</li>
-<li><a href="#orgheadline7">4. Lists</a>
-<ul>
-<li><a href="#orgheadline6">4.1. Exercise: Working with lists</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-
-# Introduction<a id="orgheadline1"></a>
 
 A data set that have more than one dimension is conceptually hard to
 store as a vector. For two-dimensional data set the solution to this
