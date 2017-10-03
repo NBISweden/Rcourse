@@ -404,7 +404,7 @@ below if you wonder why this is the case.
     </pre>
     </details>
 <br>
-4.  Create a new vector combining the all columns of df seperated by a underscore.
+4.  Create a new vector where the number of elements is equal to the number of rows in the original data frame. Each element of this vector combines values from the three columns of df seperated by an underscore. For example, the first element of the vector should be: 1_a_8.46286871843976.
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
