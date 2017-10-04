@@ -37,7 +37,7 @@ Instead, the code blocks below will read in data and generate map
 plots. Make sure that you can run the code and generate the plot. Once
 you have a working code go over the code line by line and try to
 obtain a fairly detailed understanding of what is going on. Read the
-help for some of the functions and try to replot things with altered arguments (e.g. colors or point shapes).
+help for some of the functions and try to replot things with altered arguments (e.g. colors or point shapes or replot data for Lund instead of Uppsala).
 
 Before you start you should download the following files to your
 working directory:  
