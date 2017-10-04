@@ -111,7 +111,7 @@ have a sound word vector and list answer the questions below.
 	
 	<summary>:key: Click to see how</summary>
 	<pre>
-        shelley.vec2 <- scan(file = "book_chapter.txt", what = " ", quote = NULL)
+        shelley.vec2 <- scan(file = "book_chapter.txt", what = character(), quote = NULL)
         shelley.filt2 <- gsub(pattern = '[^[:alnum:] ]', replacement = "", x = shelley.vec2)
         which(nchar(shelley.filt2) == max(nchar(shelley.filt2)))
         shelley.filt2[301]
