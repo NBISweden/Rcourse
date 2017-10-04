@@ -102,10 +102,13 @@ have a sound word vector and list answer the questions below.
 2.  Go back and fix the way you read in the text to make sure that you
     get a vector with all words in chapter as individual entries also
     filter any non-letter characters and now identify the longest word.
+    
     HINT: read about regular expressions, e.g. in the gsub documentation. Follow
-    the link 'regular expression' that is in the description of the gsub **pattern** argument. Look for 
-    [:alnum:].
-	<details>
+    the link 'regular expression' that is in the description of the gsub *pattern* argument. Look for 
+    [:alnum:]. Also read the paragraph beginning with: *A character class is a list of characters enclosed between [ and ] which matches any single character in that list; unless the first character of the list is the caret *
+    If you still have trouble with this exercise, check the answer.
+	<details> 
+	
 	<summary>:key: Click to see how</summary>
 	<pre>
         shelley.vec2 <- scan(file = "book_chapter.txt", what = " ", quote = NULL)
