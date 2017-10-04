@@ -71,9 +71,9 @@ dimension).
   axis, set 10 equidistant tickmarks and set labels to their values
   rounded to two decimals. Turn the labels, so that they are parallel
   to the OX axis.
-	  <details>
-	  <summary>:key: Click to see how</summary>
-	  <pre>
+    <details>
+    <summary>:key: Click to see how</summary>
+    <pre>
 
 		#Create X axis
 		coords.x <- seq(min(data$X),max(data$X), by=1)
@@ -91,8 +91,8 @@ dimension).
 		labels=labels.y, # we want specific labels
 		las=2 # turn the text so it is parallel to OX
 		)
-	 </pre>
-	 </details>
+	</pre>
+	</details>
 <br>
 
 - plot auxiliary lines (a grid) so that it is easier to read the
