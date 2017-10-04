@@ -145,7 +145,7 @@ After this exercise you should know:
         }
         sum.vec
     
-        [1]  5.500000 15.000000  2.727954
+        [1]  55.00000 15.000000  2.727954
 	</pre>
 	</details>
 <br>
