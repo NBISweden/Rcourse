@@ -46,6 +46,17 @@ Room: [Room](files/bmc_map.jpg)
 **12.00-13.00** Lunch
 **13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
+## Bonus -- an R game
+If you want to test your skills and hopefully have some fun at the same time, you can play an R game. To do this,
+<pre>
+install.packages("BetaBit")
+library('BetaBit')
+</pre>
+and choose one of the three available games. For instance, to play the proton game (which we recommend), you type:
+<pre>
+proton()
+</pre>
+Then just follow instructions on your screen. Let us know if you complete the game! Good luck!
 
 **Extra Material**
 - [Color names list in R](files/Rcolor.pdf)

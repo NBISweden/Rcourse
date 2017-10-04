@@ -63,6 +63,25 @@ Room: BMC I1341 and/or BMC H1023 computer room<br>
 **12.00-13.00** Lunch<br>
 **13:00-16.00** [Graphics in R: ggplot2](exercise/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)<br>
 
+## Bonus -- an R game
+If you want to test your skills and hopefully have some fun at the same time, you can play an R game. To do this,
+<pre>
+install.packages("BetaBit")
+library('BetaBit')
+</pre>
+and choose one of the three available games. For instance, to play the proton game (which we recommend), you type:
+<pre>
+proton()
+</pre>
+Then just follow instructions on your screen. Let us know if you complete the game! Good luck!
+
+## Extra Material
+- [Color names list in R](files/Rcolor.pdf)
+- [Visualizing data](files/rules_for_using_color.pdf)
+- [Naming conventions in R](files/Rnaming.pdf)
+- [Introduction to statistical tests in R](files/statests.pdf)
+- [Bioconductor examples](https://f1000research.com/channels/bioconductor)
+
 ## Teachers
 Marcin Kierczak - marcin.kierczak at scilifelab dot se, Uppsala University, NBIS<br>
 Thomas Källman - thomas.kallman at nbis dot se, Uppsala University, NBIS<br>
