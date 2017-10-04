@@ -105,7 +105,7 @@ have a sound word vector and list answer the questions below.
     
     HINT: read about regular expressions, e.g. in the gsub documentation. Follow
     the link 'regular expression' that is in the description of the gsub *pattern* argument. Look for 
-    [:alnum:]. Also read the paragraph beginning with: *A character class is a list of characters enclosed between [ and ] which matches any single character in that list; unless the first character of the list is the caret *
+    [:alnum:]. Also read the paragraph beginning with: *A character class is a list of characters enclosed between [ and ] which matches any single character in that list; unless the first character of the list is the caret*
     If you still have trouble with this exercise, check the answer.
 	<details> 
 	
