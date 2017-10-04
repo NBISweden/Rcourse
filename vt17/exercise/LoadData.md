@@ -59,7 +59,7 @@ entry in the vector or as a single vector in a list.
 Check that your newly created objects contain the correct information
 and have been saved as you have intended eg. each entry of the vector
 or the list should contain a single word. Once your convinced that you
-have a sound word vector and list.
+have a sound word vector and list answer the questions below.
 
 1.  Identify the longest word in your vector.
 	<details>

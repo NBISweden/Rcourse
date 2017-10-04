@@ -26,28 +26,28 @@ Matrices, lists and dataframes
 </li>
 
 <li>
-<a href="exercise/Vectors...">
+<a href="exercise/LoadData">
 <h3>Wednesday</h3>
 Loading data
 </a>
 </li>
 
 <li>
-<a href="exercises/">
+<a href="exercises/Loops">
 <h3>Wednesday</h3>
 Loops, conditional statements, functions, variable scope
 </a>
 </li>
 
 <li>
-<a href="exercises">
+<a href="exercises/PlotHandson">
 <h3>Thursday</h3>
 Base R graphics
 </a>
 </li>
 
 <li>
-<a href="exercises/">
+<a href="exercises/ggplots">
 <h3>Friday</h3>
 ggplot2 graphics
 </a>
