@@ -6,35 +6,36 @@ output:
 layout: default
 ---
 
-# Introduction<a id="orgheadline1"></a>
+# Introduction
 In this lab, we will go step-by-step through points that are necessary
 to create some nice-looking plots.
 
-# Generating data<a id="orgheadline2"></a>
-First, we will produce some random data that we will later plot. 
-Make a data frame with 
+# Generating data
+First, we will produce some random data that we will later plot.
+Make a data frame with
 
-- 20 random coordinates (x,y) and 
-- radius $r$ for each data point. 
-- The *x* coord takes random values from 1 to 25 and 
-- both the *y* and the radius *r* coord are samples from $N(0,1)$. 
+- 20 random coordinates (x,y) and
+- radius $r$ for each data point.
+- The *x* coord takes random values from 1 to 25 and
+- both the *y* and the radius *r* coord are samples from $N(0,1)$.
 - Each point (row of the data frame) has a name *ind1 ... ind25*,
 
-First, look at the defaults: 
+First, look at the defaults:
 
 - plot the data in the simplest possible way.
-  <details>
-  <summary>:key: Click to see how</summary>
-  <pre>
-  #20 random datapoints
-  x <- sample(c(1:25), size=20, replace=T)
-  y <- rnorm(n=20, mean=0, sd=1) # sample from normal
-  r <- rnorm(n=20, mean=0, sd=1) # radius from normal
-  names <- paste("ind", 1:20, sep="") # assign some names
-  data <- data.frame(cbind(X=x,Y=y, R=r), row.names=names)
-  plot(data[,1:2])
-  </pre>
-  </details>
+	<details>
+	<summary>:key: Click to see how</summary>
+	<pre>
+
+		#20 random datapoints
+		x <- sample(c(1:25), size=20, replace=T)
+		y <- rnorm(n=20, mean=0, sd=1) # sample from normal
+		r <- rnorm(n=20, mean=0, sd=1) # radius from normal
+		names <- paste("ind", 1:20, sep="") # assign some names
+		data <- data.frame(cbind(X=x,Y=y, R=r), row.names=names)
+		plot(data[,1:2])
+	</pre>
+	</details>
 <br>
 
 # Generating plot step-by-step<a id="orgheadline3"></a>
@@ -43,23 +44,26 @@ automatically, the radius is not reflected on the plot in any way (3rd
 dimension).
 
 - build the plot from scratch, begin by displaying no points.
-  <details>
-  <summary>:key: Click to see how</summary>
-  <pre>
-  plot(data[,1:2], type='n')
-  </pre>
-  </details>
+	<details>
+	<summary>:key: Click to see how</summary>
+	<pre>
+
+		plot(data[,1:2], type='n')
+
+	</pre>
+	</details>
 <br>
 
 - we still got a box around the plot and axes, we do not want these
   either, remove these elements from the previous plot.
-  <details>
-  <summary>:key: Click to see how</summary>
-  <pre>
-  plot(data[,1:2], type='n',xaxt='n', yaxt='n', 
-     xlab="", ylab="", frame.plot=F)
- </pre>
- </details>
+    <details>
+    <summary>:key: Click to see how</summary>
+    <pre>
+
+		plot(data[,1:2], type='n',xaxt='n', yaxt='n',
+		xlab="", ylab="", frame.plot=F)
+	</pre>
+	</details>
 <br>
 
 - create X and Y axis so that they cover the whole range of *x* and
@@ -67,27 +71,28 @@ dimension).
   axis, set 10 equidistant tickmarks and set labels to their values
   rounded to two decimals. Turn the labels, so that they are parallel
   to the OX axis.
-  <details>
-  <summary>:key: Click to see how</summary>
-  <pre>
-  #Create X axis
-  coords.x <- seq(min(data$X),max(data$X), by=1)
-  axis(side=1, # 1-left, 2-top, 3-right, 4-bottom
-	  at=coords.x, # coordinates for tickmarks
-	  cex.axis=.7 # make labels smaller
-     )
-  #Create Y axis
-  #we want 10 tickmarks along the data range
-  coords.y <- seq(min(data$Y), max(data$Y), length.out=10)
-  #and our labels will be the rounded values of y
-  labels.y <- round(coords.y, digits=2)
-  axis(side=2, 
-	  at=coords.y,
-	  labels=labels.y, # we want specific labels
-	  las=2 # turn the text so it is parallel to OX
-     )
-  </pre>
-  </details>
+	  <details>
+	  <summary>:key: Click to see how</summary>
+	  <pre>
+
+		#Create X axis
+		coords.x <- seq(min(data$X),max(data$X), by=1)
+		axis(side=1, # 1-left, 2-top, 3-right, 4-bottom
+		at=coords.x, # coordinates for tickmarks
+		cex.axis=.7 # make labels smaller
+		)
+		#Create Y axis
+		#we want 10 tickmarks along the data range
+		coords.y <- seq(min(data$Y), max(data$Y), length.out=10)
+		#and our labels will be the rounded values of y
+		labels.y <- round(coords.y, digits=2)
+		axis(side=2,
+		at=coords.y,
+		labels=labels.y, # we want specific labels
+		las=2 # turn the text so it is parallel to OX
+		)
+	 </pre>
+	 </details>
 <br>
 
 - plot auxiliary lines (a grid) so that it is easier to read the
@@ -96,9 +101,10 @@ dimension).
   <details>
   <summary>:key: Click to see how</summary>
   <pre>
-  abline(v=coords.x, col="darkgrey", lty=3)
-  abline(h=coords.y, col="darkgrey", lty=3)
-  #you could also use grid()
+
+		abline(v=coords.x, col="darkgrey", lty=3)
+		abline(h=coords.y, col="darkgrey", lty=3)
+		#you could also use grid()
   </pre>
   </details>
 <br>
@@ -110,15 +116,16 @@ dimension).
   <details>
   <summary>:key: Click to see how</summary>
   <pre>
-  #Function for adding transparency to a given color.
-  mycol <- function(colname="olivedrab", transparency=.5) {
+
+		#Function for adding transparency to a given color.
+		mycol <- function(colname="olivedrab", transparency=.5) {
 		#convert color name to its RGB value and add the desired
 		#transparency
 			color <- c(as.vector(col2rgb(colname))/255, transparency)
-	  # and make a new color from the above
+		# and make a new color from the above
 		    color <- rgb(color[1], color[2], color[3], color[4])
 		return(color)
-   }
+		}
    </pre>
    </details>
 <br>
@@ -129,10 +136,11 @@ dimension).
   <details>
   <summary>:key: Click to see how</summary>
   <pre>
-  #Plot radii
-  points(data[data$X%%2 == 0,], pch=19, 
+
+		#Plot radii
+		points(data[data$X%%2 == 0,], pch=19,
 		cex=exp(r), col=mycol("slateblue", .5))
-	points(data[data$X%%2 != 0,], pch=15, 
+			points(data[data$X%%2 != 0,], pch=15,
 		cex=exp(r), col=mycol("grey", .5))
    </pre>
    </details>
@@ -143,8 +151,9 @@ dimension).
   <details>
   <summary>:key: Click to see how</summary>
   <pre>
-  points(data[data$X%%2 == 0,], pch=3, cex=1, col="darkgrey")
-  points(data[data$X%%2 != 0,], pch=3, cex=1, col="red")
+
+		points(data[data$X%%2 == 0,], pch=3, cex=1, col="darkgrey")
+		points(data[data$X%%2 != 0,], pch=3, cex=1, col="red")
   </pre>
   </details>
 <br>
@@ -153,9 +162,10 @@ dimension).
   <details>
   <summary>:key: Click to see how</summary>
   <pre>
-  center.x <- mean(range(data[,1]))
-  center.y <- mean(range(data[,2]))
-  text(x=center.x, y=center.y, "Center", col="lightgrey")
+
+		center.x <- mean(range(data[,1]))
+		center.y <- mean(range(data[,2]))
+		text(x=center.x, y=center.y, "Center", col="lightgrey")
   </pre>
   </details>
 <br>
@@ -165,9 +175,10 @@ dimension).
   <details>
   <summary>:key: Click to see how</summary>
   <pre>
-  title("Odds and Ends")
-  mtext("Y", side=2, line=3, cex.lab=1,las=2, col="blue")
-  mtext("X", side=1, line=3, cex.lab=1,las=1, col="blue")
+
+		title("Odds and Ends")
+		mtext("Y", side=2, line=3, cex.lab=1,las=2, col="blue")
+		mtext("X", side=1, line=3, cex.lab=1,las=1, col="blue")
   </pre>
   </details>
 <br>
@@ -178,10 +189,10 @@ dimension).
   <summary>:key: Click to see how</summary>
   <pre>
 
-	legend('topright',
-		legend=c("odd", "even"), 
+		legend('topright',
+		legend=c("odd", "even"),
 		col=c(mycol("slateblue", .5), mycol("grey", .5)),
-		pch=c(19,15), 
+		pch=c(19,15),
 		cex=1,
 		pt.cex=1.2,
 		title="Legend",
@@ -193,7 +204,7 @@ dimension).
 
 # Visualizing baby growth data on a WHO centile grid<a id="orgheadline4"></a>
 
-A female child was measured at the following dates: 
+A female child was measured at the following dates:
 
 - '30-09-2015', '12-10-2015', '19-10-2015', '26-10-2015',
   '07-11-2015', '16-11-2015', '30-11-2015', '11-01-2016',
@@ -212,8 +223,8 @@ weight/length/circumference depending on the month you was born:
 
   - weight: Jan, Apr, Jul, Oct
   - length: Feb, May, Aug, Nov
-  - circumference: Mar, Jun, Sep, Dec  
-  
+  - circumference: Mar, Jun, Sep, Dec
+
 Good luck!
 
 1. use function *dmy* from the *lubridate* package to create a vector of timepoints.
@@ -221,11 +232,11 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	library(lubridate) 
-	timepoints <- dmy(c('30-09-2015', '12-10-2015',
-	'19-10-2015', '26-10-2015', '07-11-2015', '16-11-2015',
-	'30-11-2015', '11-01-2016', '08-02-2016', '14-03-2016',
-	'05-04-2016', '14-04-2016', '31-05-2016', '14-07-2016'))
+		library(lubridate)
+		timepoints <- dmy(c('30-09-2015', '12-10-2015',
+		'19-10-2015', '26-10-2015', '07-11-2015', '16-11-2015',
+		'30-11-2015', '11-01-2016', '08-02-2016', '14-03-2016',
+		'05-04-2016', '14-04-2016', '31-05-2016', '14-07-2016'))
 
    </pre>
    </details>
@@ -236,10 +247,10 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	weight <- c(3300, 3540, 3895, 4070, 4230, 4385, 4855, 5865, NA, 6736, 7065, 7080, 7530, 7640)
-	length <- c(43,NA,53,54,55,56,58,62.5,65,67,67.5,67.5,70.5,71.5)
-	head <- c(34,35.5,36.1,36.8,36.8,37.3,38,40.2,41.4,42.1,NA,43,44,45)
-   
+		weight <- c(3300, 3540, 3895, 4070, 4230, 4385, 4855, 5865, NA, 6736, 7065, 7080, 7530, 7640)
+		length <- c(43,NA,53,54,55,56,58,62.5,65,67,67.5,67.5,70.5,71.5)
+		head <- c(34,35.5,36.1,36.8,36.8,37.3,38,40.2,41.4,42.1,NA,43,44,45)
+
    </pre>
    </details>
 <br>
@@ -254,8 +265,8 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	who.month <- 30.4375 #days
-	xpoints <- as.duration(timepoints[1] %--% timepoints) / ddays(1) / who.month
+		who.month <- 30.4375 #days
+		xpoints <- as.duration(timepoints[1] %--% timepoints) / ddays(1) / who.month
 
    </pre>
    </details>
@@ -272,10 +283,10 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	uri <- "http://www.who.int/entity/childgrowth/standards/tab_wfa_girls_p_0_5.txt"
-	#uri <- "http://www.who.int/entity/childgrowth/standards/second_set/tab_hcfa_girls_p_0_5.txt"
-	#uri <- "http://www.who.int/entity/childgrowth/standards/tab_lhfa_girls_p_0_2.txt"
-	myData <-read.table(uri, header=T, sep='\t')
+		uri <- "http://www.who.int/entity/childgrowth/standards/tab_wfa_girls_p_0_5.txt"
+		#uri <- "http://www.who.int/entity/childgrowth/standards/second_set/tab_hcfa_girls_p_0_5.txt"
+		#uri <- "http://www.who.int/entity/childgrowth/standards/tab_lhfa_girls_p_0_2.txt"
+		myData <-read.table(uri, header=T, sep='\t')
 
    </pre>
    </details>
@@ -286,10 +297,10 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	plot(1, xlim=c(0, max(myData$Month)), type='n', bty='n', 
-	ylim=c(0, max(myData[,c(5:19)])), las=1, xlab='Month', ylab='kg',
-    cex.axis=.7)
-	grid()
+		plot(1, xlim=c(0, max(myData$Month)), type='n', bty='n',
+		ylim=c(0, max(myData[,c(5:19)])), las=1, xlab='Month', ylab='kg',
+		cex.axis=.7)
+		grid()
 
    </pre>
    </details>
@@ -301,11 +312,11 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-    lines(myData$M, col='grey', lty=1)
-	lines(myData$P25, col='blue', lty=2)
-	lines(myData$P75, col='blue', lty=2)
-	lines(myData$P01, col='tomato', lty=2)
-	lines(myData$P999, col='tomato', lty=2)
+		lines(myData$M, col='grey', lty=1)
+		lines(myData$P25, col='blue', lty=2)
+		lines(myData$P75, col='blue', lty=2)
+		lines(myData$P01, col='tomato', lty=2)
+		lines(myData$P999, col='tomato', lty=2)
 
    </pre>
    </details>
@@ -317,8 +328,8 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	points(xpoints, weight/1000, pch=3, type='l', cex=.5)
-	points(xpoints, weight/1000, pch=3, type='p', cex=.5)
+		points(xpoints, weight/1000, pch=3, type='l', cex=.5)
+		points(xpoints, weight/1000, pch=3, type='p', cex=.5)
 
    </pre>
    </details>
@@ -329,11 +340,11 @@ Good luck!
    <summary>:key: Click to see how</summary>
    <pre>
 
-	mtext(text = c('P0.1','P25','P75','P99.9'), side = 4,
-	at=myData[dim(myData)[1], c('P01','P25','P75','P999')], 
-	las=1, cex=.5)
-   </pre> 
-   </details> 
+		mtext(text = c('P0.1','P25','P75','P99.9'), side = 4,
+		at=myData[dim(myData)[1], c('P01','P25','P75','P999')],
+		las=1, cex=.5)
+   </pre>
+   </details>
 <br>
 
 # Visualizing Gapminder data<a id="orgheadline4"></a>
