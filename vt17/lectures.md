@@ -43,7 +43,7 @@ Matrices, lists, data frames, objects
 </li>
 
 <li>
-<a href="lecture/5">
+<a href="lecture/Lecture_6_-_Elements4.pdf">
 <h3>Wednesday part 1</h3>
 Elements of the R programming language - 4:
 Control structures, iteration, recursion, variable scope
@@ -51,7 +51,7 @@ Control structures, iteration, recursion, variable scope
 </li>
 
 <li>
-<a href="lecture/5">
+<a href="lecture/Lecture_7_-_Loading_data.pdf">
 <h3>Wednesday part 2</h3>
 
 Loading data into R
@@ -59,7 +59,7 @@ Loading data into R
 </li>
 
 <li>
-<a href="lecture/5">
+<a href="lecture/Lecture_8_-_SelectedFns.pdf">
 <h3>Thursday part 1</h3>
 
 Selected functions in R
@@ -67,7 +67,7 @@ Selected functions in R
 </li>
 
 <li>
-<a href="lecture/5">
+<a href="lecture/Lecture_9_-_Graphics.pdf">
 <h3>Thursday part 2</h3>
 
 Graphics in R

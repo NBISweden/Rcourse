@@ -51,8 +51,8 @@ Room: BMC I1341 and/or BMC H1023 computer room<br>
 
 **Thursday**
 Room: BMC I1341 and/or BMC H1023 computer room<br>
-**13:00-14:00** [Lecture: Selected functions in R](Lecture/XXX.pdf) (Thomas Källman)<br>
-**14:00-15:00** [Lecture: Graphics in R](Lecture/PlotHandson) (Thomas Källman)<br>
+**13:00-14:00** [Lecture: Selected functions in R](Lecture/Lecture_8_-_SelectedFns.pdf) (Thomas Källman)<br>
+**14:00-15:00** [Lecture: Graphics in R](Lecture/Lecture_9_-_Graphics.pdf) (Thomas Källman)<br>
 **15:00-17:00** [Exercise: Graphics in R](exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)<br>
 
 **Friday**
