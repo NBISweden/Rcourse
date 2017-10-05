@@ -33,21 +33,21 @@ Loading data
 </li>
 
 <li>
-<a href="exercises/Loops">
+<a href="exercise/Loops">
 <h3>Wednesday</h3>
 Loops, conditional statements, functions, variable scope
 </a>
 </li>
 
 <li>
-<a href="exercises/PlotHandson">
+<a href="exercise/PlotHandson">
 <h3>Thursday</h3>
 Base R graphics
 </a>
 </li>
 
 <li>
-<a href="exercises/ggplots">
+<a href="exercise/ggplots">
 <h3>Friday</h3>
 ggplot2 graphics
 </a>
