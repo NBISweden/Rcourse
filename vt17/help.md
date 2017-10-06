@@ -60,3 +60,9 @@ For more resources of this type visit [rstudio](https://www.rstudio.com/resource
   Online Question and answer resource aimed at bioinformatics
 
 
+# Other useful resources
+
+- [Base R vs
+  ggplot2](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/)
+- [Coderefinery](http://coderefinery.org/lessons/)
+- [software-carpentry](https://software-carpentry.org)
