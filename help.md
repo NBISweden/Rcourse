@@ -50,7 +50,7 @@ following links goes to some useful material on using R.
 
 For more resources of this type visit [rstudio](https://www.rstudio.com/resources/cheatsheets)
 
-# A R game
+# R game
 If you want to test your skills and hopefully have some fun at the same time, you can play an R game. To do this,
 <pre>
 install.packages("BetaBit")
