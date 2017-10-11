@@ -9,7 +9,7 @@ sciences.
 
 # Current courses
 
-<dl> <dt> <a href="HTUppsala">October 2017</a> </dt>
+<dl> <dt> <a href="HT17Uppsala">October 2017</a> </dt>
 <dd>
 This course organised by NBIS and Scilifelab and (NBIS).
 
