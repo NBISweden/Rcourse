@@ -50,13 +50,24 @@ following links goes to some useful material on using R.
 
 For more resources of this type visit [rstudio](https://www.rstudio.com/resources/cheatsheets)
 
+# A R game
+If you want to test your skills and hopefully have some fun at the same time, you can play an R game. To do this,
+<pre>
+install.packages("BetaBit")
+library('BetaBit')
+</pre>
+and choose one of the three available games. For instance, to play the proton game (which we recommend), you type:
+<pre>
+proton()
+</pre>
+Then just follow instructions on your screen. Let us know if you complete the game! Good luck!
 
 # Useful Non-R specific online resources
 
 - [Stackoverflow](http://stackoverflow.com)
   Online community for programmers.
 -
-- [Biostars/](http://www.biostars.org/)
+- [Biostars/](http://www.biostars.org)
   Online Question and answer resource aimed at bioinformatics
 
 
