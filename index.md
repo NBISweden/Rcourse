@@ -9,11 +9,9 @@ sciences.
 
 # Current courses
 
-<dl> <dt> <a href="vt17">October 2017</a> </dt>
+<dl> <dt> <a href="HTUppsala">October 2017</a> </dt>
 <dd>
-This course organised by the Research School in Stem Cell Biology in
-collaboration with the National Bioinformatics Infrastructure Sweden
-(NBIS).
+This course organised by NBIS and Scilifelab and (NBIS).
 
 </dd>
 
@@ -21,5 +19,6 @@ collaboration with the National Bioinformatics Infrastructure Sweden
 
 ## Past courses
 
-* [HT 2016 uppsala](https://scilifelab.github.io/courses/r_programming/1611/)
+* [HT 2017 lund](https://nbisweden.github.io/Rcourse/vt17)
 * [VT 2017 uppsala](https://scilifelab.github.io/courses/r_programming/1703)
+* [HT 2016 uppsala](https://scilifelab.github.io/courses/r_programming/1611/)
