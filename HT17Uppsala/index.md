@@ -45,7 +45,7 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 **10:00-11:00** [Lecture: Loading data](Lectures/...) (Marcin Kierczak)<br>
 **11:00-12:00** [Exercise: Loading data](Exercises/...) (Thomas Källman/Marcin Kerczak, Eva Freyhult, Bengt Sennblad)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](Exercises/...) (Thomas Källman, Johan Reimgård, Sebastian DiLorenzo)<br>
+**13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](Exercises/...) (Thomas Källman, Johan Reimgård,  Bengt Sennblad)<br>
 
 **18:00-** Course dinner
 
