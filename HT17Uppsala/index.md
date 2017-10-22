@@ -27,7 +27,7 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 ](Lectures/Welcome.pdf) (Elina Staaf)<br>
 **09:15-10:00** [Lecture: Introduction to R programming](lecture/Lecture_1_-_Introduction.pdf) (Marcin Kierczak)<br>
 **10:15-10:45** [Lecture: The R environment](lecture/Lecture_2_-_REnvironment.pdf) (Marcin Kierczak, Thomas Källman)<br>
-**11:00-12:00** [Exercise and video: Using R-studio](Link to your movie1, best to keep them outside git) (Marcin Kierczak, Thomas Källman)<br>
+**11:00-12:00** [Exercise and video: Using R-studio](https://www.dropbox.com/s/3sy4ou2o8jh5syf/RCourseVideo.mov?dl=0) (Marcin Kierczak, Thomas Källman)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
 **13:00-15:00** [Lecture: Elements of R programming - part 1a](lecture/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)<br>
 **15:00-17:00** [Exercise: Datatypes part 1 - Working with vectors](exercise/DataTypes) (Marcin Kierczak/Thomas Källman, Johan Viklund, Sebastian DiLorenzo, Bengt Sennblad)<br>
