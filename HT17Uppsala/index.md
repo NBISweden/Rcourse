@@ -23,13 +23,14 @@ Note that the links to lectures and exercises will be made active at the day of 
 
 **Monday**<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
-**09.00-09.15** [Registration and Welcome, presentation of SciLifeLab ](Lectures/Welcome.pdf) (Thomas Källman)<br>
-**09:15-10:00** [Lecture: Introduction to R programming](Lectures/Intro.pdf) (Marcin Kierczak)<br>
-**10:15-10:45** [Lecture: The R environment](Lectures/REnvironment.pdf) (Marcin Kierczak, Thomas Källman)<br>
+**09.00-09.15** [Registration and Welcome, presentation of SciLifeLab
+](Lectures/Welcome.pdf) (Elina Staaf)<br>
+**09:15-10:00** [Lecture: Introduction to R programming](Lecture/Intro.pdf) (Marcin Kierczak)<br>
+**10:15-10:45** [Lecture: The R environment](Lecture/REnvironment.pdf) (Marcin Kierczak, Thomas Källman)<br>
 **11:00-12:00** [Exercise and video: Using R-studio](Link to your movie1, best to keep them outside git) (Marcin Kierczak, Thomas Källman)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-15:00** [Lecture: Elements of R programming - part 1a](Lectures/) (Marcin Kierczak)<br>
-**15:00-17:00** [Exercise: Datatypes part 1 - Working with vectors](Exercises/DataTypes...) (Marcin Kierczak/Thomas Källman, Johan Viklund, Sebastian DiLorenzo, Bengt Sennblad)<br>
+**13:00-15:00** [Lecture: Elements of R programming - part 1a](Lecture/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)<br>
+**15:00-17:00** [Exercise: Datatypes part 1 - Working with vectors](Exercise/DataTypes) (Marcin Kierczak/Thomas Källman, Johan Viklund, Sebastian DiLorenzo, Bengt Sennblad)<br>
 
 **Tuesday**<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>

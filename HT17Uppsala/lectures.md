@@ -5,21 +5,21 @@ menu: Lectures
 
 <ol class="lecture" id="topics">
 <li>
-<a href="lecture/Lecture_1_-_Introduction.pdff">
+<a href="lecture/Lecture_1_-_Introduction.pdf">
 <h3>Monday part 1</h3>
 Introduction to programming in R
 </a>
 </li>
 
 <li>
-<a href="lecture/Lecture_2_-_REnvironment.pdff">
+<a href="lecture/Lecture_2_-_REnvironment.pdf">
 <h3>Monday part 2</h3>
 The R environment
 </a>
 </li>
 
 <li>
-<a href="lecture/Lecture_3_-_Elements1.pdff">
+<a href="lecture/Lecture_3_-_Elements1.pdf">
 <h3>Monday part 3</h3>
 Elements of the R programming language - 1:
 Variables and their types, operators

@@ -5,7 +5,7 @@ menu: Exercises
 
 <ol class="exercise" id="topics">
 <li>
-<a href="exercise.../DataTypes">
+<a href="exercise/DataTypes">
 <h3>Monday</h3>
 Data types in R
 </a>
