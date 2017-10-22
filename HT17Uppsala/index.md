@@ -25,8 +25,8 @@ Note that the links to lectures and exercises will be made active at the day of 
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 **09.00-09.15** [Registration and Welcome, presentation of SciLifeLab
 ](Lectures/Welcome.pdf) (Elina Staaf)<br>
-**09:15-10:00** [Lecture: Introduction to R programming](lecture/Intro.pdf) (Marcin Kierczak)<br>
-**10:15-10:45** [Lecture: The R environment](lecture/REnvironment.pdf) (Marcin Kierczak, Thomas Källman)<br>
+**09:15-10:00** [Lecture: Introduction to R programming](lecture/Lecture_1_Intro.pdf) (Marcin Kierczak)<br>
+**10:15-10:45** [Lecture: The R environment](lecture/Lecture_2_REnvironment.pdf) (Marcin Kierczak, Thomas Källman)<br>
 **11:00-12:00** [Exercise and video: Using R-studio](Link to your movie1, best to keep them outside git) (Marcin Kierczak, Thomas Källman)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
 **13:00-15:00** [Lecture: Elements of R programming - part 1a](lecture/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)<br>
