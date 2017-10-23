@@ -35,7 +35,7 @@ Vectors, numbers as vectors, strings as vectors
 </li>
 
 <li>
-<a href="lecture/Lecture_5_-_Elements3.pdff">
+<a href="lecture/Lecture_5_-_Elements3.pdf">
 <h3>Tuesday part 2</h3>
 Elements of the R programming language - 3:
 Matrices, lists, data frames, objects
