@@ -36,9 +36,9 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 **09:00-10:00** [Lecture: Elements of the programming language - part 2](lecture/Lecture_4_-_Elements2.pdf) (Marcin Kierczak)<br>
 **10:00-11:00** [Lecture: Elements of the programming language - part 3](Lecture/lecture_5_-_Elements3.pdf) (Marcin Kierczak)<br>
-**11:00-12:00** [Exercise: Datatypes part 1 - Working with vectors cont.](exercises/Vectors) (Thomas Källman/Marcin Kierczak, Bengt Sennblad, Sebastian DiLorenzo)<br>
+**11:00-12:00** [Exercise: Datatypes part 1 - Working with vectors cont.](exercise/Vectors) (Thomas Källman/Marcin Kierczak, Bengt Sennblad, Sebastian DiLorenzo)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-17:00** [Exercise: Datatypes part 2 - matrices, lists, data frames](exercises/Dataframes) (Thomas Källman/Marcin Kierczak, Bengt Sennblad, Sebastian DiLorenzo)<br>
+**13:00-17:00** [Exercise: Datatypes part 2 - matrices, lists, data frames](exercise/Dataframes) (Thomas Källman/Marcin Kierczak, Bengt Sennblad, Sebastian DiLorenzo)<br>
 
 **Wednesday**<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
