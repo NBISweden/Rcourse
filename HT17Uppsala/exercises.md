@@ -12,14 +12,14 @@ Data types in R
 </li>
 
 <li>
-<a href="exercise.../Vectors">
+<a href="exercise/Vectors">
 <h3>Tuesday</h3>
 Vectors
 </a>
 </li>
 
 <li>
-<a href="exercise.../Dataframes">
+<a href="exercise/Dataframes">
 <h3>Tuesday</h3>
 Matrices, lists and dataframes
 </a>
