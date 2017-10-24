@@ -318,10 +318,10 @@ y <- c(1, 5, 11)
 	names(x) <- as.character(x)
 	outer(x, x, "|")
 
-	NA FALSE TRUE
-	NA      NA    NA TRUE
-	FALSE   NA FALSE TRUE
-	TRUE  TRUE  TRUE TRUE
+		  NA   FALSE TRUE
+	NA    NA   NA    TRUE
+	FALSE NA   FALSE TRUE
+	TRUE  TRUE TRUE  TRUE
 	</pre>
 	</details>
 <br>
