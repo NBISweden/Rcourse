@@ -46,7 +46,7 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 **10:00-11:00** [Lecture: Loading data](lectures/...) (Marcin Kierczak)<br>
 **11:00-12:00** [Exercise: Loading data](exercise/...) (Thomas Källman/Marcin Kerczak, Eva Freyhult, Bengt Sennblad)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](exercise/...) (Thomas Källman, Johan Reimergård,  Bengt Sennblad)<br>
+**13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](exercise/...) (Thomas Källman, Johan Reimegård,  Bengt Sennblad)<br>
 
 **18:00-** Course dinner
 
@@ -54,10 +54,10 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 **09:00-10:00** [Lecture: Selected functions in R ](lectures/...) (Marcin Kierczak)<br>
 **10:00-11:00** [Lecture: Graphics](lectures/...) (Thomas Källman, Marcin Kierczak)<br>
-**11:00-12:00** [Exercise: Selected functions in R](exercise/...) (Thomas Källman/Marcin Kierczak, Eva Freyhult, Johan Reimergård)<br>
+**11:00-12:00** [Exercise: Selected functions in R](exercise/...) (Thomas Källman/Marcin Kierczak, Eva Freyhult, Johan Reimegård)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-15:00** [Exercise: Selected functions in R cted.](exercise/...) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimergård)<br>
-**15:00-17:00** [Exercise: Graphics in R cted.](exercise/...) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimergård)<br>
+**13:00-15:00** [Exercise: Selected functions in R cted.](exercise/...) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimegård)<br>
+**15:00-17:00** [Exercise: Graphics in R cted.](exercise/...) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimegård)<br>
 
 **Friday**
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
