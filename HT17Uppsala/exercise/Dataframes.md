@@ -625,11 +625,6 @@ below if you wonder why this is the case.
         2       6 0.16250439
         3       8 0.08059342
 
-          mtcars$cyl mtcars2$ex1
-        1          4 -0.31758135
-        2          6 -0.31712091
-        3          8  0.01378375
-
     </pre>
     </details>
 <br>
