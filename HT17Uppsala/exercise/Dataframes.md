@@ -209,13 +209,13 @@ Create a matrix containing 1:12 as shown for the matrix X above.
 8.  Create two different 2 by 2 matrices named A and B. A should
     contain the values 1 - 4 and B the values 5 - 8. Try out the
     following commands and by looking at the results see if you can
-    figure out what is going on.
-    A. A \* B
-    B. A / B
-    C. A %x% B
-    D. A + B
-    E. A - B
-    F. A == B
+    figure out what is going on.<br>
+    A. A \* B <br>
+    B. A / B <br>
+    C. A %x% B <br>
+    D. A + B <br>
+    E. A - B <br>
+    F. A == B <br>
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
