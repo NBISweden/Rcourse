@@ -175,11 +175,8 @@ Create a matrix containing 1:12 as shown for the matrix X above.
     the type Geno\_a\_1, Geno\_a\_2, Geno\_a\_3, Geno\_b\_1, Geno\_b\_2&#x2026;,
     Geno\_s\_3 using vectors. In todays lecture a function named outer
     that generate matrixes was mentioned. Try to generate the same
-    vector as yesterday using this function instead. There was an
-    example of the outer function also on the exercise yesterday and
-    it is a very powerful function, but can be hard to wrap you head around, so try
-    to follow the logics, perhaps comparing to the example from
-    yesterday.
+    vector, but using the outer function instead. This is a
+    challenging task
     <details>
     <summary>:key: Click to see how</summary>
     <pre>
@@ -187,7 +184,6 @@ Create a matrix containing 1:12 as shown for the matrix X above.
         letnum <- outer(paste("Geno",letters[1:19], sep = "_"), 1:3, paste, sep = "_")
         class(letnum)
         sort(as.vector(letnum))
-        #sort(paste("Geno", as.vector(letnum), sep = "_"))
 
         [1] "matrix"
 
