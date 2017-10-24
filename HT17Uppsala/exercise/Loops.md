@@ -8,7 +8,7 @@ In programming languages loop structures, either with or without
 conditions, are used to repeat commands over multiple entities. For
 and while loops as well as if-else statements are also often used in
 R, but not as often as in many other programming languages. The reason
-for this is that many needs of the loops are addressed using
+for this is that many needs of loops are solved using
 vectorization or via apply functions.
 
 This means that we can multiply all values in a vector in R by two, just
@@ -19,8 +19,8 @@ call:
 
     [1] 2 4 6 8
 
-In many other and languages as well as in R you can also create this
-with a loop instead
+In many other and languages as well as in R you can also solve this
+problem using a for loop
 
     for (i in vec.a) {
         v[i] <- vec.a[i] * 2
@@ -30,7 +30,7 @@ with a loop instead
     [1] 2 4 6 8
 
 As you saw in the lecture this is far less efficient and not by any
-means easier to type and we hence tend avoid loops when possible. 
+means easier to type so we tend avoid loops when possible.
 
 After this exercise you should know:
 - What are the most common loop structures in R
@@ -58,7 +58,7 @@ After this exercise you should know:
             for.sum[i] <- sum(X[i,])
         }
         head(for.sum)
-    
+
         [1] 4500010 4500020 4500030 4500040 4500050 4500060
 	</pre>
 	</details>
@@ -68,7 +68,7 @@ After this exercise you should know:
 	<pre>
 		app.sum <- apply(X, MARGIN = 1, sum)
         head(app.sum)
-    
+
         [1] 4500010 4500020 4500030 4500040 4500050 4500060
 
 	</pre>
@@ -76,23 +76,23 @@ After this exercise you should know:
 <br>
 	<details>
 	<summary>:key: Click to see RowSums</summary>
-	<pre>	
+	<pre>
 		rowSums.sum <- rowSums(X)
         head(rowSums.sum)
-    
+
         [1] 4500010 4500020 4500030 4500040 4500050 4500060
-    
+
 	</pre>
 	</details>
 <br>
 	<details>
 	<summary>:key: Click to see how to check if methods are generating the same res.</summary>
 	<pre>
-		
+
 		identical(for.sum, app.sum)
         identical(for.sum, rowSums.sum)
         identical(for.sum, as.integer(rowSums.sum))
-    
+
         [1] TRUE
         [1] FALSE
         [1] TRUE
@@ -115,7 +115,7 @@ After this exercise you should know:
             x <- x + 1
             }
         head(while.sum)
-    
+
         [1] 4500010 4500020 4500030 4500040 4500050 4500060
 
 	</pre>
@@ -126,11 +126,11 @@ After this exercise you should know:
     vector. Write a loop that loops over the columns and reports the
     sum of the column values if it is numeric and the total number of
     characters if it is a character vector.
-	
+
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
-	
+
 		vector1 <- 1:10
         vector2 <- c("Odd", "Loop", letters[1:8])
         vector3 <- rnorm(10, sd = 10)
@@ -144,7 +144,7 @@ After this exercise you should know:
             }
         }
         sum.vec
-    
+
         [1]  55.00000 15.000000  2.727954
 	</pre>
 	</details>
@@ -153,7 +153,7 @@ After this exercise you should know:
 4.  In question 3 you generated a loop to go over a data frame. Try to
     convert this code to a function in R. The function should take a
     single data frame name as argument.
-	
+
 	<details>
 	<summary>:key: Click to see how</summary>
 	<pre>
@@ -182,14 +182,14 @@ After this exercise you should know:
 	At the lecture an approach to calculate factorials were
     implemented using recursion (function calling itself). Here we
     instead will have a go at generating Fibonacci numbers. A
-    fibonacci number is part of a series of number with the following
+    fibonacci number is part of a series of numbers with the following
     properties:
-	
+
 	The first two numbers in the Fibonacci sequence are either 1 and
     1, or 0 and 1, depending on the chosen starting point of the
     sequence, and each subsequent number is the sum of the previous
     two. Hence:
-	
+
 	0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 	or
 	1, 1, 2, 3, 5, 8, 13, 21, ...

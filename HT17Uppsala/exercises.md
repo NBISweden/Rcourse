@@ -26,16 +26,16 @@ Matrices, lists and dataframes
 </li>
 
 <li>
-<a href="exercise.../LoadData">
+<a href="exercise/Loops">
 <h3>Wednesday</h3>
-Loading data
+Loops, conditional statements, functions, variable scope
 </a>
 </li>
 
 <li>
-<a href="exercise.../Loops">
+<a href="exercise/LoadData">
 <h3>Wednesday</h3>
-Loops, conditional statements, functions, variable scope
+Reading and writing data
 </a>
 </li>
 

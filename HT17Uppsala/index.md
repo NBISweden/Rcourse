@@ -42,11 +42,11 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 
 **Wednesday**<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
-**09:00-10:00** [Lecture: Elements of the programming language - part 4](lectures/...) (Thomas Källman)<br>
-**10:00-11:00** [Lecture: Loading data](lectures/...) (Marcin Kierczak)<br>
-**11:00-12:00** [Exercise: Loading data](exercise/...) (Thomas Källman/Marcin Kerczak, Eva Freyhult, Bengt Sennblad)<br>
+**09:00-10:00** [Lecture: Elements of the programming language - part 4](lecture/Lecture_6_-_Elements4tk.pdf) (Thomas Källman)<br>
+**10:00-11:00** [Lecture: Loading data](lecture/Lecture_7-_Loading_datatk.pdf) (Marcin Kierczak)<br>
+**11:00-12:00** [Exercise: Loading data](exercise/LoadData) (Thomas Källman/Marcin Kerczak, Eva Freyhult, Bengt Sennblad)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](exercise/...) (Thomas Källman, Johan Reimegård,  Bengt Sennblad)<br>
+**13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](exercise/Loops) (Thomas Källman, Johan Reimegård,  Bengt Sennblad)<br>
 
 **18:00-** Course dinner
 
