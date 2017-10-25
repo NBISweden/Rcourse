@@ -332,7 +332,7 @@ As these files for many organisms are large we will in this exercise
 use the latest version of Drosophila melanogaster genome annotation
 available at
 <ftp://ftp.ensembl.org/pub/release-86/gtf/drosophila_melanogaster> that
-is small enough for analysis even on a laptop. If you have trouble downloading the file, try to get it from here <files/Drosophila_melanogaster.BDGP6.86.gtf.zip>
+is small enough for analysis even on a laptop. If you have trouble downloading the file, try to get it from here <https://nbisweden.github.io/Rcourse/HT17Uppsala/files/Drosophila_melanogaster.BDGP6.86.gtf.zip>
 
 Open this and download the file named
 Drosophila\_melanogaster.BDGP6.86.gtf.gz to your computer. Unzip this
