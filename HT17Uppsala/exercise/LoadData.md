@@ -33,7 +33,7 @@ your character vector named words available in R your session.
 
 ### Exercises
 
-Download the file book chapter from this [link](../files/book_chapter.txt). Read the manual for
+Download the file book chapter from this [link](../../files/book_chapter.txt). Read the manual for
 scan and read the text file named book\_chapter.txt into R, first as
 vector and then as a list, with each word in the chapter saved as a
 entry in the vector or as a single vector in a list.
@@ -102,13 +102,13 @@ have a sound word vector and list answer the questions below.
 2.  Go back and fix the way you read in the text to make sure that you
     get a vector with all words in chapter as individual entries also
     filter any non-letter characters and now identify the longest word.
-    
+
     HINT: read about regular expressions, e.g. in the gsub documentation. Follow
-    the link 'regular expression' that is in the description of the gsub *pattern* argument. Look for 
-    [:alnum:]. Also read the paragraph beginning with: *A character class is a list of characters enclosed between [ and ] which matches any single character in that list; unless the first character of the list is the caret.* 
+    the link 'regular expression' that is in the description of the gsub *pattern* argument. Look for
+    [:alnum:]. Also read the paragraph beginning with: *A character class is a list of characters enclosed between [ and ] which matches any single character in that list; unless the first character of the list is the caret.*
     If you still have trouble with this exercise, check the answer.
-	<details> 
-	
+	<details>
+
 	<summary>:key: Click to see how</summary>
 	<pre>
         shelley.vec2 <- scan(file = "book_chapter.txt", what = character(), quote = NULL)
@@ -132,7 +132,7 @@ columns of equal length that are separated with a common string
 eg. tab, comma, semicolon etc.
 
 In this code block with first import the data from normalized.txt from
-a file (that you can get [here](../files/normalized.txt)) and accept the defaults for all other
+a file (that you can get [here](../../files/normalized.txt)) and accept the defaults for all other
 arguments in the function. With this settings R will read it as a tab
 delimited file and will use the first row of the data as colnames
 (header) and the first column as rownames.
