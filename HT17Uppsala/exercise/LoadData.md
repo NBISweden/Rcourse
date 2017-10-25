@@ -166,7 +166,7 @@ command will read in a file from a web server.
 
 ### Exercises
 
-1.  Download the file [example.data](../files/example.data) to your
+1.  Download the file [example.data](../../files/example.data) to your
     computer and import it to R using the read.table function. This
     files consist of gene expression values. Once you have the object
     in R validate that it looks okay and export it using the
