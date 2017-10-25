@@ -1,1 +1,894 @@
-Typ;Nr;Namn;Address1;Address2;Address3;Address4;Address5;RT90x;RT90yButik;102;Faltoversten;Karlaplan 13;;115 20;STOCKHOLM;Stockholms lan;6582011;1630064Butik;104;;Nybrogatan 47;;114 39;STOCKHOLM;Stockholms lan;6581787;1629382Butik;106;Garnisonen;Karlavagen 100 A;;115 26;STOCKHOLM;Stockholms lan;6581720;1630377Butik;110;;Hotorgshallen;;111 57;STOCKHOLM;Stockholms lan;6581443.113;1628483.985Butik;113;;Klarabergsgatan 62;;111 21;STOCKHOLM;Stockholms lan;6581151;1628300Butik;114;PK-Huset;Norrlandsgatan 3;;111 47;STOCKHOLM;Stockholms lan;6581348.98;1628962.251Butik;116;;Drottninggatan 22;;111 51;STOCKHOLM;Stockholms lan;6581037;1628616Butik;132;Marieberg;Ralambsvagen 7-9;;112 59;STOCKHOLM;Stockholms lan;6580676;1625947Butik;133;;Kungsholmstorg 11 A;;112 21;STOCKHOLM;Stockholms lan;6580745;1627343Butik;134;;Lindhagensgatan 118;;112 51;STOCKHOLM;Stockholms lan;6581680;1625435Butik;135;;�ngermannagatan 165;;162 65;V�LLINGBY;Stockholms lan;6584334;1617652Butik;137;;Fleminggatan 56;;112 45;STOCKHOLM;Stockholms lan;6581458;1626624Butik;138;;Odengatan 92;;113 22;STOCKHOLM;Stockholms lan;6582135;1627265Butik;140;Torsplan;Solnavagen 2b;;S-113 65;STOCKHOLM;Stockholms lan;6582767.095;1626747.961Butik;143;Odenplan;Odengatan 58;;113 22;STOCKHOLM;Stockholms lan;6582461;1627884Butik;144;Jarlaplan;Birger Jarlsgatan 84;;114 20;STOCKHOLM;Stockholms lan;6582620;1628484Butik;145;;Sveavagen 66;;111 34;STOCKHOLM;Stockholms lan;6581989;1628333Butik;146;;Vasagatan 25;;111 20;STOCKHOLM;Stockholms lan;6581457;1628077Butik;147;Brommaplan;Kladesvagen 12;;168 76;BROMMA;Stockholms lan;6581729;1621475Butik;148;;Hasselby Torg 3;;165 55;H�SSELBY;Stockholms lan;6584696;1615877Butik;150;;Kista Galleria;;164 91;KISTA;Stockholms lan;6588823.336;1621493.13Butik;151;Bromma Blocks;Ulvsundavagen 189 A;;S-168 67;BROMMA;Stockholms lan;6583670;1622217Butik;163;Ringen;Gotgatan 132;;S-118 62;STOCKHOLM;Stockholms lan;6578584;1629331Butik;165;;Folkungagatan 56;;S-116 22;STOCKHOLM;Stockholms lan;6579247;1629262Butik;166;Soderhallarna;Medborgarplatsen 3;;118 26;STOCKHOLM;Stockholms lan;6579281;1629032Butik;167;;Folkungagatan 101;;S-116 30;STOCKHOLM;Stockholms lan;6579419;1629788Butik;168;;Gullmarsplan 4-6;;S-121 40;JOHANNESHOV;Stockholms lan;6577496;1629545Butik;170;Globen;Slakthusgatan 3-5;;121 62;JOHANNESHOV;Stockholms lan;6576764;1629653Butik;171;Liljeholmen;Liljeholmstorget 3, plan 1;;117 63;STOCKHOLM;Stockholms lan;6578641;1626263Butik;172;;Rosenlundsgatan 7;;118 53;STOCKHOLM;Stockholms lan;6579483;1628162Butik;173;Hammarby Sjostad;Lugnets All� 26-28;;120 66;STOCKHOLM;Stockholms lan;6577945;1630863Butik;174;;Langholmsgatan 21A;;S-117 33;STOCKHOLM;Stockholms lan;6579419;1626918Butik;176;;Vastbergavagen 4;;12630;Hagersten;Stockholms lan;6576902.241;1625281.754Butik;177;;Hogdalsgangen 19;;124 54;BANDHAGEN;Stockholms lan;6573564;1627470Butik;178;;Farstaplan 27;;S-123 47;FARSTA;Stockholms lan;6571337;1630460Butik;180;;Fruangsgangen 10;;129 52;H�GERSTEN;Stockholms lan;6575853;1623050Butik;182;;Skarholmsplan 1;;127 48;SK�RHOLMEN;Stockholms lan;6574717;1619970Butik;201;;Postgangen 28;;171 45;SOLNA;Stockholms lan;6584237;1624809Butik;202;;Landsvagen 53 B;;172 65;SUNDBYBERG;Stockholms lan;6584281;1622984Butik;204;;Soderhamnen 10;;185 31;VAXHOLM;Stockholms lan;6589550;1644635Butik;205;;Centrumtorget;;763 00;HALLSTAVIK;Stockholms lan;6662319;1655444Butik;206;;Tullportsgatan 12;;761 30;NORRT�LJE;Stockholms lan;6629948;1662690Butik;207;;Stora Gatan 56 C;;193 30;SIGTUNA;Stockholms lan;6612198;1608078Butik;208;;Lunagallerian;;151 72;S�DERT�LJE;Stockholms lan;6565397;1604088Butik;209;;Genetaleden 7;;151 59;S�DERT�LJE;Stockholms lan;6564261;1601112Butik;210;;Morbyvagen 3;;149 31;NYN�SHAMN;Stockholms lan;6533261;1623371Butik;211;;Friggavagen 24;;181 32;LIDING�;Stockholms lan;6585132;1632476Butik;212;Arninge;Saluvagen 5;;187 66;T�BY;Stockholms lan;6595729;1632265Butik;213;Morby Centrum;Golfvagen 6A;;182 31;DANDERYD;Stockholms lan;6588398;1626774Butik;214;Jakobsbergs Centrum;Ban�rstraket;;S-177 30;J�RF�LLA;Stockholms lan;6591022;1615351Butik;215;Taby Centrum;Norra Galleriagangen 1024;;183 34;T�BY;Stockholms lan;6593479;1628295Butik;216;;Sollentuna Centrum;;191 47;SOLLENTUNA;Stockholms lan;6591691;1621815Butik;217;;Kommunalvagen 18;;141 47;HUDDINGE;Stockholms lan;6570392.808;1624152.762Butik;218;;Nymarsta Kulle 3;;195 30;M�RSTA;Stockholms lan;6612944;1615673Butik;219;Vasby Centrum;Dragonvagen 86;;194 33;UPPLANDS V�SBY;Stockholms lan;6601702;1619136Butik;220;;Forum;;S-131 53;NACKA;Stockholms lan;6578963;1634331Butik;221;;Marknadsgrand 29;;135 40;TYRES�;Stockholms lan;6571675;1638416Butik;222;Haninge Centrum;Drakslingan 12;;136 46;HANINGE;Stockholms lan;6563348;1633511Butik;223;;Centrum;;S-134 30;GUSTAVSBERG;Stockholms lan;6581309;1647235Butik;224;;Torggatan 19;;S-133 31;SALTSJ�BADEN;Stockholms lan;6576366;1640791Butik;225;;Tumba Torg 8;;147 01;TUMBA;Stockholms lan;6565937;1615878Butik;226;Botkyrka;Kumla Gardsvag 30 A;;145 63;NORSBORG;Stockholms lan;6570287.417;1615685.029Butik;227;Skogas Centrum;Skogasplan 9 bv;;142 30;SKOG�S;Stockholms lan;6568637;1634130Butik;228;;Storangstorget 1;;184 30;�KERSBERGA;Stockholms lan;6598093;1641290Butik;229;;Tuna Torg 19;;186 31;VALLENTUNA;Stockholms lan;6603903;1628598Butik;230;Orminge Centrum;Ormingeplan 3;;S-132 30;SALTSJ�-BOO;Stockholms lan;6581002;1639572Butik;231;Ekero Centrum;�ngbatsvagen 4;;178 30;EKER�;Stockholms lan;6576156;1614352Butik;232;Kungens Kurva;Tangentvagen 2;;141 75;KUNGENS KURVA;Stockholms lan;6574107.314;1620698.02Butik;234;Salem Centrum;Saby Torg 5;;144 30;R�NNINGE;Stockholms lan;6566141;1612076Butik;235;;Kyrkvagen 4 A;;196 30;KUNGS�NGEN;Stockholms lan;6597090;1610260Butik;236;;Kopmannagatan 2;;762 31;RIMBO;Stockholms lan;6627660;1644016Butik;237;Sickla;Siroccogatan 7;;131 54;NACKA;Stockholms lan;6578275;1632466Butik;238;Molnvik;Fenix Vag 4;;S-134 44;GUSTAVSBERG;Stockholms lan;6579896.447;1649187.164Butik;239;Vasterhaninge centrum;Kyrkvagen 2;;137 38;V�STERHANINGE;Stockholms lan;6557982;1631801Butik;240;Rotebro;Konsumentvagen 1;;192 68;SOLLENTUNA;Stockholms lan;6596372;1619580Butik;241;;Viksjo Centrum;;S-175 45;J�RF�LLA;Stockholms lan;6589540;1613484Butik;242;;Centrumvagen 2;;155 30;NYKVARN;Stockholms lan;6563044;1592942Butik;243;Barkarby;Majorsvagen 2 D;;177 44;J�RF�LLA;Stockholms lan;6590020;1616802Butik;244;Mall of Scandinavia;Rasta Strandvag 13C;;169 79;Solna;Stockholms lan;6585235.789;1625151.209Butik;245;Haninge Soderby;�sterport 2;;136 65;HANINGE;Stockholms lan;6564602.199;1634535.833Butik;246;Haggvik;Norra Malmvagen 80-82;;191 62;SOLLENTUNA;Stockholms lan;6592905.95;1620873.88Butik;301;Gottsunda centrum;Valthornsvagen;;S-756 50;UPPSALA;Uppsala lan;6633403;1602399Butik;302;;Dragarbrunnsgatan 48 A;;S-753 20;UPPSALA;Uppsala lan;6639091;1602924Butik;303;Stenhagen;Herrhagsvagen 1;;S-752 67;UPPSALA;Uppsala lan;6637930;1598530Butik;305;Granby Centrum;Marknadsgatan;;S-754 31;UPPSALA;Uppsala lan;6641214;1604586Butik;306;;Centrumgrand;;S-746 32;B�LSTA;Uppsala lan;6606509;1597406Butik;307;;�stra Ringgatan 21;;749 35;ENK�PING;Uppsala lan;6613246;1572022Butik;308;;Centralgatan 14;;S-815 38;TIERP;Uppsala lan;6692989;1594382Butik;309;;Radhusgatan 10;;S-742 42;�REGRUND;Uppsala lan;6694119;1645477Butik;310;;Centrumgatan 7;;S-814 30;SKUTSK�R;Uppsala lan;6724141;1588100Butik;311;Kvarnen;Vaksalagatan 30;;S-753 31;UPPSALA;Uppsala lan;6639512;1603172Butik;312;Bolanderna;Stangjarnsgatan 10;;S-753 23;UPPSALA;Uppsala lan;6637844;1605483Butik;313;;Gredelbyvagen 1;;S-741 40;KNIVSTA;Uppsala lan;6624652.076;1611679.798Butik;401;Nykoping City;Vastra Storgatan 13;;611 31;NYK�PING;Sodermanlands lan;6515028.895;1569376.114Butik;402;;�stra Langgatan 35;;619 30;TROSA;Sodermanlands lan;6531831;1600452Butik;403;;Kungsgatan 12;;632 20;ESKILSTUNA;Sodermanlands lan;6583501;1540344Butik;404;Tuna park;Albertina Nystroms vag 2;;632 22;ESKILSTUNA;Sodermanlands lan;6584036;1537739Butik;405;;Levins Grand 1;;644 32;TORSH�LLA;Sodermanlands lan;6589036;1538111Butik;406;;Kopmangatan 9;;641 30;KATRINEHOLM;Sodermanlands lan;6541645;1523150Butik;407;;Tradgardsgatan 12;;645 31;STR�NGN�S;Sodermanlands lan;6584622;1569400Butik;408;;Storgatan 17-19;;647 30;MARIEFRED;Sodermanlands lan;6571761;1580719Butik;409;;Landsvagsgatan 26;;642 60;MALMK�PING;Sodermanlands lan;6557184;1552835Butik;410;;Gotgatan 1;;S-642 37;FLEN;Sodermanlands lan;6548884;1545074Butik;411;;Jarntorget 1;;613 30;OXEL�SUND;Sodermanlands lan;6505986;1575358Butik;412;;Storgatan 18-20;;643 30;VING�KER;Sodermanlands lan;6547855.233;1504237.313Butik;413;;Vastra Storgatan 16 A;;646 31;GNESTA;Sodermanlands lan;6548443;1586187Butik;414;Gustafsberg;Gustafsbergsstigen 4;;611 67;NYK�PING;Sodermanlands lan;6517119.125;1570645.471Butik;501;;Ekholmens Centrum;;S-589 25;LINK�PING;�stergotlands lan;6473035;1492658Butik;504;Tornby;Svedengatan 9;;S-582 73;LINK�PING;�stergotlands lan;6479145.019;1487377.664Butik;505;Gyllentorget;Repslagaregatan 25-27;;S-582 22;LINK�PING;�stergotlands lan;6476390;1489594Butik;506;;Adelswardsgatan 4 C;;S-597 30;�TVIDABERG;�stergotlands lan;6453149;1511376Butik;507;;Jerikodalsgatan 1-3;;S-595 30;MJ�LBY;�stergotlands lan;6467120;1460174Butik;509;;Hovsgatan 4;;592 30;VADSTENA;�stergotlands lan;6480824;1446505Butik;510;;Kungsgatan 20;;S-591 30;MOTALA;�stergotlands lan;6490756;1455091Butik;513;;Hantverkaregatan 26;;602 32;NORRK�PING;�stergotlands lan;6496126;1522429Butik;516;;Mirum Galleria;;603 59;NORRK�PING;�stergotlands lan;6494501;1523596Butik;517;Ingelsta;Blygatan 27;;602 23;NORRK�PING;�stergotlands lan;6499208;1520906Butik;518;;Radhustorget 2;;614 34;S�DERK�PING;�stergotlands lan;6484436;1530015Butik;519;;Centralplan;;615 30;VALDEMARSVIK;�stergotlands lan;6453595;1546891Butik;520;;Bergslagsvagen 9;;612 30;FINSP�NG;�stergotlands lan;6509414;1498252Butik;521;;Torggatan 3;;S-590 37;KISA;�stergotlands lan;6429382;1489791Butik;522;;Riddaregatan 1;;599 31;�DESH�G;�stergotlands lan;6456749;1432291Butik;523;;Hagagatan 1a;;S-570 60;�STERBYMO;�stergotlands lan;6411365;1468650Butik;524;;Postgatan 5 C;;S-590 11;BOXHOLM;�stergotlands lan;6452813;1455910Butik;525;Djurgarden;�smestadsgatan 6;;S-583 38;Linkoping;�stergotlands lan;6473703;1487321Butik;601;A6;Kompanigata 16-18;;553 05;J�NK�PING;Jonkopings lan;6406582;1404702Butik;602;Atollen;Fiskargrand 5;;553 20;J�NK�PING;Jonkopings lan;6407378.48;1402829.945Butik;604;;Jonkopingsvagen 7 B;;566 31;HABO;Jonkopings lan;6421781;1397415Butik;605;;Flanaden;;331 30;V�RNAMO;Jonkopings lan;6341157;1393302Butik;606;;Rosenborgsgatan 33;;561 31;HUSKVARNA;Jonkopings lan;6408236;1408994Butik;607;;Storgatan 34;;571 31;N�SSJ�;Jonkopings lan;6392635;1433722Butik;608;;Biblioteksgatan 8;;574 32;VETLANDA;Jonkopings lan;6366864;1456746Butik;609;;Sodra Storgatan 4 C;;575 31;EKSJ�;Jonkopings lan;6393656;1450327Butik;610;;Storgatan 23;;573 32;TRAN�S;Jonkopings lan;6434741;1450918Butik;611;;Kopmangatan 4;;332 32;GISLAVED;Jonkopings lan;6355208;1363441Butik;612;;Storgatan 5;;576 31;S�VSJ�;Jonkopings lan;6364513;1431555Butik;613;;Kopmansgatan 6;;578 32;ANEBY;Jonkopings lan;6413151;1441089Butik;615;;Kopmansgatan 2;;335 30;GNOSJ�;Jonkopings lan;6361163.206;1375268.598Butik;616;;Jarnvagsgatan 29;;565 32;MULLSJ�;Jonkopings lan;6422852;1386083Butik;618;;Centralplan 1;;568 30;SKILLINGARYD;Jonkopings lan;6368234;1397112Butik;619;;Ribbagardsgrand 2;;563 31;GR�NNA;Jonkopings lan;6433960;1420909Butik;701;Affarshuset Tegner;Storgatan 40;;352 31;V�XJ�;Kronobergs lan;6306289;1438691Butik;702;;Eskilsgatan 7;;341 30;LJUNGBY;Kronobergs lan;6302408;1386202Butik;703;;Norra Esplanaden 6;;S-343 30;�LMHULT;Kronobergs lan;6270668;1397644Butik;704;;Storgatan 14;;342 30;ALVESTA;Kronobergs lan;6308791;1423876Butik;705;;Drottninggatan 32;;S-285 31;MARKARYD;Kronobergs lan;6261969;1364034Butik;706;;Storgatan 74;;362 30;TINGSRYD;Kronobergs lan;6266611;1449184Butik;707;Samarkand;Hejaregatan 22;;352 46;V�XJ�;Kronobergs lan;6306955;1436486Butik;708;;Olofsgatan 10;;364 30;�SEDA;Kronobergs lan;6338507;1472131Butik;709;;Storgatan 71;;360 50;LESSEBO;Kronobergs lan;6291735;1467278Butik;801;Giraffen;Verkstadsgatan 8;;392 39;KALMAR;Kalmar lan;6282701;1532558Butik;802;;Norra Langgatan 23-25;;392 32;KALMAR;Kalmar lan;6282033;1534227Butik;804;;Lottorpsvagen 39;;387 72;L�TTORP;Kalmar lan;6338318;1572184Butik;805;;�stra Kyrkogatan 19;;387 31;BORGHOLM;Kalmar lan;6306084;1551887Butik;806;;�lands Kopstad;;386 31;F�RJESTADEN;Kalmar lan;6280723;1540764Butik;807;;�sevadsgatan 3;;383 31;M�NSTER�S;Kalmar lan;6324124;1538719Butik;808;;Postmastaregatan 16;;572 30;OSKARSHAMN;Kalmar lan;6348913;1538632Butik;809;;Vastra Kyrkogatan 34;;593 33;V�STERVIK;Kalmar lan;6403932.531;1549363.395Butik;810;;Sevedegatan 25 B;;598 37;VIMMERBY;Kalmar lan;6393520;1502808Butik;811;;Bangatan 9;;382 40;NYBRO;Kalmar lan;6290738;1505845Butik;812;;Bryggerigatan 3;;577 30;HULTSFRED;Kalmar lan;6373587;1502275Butik;813;;Hantverkaregatan 7;;361 30;EMMABODA;Kalmar lan;6278197;1483645Butik;814;;Allfargatan 9;;385 30;TORS�S;Kalmar lan;6253828;1512143Butik;815;;Posttorget;;579 30;H�GSBY;Kalmar lan;6337209;1513635Butik;816;;Bondevagen 4;;S-594 31;GAMLEBY;Kalmar lan;6419481;1535247Butik;902;;�stervag 3 C;;621 45;VISBY;Gotlands lan;6393067;1648993Butik;903;;Storgatan 61;;623 50;HEMSE;Gotlands lan;6348961;1655264Butik;904;;Tullhagsplan 2 B;;620 30;SLITE;Gotlands lan;6401616;1678634Butik;1001;Wachtmeister;Arklimastaregatan 46;;371 35;KARLSKRONA;Blekinge lan;6225904;1486152Butik;1002;Amiralen;Verkovagen 9;;371 62;Karlskrona-LYCKEBY;Blekinge lan;6229811;1489878Butik;1003;;Strandgatan 4;;372 30;RONNEBY;Blekinge lan;6231583;1466905Butik;1004;;Drottninggatan 71 B;;374 38;KARLSHAMN;Blekinge lan;6227534;1441277Butik;1005;;Jarnvagsgatan 5;;294 34;S�LVESBORG;Blekinge lan;6214118;1423814Butik;1006;;�stra Storgatan 34;;S-293 34;OLOFSTR�M;Blekinge lan;6239566;1421035Butik;1101;;�stra Boulevarden 3;;S-291 31;KRISTIANSTAD;Skane lan;6212505;1397361Butik;1103;;Kopmannagatan 2;;296 31;�HUS;Skane lan;6200770;1406017Butik;1104;;Stora Radmansgatan 5;;S-272 31;SIMRISHAMN;Skane lan;6159590;1408055Butik;1105;;Centralgatan 4;;S-273 30;TOMELILLA;Skane lan;6158678;1383099Butik;1106;;Forsta Avenyn 7;;281 31;H�SSLEHOLM;Skane lan;6227333;1373348Butik;1107;;Storgatan 47 b;;S-262 32;�NGELHOLM;Skane lan;6239143;1317627Butik;1108;;Kopmansgatan 72 D;;S-269 31;B�STAD;Skane lan;6259398;1317558Butik;1109;;Storgatan 23;;S-264 33;KLIPPAN;Skane lan;6226219;1333737Butik;1110;;Kopmangatan 14F;;S-284 31;PERSTORP;Skane lan;6225863;1350158Butik;1111;;Vastra Jarnvagsgatan 18;;283 31;OSBY;Skane lan;6251939;1388161Butik;1112;;Torggatan 15;;S-265 35;�STORP;Skane lan;6226584;1322304Butik;1113;;Terrassen 1 B;;S-286 31;�RKELLJUNGA;Skane lan;6242367;1343566Butik;1114;;Storgatan 35;;295 31;BROM�LLA;Skane lan;6217008;1416645Butik;1115;;�stra Jarnvagsgatan 7;;280 60;BROBY;Skane lan;6237612;1392834Butik;1202;;Jagersro Center;;213 75;MALM�;Skane lan;6163462;1326679Butik;1203;Entr�;Fredsgatan 14 B;;212 12;MALM�;Skane lan;6167611;1324624Butik;1206;Mobilia;Stadiongatan 3D;;214 32;MALM�;Skane lan;6164645;1323361Butik;1207;;Sodra Forstadsgatan 50 B;;211 43;MALM�;Skane lan;6166535;1323352Butik;1208;Hansa;Malmborgsgatan 6;;211 38;MALM�;Skane lan;6167276;1323437Butik;1209;Kronprinsen;Regementsgatan 50;;217 48;MALM�;Skane lan;6166891;1322276Butik;1211;Limhamn;Linn�gatan 47;;216 14;MALM�;Skane lan;6165081;1318967Butik;1213;Vastra Hamnen;Masttorget 2;;211 19;MALM�;Skane lan;6168313;1322011Butik;1214;Emporia;Hyllie Stationsvag 18;;215 32;MALM�;Skane lan;6163093.345;1321290.065Butik;1219;;Seglaregatan 6;;S-234 31;LOMMA;Skane lan;6174940;1327872Butik;1220;;Kristers Vag 3;;S-247 50;DALBY;Skane lan;6173287;1345419Butik;1221;;Burlovs Centrum;;232 37;ARL�V;Skane lan;6171158;1328649Butik;1222;;Sodergatan 2;;274 31;SKURUP;Skane lan;6152620;1354240Butik;1224;;Storgatan 15;;233 31;SVEDALA;Skane lan;6156227;1337706Butik;1225;;Algatan 26;;231 42;TRELLEBORG;Skane lan;6141465;1332130Butik;1226;;Jarnvagsgatan 2 L;;235 31;VELLINGE;Skane lan;6152534;1323928Butik;1227;Toppengallerian;Kungstorpsvagen 10;;236 32;H�LLVIKEN;Skane lan;6147740;1320203Butik;1230;;Stora �stergatan 13;;S-271 34;YSTAD;Skane lan;6146284;1374488Butik;1231;;�stergatan 10;;S-275 32;SJ�BO;Skane lan;6168758;1367920Butik;1232;;Brahogsplatsen 1 C;;S-245 31;STAFFANSTORP;Skane lan;6171225;1336283Butik;1242;Raa;Landskronavagen 33;;S-252 32;HELSINGBORG;Skane lan;6212432;1308927Butik;1243;;Drottninggatan 18;;S-252 21;HELSINGBORG;Skane lan;6217608;1306020Butik;1245;Vala;Bjorkavagen 97;;S-260 36;�D�KRA-V�LA;Skane lan;6222527;1310841Butik;1246;;Norra Storgatan 20;;S-267 31;BJUV;Skane lan;6221375;1320090Butik;1248;;Tradgardsgatan 9;;S-261 31;LANDSKRONA;Skane lan;6197269;1313785Butik;1249;;Herrevadsgatan 11 H;;S-268 31;SVAL�V;Skane lan;6201665;1331294Butik;1250;Center Syd;Marknadsvagen 5;;S-246 42;L�DDEK�PINGE;Skane lan;6185754.814;1323412.974Butik;1252;;Storgatan 58 E;;S-263 38;H�GAN�S;Skane lan;6234950;1298599Butik;1253;NOVA;Traktorvagen 4;;S-226 60;LUND;Skane lan;6179662;1333949Butik;1254;;Bangatan 10;;S-222 21;LUND;Skane lan;6178262;1335497Butik;1255;SALUHALLEN;Martenstorget 1;;S-223 51;LUND;Skane lan;6177810;1335908Butik;1256;;Stenhuggaregatan 2;;S-244 30;K�VLINGE;Skane lan;6187935;1330967Butik;1257;;Sodergatan 14;;S-241 30;ESL�V;Skane lan;6192683;1343212Butik;1258;;Nya Torg 10;;S-243 30;H��R;Skane lan;6203019;1358345Butik;1259;;Nya Torg 8;;S-242 31;H�RBY;Skane lan;6193571;1365755Butik;1301;;Kopmansgatan 5;;S-302 42;HALMSTAD;Hallands lan;6286869;1319259Butik;1302;;Eurostop Kopcenter;;30263;HALMSTAD;Hallands lan;6284711;1322450Butik;1304;;Storgatan 10b;;314 31;HYLTEBRUK;Hallands lan;6322155;1344106Butik;1305;;�stertullsgatan 12;;S-312 30;LAHOLM;Hallands lan;6268301;1330033Butik;1306;;Stortorget 3 B;;S-311 30;FALKENBERG;Hallands lan;6313691;1298142Butik;1307;;Vastra Vallgatan 6;;S-432 41;VARBERG;Hallands lan;6336631;1284500Butik;1308;;Nygatan 17;;434 30;KUNGSBACKA;Hallands lan;6379493;1276554Butik;1309;Flygstaden;Kundvagen 5e;;30241;Halmstad;Hallands lan;6287474;1316239Butik;1310;Breared;Vrangagatan 5;;432 38;VARBERG;Hallands lan;6334039.451;1286318.185Butik;1311;;Hedebrovagen 50;;434 39;Kungsbacka;Hallands lan;6382872.95;1276456.46Butik;1404;;Kungsportsavenyn 18;;411 36;G�TEBORG;Vastra Gotalands lan;6403733;1271722Butik;1406;;Kungstorget 1;;411 17;G�TEBORG;Vastra Gotalands lan;6404043;1271243Butik;1407;Olskroken;Kobbarnas vag 1;;416 64;G�TEBORG;Vastra Gotalands lan;6405184;1273064Butik;1409;;Torpavallsgatan 4;;416 73;G�TEBORG;Vastra Gotalands lan;6406126;1274930Butik;1410;Nordstan;Lilla Kladpressaregatan 8-16;;411 05;G�TEBORG;Vastra Gotalands lan;6404812;1271369Butik;1411;;Linn�gatan 28 B;;413 04;G�TEBORG;Vastra Gotalands lan;6403411;1270271Butik;1412;;Kapellplatsen 4;;411 31;G�TEBORG;Vastra Gotalands lan;6402961;1271407Butik;1413;Garda;�vagen 42;;412 51;G�TEBORG;Vastra Gotalands lan;6403428;1272761Butik;1414;Backaplan;Swedenborgsgatan 5;;417 05;G�TEBORG;Vastra Gotalands lan;6406423;1270416Butik;1415;;Karl Johansgatan 85;;414 51;G�TEBORG;Vastra Gotalands lan;6402845;1267940Butik;1416;Backebol Homecenter;Transportgatan 19-21;;S-422 46;HISINGS BACKA;Vastra Gotalands lan;6411470.983;1273672.71Butik;1417;Eriksberg;Kolhamnsgatan 9;;417 61;G�TEBORG;Vastra Gotalands lan;6404850;1268441Butik;1418;Gamlestaden;Hornsgatan 1;;415 26;G�TEBORG;Vastra Gotalands lan;6406688;1274154Butik;1420;;Frolunda Torg;;421 42;V�STRA FR�LUNDA;Vastra Gotalands lan;6398598;1267803Butik;1423;;Angereds Torg 4;;424 65;ANGERED;Vastra Gotalands lan;6414264;1276844Butik;1424;Sisjon;Hantverksvagen 2-8;;436 33;ASKIM;Vastra Gotalands lan;6397481;1269750Butik;1425;;Norgardsvagen 10 B;;475 32;�CKER�;Vastra Gotalands lan;6405734;1252658Butik;1426;;Flygfaltsgatan 50;;423 37;TORSLANDA;Vastra Gotalands lan;6405474;1260362Butik;1428;;Biblioteksvagen 14 B;;435 30;M�LNLYCKE;Vastra Gotalands lan;6398561;1279829Butik;1429;;Ekenleden 5;;428 36;K�LLERED;Vastra Gotalands lan;6394219;1275116Butik;1430;;Kyrktorget 14;;433 33;PARTILLE;Vastra Gotalands lan;6407632;1279784Butik;1431;;Brogatan 9;;431 30;M�LNDAL;Vastra Gotalands lan;6398613.864;1273835.974Butik;1432;;Strandgatan 79;;442 31;KUNG�LV;Vastra Gotalands lan;6422621;1273096Butik;1433;;Krokdalsvagen 4;;471 32;SK�RHAMN;Vastra Gotalands lan;6436974;1248621Butik;1434;;�stra Kopmansgatan 25;;S-444 30;STENUNGSUND;Vastra Gotalands lan;6445105;1264726Butik;1435;;Hamntorget;;473 34;HEN�N;Vastra Gotalands lan;6464503;1257692Butik;1436;;Vasterlanggatan 2 B;;S-451 31;UDDEVALLA;Vastra Gotalands lan;6476090;1273297Butik;1437;;Torp Kopcenter;;S-451 76;UDDEVALLA;Vastra Gotalands lan;6477143;1266335Butik;1438;;Stromstadsvagen 1;;S-455 30;MUNKEDAL;Vastra Gotalands lan;6490091;1258968Butik;1439;;Hallindenvagen 2 B;;S-456 34;KUNGSHAMN;Vastra Gotalands lan;6479435;1234004Butik;1440;;Korsgatan 5;;S-453 33;LYSEKIL;Vastra Gotalands lan;6469508;1243607Butik;1441;;Oslovagen 7;;S-452 35;STR�MSTAD;Vastra Gotalands lan;6544581;1233628Butik;1442;;Oslovagen 56;;S-452 35;STR�MSTAD;Vastra Gotalands lan;6545334.592;1234585.595Butik;1443;;Saltevagen 3;;S-457 72;GREBBESTAD;Vastra Gotalands lan;6516725;1236229Butik;1501;;Sundsgatan 6;;S-462 33;V�NERSBORG;Vastra Gotalands lan;6478252;1296225Butik;1503;Anes vag 2;�verby Kopcenter;;S-461 70;Trollhattan;Vastra Gotalands lan;6470997.14;1294751.786Butik;1504;;Kungsgatan 32;;S-461 30;TROLLH�TTAN;Vastra Gotalands lan;6467768;1293872Butik;1505;;Torggatan 11;;S-662 31;�M�L;Vastra Gotalands lan;6551974;1321958Butik;1506;;Storgatan 8;;S-464 30;MELLERUD;Vastra Gotalands lan;6513503;1305695Butik;1507;;Berglunds Grand 1;;S-666 30;BENGTSFORS;Vastra Gotalands lan;6550815;1294435Butik;1508;Solkatten;Lerum Centrum;;443 30;LERUM;Vastra Gotalands lan;6410533;1289650Butik;1509;Dals-Ed;Storgatan 26;;S-668 30;ED;Vastra Gotalands lan;6538721;1276888Butik;1511;;Goteborgsvagen 21;;517 36;BOLLEBYGD;Vastra Gotalands lan;6398379;1307054Butik;1512;;All�gatan 16;;503 32;BOR�S;Vastra Gotalands lan;6403409;1329329Butik;1513;Knalleland;�lgardsvagen 15;;506 30;BOR�S;Vastra Gotalands lan;6404431;1329031Butik;1514;;Goteborgsvagen 37;;S-463 30;LILLA EDET;Vastra Gotalands lan;6451863;1283464Butik;1515;;Storgatan 25;;S-514 33;TRANEMO;Vastra Gotalands lan;6375785;1352841Butik;1516;;Borasvagen 2;;512 53;SVENLJUNGA;Vastra Gotalands lan;6377802;1338480Butik;1517;;Borasvagen 2;;523 36;ULRICEHAMN;Vastra Gotalands lan;6410343;1357860Butik;1518;;Kungsgatan 34 C;;441 31;ALINGS�S;Vastra Gotalands lan;6427551;1306408Butik;1519;;Borasvagen 31;;S-511 54;KINNA;Vastra Gotalands lan;6380032;1313398Butik;1520;;Centrumvagen 2;;S-458 30;F�RGELANDA;Vastra Gotalands lan;6500094;1278395Butik;1521;;Ale Torg 7;;449 31;N�DINGE;Vastra Gotalands lan;6424765;1277112Butik;1522;;Kungsgatan 26;;447 30;V�RG�RDA;Vastra Gotalands lan;6438464;1323059Butik;1523;;Storgatan 44;;524 30;HERRLJUNGA;Vastra Gotalands lan;6442707;1336008Butik;1524;�haga;Trandogatan 14;;504 33;BOR�S;Vastra Gotalands lan;6401927;1329428Butik;1601;;Stockholmsvagen 3;;542 33;MARIESTAD;Vastra Gotalands lan;6511419;1385293Butik;1602;;Gotgatan 15;;531 31;LIDK�PING;Vastra Gotalands lan;6489673;1345483Butik;1603;;Torggatan 8;;467 30;GR�STORP;Vastra Gotalands lan;6472149;1317025Butik;1604;;Drottninggatan 10;;534 31;VARA;Vastra Gotalands lan;6463409;1332769Butik;1605;;Marumsgatan 15;;532 32;SKARA;Vastra Gotalands lan;6475931;1361412Butik;1606;;Hertig Johans Torg 4;;541 30;SK�VDE;Vastra Gotalands lan;6475762;1385361Butik;1607;;Hamngatan 18;;544 30;HJO;Vastra Gotalands lan;6465432;1411254Butik;1608;;Gamla Torget 8;;S-522 31;TIDAHOLM;Vastra Gotalands lan;6452299;1391282Butik;1609;;Stora Torget 17;;521 42;FALK�PING;Vastra Gotalands lan;6450806;1367442Butik;1610;;Storgatan 9;;546 30;KARLSBORG;Vastra Gotalands lan;6490319;1424625Butik;1611;;Jarnvagsgatan 6 E;;533 30;G�TENE;Vastra Gotalands lan;6491764;1365254Butik;1612;;Kyrkogatan 24;;545 30;T�REBODA;Vastra Gotalands lan;6510932;1402673Butik;1613;;Storgatan 9;;547 30;GULLSP�NG;Vastra Gotalands lan;6541820;1401555Butik;1614;;Centrumgatan 6;;S-543 30;TIBRO;Vastra Gotalands lan;6479182;1404123Butik;1616;;Jarnvagsgatan 3 B;;465 30;NOSSEBRO;Vastra Gotalands lan;6455705;1318578Butik;1617;;Nolhagavagen 1;;541 38;SK�VDE;Vastra Gotalands lan;6477695.781;1386164.972Butik;1701;;Drottninggatan 26-28;;652 25;KARLSTAD;Varmlands lan;6586578;1368895Butik;1702;Bergvik;Frykmans Vag 1;;653 46;KARLSTAD;Varmlands lan;6586511;1364710Butik;1703;;Jarnvagsgatan 24;;667 30;FORSHAGA;Varmlands lan;6603439;1368458Butik;1704;;Storgatan 16 B;;665 30;KIL;Varmlands lan;6600907;1359402Butik;1705;;Sundsgatan 28;;661 42;S�FFLE;Varmlands lan;6560265;1335483Butik;1706;;Storgatan 23;;671 31;ARVIKA;Varmlands lan;6619304;1318961Butik;1707;;Storgatan 7;;683 32;HAGFORS;Varmlands lan;6659178;1382397Butik;1708;;Viktoriagatan 3;;682 30;FILIPSTAD;Varmlands lan;6622613;1408032Butik;1709;;Kungsgatan 43;;681 31;KRISTINEHAMN;Varmlands lan;6577521;1403434Butik;1710;;Kvarngatan 13;;686 30;SUNNE;Varmlands lan;6638225;1350845Butik;1711;;Tallbacksvagen 21 B;;684 30;MUNKFORS;Varmlands lan;6637352;1373131Butik;1712;;Nya Torget 3;;685 30;TORSBY;Varmlands lan;6671785;1344587Butik;1713;;Storgatan 47;;672 30;�RJ�NG;Varmlands lan;6591426;1291427Butik;1714;;Sveagatan 99;;664 34;GRUMS;Varmlands lan;6584556;1346860Butik;1715;;Helga Gorlins gata 1;;673 32;CHARLOTTENBERG;Varmlands lan;6645511;1303206Butik;1716;;�rasvagen 5;;663 30;SKOGHALL;Varmlands lan;6580620;1366872Butik;1717;;Djupadalsgatan 12;;688 30;STORFORS;Varmlands lan;6602209;1413282Butik;1801;;Kungsgatan 11;;702 11;�REBRO;�rebro lan;6572350;1466318Butik;1802;Marieberg;Saljarevagen 3;;702 31;�REBRO;�rebro lan;6566551;1461925Butik;1803;Eurostop;Prologgatan 8;;703 70;�REBRO;�rebro lan;6575072;1465487Butik;1804;Tybblekullen;Sorbyangsvagen 26;;S-702 18;�rebro;�rebro lan;6570316.365;1467267.854Butik;1805;;Stortorget 4;;694 30;HALLSBERG;�rebro lan;6549588;1460167Butik;1806;;Kopmangatan 22;;692 30;KUMLA;�rebro lan;6556259;1462092Butik;1807;;Vaderkvarnsgatan 15;;696 30;ASKERSUND;�rebro lan;6528921;1447992Butik;1808;;Herrgardsgatan 12;;693 31;DEGERFORS;�rebro lan;6569387;1421650Butik;1809;;K-Center;;691 31;KARLSKOGA;�rebro lan;6579082;1427086Butik;1810;;Storgatan 11;;713 31;NORA;�rebro lan;6600107;1456605Butik;1811;;Kristinavagen 41;;711 30;LINDESBERG;�rebro lan;6608414;1467292Butik;1812;;Sikforsvagen 26;;712 30;H�LLEFORS;�rebro lan;6630191.6;1428310.132Butik;1813;;Centrumtorget 19;;695 30;LAX�;�rebro lan;6541043;1431858Butik;1814;;Gruvfogdegatan 1;;714 30;KOPPARBERG;�rebro lan;6639883;1454506Butik;1815;;Sticksparet 2 B;;716 30;FJUGESTA;�rebro lan;6561805;1446651Butik;1901;City;Vasagatan 21;;722 15;V�STER�S;Vastmanlands lan;6610357;1541718Butik;1902;Erikslund;Traversgatan 10 A;;721 38;V�STER�S;Vastmanlands lan;6611057;1537057Butik;1903;Halla;Stockholmsvagen 136 B;;721 34;V�STER�S;Vastmanlands lan;6610119;1545973Butik;1905;;Drottninggatan 15;;S-736 31;KUNGS�R;Vastmanlands lan;6589258;1516549Butik;1906;;Nygatan 27;;732 30;ARBOGA;Vastmanlands lan;6586051;1502063Butik;1907;;Stora Gatan 17;;731 31;K�PING;Vastmanlands lan;6599275;1510907Butik;1908;;Jarntorget 1;;737 40;FAGERSTA;Vastmanlands lan;6653992;1499222Butik;1909;;Radmansgatan 10;;733 30;SALA;Vastmanlands lan;6644843;1544814Butik;1910;;Hammartorget 5 B;;734 30;HALLSTAHAMMAR;Vastmanlands lan;6610514;1523914Butik;1911;;Kopmangatan 27-29;;735 31;SURAHAMMAR;Vastmanlands lan;6620947;1523433Butik;1912;;Malmgatan 18;;738 31;NORBERG;Vastmanlands lan;6660611;1506687Butik;1913;;Centralvagen 7;;739 30;SKINNSKATTEBERG;Vastmanlands lan;6634583;1493752Butik;1914;;Torgvagen 10;;S-740 46;�STERV�LA;Uppsala lan;6674481;1576154Butik;2001;;Falugatan 2;;791 71;FALUN;Dalarnas lan;6721055;1490379Butik;2002;;Norra Backagatan 5 A;;781 70;Borlange;Dalarnas lan;6706901;1478715Butik;2003;;Sveagatan 9;;784 33;BORL�NGE;Dalarnas lan;6707745;1479525Butik;2004;Centrumgallerian;�sgatan 64;;776 30;HEDEMORA;Dalarnas lan;6684395;1509970Butik;2005;;Kungsgatan 13;;S-774 30;AVESTA;Dalarnas lan;6669751;1520173Butik;2006;;Fredsgatan 15;;771 32;LUDVIKA;Dalarnas lan;6670163;1465651Butik;2007;;Kyrkogatan 19;;792 30;MORA;Dalarnas lan;6766057;1431471Butik;2008;;Gronlandsvagen 35;;782 31;MALUNG;Dalarnas lan;6731415;1385645Butik;2009;;Norsgatan 26;;793 30;LEKSAND;Dalarnas lan;6735090;1456013Butik;2010;;Centrumhuset;;780 67;S�LEN;Dalarnas lan;6784834;1363436Butik;2011;;All�gatan 25;;780 50;VANSBRO;Dalarnas lan;6711482;1413122Butik;2012;;Storgatan 10;;795 30;R�TTVIK;Dalarnas lan;6752012;1462817Butik;2013;;Dalgatan 81 H;;796 31;�LVDALEN;Dalarnas lan;6791723;1405053Butik;2014;;Johan Ahlbacks plats 4;;777 30;SMEDJEBACKEN;Dalarnas lan;6669319;1478203Butik;2015;;Centralgatan 2;;794 30;ORSA;Dalarnas lan;6778711;1436114Butik;2016;Djuras;Industrivagen 8;;785 61;Djuras;Dalarnas lan;6715955;1463428Butik;2017;;Gransgatan 3;;783 30;S�TER;Dalarnas lan;6692029;1497090Butik;2018;;HSB vagen 1;;790 91;IDRE;Dalarnas lan;6864331;1337672Butik;2101;Gallerian Nian;Drottninggatan 9;;S-803 20;G�VLE;Gavleborgs lan;6729282;1573017Butik;2102;;Valbo kopcentrum;;S-818 32;VALBO;Gavleborgs lan;6724634;1565034Butik;2103;;Ingenjorsgatan 5;;S-802 93;G�VLE;Gavleborgs lan;6726051;1573316Butik;2104;;Kopmangatan 19;;S-811 39;SANDVIKEN;Gavleborgs lan;6722927;1553068Butik;2105;;Langgatan 10;;S-821 41;BOLLN�S;Gavleborgs lan;6805328.138;1532453.231Butik;2106;;Kopmangatan 9;;S-826 30;S�DERHAMN;Gavleborgs lan;6799176;1566956Butik;2107;;Norra Kyrkogatan 14;;S-824 30;HUDIKSVALL;Gavleborgs lan;6846803;1568579Butik;2108;;Skolgatan 16;;S-813 30;HOFORS;Gavleborgs lan;6714419;1526334Butik;2109;;Norra Jarnvagsgatan 45;;S-827 32;LJUSDAL;Gavleborgs lan;6857131;1515447Butik;2110;;Langgatan 17;;S-828 32;EDSBYN;Gavleborgs lan;6806764;1500674Butik;2111;;Sodra �sgatan 32;;S-816 30;OCKELBO;Gavleborgs lan;6752952;1549492Butik;2112;;Storgatan 21;;S-820 70;BERGSJ�;Gavleborgs lan;6875286;1565683Butik;2201;;Kopmangatan 1;;S-871 30;H�RN�SAND;Vasternorrlands lan;6948615;1609425Butik;2202;;Sjogatan 16;;S-852 30;SUNDSVALL;Vasternorrlands lan;6920873.651;1577712.733Butik;2203;Birsta Sundsvall;Gesallvagen 3;;857 53;SUNDSVALL;Vasternorrlands lan;6926706;1578992Butik;2204;;Affarsgatan 7;;S-862 31;KVISSLEBY;Vasternorrlands lan;6910642;1581590Butik;2205;;Kungsgatan 5 B;;S-872 30;KRAMFORS;Vasternorrlands lan;6981575;1600380Butik;2206;;Storgatan 48;;S-881 30;SOLLEFTE�;Vasternorrlands lan;7007344;1573592Butik;2207;;Kopmangatan 9;;S-891 33;�RNSK�LDSVIK;Vasternorrlands lan;7023480;1645959Butik;2208;;Kopmangatan 29;;S-861 31;TIMR�;Vasternorrlands lan;6931348;1578320Butik;2209;;Jarnvagsgatan 7;;841 33;�NGE;Vasternorrlands lan;6934732;1492360Butik;2210;;Storgatan 16;;S-880 40;RAMSELE;Vasternorrlands lan;7047771;1533111Butik;2211;;Hastmarksvagen 6;;S-891 38;�RNSK�LDSVIK;Vasternorrlands lan;7024846.11;1646857.026Butik;2301;;Kyrkgatan 66;;831 34;�STERSUND;Jamtlands lan;7007887;1441257Butik;2302;Lillange;Hagvagen 11;;831 48;�STERSUND;Jamtlands lan;7007314.071;1443898.059Butik;2304;;Riksvagen 39;;840 60;BR�CKE;Jamtlands lan;6959854;1480312Butik;2305;;Fjallvagen 5;;842 32;SVEG;Jamtlands lan;6880776;1424301Butik;2306;;Storgatan 6;;833 35;STR�MSUND;Jamtlands lan;7082667;1487869Butik;2307;;Gastkullevagen 1 A;;830 05;J�RPEN;Jamtlands lan;7028588;1382580Butik;2308;;Centralgatan 12;;840 70;HAMMARSTRAND;Jamtlands lan;7000105;1527694Butik;2309;;Centrumvagen 3 B;;840 40;SVENSTAVIK;Jamtlands lan;6962636;1429898Butik;2310;;�revagen 49;;830 13;�RE;Jamtlands lan;7034720;1364196Butik;2311;;Genvagen 8;;835 31;KROKOM;Jamtlands lan;7024879;1432153Butik;2312;;Sjoangsvagen 2;;840 95;FUN�SDALEN;Jamtlands lan;6941718;1331640Butik;2401;Wasagallerian;Vastra Kyrkogatan 11;;903 29;UME�;Vasterbottens lan;7087476;1719625Butik;2402;;Strompilsplatsen 29;;907 43;UME�;Vasterbottens lan;7084539;1721578Butik;2403;Solbacken;Varugatan 22;;931 76;SKELLEFTE�;Vasterbottens lan;7194766;1748182Butik;2404;;Nygatan 50;;931 31;SKELLEFTE�;Vasterbottens lan;7192850;1744990Butik;2405;;�stra Jarnvagsgatan 7;;911 32;V�NN�S;Vasterbottens lan;7094798;1693670Butik;2406;;Storgatan 25;;921 31;LYCKSELE;Vasterbottens lan;7168584;1637531Butik;2407;;Volgsjovagen 44;;912 32;VILHELMINA;Vasterbottens lan;7169070;1540787Butik;2408;;Stationsgatan 5;;923 31;STORUMAN;Vasterbottens lan;7222084;1561529Butik;2409;;Storgatan 33;;919 31;�SELE;Vasterbottens lan;7118097;1575237Butik;2410;;Storgatan 23;;930 70;MAL�;Vasterbottens lan;7234228;1637580Butik;2411;;Strandvagen 5;;924 32;SORSELE;Vasterbottens lan;7271704;1579670Butik;2412;;Parkvagen 1;;917 31;DOROTEA;Vasterbottens lan;7128524;1529609Butik;2413;;Affarsvagen 1;;914 31;NORDMALING;Vasterbottens lan;7056398;1683270Butik;2414;;Storgatan 72;;935 32;NORSJ�;Vasterbottens lan;7206096;1673847Butik;2415;;Jarnvagsall�n 9;;922 32;VINDELN;Vasterbottens lan;7127675;1690009Butik;2416;Ersboda;Formvagen 4;;S-906 21;UME�;Vasterbottens lan;7090353;1720981Butik;2417;;Storgatan 29 B;;S-915 31;ROBERTSFORS;Vasterbottens lan;7130412;1744865Butik;2418;;Storgatan 6;;916 31;BJURHOLM;Vasterbottens lan;7095993;1667171Butik;2419;;Bla Vagen 35;;920 66;HEMAVAN;Vasterbottens lan;7302219;1467062Butik;2501;;Storgatan 61;;S-972 31;LULE�;Norrbottens lan;7290735;1792780Butik;2503;Storheden;Besiktningsvagen 19 A;;S-973 45;LULE�;Norrbottens lan;7294037;1787226Butik;2504;;Storgatan 65;;941 32;PITE�;Norrbottens lan;7257994;1764136Butik;2505;;Drottninggatan 8b;;961 35;BODEN;Norrbottens lan;7315107;1768520Butik;2506;;Norra Esplanaden 6;;953 31;HAPARANDA;Norrbottens lan;7329547;1879644Butik;2507;;Geologgatan 7 B;;981 31;KIRUNA;Norrbottens lan;7535647;1685990Butik;2508;;Hantverkaregatan 15;;982 31;G�LLIVARE;Norrbottens lan;7457070;1710575Butik;2509;;Stationsgatan 21 A;;933 32;ARVIDSJAUR;Norrbottens lan;7280877;1655389Butik;2510;;Strandgatan 10;;952 33;KALIX;Norrbottens lan;7325614;1834308Butik;2511;;Berggatan 9;;962 32;JOKKMOKK;Norrbottens lan;7395623;1678246Butik;2512;;Skolgatan 27;;942 31;�LVSBYN;Norrbottens lan;7295626;1739060Butik;2513;;Medborgarvagen 3;;984 31;PAJALA;Norrbottens lan;7477304;1826393Butik;2514;;Hemvagen 11;;957 31;�VERTORNE�;Norrbottens lan;7387007;1850363Butik;2515;;Storgatan 15 B;;938 31;ARJEPLOG;Norrbottens lan;7329629;1594572Butik;2516;;Tvargatan 2;;S-956 31;�VERKALIX;Norrbottens lan;7376273;1815037Ombud;011703-91A;Svartso Lanthandel;Alsviks brygga;;130 34;SK�LVIK;Stockholms lan;6595281.244;1663159.456Ombud;011703-92A;Ingmarso Livs;Ingmarso Byvag 3;;130 25;INGMARS�;Stockholms lan;6597669;1667028Ombud;011703-96A;�stana Livs;Gronborgsvagen 30 �stana farjlage;;184 93;�KERSBERGA;Stockholms lan;6606368.693;1656603.219Ombud;011703-97D;Linanas Gasthamn;Linanasvagen 140;;184 97;LJUSTER�;Stockholms lan;;Ombud;012002-90A;Konsum Moja;Berg;;130 43;M�JA;Stockholms lan;6591320;1674156Ombud;012003-90B;Ica Nara Stavsnas;Stavsnas Garde;;139 70;STAVSN�S;Stockholms lan;6577247;1664393Ombud;012003-91A;Westerbergs Livs;SANDHAMN;;130 39;SANDHAMN;Stockholms lan;6584383;1675775Ombud;012003-92B;Haro Livs;Haro Brygga, Gummerholmen;;130 39;SANDHAMN;Stockholms lan;6584381.693;1675829.077Ombud;012003-93C;Runmaro Lanthandel;Styrsvik 125;;13038;RUNMAR�;Stockholms lan;6576788;1667043Ombud;012004-90A;Guns Livs;Solvik;;130 36;N�MD�;Stockholms lan;6563650;1664392Ombud;012502-90C;Adelso Butik;Hovgarden 9;;178 92;ADELS�;Stockholms lan;;Ombud;013603-90A;Uto Livs AB;Gruvbryggan;;130 56;UT�;Stockholms lan;6541447;1645107Ombud;013604-92A;Butiken pa Orno;Kyrkviken;;130 55;ORN�;Stockholms lan;6550243.908;1647524.786Ombud;013605-90C;RanoButiken;Skogsvillan;;130 56;UT�;Stockholms lan;6535544;1636674Ombud;013607-90A;Sandells Livs AB;Herrviksvagen 2;;148 95;MUSK�;Stockholms lan;6547293;1636072Ombud;018107-90A;ICA Kopcenter;Storgatan 4;;153 30;J�RNA;Stockholms lan;6553432;1600868Ombud;018110-90A;Coop Holo;Centralvagen 11;;153 71;H�L�;Stockholms lan;6546240.25;1599487.236Ombud;018802-90A;Arholma Handel;Norrbyvagen 1;;764 54;ARHOLMA;Stockholms lan;6641473.851;1685079.855Ombud;018803-90B;Ica Barometern;Simpnasvagen 560;;760 40;V�DD�;Stockholms lan;6645948;1676515Ombud;018803-91A;Grisslehamns Livs AB;Centrum;;760 45;GRISSLEHAMN;Stockholms lan;6668418;1666984Ombud;018803-92A;Pappersstugan;Norrtaljevagen 3;;764 30;V�DD�;Stockholms lan;6653881;1667667Ombud;018805-90B;Singoaffaren;Singovagen 243;;760 45;GRISSLEHAMN;Stockholms lan;6674987.834;1663201.886Ombud;018808-91A;ICA Nara Edsbro;Uppsalavagen 3;;762 98;EDSBRO;Stockholms lan;6644944;1650198Ombud;018821-90B;Vato Livs AB;Harg;;760 21;V�T�;Stockholms lan;6636528;1676904Ombud;018822-91A;Ica Graddo;Ica Graddo;;760 15;GR�DD�;Stockholms lan;6631375;1681564Ombud;018822-92B;�butiken Tjocko;Tjocko by 8;;761 96;TJOCK�;Stockholms lan;6630453.198;1686296.704Ombud;018823-91A;Spillersboda Lanthandel;Spillersbodavagen 198;;761 97;NORRT�LJE;Stockholms lan;6624387;1671374Ombud;018824-90B;ICA Blido;Oxhalso;;760 17;BLID�;Stockholms lan;6617411;1677453Ombud;018825-91B;ICA Nara Bergshamra;Hastangen;;760 10;BERGSHAMRA;Stockholms lan;6616985;1660448Ombud;019202-90B;Coop nara Sorunda;Kyrkgatan 1;;148 70;SORUNDA;Stockholms lan;6547189;1616629Ombud;030505-90D;Skokloster Lanthandel AB;Slottsskogsleden 19;;746 96;SKOKLOSTER;Uppsala lan;6620414;1601836Ombud;033101-90B;Heby Spel & Tobak;Kyrkogatan 7;;744 31;HEBY;Uppsala lan;6647135.298;1559047.558Ombud;033105-90A;Ica Tarnsjo;Norra Storgatan 6;;740 45;T�RNSJ�;Uppsala lan;6671194;1562514Ombud;036006-90C;Ica Nara Sodersfors;Nygatan 16;;815 76;S�DERFORS;Uppsala lan;6697279.809;1579111.581Ombud;036007-91B;Coop Konsum Karlholmsbruk;Nottovagen 1;;819 40;KARLHOLMSBRUK;Uppsala lan;6712674;1599947Ombud;036008-91A;Ica Torget;Ol-andersvagen 1;;819 30;SK�RPLINGE;Uppsala lan;6707617;1607481Ombud;036009-92A;Kastbergs Livs;Edvallavagen 19;;819 64;H�LLN�S;Uppsala lan;6714874;1613837Ombud;038014-90A;Handlarn Jarlasa;Salavagen 6;;740 21;J�RL�SA;Uppsala lan;6641585;1577927Ombud;038021-91C;Handlarn Oxsatra;Oxsatra 29;;743 87;B�LINGE;Uppsala lan;;Ombud;038024-91E;Tempo Vattholma;Malmvagsvagen 7;;743 50;VATTHOLMA;Uppsala lan;6656926;1607556Ombud;038031-90A;Coop Nara Almunge;Lovsta;;740 10;ALMUNGE;Uppsala lan;6641932;1624371Ombud;038126-90A;�rsundsbro Livs;Enkopingsvagen 9;;749 06;�RSUNDSBRO;Uppsala lan;6624934;1584660Ombud;038131-91C;Tempo Fjardhundra;Stora vagen 15;;749 70;FJ�RDHUNDRA;Uppsala lan;6629106.242;1563140.156Ombud;038200-91B;Coop Konsum �sthammar;Klockstapelgatan 1;;742 21;�STHAMMAR;Uppsala lan;6685016;1642091Ombud;038209-91C;Ullis Bazar;Centrumvagen 6;;747 31;ALUNDA;Uppsala lan;6662783;1626774Ombud;038211-91B;Ica Supermarket Gimo;Kopmangatan 1;;747 02;GIMO;Uppsala lan;6675086;1632060Ombud;038213-91A;ICA Brukskanonen;Dannemoravagen 3;;748 31;�STERBYBRUK;Uppsala lan;6677142;1615639Ombud;038228-90A;ICA Knuten;Lindgarden;;740 12;KNUTBY;Uppsala lan;6645996;1637674Ombud;042801-90A;Coop Nara Hogsjo;Hasthagsvagen 1;;640 10;H�GSJ�;Sodermanlands lan;6545153;1492223Ombud;046105-91A;ICA Nara Strandhallen;Dagavagen 13;;646 51;STJ�RNHOV;Sodermanlands lan;6551471;1569195Ombud;048005-91B;Coop Nara Navekvarn;Nykopingsvagen 9;;611 76;N�VEKVARN;Sodermanlands lan;6501339;1557793Ombud;048007-91D;Handlarn Jonaker;Stationsvagen 12;;611 70;J�N�KER;Sodermanlands lan;6514026;1553182Ombud;048010-90B;Handlarn Vrena;Tarnovagen 4;;611 73;VRENA;Sodermanlands lan;6542650.723;1568671.485Ombud;048020-90A;Coop Nara Tystberga;Stationsvagen 12;;611 74;TYSTBERGA;Sodermanlands lan;6526011;1582719Ombud;048207-91A;Coop Konsum;Celsings All� 13;;640 30;H�LLEFORSN�S;Sodermanlands lan;6559236;1539566Ombud;048302-90C;Bjorkviks Handel;Vedebyvagen 5;;640 20;BJ�RKVIK;Sodermanlands lan;6524327;1540988Ombud;048308-90B;Ica Nara Julitahallen;Doktorsvagen 1;;643 60;JULITA;Sodermanlands lan;6558704;1515059Ombud;048415-91B;Ica Nara Stora Sundby;Bergalid;;640 40;STORA SUNDBY;Sodermanlands lan;6572389;1517828Ombud;048420-90A;Coop Nara �rla;Stationsvagen 10;;640 43;�RLA;Sodermanlands lan;6573842;1549627Ombud;051302-90C;Ulrika Butik och Caf� ek. forening;Gammalkilsvagen 9;;590 53;ULRIKA;�stergotlands lan;6444725;1478101Ombud;051304-90C;ICA Nara Vahlstroms;Kisamorsvag 2;;590 42;HORN;�stergotlands lan;6419920;1501766Ombud;051305-90A;Hycklinge Bensin & Service AB;Hycklingevagen 8;;590 42;HORN;�stergotlands lan;6422163;1506813Ombud;051309-91A;Ica Supermarket Rimforsa;Kalmarvagen 24;;590 43;RIMFORSA;�stergotlands lan;6445939;1492930Ombud;056102-91A;Pepparkvarnen Nara dig;Grebovagen 17;;585 95;LINK�PING;�stergotlands lan;6464232;1503482Ombud;056104-90A;Tempo Bjorsater;Bjorsater;;597 94;�TVIDABERG;�stergotlands lan;6465327;1515581Ombud;056104-91A;Sjoberga Lanthandel;KVARNVIK SJ�BERGA;;597 96;�TVIDABERG;�stergotlands lan;6452628;1533265Ombud;056203-91C;Handlarn i Igelfors;Regnavagen 8;;612 95;FINSP�NG;�stergotlands lan;;Ombud;056204-91C;Coop Nara Rejmyre;Glasbruksvagen 32;;610 14;REJMYRE;�stergotlands lan;6523228;1507104Ombud;056302-90B;Matoppet Ringarum;Gamla Landsvagen 42;;610 41;RINGARUM;�stergotlands lan;6467920;1537568Ombud;058009-91B;Ica Nara Bestorp;Bonasvagen 4.;;589 65;BESTORP;�stergotlands lan;;Ombud;058010-92B;Skeda Udde, Pepparkvarnens livs;Haraldsbovagen 12;;585 97;LINK�PING;�stergotlands lan;6430667.464;1511519.279Ombud;058019-90A;Ica Nara Brunnby;Vallbytorpsvagen 1;;590 73;LJUNGSBRO;�stergotlands lan;6485727;1482362Ombud;058109-91C;Ica Supermarket Skarblacka;Skogsangsvagen 13;;617 32;SK�RBLACKA;�stergotlands lan;6494703.937;1507710.323Ombud;058112-91C;Ica nara Norsholm;Norsholmsvagen 24;;610 21;NORSHOLM;�stergotlands lan;6486896;1509433Ombud;058115-90A;Coop Krokek;Sjoviksvagen 78;;618 30;KOLM�RDEN;�stergotlands lan;6505946;1532428Ombud;058125-90A;ICA Supermarket �stra Husby;Bygdevagen 7;;610 24;VIKBOLANDET;�stergotlands lan;6495094;1544355Ombud;058127-91C;Arkosunds Livs;Fyrvagen 2;;610 25;VIKBOLANDET;�stergotlands lan;6485834;1565876Ombud;058207-92B;Bottna Lanthandel;Midgard;;614 97;S�DERK�PING;�stergotlands lan;6474981;1550630Ombud;058208-91A;Sankt Anna Handel AB;Lagno, Norra Finno;;614 98;ST ANNA;�stergotlands lan;6471190;1558160Ombud;058305-91A;�stensons Livs Borensberg;Hallsatersleden 3;;590 31;BORENSBERG;�stergotlands lan;6493410;1469246Ombud;058309-90A;ICA Nara Fornasa;Industrigatan 2;;590 33;FORN�SA;�stergotlands lan;6484060;1466199Ombud;058322-90B;Ica Nara Tjallmo;Lansvagen 60;;590 34;TJ�LLMO;�stergotlands lan;6510285;1474104Ombud;058603-91A;Coop Konsum Skanninge;Mjolbygatan 12;;596 33;SK�NNINGE;�stergotlands lan;6474602;1457982Ombud;058614-91B;�nnebo Lanthandel;Dalhem;;595 91;MJ�LBY;�stergotlands lan;6456488;1469071Ombud;064203-90C;Brandstorps Livs;Kyrkliden 2;;566 93;BRANDSTORP;Jonkopings lan;6442616.259;1405640.748Ombud;066209-91C;Coop Smalandsstenar;Malmgatan 12;;333 31;SM�LANDSSTENAR;Jonkopings lan;6340023;1355423Ombud;066210-90A;ICA Nara Danielssons Burseryd;Storgatan 1;;330 26;BURSERYD;Jonkopings lan;6344764;1347673Ombud;066216-90B;Matgladjen Tempo;Torget;;330 21;REFTELE;Jonkopings lan;6340859;1366191Ombud;066501-91B;Ica Supermarket Vaggeryd;Jarnvagsgatan 2;;567 30;VAGGERYD;Jonkopings lan;6376049.516;1400692.259Ombud;068009-90B;Coop Nara Visingso;Norrbovagen 5;;560 34;VISINGS�;Jonkopings lan;6436679.013;1413369.992Ombud;068024-90A;Konsum Unnaryd;Bolmenvagen 2;;310 83;UNNARYD;Hallands lan;6316514;1361597Ombud;068203-91B;Citykiosken;Sandsjovagen 22;;571 61;BODAFORS;Jonkopings lan;6376125.265;1433904.54Ombud;068207-91A;Coop Konsum Forserum;Jonkopingsvagen 2;;571 78;FORSERUM;Jonkopings lan;6397939.94;1420685.392Ombud;068209-90C;ICA Nara Malmback;Torget 5;;570 21;MALMB�CK;Jonkopings lan;6384284;1419570Ombud;068302-90A;ICA Nara i Bredaryd;Storgatan 8;;330 10;BREDARYD;Jonkopings lan;6340533;1374969Ombud;068521-90A;Ica Nara Landsbro;Brobygrand;;570 12;LANDSBRO;Jonkopings lan;6360754;1445521Ombud;068602-91B;Mariannelunds Maleri / Engdahls;Vastra Storgatan 2;;598 98;MARIANNELUND;Jonkopings lan;6387985;1486165Ombud;068605-91A;ICA Nara Hjaltevad;Storgatan 8;;570 32;HJ�LTEVAD;Jonkopings lan;6389476;1472409Ombud;076003-90B;Storgatan 57;Storgatan 57;;360 73;LENHOVDA;Kronobergs lan;6318699.411;1468579.901Ombud;076005-90A;Coop Nara �lghult;Malerasvagen 1 A;;360 76;�LGHULT;Kronobergs lan;6320298;1485950Ombud;076005-91A;ICA Nara Alstermo;Storgatan 19;;360 75;ALSTERMO;Kronobergs lan;6316569;1490536Ombud;076103-91A;Coop Konsum i Kosta;Stora Vagen 49;;360 52;KOSTA;Kronobergs lan;6301948;1475008Ombud;076302-91A;ICA Nara Ryd;Varendsgatan 2;;360 10;RYD;Kronobergs lan;6260358;1431447Ombud;076303-91A;Matoppet Ravemala;Gamla Vagen 20;;360 23;�LMEBODA;Kronobergs lan;6269801;1466872Ombud;076304-90A;Matoppet Linneryd;Lindvagen 2 B;;360 24;LINNERYD;Kronobergs lan;6281608.877;1459057.016Ombud;076405-91B;ICA Grytan Moheda;Vastra Jarnvagsgatan 7;;340 36;MOHEDA;Kronobergs lan;6320312;1425264Ombud;076409-90B;ICA Nara Dackehallen;Storgatan 12;;342 50;VISLANDA;Kronobergs lan;6296405;1417231Ombud;076411-91A;ICA Nara Strobergs;Brovagen 8;;355 97;V�XJ�;Kronobergs lan;6285546;1426460Ombud;076411-92A;Tommy�s;Lonashult;;342 53;L�NASHULT;Kronobergs lan;6281006;1420697Ombud;076502-91A;Handelsboden Haradsback;�lmhultsvagen 3;;343 92;H�RADSB�CK;Kronobergs lan;6267783;1416705Ombud;076504-91A;ICA Nara Liatorp;Vaxjovagen 500;;343 74;LIATORP;Kronobergs lan;6283054;1405323Ombud;076703-90B;Coop Nara Traryd;Hallandsvagen 3;;287 72;TRARYD;Kronobergs lan;6274202;1373465Ombud;076703-91C;Ica Nara Stromsnasbruk;Lagastigsgatan 30;;287 31;STR�MSN�SBRUK;Kronobergs lan;6271008;1372469Ombud;078003-91B;Braas Jarnhandel AB;Baron Rappes vag 28;;360 42;BRA�S;Kronobergs lan;6326148.889;1454639.117Ombud;078008-91A;ICA Supermarket Ingelstad;Gamla Vaxjovagen 38;;360 44;INGELSTAD;Kronobergs lan;6291417;1445814Ombud;078012-90B;Kalvsviks Lanthandel;Telebro;;355 96;KALVSVIK;Kronobergs lan;6290006;1433097Ombud;078024-91A;ICA Supermarket Lammhult;Kopmannagatan 12;;360 30;LAMMHULT;Kronobergs lan;6338854;1426104Ombud;078102-90D;Matoppet i Agunnaryd;Branavagen 6;;341 77;AGUNNARYD;Kronobergs lan;6292397;1398577Ombud;078103-90B;Ica Nara Ryssby;Storgatan 7;;341 76;RYSSBY;Kronobergs lan;6305364;1399964Ombud;078116-90A;ICA Nara Lidhult;Unnarydsvagen 1;;340 10;LIDHULT;Kronobergs lan;6302533;1355516Ombud;078119-90B;Affaren i Tannaker;Tallbo Tannaker;;341 96;LJUNGBY;Kronobergs lan;6316378.792;1376335.382Ombud;082104-90A;ICA Nara Ekevags;Kyrkvagen 10;;570 72;FAGERHULT;Kalmar lan;6335765;1491368Ombud;082104-91A;Bylyckan;Parkvagen 21;;579 93;GR�NSK�RA;Kalmar lan;6327904;1495385Ombud;084003-90B;ICA Nara Skansen;Kopmangatan 21 C;;386 50;M�RBYL�NGA;Kalmar lan;6266593;1535755Ombud;084008-90B;Ica Nara Gronhogen;Hamnvagen 6;;386 63;DEGERHAMN;Kalmar lan;6237983;1536892Ombud;084008-91B;Ica Nara Sodra Mockleby;Sodra Mocklebyvagen 36;;386 63;DEGERHAMN;Kalmar lan;6247819;1537993Ombud;086005-90B;Ica Nara Krysset;Sodra Jarnvagsgatan 22;;570 80;VIRSERUM;Kalmar lan;6375699.889;1399955.477Ombud;086008-90B;Ica Nara Morlunda;Blockvagen;;570 84;M�RLUNDA;Kalmar lan;6354864;1503395Ombud;086102-90C;Ica Nara Fliseryd;Kyrkvagen 22;;380 53;FLISERYD;Kalmar lan;6333608;1527845Ombud;088008-92A;Allans Livs;Tingshusvagen 6;;388 91;VASSMOL�SA;Kalmar lan;6274035;1521377Ombud;088014-91A;ICA Nara Paryd;Parydsgatan 40;;388 50;P�RYD;Kalmar lan;6271332;1507243Ombud;088102-91A;Coop nara Alsterbro;Alstervagen 33;;380 44;ALSTERBRO;Kalmar lan;6312786;1506624Ombud;088109-92A;Handlelsboden i Maleras;Norra Malerasvagen 4;;380 42;M�LER�S;Kalmar lan;6309912;1485665Ombud;088203-91A;Coop Konsum Figeholm;�gatan 15;;572 75;FIGEHOLM;Kalmar lan;6361018;1544806Ombud;088204-90A;Konsum Kristdala;Nyhemsgatan 14;;570 91;KRISTDALA;Kalmar lan;6363950;1523642Ombud;088307-90B;Coop Konsum �verum;Piazzan;;590 96;�VERUM;Kalmar lan;6429451;1530094Ombud;088309-90B;Ica Nara Kusten;Bjursundsvagen 58;;590 95;LOFTAHAMMAR;Kalmar lan;6420613;1552923Ombud;088314-90A;Coop Nara Ankarsrum;Tjustvagen 9;;593 70;ANKARSRUM;Kalmar lan;6430667.464;1511519.279Ombud;088315-91A;Hjorteds Handelstradgard HB;Sahultsvagen 14;;590 91;HJORTED;Kalmar lan;6388788;1529819Ombud;088315-92A;Totebo Lanthandel AB;Hagavagen 13;;590 92;TOTEBO;Kalmar lan;6389652;1522717Ombud;088315-93C;Blankaholms Lanthandel;Nedre Torget;;593 97;BLANKAHOLM;Kalmar lan;6385260;1542692Ombud;088409-90A;Tempo Tuna;Tuna;;598 96;VIMMERBY;Kalmar lan;6381350;1516850Ombud;088513-91A;ICA Nara Byxelkrok;Byxelkroksvagen 87;;387 75;BYXELKROK;Kalmar lan;6356024;1572471Ombud;088514-91A;ICA Nara Boda;Gamla Landsvagen 28;;387 72;L�TTORP;Kalmar lan;6346924;1575889Ombud;088516-91A;Ica Nara trossen Sandvik;Norra Langgatan 3;;387 70;L�TTORP;Kalmar lan;6327859;1563790Ombud;098004-90A;ICA Nystroms;Eke;;624 67;F�R�;Gotlands lan;6432355;1702859Ombud;098005-91B;ICA Supermarket Bunge;Farovagen 10;;624 62;F�R�SUND;Gotlands lan;6420047;1692834Ombud;098015-90B;Stenkyrka Affaren AB;Halge Stenkyrka 149;;624 42;TINGST�DE;Gotlands lan;6411571.334;1660999.363Ombud;098047-91B;Tempo Katthammarsvik;Jacob Haggs vag 18;;623 69;KATTHAMMARSVIK;Gotlands lan;6370834;1682345Ombud;098061-91C;Klinte Kiosk & Spel;Norra Kustvagen 10;;623 77;KLINTEHAMN;Gotlands lan;6364963;1643993Ombud;098065-91A;Ljugarns Handel;Lantmannavagen 1;;623 21;LJUGARN;Gotlands lan;6360520;1674185Ombud;098089-91A;Hoburgshallen;Hoburgsvagen 35;;623 35;BURGSVIK;Gotlands lan;6325582;1650111Ombud;108010-90A;Ica Nara Torhallen;Sandhamnsvagen 54;;370 42;TORHAMN;Blekinge lan;6218533;1501944Ombud;108011-90A;Sturkohallen;Sturkovagen 81;;370 43;STURK�;Blekinge lan;6220627;1491753Ombud;108011-91B;Ica Nara Drottningskar;Aspo 4;;370 22;DROTTNINGSK�R;Blekinge lan;6220598;1484679Ombud;108012-91A;Ica Nara Senoren;Senoren;;373 02;RAMDALA;Blekinge lan;6222340;1495837Ombud;108016-91D;Tempo Holmsjo;Holmsjovagen 85;;370 34;HOLMSJ�;Blekinge lan;6253283;1485097Ombud;108017-90B;Tempo Tving;Navragolsvagen 2;;370 33;TVING;Blekinge lan;6242623;1478688Ombud;108019-90B;Coop Nara Hasslo;Fiskaregardsvagen 68;;370 23;HASSL�;Blekinge lan;6220806;1479532Ombud;108103-90B;Ica Nara Backaryd;Varendsvagen 53;;370 11;BACKARYD;Blekinge lan;6246908;1459610Ombud;108110-90A;ICA Nara Brakne-Hoby;Braknevagen 1;;372 61;BR�KNE-HOBY;Blekinge lan;6234059;1457291Ombud;108304-90A;Matoppet Hallevik;Strandvagen 11;;294 72;S�LVESBORG;Blekinge lan;6209929.45;1431095.69Ombud;116014-90A;ICA Supermarket Brosarp;Albovagen 34;;273 50;BR�SARP;Skane lan;6178558;1393325Ombud;116302-91B;Ica Nara Lonsboda;Bredgatan 1;;280 70;L�NSBODA;Skane lan;6253147;1408324Ombud;116802-90A;Heberleins delikatess kott & chark;Vantingevagen 15;;260 91;F�RSL�V;Skane lan;6251099;1315387Ombud;116806-90A;Torekov Bat & Motor;Litorinavagen 15;;269 77;TOREKOV;Skane lan;6259527;1304031Ombud;118017-90B;Matoppet Everod;Stora Vagen 54;;297 72;EVER�D;Skane lan;6197976;1393002Ombud;118029-90B;Eltjanster;�rtagardsvagen 1;;297 31;DEGEBERGA;Skane lan;6191083;1392652Ombud;118032-91B;Hemkop Tollarp;Gastgivaregatan 18;;298 31;TOLLARP;Skane lan;6202107;1385579Ombud;118118-91B;ICA Supermarket Kivik;Killebacken 6;;277 31;KIVIK;Skane lan;6173924;1400475Ombud;118305-90A;Matoppet Vinslov;Torget 5;;288 31;VINSL�V;Skane lan;6221085;1382477Ombud;118312-90B;Vittsjo Blomsterhandel;Hassleholmsvagen 13;;280 22;VITTSJ�;Skane lan;6248044;1367630Ombud;118313-91B;Ica Supermarket Bjarnum;Jarnvagsgatan 2;;280 20;BJ�RNUM;;6242365.34;1370257.985Ombud;118315-91B;Ica Nara Toppen;Storgatan 2;;280 10;S�SDALA;Skane lan;6213991.883;1367459.071Ombud;118319-91B;Ica Nara Matlusten;Hantverksgatan 15;;282 31;TYRINGE;;6271302.962;1397661Ombud;123305-90A;ICA Supermarket Skanor;Sodergatan 12;;239 30;SKAN�R;Skane lan;6146475;1312460Ombud;124113-90A;ICA Nara Rostanga;Skaralidsvagen 1;;260 24;R�ST�NGA;Skane lan;6211169;1343087Ombud;125703-90A;Ica Nara Skanes Fagerhult;Strandvagen 16;;280 40;SK�NES FAGERHULT;Skane lan;6251582;1355503Ombud;128201-90A;Mollebackens Livs Ven;C/O Bring Cargo Att: Jonas Svensson;;211 24;Malmo;Skane lan;6202411.779;1305295.113Ombud;128513-90B;Ica Nara Harlosa;Gardstangavagen 4;;241 65;HARL�SA;Skane lan;6178733;1356903Ombud;128617-90B;Handlar�n i Loderup;Storgatan 44;;271 76;L�DERUP;Skane lan;6146886;1392877Ombud;128721-90A;Coop Nara Smygehamn;Kustvagen;;231 78;SMYGEHAMN;Skane lan;6137026;1344388Ombud;129035-90A;Ica Nara Arkelstorp;Allarpsvagen 11;;290 37;ARKELSTORP;Skane lan;6228219;1405437Ombud;138004-91A;Matoppet Simlangsdalen;Brearedsvagen 26;;310 38;SIML�NGSDALEN;Hallands lan;6291229;1335825Ombud;138005-90A;Ica Nara Oskarstrom;Kopmansgatan 1;;313 31;OSKARSTR�M;Hallands lan;6300822;1327137Ombud;138014-90C;Eliassons Kiosk & Spel;Stationsgatan 3;;305 75;GETINGE;Hallands lan;;Ombud;138103-91A;AB Vaxtorps Bilservice;Bygatan 1;;312 75;V�XTORP;Hallands lan;6257799;1334163Ombud;138106-90A;Ica Nara Hishult;Getaryggarna 1;;310 21;HISHULT;Hallands lan;6258477;1345906Ombud;138109-90C;Konsum Knared;Otterdalsvagen 6;;310 20;KN�RED;Hallands lan;6268532;1346604Ombud;138213-90A;ICA Vessige;Stationsgatan 2;;310 58;VESSIGEBRO;Hallands lan;6321268;1308234Ombud;138220-90B;Fegenkiosken;Uhlabovgen 1;;310 62;FEGEN;Hallands lan;6334479.716;1332297.195Ombud;138223-90B;ICA Supermarket Ullared;Varbergsvagen 6;;311 60;ULLARED;Hallands lan;6338776.416;1313012.015Ombud;138319-91B;Hemkop Veddige;Viskastigen 25;;432 67;VEDDIGE;Hallands lan;6354334;1290598Ombud;138320-90C;Ica Nara Bua;Buacenter;;432 63;BUA;Hallands lan;6353034;1281517Ombud;140701-91A;Kallo-Knippla, Coop Konsum;Centrumplatsen;;475 50;K�LL�-KNIPPLA;Vastra Gotalands lan;6410350;1252764Ombud;141903-90A;�stol Handelsbod;Hamnvagen 1;;471 44;�STOL;Vastra Gotalands lan;6429893;1250138Ombud;141903-91A;Ica Nara Dyroboden;Hamnvagen 16;;471 43;DYR�N;Vastra Gotalands lan;;Ombud;142107-90C;Tempo Mollosund;Grenvagen 2;;474 70;MOLL�SUND;Vastra Gotalands lan;6446956;1244346Ombud;142108-90B;Karingons Matbutik;C/o F�rjan Tuvesvik;;474 04;K�RING�N;Vastra Gotalands lan;6451976.924;1238247.448Ombud;142109-90B;Tempo Gullholmen;c/o Farjan Tuvesvik;;474 16;GULLHOLMEN;Vastra Gotalands lan;6458936;1241088Ombud;142702-90B;Konsum Klippan;Strandvagen 38;;450 45;BOHUS-MALM�N;Vastra Gotalands lan;6478260.378;1238632.568Ombud;142706-91A;Ica Nara Bovall;Dinglevagen 1;;456 47;BOVALLSTRAND;Vastra Gotalands lan;6492372;1238568Ombud;143008-91B;Sorbygdens Snabbkop;Dinglevagen 3;;455 41;HEDEKAS;Vastra Gotalands lan;6509448.089;1266282.406Ombud;143502-90A;Tanumshede Jarn och Farg AB;Riksvagen 133;;457 31;TANUMSHEDE;Vastra Gotalands lan;6519982;1240661Ombud;143503-91C;Tempo Reso;Oljeskar 9;;457 97;RES�;Vastra Gotalands lan;6529395;1231942Ombud;143506-91A;Grundsund Ica nara;Lonndalsvagen 45;;450 33;GRUNDSUND;Vastra Gotalands lan;6462739;1242384Ombud;143506-91C;Coop Konsum Fjallbacka;Jasminvagen 2;;457 40;FJ�LLBACKA;Vastra Gotalands lan;6506090;1237555Ombud;143506-92A;Arwidssons Jarn AB;Norra Bohusvagen 4;;457 60;H�LLEVADSHOLM;Vastra Gotalands lan;6503262;1251759Ombud;143506-93A;Ica Supermarket Skutan;Skutan 1;;450 70;HAMBURGSUND;Vastra Gotalands lan;6501060;1236152Ombud;143802-90A;Nossemarks Lanthandel Handlarn;Strand 130;;668 91;ED;Vastra Gotalands lan;6563976;1272990Ombud;148037-90A;Coop Konsum Styrso;C/O Fiskeback Godsfarjelager;;426 58;Vastra Frolunda;Vastra Gotalands lan;6394988;1259601Ombud;148203-90B;Coop Nara Marstrand;Arvidsvik;;440 30;MARSTRAND;Vastra Gotalands lan;6425873;1250016Ombud;148405-90A;Coop Konsum Brastad;Lysekilsvagen 3;;454 31;BRASTAD;Vastra Gotalands lan;6481197;1247394Ombud;148602-91B;Affaren pa Nordkoster;Lotsvagen 10;;452 04;NORDKOSTER;Vastra Gotalands lan;6540385;1223563Ombud;148607-92B;Ica Nara Sydkoster;Torget 2;;452 05;SYDKOSTER;Vastra Gotalands lan;6539135;1224719Ombud;148607-93B;Rosso Livs;Langesandsvagen 31;;752 95;STR�MSTAD;Vastra Gotalands lan;6535182;1232747Ombud;148607-94A;�stads Livs;�stad;;450 84;BULLAREN;Vastra Gotalands lan;6525740;1254703Ombud;155206-91A;ICA Nara Langhem;Borasvagen 26;;514 44;L�NGHEM;Vastra Gotalands lan;6389267;1346843Ombud;155211-90B;ICA Nara Dalstorp;Ulricehamnsvagen 15.;;514 60;Dalstorp;;;Ombud;156005-91A;Optimistens Lanthandel;�rjangsvagen 31;;666 93;GUSTAVSFORS;Vastra Gotalands lan;6569152;1288820Ombud;156304-90A;Satila Bygg;Fjarasvagen 8;;511 69;S�TILA;Vastra Gotalands lan;6384788;1297723Ombud;156314-90A;Bilisten;Varbergsvagen 425;;519 30;HORRED;Vastra Gotalands lan;6363729;1299725Ombud;156316-90A;�lekulla Livs;Gunnarsjovagen;;511 94;�LEKULLA;Vastra Gotalands lan;6362075;1314891Ombud;158004-90A;ICA Nara Cypressen;Storgatan 21;;464 62;BR�LANDA;Vastra Gotalands lan;6498495;1298988Ombud;158208-91A;Gittes Garn;Trollhattevagen 2;;466 30;SOLLEBRUNN;Vastra Gotalands lan;6448702;1307215Ombud;164302-90B;Hova Skoaffar;Torggatan 14;;548 32;HOVA;;6527178.272;1408357.833Ombud;168018-90A;Freijs Livs;Jarnvagsgatan 1;;548 73;LYRESTAD;Vastra Gotalands lan;6521492;1399108Ombud;168628-91A;Handelsboden i Kattilstorp;Storgatan 22;;521 95;K�TTILSTORP;Vastra Gotalands lan;6437236;1376373Ombud;171503-91A;Konsum Nara Hogboda;Stationsvagen 2;;665 93;KIL;Varmlands lan;6607314;1344428Ombud;173003-91A;Bygga Jarnske;Koppomsvagen 54;;670 41;KOPPOM;Varmlands lan;6626200;1294195Ombud;173004-91A;Coop Nara Skillingsfors;Boda 1;;670 43;SKILLINGSFORS;Varmlands lan;6639174;1287261Ombud;173005-91A;Coop Konsum �motfors;Jossevagen 1;;670 40;�MOTFORS;Varmlands lan;6632049;1306530Ombud;173702-90B;Finnskogens ostaffar;Lekvattnet 53;;685 91;TORSBY;Varmlands lan;6678793;1326296Ombud;173703-90D;Vitsands Narkop;Vitsand 150;;685 94;TORSBY;Varmlands lan;6695070.516;1343970.286Ombud;173705-90A;�stmarks Handels AB;Rojdaforsvagen 1;;685 97;�STMARK;Varmlands lan;6688364;1331878Ombud;173705-91A;Sundelins Handel;Gransen 110;;685 97;R�JD�FORS;Varmlands lan;6700489;1323027Ombud;173707-91B;Ica Nara Bograngen;Gransvagen 18;;680 61;BOGRANGEN;Varmlands lan;6736080;1324756Ombud;173708-91A;Coop Konsum Syssleback;Nackavagen 21;;680 60;SYSSLEB�CK;Varmlands lan;6738861;1339648Ombud;173708-92A;Likenas Allkop;Likenasvagen 26;;680 63;LIKEN�S;Varmlands lan;6725242;1348675Ombud;173709-91B;Nordvarmlands Livs;Ambjorby 80;;680 52;AMBJ�RBY;Varmlands lan;6710692;1355662Ombud;173709-92B;Coop Nara Stollet;Gamla vagen 1;;680 51;ST�LLET;Varmlands lan;6701906;1360355Ombud;173709-93A;Langflons Stormarknad;Langflon 29;;680 65;H�LJES;Varmlands lan;6774271;1326709Ombud;176502-90A;Silleruds Livsmedel;Svensbyn;;672 95;�RJ�NG;Varmlands lan;6548268.168;1281371.265Ombud;176508-91B;Nya Kotthallen i Tocksfors AB;Sveavagen 24;;670 10;T�CKSFORS;Varmlands lan;6605319;1275565Ombud;176604-90B;Ica Nara Rottnahallen;Skolvagen 2;;686 98;GR�SMARK;Varmlands lan;6650988.886;1338251.752Ombud;176605-90A;Coop Nara Lysvik;Gamla vagen 40;;686 97;LYSVIK;Varmlands lan;6658115;1351005Ombud;178004-91F;Varmlands-Rasta;E18;;660 57;V�SE;Varmlands lan;6586171.534;1389188.841Ombud;178006-91A;Coop Konsum Molkom;Stationsgatan 5;;660 60;MOLKOM;Varmlands lan;6610894;1382362Ombud;178105-91A;Ica Nyvalls Backhammar;B�CKHAMMAR;;681 60;KRISTINEHAMN;Varmlands lan;6561019;1407588Ombud;178207-91A;AB Olas Livs;Stiftelsevagen 4;;680 96;LESJ�FORS;Varmlands lan;6652534;1408996Ombud;178302-90B;JLT:s Foto;Klaralvsvagen 11;;683 60;EKSH�RAD;Varmlands lan;6675010;1371836Ombud;178405-90B;ICA Nara Glava;Honacka Saljen;;670 20;GLAVA;Varmlands lan;6607604;1316717Ombud;178410-90A;Lundby Livs AB;Lundby;;671 96;MANGSKOG;Varmlands lan;6629675;1332411Ombud;178509-91A;Vikinghallen;Nystromsvagen 1;;661 95;V�RMLANDS NYS�TER;Varmlands lan;6577569;1327316Ombud;178511-90A;Coop Nara Svanskog;Smedjegatan 1;;662 50;SVANSKOG;Varmlands lan;6566513;1314092Ombud;186003-90C;Tiveds Lanthandel;Sanneruds Bygata 23;;695 97;TIVED;�rebro lan;6517506.882;1426603.844Ombud;186102-91A;Soyas Ica-Hall;Askersundsvagen 26;;694 50;VRETSTORP;�rebro lan;6545090;1446168Ombud;186104-91C;Palsboda Jarn & Farg;Kopmangatan 4;;697 30;P�LSBODA;�rebro lan;6549338;1473149Ombud;186202-91A;ICA Nara �torp;Torget;;693 70;�TORP;�rebro lan;6555840;1417540Ombud;188027-90A;Ica Nara Glansen;Torget;;703 85;GLANSHAMMAR;�rebro lan;6577505;1476978Ombud;188505-91A;Hemkop Fellingsbro;Hemvagen;;732 71;FELLINGSBRO;�rebro lan;6590492;1487419Ombud;190702-91A;Ica Jagar�n;Centrumvagen 4;;730 61;VIRSBO;Vastmanlands lan;6639163;1513527Ombud;191702-90A;Lunda Handel;Tjarbrannarvagen 2;;744 92;HUDDUNGEBY;Uppsala lan;6659542;1565614Ombud;198007-90B;Ica Supermarket Skultuna;Krongjutarvagen 17;;726 31;SKULTUNA;Vastmanlands lan;6622272;1534984Ombud;198102-91A;ICA Koplusten;Kopparbergsvagen 22;;730 71;SALBOHED;Vastmanlands lan;6643568;1530374Ombud;198304-90B;Kolsva Handel;Bergslagsvagen 101;;730 30;KOLSVA;Vastmanlands lan;6608964;1502032Ombud;198404-91A;Lungers Handel;Norra Lunger;;732 91;LUNGER;Vastmanlands lan;6577295;1492691Ombud;202103-90D;Shell / Tempo;Riksvag 71;;780 53;N�S;Dalarnas lan;6704505;1427657Ombud;202303-90A;Lima Handel;Kyrkbyn 114;;780 64;LIMA;Dalarnas lan;6783012;1338927Ombud;202303-91A;ICA Rorbacksnas;R�RB�CKSN�S 3184;;780 64;LIMA;Dalarnas lan;6783012;1338927Ombud;202305-91B;Handlarn Sorsjon;Dalenvagen 118;;780 69;S�RSJ�N;Dalarnas lan;6813674;1354703Ombud;202603-90B;Ica Nara Dala Floda;Stora vagen 38;;785 44;DALA-FLODA;Dalarnas lan;6710651;1444879Ombud;202603-91B;Tempo Bjorbo;Bjorbovagen 18;;785 45;BJ�RBO;Dalarnas lan;6704783;1440877Ombud;203103-90B;Konsum Boda;Bjorkall�n 122;;795 96;BODA;Dalarnas lan;6766203;1467943Ombud;203104-91B;Oreboden;Furudal Bruksgatan 4;;790 70;FURUDAL;Dalarnas lan;6786841;1465740Ombud;203402-91A;Skattunge Handel;Landsvagen 500;;794 91;ORSA;Dalarnas lan;6785970;1449140Ombud;203904-90D;Sarnaffar�n;Sarnavagen 133;;790 90;S�RNA;Dalarnas lan;6844898;1359643Ombud;203905-92B;Fjallbua;Grovelsjovagen 378;;790 91;IDRE;Dalarnas lan;6888374;1317644Ombud;206102-90A;Ica Nara Barkehallen;Barkevagen 30;;777 60;S�DERB�RKE;Dalarnas lan;6661226;1486208Ombud;206205-90A;Handlar�n Venjan;Tennangsvagen 5;;792 93;VENJAN;Dalarnas lan;6761189;1397218Ombud;208008-90A;Svardsjo Farg;Borgardesvagen 21;;790 23;SV�RDSJ�;Dalarnas lan;6735676;1505292Ombud;208008-91B;Hellboms Handel;Lumsheden 622;;812 94;�SHAMMAR;Dalarnas lan;6732658;1524231Ombud;208010-90A;Gulf Enviken;Tangervagen 1;;790 26;ENVIKEN;Dalarnas lan;6743508;1497417Ombud;208010-92A;Bingsjo Lanthandel AB;Bingsjo Lambornsvagen 15;;790 26;ENVIKEN;Dalarnas lan;6767517;1491464Ombud;208011-92A;Coop Konsum Bjursas;Martsbovagen 1;;790 21;BJURS�S;Dalarnas lan;6735905.494;1480255.098Ombud;208083-91A;Kiosken;Stationsall�n 1;;770 71;STJ�RNSUND;Dalarnas lan;6701766;1522209Ombud;208303-90B;Handlarn Smedby;Smedbyvagen 14.;;776 97;DALA-HUSBY;Dalarnas lan;6696094;1512876Ombud;208303-91A;ICA Mathyttan;Hyttgatan 5;;770 70;L�NGSHYTTAN;Dalarnas lan;6703814;1512487Ombud;208403-91B;ICA Supermarket Horndal;Stora Vagen 47;;774 67;HORNDAL;Dalarnas lan;6686359;1533139Ombud;208502-90C;Coop Konsum Grangesberg;Kopparbergsvagen 54;;772 30;GR�NGESBERG;Dalarnas lan;6662151;1455582Ombud;208503-90A;Ica Nara Grangarde;Gamla Vagen 31;;770 13;GRANG�RDE;Dalarnas lan;6683139;1454327Ombud;208503-91B;Coop Nara Sunnansjo;Botbergsvagen 3;;770 12;SUNNANSJ�;Dalarnas lan;6677863;1453030Ombud;208504-90B;Lilla Handelsboden Preem Macken;Ludvikavagen 4;;770 10;FREDRIKSBERG;Dalarnas lan;6669981;1420505Ombud;210101-90A;Tempo �mot;Masungsvagen 2;;816 95;�MOTSBRUK;Gavleborgs lan;6760818;1534840Ombud;212103-90A;Alfta Bok o Pappershandel;Langgatan 59;;822 30;ALFTA;Gavleborgs lan;6803402;1513987Ombud;213201-90A;Ilsbo Bensin och Service AB;Bergsjovagen 8;;820 71;ILSBO;Gavleborgs lan;6861507;1565548Ombud;213202-90A;ICA Starks Supermarket;Stromsbruksvagen 6;;820 75;HARM�NGER;Gavleborgs lan;6869075;1574177Ombud;213202-91B;Kajutan;Morangvagen 1;;820 74;STOCKA;Gavleborgs lan;6865932;1580464Ombud;213204-90B;ICA Stjarnan;Stationsvagen 29;;820 77;GNARP;Gavleborgs lan;6883100;1575026Ombud;213206-90B;Coop Nara Hassela;Torggrand 1;;820 78;HASSELA;Gavleborgs lan;6888891;1547253Ombud;216103-90B;Lotta-Boden;Gardesvagen 3;;820 50;LOS;Jamtlands lan;6847297.677;1466585.012Ombud;216104-90A;Edlunds Foto & Data;Harjedalsvagen 177;;820 41;F�RILA;Gavleborgs lan;6854136;1504143Ombud;216106-90A;Tempo Ramsjo;Sundsvagen 2;;820 46;RAMSJ�;Gavleborgs lan;6896717;1491896Ombud;216107-90A;Jarnhuset Jarvso AB;Turistvagen 70;;820 40;J�RVS�;Gavleborgs lan;6845018;1519335Ombud;218003-92A;Konsum Norrsundet;Egnahemsgatan 24;;817 30;NORRSUNDET;Gavleborgs lan;6757791;1572372Ombud;218003-94A;Ica Nara Bergby;Vijvagen 38;;817 40;BERGBY;Gavleborgs lan;6757639.667;1567603.589Ombud;218004-90B;GNK Lagerkop;Skolvagen 18;;810 40;HEDESUNDA;Gavleborgs lan;6697834;1566335Ombud;218102-91A;Coop Konsum Storvik;Tingsgatan 10;;812 30;STORVIK;Gavleborgs lan;6718685;1539827Ombud;218103-90A;Ica Nara Jarbo;Kungsforsvagen 12;;811 71;J�RBO;Gavleborgs lan;;Ombud;218105-90A;Ica Nara �sterfarnebo;Farnebovagen 903;;810 20;�STERF�RNEBO;Gavleborgs lan;6688341;1554893Ombud;218203-91C;Tempo Stratjara;Kyrkvagen 1;;820 29;STR�TJ�RA;Gavleborgs lan;;Ombud;218206-90A;Coop Konsum Bergvik;Variant Kopcenter;;820 23;BERGVIK;Gavleborgs lan;6795397;1555624Ombud;218208-90C;Ica Nara Trono;Glamsta 990;;826 95;TR�N�DAL;Gavleborgs lan;;Ombud;218306-91B;Coop Konsum Kilafors;Stationsgatan 14;;823 30;KILAFORS;Gavleborgs lan;6790791;1540776Ombud;218309-92A;Icas Spelboa;Storgatan 26;;820 10;ARBR�;Gavleborgs lan;;Ombud;218407-90B;Coop Nara Enanger;Enangersvagen 33;;825 95;EN�NGER;Gavleborgs lan;6826502;1563843Ombud;218408-90A;ICA Supermarket Delsbohallen;Edevagen 5;;820 60;DELSBO;Gavleborgs lan;6854213;1539462Ombud;218409-91A;ICA Nara Friggesund;Strombackavagen 17;;820 62;BJUR�KER;Gavleborgs lan;6864382;1538772Ombud;218409-92A;�ngebo Livs;�ngebo 83;;820 62;BJUR�KER;Gavleborgs lan;6873222;1527886Ombud;218411-91B;Tempo;Forsavagen 1;;820 64;N�SVIKEN;Gavleborgs lan;6849700;1556052Ombud;226003-92B;Nara Dig;Turingevagen 18;;840 24;�VERTURINGEN;Vasternorrlands lan;6926885;1454352Ombud;226004-91C;�stins Jarnhandel;Franstavagen 275;;840 12;FR�NSTA;Vasternorrlands lan;6931816.781;1518831.915Ombud;226203-91A;Ica Nara Soraker;Folketshusvagen 1;;860 35;S�R�KER;Vasternorrlands lan;6933893;1587758Ombud;228005-91A;Mat & Nostalgi;Gammelgarden 237;;871 94;VIKSJ�;Vasternorrlands lan;6963845;1582404Ombud;228107-90A;ICA Supermarket Stode;Stodevagen 44;;860 13;ST�DE;Vasternorrlands lan;6923094;1540210Ombud;228108-91C;Ica Supermarket Matfors;Skolevagen 2-4;;864 22;MATFORS;Vasternorrlands lan;;Ombud;228109-92A;Lucksta Livs AB Matnara;Lindvagen 2;;864 92;MATFORS;Vasternorrlands lan;6910342;1564581Ombud;228111-90C;Tempo Indal;Faltvagen 3;;860 40;INDAL;Vasternorrlands lan;6940857;1566621Ombud;228113-90A;ICA Nara Liden;Lidenvagen 94;;860 41;LIDEN;Vasternorrlands lan;6954571;1551003Ombud;228202-91B;Ica Nara Strommen;Prastbordet 103;;872 98;NORASTR�M;Vasternorrlands lan;6975514;1615977Ombud;228204-90A;ICA Nara Nordingra;Prastmyrvagen 1;;870 30;NORDINGR�;Vasternorrlands lan;6982410;1626318Ombud;228204-91C;Servicepunkten i Mjallom;Petsamovagen 2;;870 31;MJ�LLOM;Vasternorrlands lan;6988888;1633167Ombud;228205-91B;Docksta Jarn;Dockstavagen 27;;870 33;DOCKSTA;Vasternorrlands lan;6991364;1599301Ombud;228206-90A;Br. Petterssons Jarn;Sundbrogatan 36;;870 32;ULL�NGER;Vasternorrlands lan;6991246;1620631Ombud;228207-91A;Lugnviks Narkop;Lugnviksvagen 71;;872 75;LUNGVIK;Vasternorrlands lan;6981670;1606922Ombud;228211-91A;Nylands Jarnhandel;Bankgatan 7;;870 52;NYLAND;Vasternorrlands lan;6990070;1599216Ombud;228304-90B;Tempo Langsele;Stationsgatan 13;;882 30;L�NGSELE;Vasternorrlands lan;7008135;1563437Ombud;228306-90C;Ck�s livs;Prastbordet 241;;880 30;N�S�KER;Vasternorrlands lan;7025135;1563659Ombud;228308-91C;Coop Nara Nasaker;Storgatan 5;;880 30;N�S�KER;Vasternorrlands lan;7037320;1555073Ombud;228309-90D;PA Bygg;Kopmangatan 25;;880 37;JUNSELE;Vasternorrlands lan;7065741;1553179Ombud;228314-90A;Edselehallen;�dsgardsvagen 4;;880 41;EDSELE;Vasternorrlands lan;7032863;1536944Ombud;228404-92B;�kerstrom & Company;Junselevagen 9;;895 30;BREDBYN;Vasternorrlands lan;7040409;1614572Ombud;228404-93B;Lanthandeln i Solberg;Sagavagen 59;;895 98;SOLBERG;Vasternorrlands lan;7076966;1590514Ombud;228405-90A;Konsum Skorped;Skorpedsvagen 19;;895 97;SKORPED;Vasternorrlands lan;7032305;1602487Ombud;228406-91A;Sidensjo Handelsbod;Stryvagen 11;;893 95;SIDENSJ�;Vasternorrlands lan;7022887;1624707Ombud;228407-90B;Ulvo Handelsbod;Hamngatan 5;;893 99;ULV�HAMN;Vasternorrlands lan;6994732.735;1643733.58Ombud;228407-93A;Busskiosken Natra AB;Harmonivagen 2;;893 30;BJ�STA;Vasternorrlands lan;7013069;1635626Ombud;228410-91C;�-kiosken;Blasasen 11;;896 31;HUSUM;Vasternorrlands lan;7029756;1667477Ombud;228411-90C;Gidea Livs;Bergforsvagen 50;;896 93;GIDE�;Vasternorrlands lan;7055945;1660295Ombud;228411-91A;Flarke Lanthandel;Flarke 140;;896 93;GIDE�;Vasternorrlands lan;7055945;1660295Ombud;228412-93B;Hemlings Lanthandel;Hemling 220;;890 51;L�NGVIKSMON;Vasternorrlands lan;7063710;1635545Ombud;228413-90A;Konsum Narkop;Centralgatan 31;;890 54;TREH�RNINGSJ�;Vasternorrlands lan;7068709;1651363Ombud;230302-90A;ICA Forsen;Forsvagen 22;;840 73;BISPG�RDEN;Jamtlands lan;6991181.531;1541196.144Ombud;230303-90C;Affar�n i Borgvattnet;Borgvattnet 131;;830 76;STUGUN;Jamtlands lan;7034923;1501016Ombud;230304-90A;ICA Nara Stugun;Industrivagen 2;;830 76;STUGUN;Jamtlands lan;7006472;1489946Ombud;230502-91A;Bodsjo Diverse;Sidsjo 184;;840 60;BR�CKE;Jamtlands lan;6958054;1466407Ombud;230504-91A;Kalarne Livs;Stationsvagen 4;;840 64;K�LARNE;Jamtlands lan;6985517;1514352Ombud;230504-92B;Monikas Livs;Albacken 162;;840 67;S�RBYGDEN;Jamtlands lan;6963162.559;1510633.528Ombud;230506-92B;Ica Nara Gallo;Ringsvagen 2;;840 50;G�LL�;Jamtlands lan;6978353;1470917Ombud;230905-91A;Laxsjo Bua;Laxsjo 178;;830 60;F�LLINGE;Jamtlands lan;7078682.872;1450412.354Ombud;230906-90A;K-G Olssons Verkstad o Bensin HB;Langgatan 13;;830 60;F�LLINGE;Jamtlands lan;7063110;1441401Ombud;230906-92A;Handlarn Rotviken;Rotviken 204 A.;;830 60;F�LLINGE;Jamtlands lan;7097331.135;1419644.071Ombud;230907-92B;Trangsvikens Bygdegardsforening;Alsenvagen 8;;830 47;TR�NGSVIKEN;Jamtlands lan;7026138;1410468Ombud;230907-93B;Valsjobua AB;Valsjon 4720;;830 67;VALSJ�BYN;Jamtlands lan;7107769;1418768Ombud;230908-91B;MBB Livs;Centralvagen 20;;830 51;OFFERDAL;Jamtlands lan;7039956;1413179Ombud;230910-91A;Kluksbua;Kluk 188;;835 93;ALSEN;Jamtlands lan;6989041.608;1408543.131Ombud;231302-91D;Lidsjobergs Lanthandel;Lidsjoberg 105;;830 86;LIDSJ�BERG;Jamtlands lan;7133656.476;1472519.928Ombud;231304-90B;Ica H-Center;Storgatan 42;;830 70;HAMMERDAL;Jamtlands lan;7052737;1477461Ombud;231305-91G;Ica Gransbua;Norgevagen 1;;830 90;G�DDEDE;Jamtlands lan;7155919;1420104Ombud;231305-92A;Ica Blasjofjall;Blasjon 230;;830 93;STORA BL�SJ�N;Jamtlands lan;7193566;1418320Ombud;231306-91A;Ica Nara Backe;Centrumvagen 1;;880 50;BACKE;Jamtlands lan;7078357;1529548Ombud;231307-91B;Ica Nara Rosson;Hotingvagen 7;;880 51;ROSS�N;Jamtlands lan;7091328;1525617Ombud;231308-90A;Ica Kyrktasjo;Kopmangatan 10;;830 80;HOTING;Jamtlands lan;7124013;1504826Ombud;231308-90B;Norrakers Handel;Borgavagen 8;;830 81;NORR�KER;Jamtlands lan;7147778;1489840Ombud;231308-93D;Ica Nara Hoting;Storgatan 20;;830 80;HOTING;Jamtlands lan;7112162.216;1519391.225Ombud;232101-91A;Coop Extra Storlien;Vintergatan 4;;830 19;STORLIEN;Jamtlands lan;7027585;1314829Ombud;232101-92A;ICA Toppen;Karolinervagen 21;;830 15;DUVED;Jamtlands lan;7034790;1355820Ombud;232103-90D;Ica Nara Morsil;Kyrkvagen 23;;830 04;M�RSIL;Jamtlands lan;7024133;1392288Ombud;232103-90E;Ica Nara Karl Ors Bua;Hallenvagen 22;;830 01;HALLEN;Jamtlands lan;7008376;1414007Ombud;232104-90B;ICA Nara Kall;Kall Vastgard 10;;830 05;J�RPEN;Jamtlands lan;7043202;1371163Ombud;232105-91A;ICA Ottsjo Bua;Ottsjo;;830 10;UNDERS�KER;Jamtlands lan;7014731;1361766Ombud;232105-91B;Ica Nara Undersaker;Byvagen 63;;830 10;UNDERS�KER;Jamtlands lan;7025371.052;1371541.014Ombud;232603-91B;Ovikens Bygg Shop;Myrviksvagen 22;;830 24;OVIKEN;Jamtlands lan;6988412.586;1425814.19Ombud;232605-90A;Handlar'n Storsjo;Storsjo 244;;840 34;STORSJ�;Jamtlands lan;6968564;1359698Ombud;232605-91A;Ljungdalsfjallens turistbyra;Ljungdalen;;840 35;LJUNGDALEN;Jamtlands lan;6974935;1346420Ombud;232607-90A;Ica Klovsjo;Klovsjovagen 25;;840 32;KL�VSJ�;Jamtlands lan;6936043;1417051Ombud;232608-90B;Handsjo Handel;Sjovagen 1;;840 30;R�TAN;Jamtlands lan;6928421.843;1434386.033Ombud;236102-91B;Ica Nara Lofsdalen;Lofsdalsvagen 28;;840 85;LOFSDALEN;Jamtlands lan;6891424;1367806Ombud;236104-90A;Ekbergs Fiske;Havagen 8;;840 92;VEMDALEN;Jamtlands lan;6927317;1399907Ombud;236104-91A;Vemhatraffen;�stbergsgatan;;840 91;VEMH�N;Jamtlands lan;6912066;1408616Ombud;236105-90F;Hede Farg & Maleri;Storgatan 18 A;;840 93;HEDE;Jamtlands lan;6925007.457;1381548.09Ombud;236106-91A;Linsells Livs;Linsell 182;;842 91;SVEG;Jamtlands lan;6895247;1400237Ombud;236107-91A;Ramundbergets Lanthandel;Skarssvangen 2;;840 97;BRUKSVALLARNA;Jamtlands lan;6959275;1325094Ombud;236109-90B;Ytterhogdals trafikbutik AB;�stansjo 174;;840 90;YTTERHOGDAL;Jamtlands lan;6895626;1455549Ombud;238004-91A;ICA Faker;Gronviken 205;;830 22;F�KER;Jamtlands lan;6987276;1438851Ombud;238007-90A;Colorama Sedinhuset;Centrumvagen 33;;834 31;BRUNFLO;Jamtlands lan;6996826;1450696Ombud;238010-90B;Svegardhs Livs;Gustaf Rydstedts vag 2;;836 93;H�GGEN�S;Jamtlands lan;7031652;1454978Ombud;240102-91A;Grasmyr Bensin & Livs;Fallan 17;;914 95;GR�SMYR;Vasterbottens lan;7079099;1688193Ombud;240102-93A;Handlar'n Nyaker;Byvagen 68;;914 94;NY�KER;Vasterbottens lan;7077974;1672866Ombud;240301-91A;�rtrask Livs HB;Storgatan 85;;916 95;�RTR�SK;Vasterbottens lan;7118227;1654737Ombud;240401-90A;GoMaten;Bla vagen 109;;922 95;GRAN�;Vasterbottens lan;7131908;1669825Ombud;240402-90B;Handlarn �msele;Byavagen 112;;922 75;�MSELE;Norrbottens lan;7163445;1669926Ombud;240904-91B;Shell �naset;Brogatan 5;;915 34;�N�SET;Vasterbottens lan;7140891;1753561Ombud;241702-90C;Affarn i Bastutrask AB;Backgatan 1;;930 61;BASTUTR�SK;Vasterbottens lan;7194114;1701376Ombud;242101-91C;Slussforsboa;Skogsvagen 2;;923 97;SLUSSFORS;Vasterbottens lan;;Ombud;242103-93B;Konsum Tarnaby;Vastra Strandvagen 15;;920 64;T�RNABY;Vasterbottens lan;7290142;1474856Ombud;242201-91C;Ammarnas Livs;Box 22;;920 75;AMMARN�S;Vasterbottens lan;7317617;1518540Ombud;242201-92A;ICA Nara Blattnicksele;Strandvagen 13;;920 72;BLATTNICKSELE;Vasterbottens lan;7250033;1582948Ombud;242202-90A;Jonssons Livs;Byvagen 46;;924 93;GARGN�S;Vasterbottens lan;7247363;1600570Ombud;242501-91C;Catarinas Livs;Junselevagen 7;;917 95;SVANAVATTNET;Vasterbottens lan;7110878;1540897Ombud;242501-92A;Ormsjodalens ICA;V. Ormsjo 70;;917 91;DOROTEA;Vasterbottens lan;7145942;1509819Ombud;242502-91A;Borgafjallens Lanthandel;Centrumvagen 18;;917 04;BORGAFJ�LL;Vasterbottens lan;7192501;1465899Ombud;246201-93A;Dikanas Fjallhandel;Albinsvagen 5;;923 94;DIKAN�S;Vasterbottens lan;7236919;1508758Ombud;246201-95B;Klimpfjallshandlarn;Vildmarksvagen 1;;912 98;KLIMPFJ�LL;Vasterbottens lan;7218153;1453166Ombud;246201-96A;Sista Utposten;Kittelfjall 5721;;92395;KITTELFJ�LL;Vasterbottens lan;7238885;1487801Ombud;246201-96B;Saxnas Lanthandel;Saxnas 27;;910 88;MARSFJ�LL;Vasterbottens lan;7207410;1478989Ombud;246304-90B;Handlarn i Fredrika;Umevagen 10;;919 93;FREDRIKA;Vasterbottens lan;7110229.086;1626844.829Ombud;248003-90A;Matboa;Tavelsjovagen 84;;92263;TAVELSJ�;Vasterbottens lan;7110425;1707810Ombud;248006-91B;Ica Fyren;Kyrkvagen 22;;913 42;OBBOLA;Vasterbottens lan;7073737;1722915Ombud;248007-90A;Konsum Hornefors;Bruksgatan 17;;905 31;H�RNEFORS;Vasterbottens lan;7064099;1703332Ombud;248009-90C;Time Savar;Kungsvagen 2;;918 31;S�VAR;Vasterbottens lan;7096322.009;1732654.201Ombud;248009-91A;ICA Nara Bullmark;Robertsforsv 37;;918 92;BULLMARK;Vasterbottens lan;7111343;1728429Ombud;248009-92C;Handlarn Botsmark;Radmansvagen 8;;922 77;BOTSMARK;Vasterbottens lan;;Ombud;248010-90A;Affar�n;Box 53;;918 03;HOLM�N;Vasterbottens lan;7086268;1749311Ombud;248202-91B;Ica Supermarket Skelleftehamn;S:t �rjansvagen 6;;932 32;SKELLEFTEHAMN;Vasterbottens lan;7186882.512;1759040.156Ombud;248203-90C;Burea Bensin och Livs;Jagargatan 1;;930 15;BURE�;Vasterbottens lan;7179042;1757852Ombud;248205-90A;Ica X-tra;Norra Torggatan 3, box 14;;936 21;BOLIDEN;Vasterbottens lan;7203740;1717111Ombud;248206-90A;Affarn;Storkagetrask 15;;934 94;K�GE;Vasterbottens lan;7215727;1727383Ombud;248207-90B;Ica Supermarket;Storgatan 3;;930 47;BYSKE;Vasterbottens lan;;Ombud;248210-91B;Lovangers Blommor AB;Kungsvagen 28;;930 10;L�V�NGER;Vasterbottens lan;7151912;1765766Ombud;248211-90B;OKQ8 Burtrask;Sundbrogatan 7;;937 32;BURTR�SK;Vasterbottens lan;;Ombud;248211-91A;Ica Bygdsiljum;Robertsforsvagen 4;;937 33;BYGDSILJUM;Vasterbottens lan;7146487;1726902Ombud;250502-91B;ICA Nara Finnbergs;Storgatan 90;;930 81;GLOMMERSTR�SK;Norrbottens lan;7245213;1678793Ombud;250602-92A;Jackviks Service HB;Byavagen 10;;938 95;J�CKVIK;Norrbottens lan;7366190;1551858Ombud;250602-94A;Slagnas Lanthandel;Gammvagen 3;;930 91;SLAGN�S;Norrbottens lan;7278061;1608940Ombud;251002-91B;K o M in Bageri och Lanthandel;Kabdalis 402;;962 05;K�BDALIS;Norrbottens lan;7344820.33;1688802.179Ombud;251004-90A;Laponia Livs;Stromgatan 39;;982 60;PORJUS;Norrbottens lan;7434832;1675223Ombud;251005-90A;Bilisten;Industrivagen 2;;960 30;VUOLLERIM;Norrbottens lan;7378108;1713664Ombud;251401-91A;Konsum Sangis;Bagarevagen 2;;952 72;SANGIS;Norrbottens lan;7327787;1850342Ombud;251401-92A;Handlar�n Vitvattnet;Vitvattnet 341;;952 93;KALIX;Norrbottens lan;7348618;1834161Ombud;251402-90A;ICA Nyckeln;Torgvagen 7;;950 40;T�RE;Norrbottens lan;7329405;1811217Ombud;251402-91A;Coop Konsum Morjarv;Kopmangatan 1;;950 42;MORJ�RV;Norrbottens lan;7347142;1811830Ombud;251802-91B;Rautilas Livs;Byvagen 47;;957 23;JUOKSENGI;Norrbottens lan;7408549;1856316Ombud;252101-91A;Handlar'n Muodoslompolo;Byavagen 28;;984 95;MUODOSLOMPOLO;Norrbottens lan;;Ombud;252103-91A;�kes Livs;Kitkiojarvi 20;;984 99;PAJALA;Norrbottens lan;7542922;1807705Ombud;252106-90A;Alskog i Junosuando;C/O Postnord Thermo port 1;;901 37;UME�;Norrbottens lan;7497050;1786250Ombud;252106-91D;Kangos Lanthandel;Norrabyavagen 1;;980 63;KANGOS;Norrbottens lan;7503627.462;1792462.056Ombud;252301-91A;Makis Livs;Stora Vagen 38;;980 42;ULLATTI;Norrbottens lan;7448060;1761551Ombud;252301-92A;Ica Dyrlinds;Skaulo 7;;982 04;G�LLIVARE;Norrbottens lan;7489998;1727336Ombud;252304-90A;ICA Polar;Kalixvagen 78;;980 41;HAKKAS;Norrbottens lan;7436233;1751351Ombud;258004-90A;Ica Handelsboden;Affarsvagen 6;;955 31;R�NE�;Norrbottens lan;7321380;1795635Ombud;258102-90B;E-Fyren AB;Javrevagen 200;;944 94;J�VREBYN;Norrbottens lan;7238753;1767111Ombud;258103-91B;Olofssons Livs;Lillpitevagen 548;;946 92;LILLPITE;Norrbottens lan;7262940;1748691Ombud;258103-92A;Langtrask Livs AB;Basvagen 2;;942 05;L�NGTR�SK;Norrbottens lan;7261157;1710263Ombud;258103-93B;Forsens Livs;Sikforsvagen 39;;942 94;SIKFORS;Norrbottens lan;7280379;1748931Ombud;258105-90C;Ica Norrfjarden;Porsnastorget 3;;945 31;NORRFJ�RDEN;Norrbottens lan;;Ombud;258202-90C;Gunnarsby Lanthandel;Klovervagen 12;;961 97;GUNNARSBYN;Norrbottens lan;;Ombud;258202-91A;Niemisels Livs Nara Dig;Bergandevagen 2;;955 95;NIEMISEL;Norrbottens lan;7338193;1780214Ombud;258203-91B;Harads Maskin & Fritid;Edeforsvagen 56;;960 24;HARADS;Norrbottens lan;7341295;1732766Ombud;258301-91B;Seskaro Livs Handlarn;All�vagen 1;;953 94;SESKAR�;Norrbottens lan;7315954;1863169Ombud;258401-91C;Coop Lapporten Abisko;Kallejonsvagen 7;;981 07;ABISKO;Norrbottens lan;7587305.608;1624477.392Ombud;258401-92B;Coop Konsum Katterjakk;Katterjakk;;981 94;RIKSGR�NSEN;Norrbottens lan;7594056.602;1597007.201Ombud;258402-90B;Coop Nara Vittangi;Centralvagen 26;;980 10;VITTANGI;Norrbottens lan;7520959.015;1747327.834Ombud;258402-91B;Coop Nara Svappavaara;Kirunavagen;;980 20;SVAPPAVAARA;Norrbottens lan;7515450.318;1722556.235Ombud;258402-92B;Matsacken;Byvagen 78;;980 13;LANNAVAARA;Norrbottens lan;7563387.717;1757006.952Ombud;258403-90A;Karesuando Bensin;Leastadiusvagen 50;;980 16;KARESUANDO;Norrbottens lan;7608909;1772510
+"","Typ","Namn","Address4","Address5","RT90x","RT90y","WGS84x","WGS84y"
+"1","Butik","Fältöversten","STOCKHOLM","Stockholms län",6582011,1630064,59.3388107537737,18.0908790067336
+"2","Butik","","STOCKHOLM","Stockholms län",6581787,1629382,59.3370109670991,18.0787703591809
+"3","Butik","Garnisonen","STOCKHOLM","Stockholms län",6581720,1630377,59.3361042109022,18.0961987870359
+"4","Butik","","STOCKHOLM","Stockholms län",6581443.113,1628483.985,59.3342004409464,18.0627992471065
+"5","Butik","Sergel","STOCKHOLM","Stockholms län",6581251.441,1628460.233,59.3324884444145,18.0622682452208
+"6","Butik","PK-Huset","STOCKHOLM","Stockholms län",6581348.98,1628962.251,59.3332104447572,18.0711392341174
+"7","Butik","","STOCKHOLM","Stockholms län",6581037,1628616,59.330517630776,18.0648749832605
+"8","Butik","Marieberg","STOCKHOLM","Stockholms län",6580676,1625947,59.3280832179873,18.0178124220644
+"9","Butik","","STOCKHOLM","Stockholms län",6580745,1627343,59.3282839095263,18.0423567077416
+"10","Butik","","STOCKHOLM","Stockholms län",6581680,1625435,59.3372412323076,18.0094084099046
+"11","Butik","","VÄLLINGBY","Stockholms län",6584334,1617652,59.3632880229876,17.874193052018
+"12","Butik","","STOCKHOLM","Stockholms län",6581458,1626624,59.3348953415189,18.030154189005
+"13","Butik","","STOCKHOLM","Stockholms län",6582135,1627265,59.3407752871577,18.0418068391776
+"14","Butik","Torsplan","STOCKHOLM","Stockholms län",6582767.095,1626747.961,59.3466004349226,18.0330992483184
+"15","Butik","Odenplan","STOCKHOLM","Stockholms län",6582461,1627884,59.3435124863073,18.052869117528
+"16","Butik","Jarlaplan","STOCKHOLM","Stockholms län",6582620,1628484,59.344756598736,18.0635000391818
+"17","Butik","","STOCKHOLM","Stockholms län",6581989,1628333,59.3391426946788,18.0604730992562
+"18","Butik","","STOCKHOLM","Stockholms län",6581457,1628077,59.334448534068,18.0556625875756
+"19","Butik","Brommaplan","BROMMA","Stockholms län",6581729,1621475,59.3388376921316,17.9399042750927
+"20","Butik","","HÄSSELBY","Stockholms län",6584696,1615877,59.3670264144289,17.8431954688926
+"21","Butik","","KISTA","Stockholms län",6588823.336,1621493.13,59.4024704222321,17.9442242488615
+"22","Butik","Bromma Blocks","BROMMA","Stockholms län",6583670,1622217,59.3560349180603,17.9540328676582
+"23","Butik","Ringen","STOCKHOLM","Stockholms län",6578584,1629331,59.3082972660336,18.0759580666418
+"24","Butik","","STOCKHOLM","Stockholms län",6579247,1629262,59.3142651517577,18.0751439224199
+"25","Butik","Söderhallarna","STOCKHOLM","Stockholms län",6579281,1629032,59.3146403444322,18.0711288118607
+"26","Butik","","STOCKHOLM","Stockholms län",6579419,1629788,59.315646821917,18.0844758776426
+"27","Butik","","JOHANNESHOV","Stockholms län",6577496,1629545,59.2984729619621,18.0790607245155
+"28","Butik","Globen","JOHANNESHOV","Stockholms län",6576764,1629653,59.2918742051236,18.0805163821894
+"29","Butik","Liljeholmen","STOCKHOLM","Stockholms län",6578641,1626263,59.3097353307704,18.0221704745614
+"30","Butik","","STOCKHOLM","Stockholms län",6579483,1628162,59.3167167303301,18.0559839006609
+"31","Butik","Hammarby Sjöstad","STOCKHOLM","Stockholms län",6577945,1630863,59.3020947365173,18.1024456349399
+"32","Butik","","STOCKHOLM","Stockholms län",6579419,1626918,59.3165178179856,18.0341179889739
+"33","Butik","","Hägersten","Stockholms län",6576902.241,1625281.754,59.294430441522,18.0039492527476
+"34","Butik","","BANDHAGEN","Stockholms län",6573564,1627470,59.263833854602,18.0403579441512
+"35","Butik","","FARSTA","Stockholms län",6571337,1630460,59.2429489266078,18.0914021199749
+"36","Butik","","HÄGERSTEN","Stockholms län",6575853,1623050,59.2856731583219,17.9642166389168
+"37","Butik","","SKÄRHOLMEN","Stockholms län",6574717,1619970,59.2763664375551,17.9095882767076
+"38","Butik","","SOLNA","Stockholms län",6584237,1624809,59.3603627204277,17.9998965962247
+"39","Butik","","SUNDBYBERG","Stockholms län",6584281,1622984,59.3612929701039,17.9678561167538
+"40","Butik","","VAXHOLM","Stockholms län",6589550,1644635,59.4016819643694,18.3517318569029
+"41","Butik","","HALLSTAVIK","Stockholms län",6662319,1655444,60.0502497019424,18.5956334606821
+"42","Butik","","NORRTÄLJE","Stockholms län",6629948,1662690,59.7572634641812,18.7001442718731
+"43","Butik","","SIGTUNA","Stockholms län",6612198,1608078,59.6158254037251,17.7200339937712
+"44","Butik","","SÖDERTÄLJE","Stockholms län",6565397,1604088,59.196946715686,17.6267106293886
+"45","Butik","","SÖDERTÄLJE","Stockholms län",6564261,1601112,59.187472519637,17.5741327436329
+"46","Butik","","NYNÄSHAMN","Stockholms län",6533261,1623371,58.9035065778019,17.9459074088653
+"47","Butik","","LIDINGÖ","Stockholms län",6585132,1632476,59.3660540133023,18.1351440750444
+"48","Butik","Arninge","TÄBY","Stockholms län",6595729,1632265,59.4611648029347,18.1379633868564
+"49","Butik","Mörby Centrum","DANDERYD","Stockholms län",6588398,1626774,59.3971000919866,18.0368710816325
+"50","Butik","Jakobsbergs Centrum","JÄRFÄLLA","Stockholms län",6591022,1615351,59.4239198906923,17.8373445581154
+"51","Butik","Täby Centrum","TÄBY","Stockholms län",6593753.139,1628675.336,59.4445564222782,18.0735222251921
+"52","Butik","Sollentuna Centrum","SOLLENTUNA","Stockholms län",6591691,1621815,59.4281008560674,17.9515134929727
+"53","Butik","","HUDDINGE","Stockholms län",6570417.922,1624280.068,59.2365604571528,17.9826692785569
+"54","Butik","","MÄRSTA","Stockholms län",6612944,1615673,59.620484405472,17.8549104148459
+"55","Butik","Väsby Centrum","UPPLANDS VÄSBY","Stockholms län",6601702,1619136,59.5186691241992,17.9099239844854
+"56","Butik","","NACKA","Stockholms län",6578963,1634331,59.3101384925888,18.1638991919739
+"57","Butik","","TYRESÖ","Stockholms län",6571675,1638416,59.2434587468929,18.230901703926
+"58","Butik","Haninge Centrum","HANINGE","Stockholms län",6563348,1633511,59.1703442131736,18.1399220726529
+"59","Butik","","GUSTAVSBERG","Stockholms län",6581309,1647235,59.3268819804848,18.3918251811797
+"60","Butik","","SALTSJÖBADEN","Stockholms län",6576366,1640791,59.2847473681911,18.2755231398678
+"61","Butik","","TUMBA","Stockholms län",6565937,1615878,59.1987398799575,17.8331820101752
+"62","Butik","Botkyrka","NORSBORG","Stockholms län",6570287.417,1615685.029,59.2378204477199,17.832119292553
+"63","Butik","Skogås Centrum","SKOGÅS","Stockholms län",6568637,1634130,59.2175875972547,18.1539900521112
+"64","Butik","","ÅKERSBERGA","Stockholms län",6598171.046,1641230.224,59.4801494297474,18.2975311793142
+"65","Butik","","VALLENTUNA","Stockholms län",6603903,1628598,59.5356170108966,18.0782705242532
+"66","Butik","Orminge Centrum","SALTSJÖ-BOO","Stockholms län",6581002,1639572,59.326728283359,18.2571476636099
+"67","Butik","Ekerö Centrum","EKERÖ","Stockholms län",6576156,1614352,59.2908297240326,17.811872246861
+"68","Butik","Kungens Kurva","KUNGENS KURVA","Stockholms län",6574107.314,1620698.02,59.2706904420483,17.9220092780661
+"69","Butik","Salem Centrum","RÖNNINGE","Stockholms län",6566141,1612076,59.2015899108935,17.7667926358558
+"70","Butik","","KUNGSÄNGEN","Stockholms län",6597090,1610260,59.4797208660496,17.7508389781165
+"71","Butik","","RIMBO","Stockholms län",6627660,1644016,59.743638937476,18.3666884737679
+"72","Butik","Sickla","NACKA","Stockholms län",6578275,1632466,59.3045558132164,18.1307614961889
+"73","Butik","Mölnvik","GUSTAVSBERG","Stockholms län",6579896.447,1649187.164,59.3135309648127,18.4251051051223
+"74","Butik","Västerhaninge centrum","VÄSTERHANINGE","Stockholms län",6557982,1631801,59.1227468999138,18.1068134810288
+"75","Butik","Rotebro","SOLLENTUNA","Stockholms län",6596372,1619580,59.4707315108027,17.9147773418719
+"76","Butik","","JÄRFÄLLA","Stockholms län",6589540,1613484,59.411132160367,17.8036927926653
+"77","Butik","","NYKVARN","Stockholms län",6563044,1592942,59.1784169026104,17.4307482586289
+"78","Butik","Barkarby","JÄRFÄLLA","Stockholms län",6590020,1616802,59.4145313882199,17.862343328815
+"79","Butik","Mall of Scandinavia","Solna","Stockholms län",6585235.789,1625151.209,59.3692204312151,18.0064892439234
+"80","Butik","Haninge Söderby","HANINGE","Stockholms län",6564602.199,1634535.833,59.1812704682164,18.1585992687175
+"81","Butik","Häggvik","SOLLENTUNA","Stockholms län",6592905.95,1620873.88,59.4392704162799,17.9356292361379
+"82","Butik","Gottsunda centrum","UPPSALA","Uppsala län",6633403,1602399,59.8074958513887,17.6297985079373
+"83","Butik","","UPPSALA","Uppsala län",6639091,1602924,59.8583943626876,17.6419547174106
+"84","Butik","Stenhagen","UPPSALA","Uppsala län",6637930,1598530,59.8490475753999,17.5630325490284
+"85","Butik","Gränbystaden","UPPSALA","Uppsala län",6641214,1604586,59.8770232971081,17.6726642812898
+"86","Butik","","BÅLSTA","Uppsala län",6606509,1597406,59.5674065075571,17.5284437751189
+"87","Butik","","ENKÖPING","Uppsala län",6613246,1572022,59.6329989212831,17.0817929436799
+"88","Butik","","TIERP","Uppsala län",6692989,1594382,60.3439786470352,17.5144471870613
+"89","Butik","","ÖREGRUND","Uppsala län",6694119,1645477,60.3390183494185,18.4396894000584
+"90","Butik","","SKUTSKÄR","Uppsala län",6724141,1588100,60.6248692319991,17.4145075774384
+"91","Butik","Kvarnen","UPPSALA","Uppsala län",6639512,1603172,59.8621094910543,17.6465865975856
+"92","Butik","Boländerna","UPPSALA","Uppsala län",6637844,1605483,59.8465633593561,17.6869636973117
+"93","Butik","","KNIVSTA","Uppsala län",6624652.076,1611679.798,59.7266003620963,17.7903992143692
+"94","Butik","Nyköping City","NYKÖPING","Södermanlands län",6515028.895,1569376.114,58.751975472663,17.0036594649687
+"95","Butik","","TROSA","Södermanlands län",6531831,1600452,58.8966423927992,17.5478069344879
+"96","Butik","","ESKILSTUNA","Södermanlands län",6583501,1540344,59.3702788759777,16.5147276712558
+"97","Butik","Tuna park","ESKILSTUNA","Södermanlands län",6584036,1537739,59.375321713664,16.4690080176493
+"98","Butik","","TORSHÄLLA","Södermanlands län",6589036,1538111,59.4201674887845,16.4764366527566
+"99","Butik","","KATRINEHOLM","Södermanlands län",6541645,1523150,58.9958491747915,16.2078984306945
+"100","Butik","","STRÄNGNÄS","Södermanlands län",6584622,1569400,59.3765637863292,17.0260222588057
+"101","Butik","","MARIEFRED","Södermanlands län",6571761,1580719,59.2591385106926,17.2202767462888
+"102","Butik","","MALMKÖPING","Södermanlands län",6557106.477,1552972.183,59.131980414985,16.7303694470573
+"103","Butik","","FLEN","Södermanlands län",6548884,1545074,59.0590835055204,16.5907496907337
+"104","Butik","","OXELÖSUND","Södermanlands län",6505986,1575358,58.6698138427427,17.1039451542384
+"105","Butik","","VINGÅKER","Södermanlands län",6547855.233,1504237.313,59.0522004005739,15.8789995566997
+"106","Butik","","GNESTA","Södermanlands län",6548443,1586187,59.0488137458434,17.3069108328128
+"107","Butik","Gustafsberg","NYKÖPING","Södermanlands län",6517119.125,1570645.471,58.7705304728448,17.0262394647573
+"108","Butik","","LINKÖPING","Östergötlands län",6473035,1492658,58.3804671214324,15.6796912253752
+"109","Butik","Tornby","LINKÖPING","Östergötlands län",6479145.019,1487377.664,58.4352004709066,15.5890996270369
+"110","Butik","Gyllentorget","LINKÖPING","Östergötlands län",6476390,1489594,58.4105252014254,15.6271668842321
+"111","Butik","","ÅTVIDABERG","Östergötlands län",6453149,1511376,58.2018483030419,15.9986603610993
+"112","Butik","","MJÖLBY","Östergötlands län",6467120,1460174,58.3256145798008,15.125502684938
+"113","Butik","","VADSTENA","Östergötlands län",6480824,1446505,58.4471780419204,14.8890644043262
+"114","Butik","","MOTALA","Östergötlands län",6490756,1455091,58.5373038562242,15.0341314106624
+"115","Butik","","NORRKÖPING","Östergötlands län",6496126,1522429,58.5872593421846,16.1908104573831
+"116","Butik","","NORRKÖPING","Östergötlands län",6494501,1523596,58.5726095491261,16.2107063379735
+"117","Butik","Ingelsta","NORRKÖPING","Östergötlands län",6499208,1520906,58.615003288089,16.1649085768964
+"118","Butik","","SÖDERKÖPING","Östergötlands län",6484436,1530015,58.4818585672951,16.3196983649589
+"119","Butik","","VALDEMARSVIK","Östergötlands län",6453595,1546891,58.2035139860196,16.6027047150019
+"120","Butik","","FINSPÅNG","Östergötlands län",6509414,1498252,58.7071235046486,15.7750180443086
+"121","Butik","","KISA","Östergötlands län",6429382,1489791,57.9884879867769,15.6326087000405
+"122","Butik","","ÖDESHÖG","Östergötlands län",6456749,1432291,58.2291067485455,14.6527605969418
+"123","Butik","","Ydre","Östergötlands län",6411365,1468650,57.825738643059,15.2776008331311
+"124","Butik","","BOXHOLM","Östergötlands län",6452813,1455910,58.1967690411767,15.0554596763929
+"125","Butik","Djurgården","Linköping","Östergötlands län",6473703,1487321,58.386341661655,15.5884313350788
+"126","Butik","A6","JÖNKÖPING","Jönköpings län",6406582,1404702,57.7737636748228,14.2036200346816
+"127","Butik","Atollen","JÖNKÖPING","Jönköpings län",6407378.48,1402829.945,57.7805105565574,14.1718496988791
+"128","Butik","","HABO","Jönköpings län",6421781,1397415,57.9085607964121,14.074681850587
+"129","Butik","","VÄRNAMO","Jönköpings län",6341157,1393302,57.184019549415,14.0406935020791
+"130","Butik","","HUSKVARNA","Jönköpings län",6408236,1408994,57.7895004375634,14.2750931224187
+"131","Butik","","NÄSSJÖ","Jönköpings län",6392635,1433722,57.6537871941661,14.6950464795402
+"132","Butik","","VETLANDA","Jönköpings län",6366864,1456746,57.4252056695549,15.0852391048036
+"133","Butik","","EKSJÖ","Jönköpings län",6393656,1450327,57.6650908718524,14.9729320053457
+"134","Butik","","TRANÅS","Jönköpings län",6434741,1450918,58.0340040056693,14.9743711736715
+"135","Butik","","GISLAVED","Jönköpings län",6355208,1363441,57.3021794365965,13.5395269638737
+"136","Butik","","SÄVSJÖ","Jönköpings län",6364513,1431555,57.4010036657253,14.6666607095652
+"137","Butik","","ANEBY","Jönköpings län",6413151,1441089,57.8389917649917,14.8133859807961
+"138","Butik","","GNOSJÖ","Jönköpings län",6361163.206,1375268.598,57.3590006091553,13.7325996504562
+"139","Butik","","MULLSJÖ","Jönköpings län",6422852,1386083,57.9154230949671,13.8831246047201
+"140","Butik","","SKILLINGARYD","Jönköpings län",6368234,1397112,57.4279168097,14.0923991183556
+"141","Butik","","GRÄNNA","Jönköpings län",6433960,1420909,58.0226623221052,14.4667914804893
+"142","Butik","Affärshuset Tegner","VÄXJÖ","Kronobergs län",6306289,1438691,56.8792726121912,14.7996354522701
+"143","Butik","","LJUNGBY","Kronobergs län",6302408,1386202,56.8345405961501,13.940840843951
+"144","Butik","","ÄLMHULT","Kronobergs län",6270668,1397644,56.5522870258232,14.1408335395465
+"145","Butik","","ALVESTA","Kronobergs län",6308791,1423876,56.8995415677127,14.5559479946463
+"146","Butik","","MARKARYD","Kronobergs län",6261969,1364034,56.4657043555986,13.599248295611
+"147","Butik","","TINGSRYD","Kronobergs län",6266611,1449184,56.5242586411095,14.9795680324906
+"148","Butik","Samarkand","VÄXJÖ","Kronobergs län",6306955,1436486,56.8849557314141,14.7633090372978
+"149","Butik","","ÅSEDA","Kronobergs län",6338507,1472131,57.1717896271819,15.3445157522437
+"150","Butik","","LESSEBO","Kronobergs län",6291735,1467278,56.7514795464795,15.2703565767505
+"151","Butik","Norremark","VÄXJÖ","Kronobergs län",6308888.458,1440677.155,56.9028705606037,14.831599570496
+"152","Butik","Giraffen","KALMAR","Kalmar län",6282701,1532558,56.670375774793,16.3362881395994
+"153","Butik","","KALMAR","Kalmar län",6282033,1534227,56.6642583860602,16.3634211984439
+"154","Butik","","BORGHOLM","Kalmar län",6306084,1551887,56.8785956675823,16.6562637232022
+"155","Butik","","FÄRJESTADEN","Kalmar län",6280723,1540764,56.6519724048107,16.469814629056
+"156","Butik","","MÖNSTERÅS","Kalmar län",6324124,1538719,57.0418656358212,16.4430606880183
+"157","Butik","","OSKARSHAMN","Kalmar län",6348913,1538632,57.2644550353227,16.4454546653498
+"158","Butik","","VÄSTERVIK","Kalmar län",6403932.531,1549363.395,57.7574005457747,16.6343996182209
+"159","Butik","","VIMMERBY","Kalmar län",6393520,1502808,57.6666055908416,15.8522567481778
+"160","Butik","","NYBRO","Kalmar län",6290738,1505845,56.7436420722532,15.9007562637072
+"161","Butik","","HULTSFRED","Kalmar län",6373587,1502275,57.4876298595446,15.8431446842467
+"162","Butik","","EMMABODA","Kalmar län",6278197,1483645,56.6307684485686,15.538751698861
+"163","Butik","","TORSÅS","Kalmar län",6253828,1512143,56.4120548750663,16.0019620518546
+"164","Butik","","HÖGSBY","Kalmar län",6337209,1513635,57.1607830658544,16.030556117053
+"165","Butik","","GAMLEBY","Kalmar län",6419481,1535247,57.8983250219993,16.3995821984517
+"166","Butik","","VISBY","Gotlands län",6393067,1648993,57.6379596863289,18.3000344316749
+"167","Butik","","HEMSE","Gotlands län",6348961,1655264,57.2402127057564,18.3770061142465
+"168","Butik","","SLITE","Gotlands län",6401616,1678634,57.703863284406,18.8019713694723
+"169","Butik","Wachtmeister","KARLSKRONA","Blekinge län",6225904,1486152,56.1612242552706,15.5823731676357
+"170","Butik","Amiralen","Karlskrona-LYCKEBY","Blekinge län",6229811,1489878,56.1964071084419,15.6421913035985
+"171","Butik","","RONNEBY","Blekinge län",6231583,1466905,56.2112761108068,15.2719050094091
+"172","Butik","","KARLSHAMN","Blekinge län",6227534,1441277,56.1724435896613,14.8598415777861
+"173","Butik","","SÖLVESBORG","Blekinge län",6214118,1423814,56.0495086680333,14.5825900054265
+"174","Butik","","OLOFSTRÖM","Blekinge län",6239566,1421035,56.2775521806262,14.5304508455955
+"175","Butik","","KRISTIANSTAD","Skåne län",6212505,1397361,56.0300896713795,14.1588513459166
+"176","Butik","","ÅHUS","Skåne län",6200770,1406017,55.9265057099303,14.3017393942573
+"177","Butik","","SIMRISHAMN","Skåne län",6159590,1408055,55.5571548447065,14.3481851482525
+"178","Butik","","TOMELILLA","Skåne län",6158678,1383099,55.5436264845458,13.9532922293499
+"179","Butik","","HÄSSLEHOLM","Skåne län",6227333,1373348,56.1574359154766,13.7668895478035
+"180","Butik","","ÄNGELHOLM","Skåne län",6239143,1317627,56.2453260508699,12.8631246250152
+"181","Butik","","BÅSTAD","Skåne län",6259398,1317558,56.4269644580035,12.8479796493246
+"182","Butik","","KLIPPAN","Skåne län",6226219,1333737,56.1352868881408,13.1307680431595
+"183","Butik","","PERSTORP","Skåne län",6225863,1350158,56.1375272787924,13.3948358753734
+"184","Butik","","OSBY","Skåne län",6251939,1388161,56.3820127954431,13.9947393699493
+"185","Butik","","ÅSTORP","Skåne län",6226584,1322304,56.1344445465937,12.9468650237763
+"186","Butik","","ÖRKELLJUNGA","Skåne län",6242367,1343566,56.283492085324,13.2791805283835
+"187","Butik","","BROMÖLLA","Skåne län",6217008,1416645,56.0742630832602,14.466673429356
+"188","Butik","","BROBY","Skåne län",6237612,1392834,56.2544849991896,14.0761748019565
+"189","Butik","Jägersro Center","MALMÖ","Skåne län",6163462,1326679,55.5697831305611,13.0574402530632
+"190","Butik","Entré","MALMÖ","Skåne län",6167611,1324624,55.6062706565944,13.0222677711701
+"191","Butik","Mobilia","MALMÖ","Skåne län",6164645,1323361,55.5792059379885,13.0041504244934
+"192","Butik","","MALMÖ","Skåne län",6166535,1323352,55.5961581616737,13.0027987105955
+"193","Butik","Hansa","MALMÖ","Skåne län",6167276,1323437,55.6028365795493,13.0036711998525
+"194","Butik","Kronprinsen","MALMÖ","Skåne län",6166891,1322276,55.5989606474968,12.9855221286771
+"195","Butik","Limhamn","LIMHAMN","Skåne län",6165081,1318967,55.5815058364064,12.9342822081234
+"196","Butik","Västra Hamnen","MALMÖ","Skåne län",6168313,1322011,55.6116206282411,12.9804057225166
+"197","Butik","Emporia","MALMÖ","Skåne län",6163093.345,1321290.065,55.5645316365412,12.9723579126547
+"198","Butik","","LOMMA","Skåne län",6174940,1327872,55.6731819155762,13.0691589106835
+"199","Butik","","DALBY","Skåne län",6173287,1345419,55.6642481026217,13.3487077371318
+"200","Butik","","ARLÖV","Skåne län",6171158,1328649,55.6395257228285,13.0838515355703
+"201","Butik","","SKURUP","Skåne län",6152620,1354240,55.4814952546596,13.4996588530724
+"202","Butik","","SVEDALA","Skåne län",6156227,1337706,55.5086575803738,13.2362980731663
+"203","Butik","","TRELLEBORG","Skåne län",6141465,1332130,55.3743230782674,13.1570327245012
+"204","Butik","","VELLINGE","Skåne län",6152534,1323928,55.4707589455928,13.0208227066924
+"205","Butik","Toppengallerian","HÖLLVIKEN","Skåne län",6147740,1320203,55.4263980854128,12.9650895655848
+"206","Butik","","YSTAD","Skåne län",6146284,1374488,55.4302318569927,13.8225633676964
+"207","Butik","","SJÖBO","Skåne län",6168758,1367920,55.6302330094122,13.7081701100852
+"208","Butik","","STAFFANSTORP","Skåne län",6171225,1336283,55.6427556362944,13.204912156695
+"209","Butik","Råå","HELSINGBORG","Skåne län",6212432,1308927,56.0023618719629,12.7421149104936
+"210","Butik","","HELSINGBORG","Skåne län",6217608,1306020,56.0476144625463,12.6918510191681
+"211","Butik","Väla","ÖDÅKRA-VÄLA","Skåne län",6222527,1310841,56.0936579717071,12.76563035456
+"212","Butik","","BJUV","Skåne län",6221375,1320090,56.0868927051733,12.9148099794101
+"213","Butik","","LANDSKRONA","Skåne län",6197269,1313785,55.8682705055409,12.8303273671991
+"214","Butik","","SVALÖV","Skåne län",6201665,1331294,55.9141504797393,13.106942568414
+"215","Butik","Center Syd","LÖDDEKÖPINGE","Skåne län",6185754.814,1323412.974,55.7686006583995,12.9913990325363
+"216","Butik","","HÖGANÄS","Skåne län",6234950,1298599,56.2000550545612,12.5598696566278
+"217","Butik","NOVA","LUND","Skåne län",6179662,1333949,55.7176632570703,13.1627807472564
+"218","Butik","","LUND","Skåne län",6178262,1335497,55.7056293683858,13.1882267990923
+"219","Butik","SALUHALLEN","LUND","Skåne län",6177810,1335908,55.701712973088,13.1950282704475
+"220","Butik","","KÄVLINGE","Skåne län",6187935,1330967,55.7908565936965,13.1102662602659
+"221","Butik","","ESLÖV","Skåne län",6192683,1343212,55.8375839848461,13.3025430124674
+"222","Butik","","HÖÖR","Skåne län",6203019,1358345,55.9350202721457,13.5384740452022
+"223","Butik","","HÖRBY","Skåne län",6193571,1365755,55.8523477346516,13.6616379099229
+"224","Butik","","HALMSTAD","Hallands län",6286869,1319259,56.6739964964663,12.8563936709426
+"225","Butik","Hallarna","HALMSTAD","Hallands län",6284711,1322450,56.655863100937,12.9098658618041
+"226","Butik","","HYLTEBRUK","Hallands län",6322155,1344106,56.9994892661021,13.2397076380165
+"227","Butik","","LAHOLM","Hallands län",6268301,1330033,56.5114793499431,13.0441200717277
+"228","Butik","","Falkenberg","Hallands län",6313691,1298142,56.9058326443359,12.4913126910536
+"229","Butik","","VARBERG","Hallands län",6336631,1284500,57.1053008143854,12.2482258964896
+"230","Butik","","KUNGSBACKA","Hallands län",6379493,1276554,57.4855841354298,12.0786864213494
+"231","Butik","Flygstaden","Halmstad","Hallands län",6287474,1316239,56.6782462544143,12.8067658034343
+"232","Butik","Breared","VARBERG","Hallands län",6334039.451,1286318.185,57.0829207761384,12.2803796263057
+"233","Butik","","Kungsbacka","Hallands län",6382872.95,1276456.46,57.515820746041,12.0739698296199
+"234","Butik","","GÖTEBORG","Västra Götalands län",6403733,1271722,57.7003470749116,11.9755076819254
+"235","Butik","","GÖTEBORG","Västra Götalands län",6404043,1271243,57.7028811336019,11.9671981090517
+"236","Butik","Olskroken","GÖTEBORG","Västra Götalands län",6405184,1273064,57.7140250330861,11.9965978763982
+"237","Butik","","GÖTEBORG","Västra Götalands län",6406126,1274930,57.7234019230966,12.0269555691987
+"238","Butik","Nordstan","GÖTEBORG","Västra Götalands län",6404812,1271369,57.7098343754853,11.9685769414638
+"239","Butik","","GÖTEBORG","Västra Götalands län",6403411,1270271,57.696724375323,11.9515346612334
+"240","Butik","","GÖTEBORG","Västra Götalands län",6402961,1271407,57.6932711130423,11.9709686133336
+"241","Butik","Gårda","GÖTEBORG","Västra Götalands län",6403428,1272761,57.6981402303435,11.9931817415462
+"242","Butik","Backaplan","GÖTEBORG","Västra Götalands län",6406423,1270416,57.7237813612463,11.9510898858631
+"243","Butik","","GÖTEBORG","Västra Götalands län",6402845,1267940,57.6904588066426,11.913079805307
+"244","Butik","Bäckebol Homecenter","HISINGS BACKA","Västra Götalands län",6411470.983,1273672.71,57.7706567043687,12.0008679384484
+"245","Butik","Eriksberg","GÖTEBORG","Västra Götalands län",6404850,1268441,57.7086778303718,11.9195344081916
+"246","Butik","Gamlestaden","GÖTEBORG","Västra Götalands län",6406688,1274154,57.7280479936989,12.0134339397108
+"247","Butik","","VÄSTRA FRÖLUNDA","Västra Götalands län",6398598,1267803,57.6523429582231,11.9148715607992
+"248","Butik","","ANGERED","Västra Götalands län",6414264,1276844,57.7972680500871,12.0514420375878
+"249","Butik","Sisjön","ASKIM","Västra Götalands län",6397481,1269750,57.6433343899044,11.9484709952409
+"250","Butik","","ÖCKERÖ","Västra Götalands län",6405734,1252658,57.7081989370592,11.654549835754
+"251","Butik","","TORSLANDA","Västra Götalands län",6405428.569,1259835.832,57.70935074009,11.7749599507657
+"252","Butik","","MÖLNLYCKE","Västra Götalands län",6398561,1279829,57.6580429302044,12.1159039362922
+"253","Butik","","KÅLLERED","Västra Götalands län",6394219,1275116,57.6168149887711,12.0411576692557
+"254","Butik","","PARTILLE","Västra Götalands län",6407632,1279784,57.7392985838194,12.1068645582111
+"255","Butik","","MÖLNDAL","Västra Götalands län",6398613.864,1273835.974,57.6555507228257,12.0156798812874
+"256","Butik","","KUNGÄLV","Västra Götalands län",6422621,1273096,57.8702553166793,11.9806181309874
+"257","Butik","","SKÄRHAMN","Västra Götalands län",6436974,1248621,57.9856884319272,11.5541191150863
+"258","Butik","","STENUNGSUND","Västra Götalands län",6445105,1264726,58.0673164029893,11.8175796537994
+"259","Butik","","HENÅN","Västra Götalands län",6464503,1257692,58.2372421343309,11.6786154849456
+"260","Butik","","UDDEVALLA","Västra Götalands län",6476090,1273297,58.3493326904332,11.9323147258082
+"261","Butik","","UDDEVALLA","Västra Götalands län",6477143,1266335,58.3551137889068,11.8126406697892
+"262","Butik","","MUNKEDAL","Västra Götalands län",6490091,1258968,58.4670743851196,11.6735570618639
+"263","Butik","","KUNGSHAMN","Västra Götalands län",6479435,1234004,58.3572339549304,11.2594489250624
+"264","Butik","","LYSEKIL","Västra Götalands län",6469508,1243607,58.2740841979234,11.4339995747426
+"265","Butik","","STRÖMSTAD","Västra Götalands län",6544581,1233628,58.9399759917956,11.1763384729603
+"266","Butik","","STRÖMSTAD","Västra Götalands län",6545334.592,1234585.595,58.9473124688677,11.1920144179045
+"267","Butik","","GREBBESTAD","Västra Götalands län",6516725,1236229,58.6923071395965,11.2542204990937
+"268","Butik","","VÄNERSBORG","Västra Götalands län",6478252,1296225,58.3799501944384,12.3212137935208
+"269","Butik","Överby Köpcenter","Trollhättan","Västra Götalands län",6470997.14,1294751.786,58.3142515760278,12.3025310247683
+"270","Butik","","TROLLHÄTTAN","Västra Götalands län",6467768,1293872,58.2849033996401,12.2904239233967
+"271","Butik","","ÅMÅL","Västra Götalands län",6551974,1321958,59.052035057172,12.7020713765774
+"272","Butik","","MELLERUD","Västra Götalands län",6513503,1305695,58.700182937416,12.452733673107
+"273","Butik","","BENGTSFORS","Västra Götalands län",6550815,1294435,59.0292933204293,12.2244673298426
+"274","Butik","Solkatten","LERUM","Västra Götalands län",6410533,1289650,57.7700219586507,12.2696453208952
+"275","Butik","Dals-Ed","ED","Västra Götalands län",6538721,1276888,58.9121779266664,11.9317913725121
+"276","Butik","","BOLLEBYGD","Västra Götalands län",6398379,1307054,57.6688864603508,12.5713566815058
+"277","Butik","","BORÅS","Västra Götalands län",6403409,1329329,57.7229816895027,12.9405646429955
+"278","Butik","Knalleland","BORÅS","Västra Götalands län",6404431,1329031,57.7320332981486,12.9348435715314
+"279","Butik","","LILLA EDET","Västra Götalands län",6451863,1283464,58.137404840677,12.1281482667353
+"280","Butik","","TRANEMO","Västra Götalands län",6375785,1352841,57.4834866040886,13.3515197610861
+"281","Butik","","SVENLJUNGA","Västra Götalands län",6377802,1338480,57.4966937280744,13.11102331133
+"282","Butik","","ULRICEHAMN","Västra Götalands län",6410343,1357860,57.7951120981561,13.4148143062559
+"283","Butik","","ALINGSÅS","Västra Götalands län",6427551,1306408,57.9301125095719,12.5369600975839
+"284","Butik","","KINNA","Västra Götalands län",6380032,1313398,57.5070649812839,12.6916035640098
+"285","Butik","","FÄRGELANDA","Västra Götalands län",6500094,1278395,58.5669640304371,11.9959662859415
+"286","Butik","","NÖDINGE","Västra Götalands län",6424765,1277112,57.8914833758381,12.04613498822
+"287","Butik","","VÅRGÅRDA","Västra Götalands län",6438464,1323059,58.0348758138183,12.809438537596
+"288","Butik","","HERRLJUNGA","Västra Götalands län",6442707,1336008,58.0778945457041,13.0254113076204
+"289","Butik","Åhaga","BORÅS","Västra Götalands län",6401927,1329428,57.7097292733639,12.943274135488
+"290","Butik","","MARIESTAD","Västra Götalands län",6511419,1385293,58.7099077839296,13.8258647877995
+"291","Butik","","LIDKÖPING","Västra Götalands län",6489673,1345483,58.502510891639,13.154488419611
+"292","Butik","","GRÄSTORP","Västra Götalands län",6472149,1317025,58.3344148840313,12.6810326782277
+"293","Butik","","VARA","Västra Götalands län",6463409,1332769,58.262322412784,12.9557607050517
+"294","Butik","","SKARA","Västra Götalands län",6475931,1361412,58.3845957308212,13.4357677434302
+"295","Butik","","SKÖVDE","Västra Götalands län",6475762,1385361,58.3899997030211,13.8449995229035
+"296","Butik","","HJO","Västra Götalands län",6465432,1411254,58.3033019372464,14.2915079223264
+"297","Butik","","TIDAHOLM","Västra Götalands län",6452299,1391282,58.1809686069246,13.9571900553781
+"298","Butik","","FALKÖPING","Västra Götalands län",6450806,1367442,58.1610639763705,13.5531300550021
+"299","Butik","","KARLSBORG","Västra Götalands län",6490319,1424625,58.5291731007635,14.5113236704819
+"300","Butik","","GÖTENE","Västra Götalands län",6491764,1365254,58.5278232798765,13.4920772166069
+"301","Butik","","TÖREBODA","Västra Götalands län",6510932,1402673,58.7097969234978,14.1258113568248
+"302","Butik","","GULLSPÅNG","Västra Götalands län",6541820,1401555,58.9867090945483,14.0928934473196
+"303","Butik","","TIBRO","Västra Götalands län",6479182,1404123,58.4251997323989,14.1642130395518
+"304","Butik","","NOSSEBRO","Västra Götalands län",6455705,1318578,58.1876393271916,12.720355954098
+"305","Butik","","SKÖVDE","Västra Götalands län",6477695.781,1386164.972,58.4075604930281,13.8577798126299
+"306","Butik","Duvan","KARLSTAD","Värmlands län",6586482.132,1368955.127,59.3785703167586,13.4994899134194
+"307","Butik","Bergvik-Karlstad","KARLSTAD","Värmlands län",6586511,1364710,59.3774879946003,13.4248547502605
+"308","Butik","","FORSHAGA","Värmlands län",6603439,1368458,59.5305016682514,13.4803249651259
+"309","Butik","","KIL","Värmlands län",6600907,1359402,59.504853997231,13.3221132173214
+"310","Butik","","SÄFFLE","Värmlands län",6560265,1335483,59.131794100645,12.9312240537746
+"311","Butik","","ARVIKA","Värmlands län",6619304,1318961,59.6542298635239,12.5933593027664
+"312","Butik","","HAGFORS","Värmlands län",6659178,1382397,60.03462075672,13.6951185728531
+"313","Butik","","FILIPSTAD","Värmlands län",6622613,1408032,59.7131003753934,14.1709978571319
+"314","Butik","","KRISTINEHAMN","Värmlands län",6577521,1403434,59.3074785882545,14.1097776940355
+"315","Butik","","SUNNE","Värmlands län",6638225,1350845,59.8365094279964,13.1447639708418
+"316","Butik","","MUNKFORS","Värmlands län",6637352,1373131,59.8361122507092,13.5424022193536
+"317","Butik","","TORSBY","Värmlands län",6671785,1344587,60.1350734869163,13.0079959800878
+"318","Butik","","ÅRJÄNG","Värmlands län",6591426,1291427,59.391648219404,12.1332765376713
+"319","Butik","","GRUMS","Värmlands län",6584556,1346860,59.3538520731862,13.1125711765191
+"320","Butik","","CHARLOTTENBERG","Värmlands län",6645511,1303206,59.8818859143358,12.2898058042229
+"321","Butik","","SKOGHALL","Värmlands län",6580620,1366872,59.3253399524002,13.4664957887603
+"322","Butik","","STORFORS","Värmlands län",6602209,1413282,59.5311454223214,14.2726136199616
+"323","Butik","Välsviken","KARLSTAD","Värmlands län",6588304.031,1373365.202,59.3962603056771,13.5759398947416
+"324","Butik","","ÖREBRO","Örebro län",6572350,1466318,59.2707600010731,15.2144857771587
+"325","Butik","Marieberg","ÖREBRO","Örebro län",6566551,1461925,59.2183349846389,15.1384713553639
+"326","Butik","Eurostop","ÖREBRO","Örebro län",6575072,1465487,59.2951259123229,15.1994791053386
+"327","Butik","Tybblekullen","Örebro","Örebro län",6570316.365,1467267.854,59.2525803540413,15.2314496226027
+"328","Butik","","HALLSBERG","Örebro län",6549588,1460167,59.0659110767017,15.1107865847576
+"329","Butik","","KUMLA","Örebro län",6556259,1462092,59.1259673388021,15.1431861703429
+"330","Butik","","ASKERSUND","Örebro län",6528921,1447992,58.8790941973994,14.9034409696755
+"331","Butik","","DEGERFORS","Örebro län",6569387,1421650,59.238254622983,14.4324140060894
+"332","Butik","K-Center","KARLSKOGA","Örebro län",6579082,1427086,59.3262316347846,14.5243608767374
+"333","Butik","","NORA","Örebro län",6600107,1456605,59.5190116945963,15.0385539060431
+"334","Butik","","LINDESBERG","Örebro län",6608414,1467292,59.5945449492442,15.2260509298495
+"335","Butik","","HÄLLEFORS","Örebro län",6630191.6,1428310.132,59.7851002415214,14.5285996872138
+"336","Butik","","LAXÅ","Örebro län",6541043,1431858,58.9856350188034,14.6200394007977
+"337","Butik","","KOPPARBERG","Örebro län",6639883,1454506,59.8757840134577,14.9928659691814
+"338","Butik","","FJUGESTA","Örebro län",6561805,1446651,59.1740893160231,14.8722249051615
+"339","Butik","City","VÄSTERÅS","Västmanlands län",6610357,1541718,59.6111936088445,16.5441318160944
+"340","Butik","Erikslund","VÄSTERÅS","Västmanlands län",6610900.771,1537199.822,59.6165003318387,16.4641994141628
+"341","Butik","Hälla","VÄSTERÅS","Västmanlands län",6610119,1545973,59.608611571167,16.6194442114923
+"342","Butik","","Västerås","Västmanlands län",6613084.109,1542856.159,59.63555533185,16.5648427002115
+"343","Butik","","KUNGSÖR","Västmanlands län",6589258,1516549,59.423556938769,16.0966713941821
+"344","Butik","","ARBOGA","Västmanlands län",6586051,1502063,59.3950876144061,15.8414630967035
+"345","Butik","","KÖPING","Västmanlands län",6599275,1510907,59.5136557055953,15.99779334129
+"346","Butik","","FAGERSTA","Västmanlands län",6653992,1499222,60.0049320259281,15.7911873115909
+"347","Butik","","SALA","Västmanlands län",6644843,1544814,59.9203878146862,16.6063372756958
+"348","Butik","","HALLSTAHAMMAR","Västmanlands län",6610514,1523914,59.6139987022673,16.2287858462045
+"349","Butik","","SURAHAMMAR","Västmanlands län",6620947,1523433,59.7076709294638,16.2214208247236
+"350","Butik","","NORBERG","Västmanlands län",6660611,1506687,60.0642887434951,15.925200975073
+"351","Butik","","SKINNSKATTEBERG","Västmanlands län",6634583,1493752,59.8306748049737,15.6937360717458
+"352","Butik","","ÖSTERVÅLA","Uppsala län",6674481,1576154,60.1817411163995,17.177484697432
+"353","Butik","","FALUN","Dalarnas län",6721055,1490379,60.6067199700925,15.6294659670645
+"354","Butik","","Borlänge","Dalarnas län",6706901,1478715,60.4792414937447,15.4180524283477
+"355","Butik","","BORLÄNGE","Dalarnas län",6707745,1479525,60.4868582506617,15.4326946264012
+"356","Butik","Centrumgallerian","HEDEMORA","Dalarnas län",6684395,1509970,60.2776921355305,15.9853074689219
+"357","Butik","","AVESTA","Dalarnas län",6669751,1520173,60.1458835965172,16.1682493092943
+"358","Butik","","LUDVIKA","Dalarnas län",6670163,1465651,60.14862757583,15.1867752645965
+"359","Butik","","MORA","Dalarnas län",6766057,1431471,61.0047501941009,14.5383243560335
+"360","Butik","","MALUNG","Dalarnas län",6731415,1385645,60.6834500357855,13.7121910601325
+"361","Butik","","LEKSAND","Dalarnas län",6735090,1456013,60.7303670965234,14.9989646765332
+"362","Butik","","SÄLEN","Dalarnas län",6784834,1363436,61.1554231697592,13.268319729196
+"363","Butik","","VANSBRO","Dalarnas län",6711482,1413122,60.5115385653504,14.2235887098669
+"364","Butik","","RÄTTVIK","Dalarnas län",6752012,1462817,60.8829157264803,15.1204080580068
+"365","Butik","","ÄLVDALEN","Dalarnas län",6791723,1405053,61.2294991022138,14.0373948261146
+"366","Butik","","SMEDJEBACKEN","Dalarnas län",6669319,1478203,60.1419163374835,15.4128191902189
+"367","Butik","","ORSA","Dalarnas län",6778711,1436114,61.119064389846,14.6198903963107
+"368","Butik","Djurås","Djurås","Dalarnas län",6715955,1463428,60.5593962697523,15.1384087724784
+"369","Butik","","SÄTER","Dalarnas län",6692029,1497090,60.3463184665062,15.7524178608864
+"370","Butik","","IDRE","Dalarnas län",6864331,1337672,61.85797460165,12.7206309435058
+"371","Butik","Gallerian Nian","GÄVLE","Gävleborgs län",6729282,1573017,60.6740230522779,17.1409768435993
+"372","Butik","","VALBO","Gävleborgs län",6724634,1565034,60.6336928596935,16.9934288007652
+"373","Butik","","GÄVLE","Gävleborgs län",6726051,1573316,60.6449790476638,17.1452413602019
+"374","Butik","","SANDVIKEN","Gävleborgs län",6722927,1553068,60.6201356793646,16.7743642620665
+"375","Butik","","BOLLNÄS","Gävleborgs län",6803703.473,1531494.254,61.3472800433349,16.3935891423254
+"376","Butik","","SÖDERHAMN","Gävleborgs län",6799176,1566956,61.302184145403,17.0544793952027
+"377","Butik","","HUDIKSVALL","Gävleborgs län",6846803,1568579,61.729179129727,17.1024239219514
+"378","Butik","","HOFORS","Gävleborgs län",6714419,1526334,60.5464222446805,16.2849835845307
+"379","Butik","","LJUSDAL","Gävleborgs län",6857131,1515447,61.8276694734397,16.09820841487
+"380","Butik","","EDSBYN","Gävleborgs län",6806764,1500674,61.3760125775506,15.8176875197836
+"381","Butik","","OCKELBO","Gävleborgs län",6752952,1549492,60.8900206462129,16.7166630325776
+"382","Butik","","BERGSJÖ","Gävleborgs län",6875286,1565683,61.9852069254113,17.0580328932876
+"383","Butik","","HÄRNÖSAND","Västernorrlands län",6948615,1609425,62.6326188394173,17.9379876067115
+"384","Butik","","SUNDSVALL","Västernorrlands län",6920873.651,1577712.733,62.391839956491,17.3075788222694
+"385","Butik","Birsta Sundsvall","SUNDSVALL","Västernorrlands län",6926706,1578992,62.443882818344,17.3349686607113
+"386","Butik","","KVISSLEBY","Västernorrlands län",6910642,1581590,62.2992434208978,17.3777062085937
+"387","Butik","","KRAMFORS","Västernorrlands län",6981575,1600380,62.9307294634968,17.7814980776694
+"388","Butik","","SOLLEFTEÅ","Västernorrlands län",7007344,1573592,63.1682359618724,17.2658023798515
+"389","Butik","","ÖRNSKÖLDSVIK","Västernorrlands län",7023480,1645959,63.2908065462107,18.7151291788617
+"390","Butik","","TIMRÅ","Västernorrlands län",6931348,1578320,62.4856597863805,17.3240702054398
+"391","Butik","","ÅNGE","Västernorrlands län",6934732,1492360,62.5241905345846,15.6566743904692
+"392","Butik","","RAMSELE","Västernorrlands län",7047771,1533111,63.536873201124,16.4706777585339
+"393","Butik","","ÖRNSKÖLDSVIK","Västernorrlands län",7024846.11,1646857.026,63.3026799483193,18.7342486700335
+"394","Butik","","ÖSTERSUND","Jämtlands län",7007887,1441257,63.175807560538,14.6386861119617
+"395","Butik","Lillänge","ÖSTERSUND","Jämtlands län",7007314.071,1443898.059,63.1710897410496,14.6913087297267
+"396","Butik","","BRÄCKE","Jämtlands län",6959854,1480312,62.7491365756133,15.4197964654817
+"397","Butik","","SVEG","Jämtlands län",6880776,1424301,62.032561313417,14.3587482183916
+"398","Butik","","STRÖMSUND","Jämtlands län",7082667,1487869,63.8512432603261,15.5583706915399
+"399","Butik","","JÄRPEN","Jämtlands län",7028588,1382580,63.3470247756989,13.4595212887038
+"400","Butik","","HAMMARSTRAND","Jämtlands län",7000105,1527694,63.1097333311593,16.3535977776124
+"401","Butik","","SVENSTAVIK","Jämtlands län",6962636,1429898,62.7679163780876,14.4324170763784
+"402","Butik","","ÅRE","Jämtlands län",7034720,1364196,63.3954672772444,13.0875677261488
+"403","Butik","","KROKOM","Jämtlands län",7024879,1432153,63.3266057354895,14.4508597781998
+"404","Butik","","FUNÄSDALEN","Jämtlands län",6941718,1331640,62.5486181133635,12.5319550649445
+"405","Butik","","UMEÅ","Västerbottens län",7087476,1719625,63.8257179385276,20.268342665924
+"406","Butik","","UMEÅ","Västerbottens län",7084539,1721578,63.7982238109737,20.3036890095741
+"407","Butik","Solbacken","SKELLEFTEÅ","Västerbottens län",7194766,1748182,64.765218663126,21.0245917728559
+"408","Butik","","SKELLEFTEÅ","Västerbottens län",7192850,1744990,64.75044304527,20.9545216013013
+"409","Butik","","VÄNNÄS","Västerbottens län",7094798,1693670,63.9065464544348,19.7516569914461
+"410","Butik","","LYCKSELE","Västerbottens län",7168584,1637531,64.5942240699687,18.677497782725
+"411","Butik","","VILHELMINA","Västerbottens län",7169070,1540787,64.6240464944931,16.657569426311
+"412","Butik","","STORUMAN","Västerbottens län",7222084,1561529,65.0962915316627,17.1139517802375
+"413","Butik","","ÅSELE","Västerbottens län",7118097,1575237,64.1610912503314,17.351569810805
+"414","Butik","","MALÅ","Västerbottens län",7234228,1637580,65.1822282172375,18.7420879668078
+"415","Butik","","SORSELE","Västerbottens län",7271704,1579670,65.5372600407019,17.5285446540028
+"416","Butik","","DOROTEA","Västerbottens län",7128524,1529609,64.2615376184291,16.4157846643051
+"417","Butik","","NORDMALING","Västerbottens län",7056398,1683270,63.5684046828053,19.4951409719964
+"418","Butik","","NORSJÖ","Västerbottens län",7206096,1673847,64.9133250538343,19.4797287406999
+"419","Butik","","VINDELN","Västerbottens län",7127675,1690009,64.2027935828181,19.7183446703932
+"420","Butik","Ersboda","UMEÅ","Västerbottens län",7090353,1720981,63.8505951106361,20.2999076662248
+"421","Butik","","ROBERTSFORS","Västerbottens län",7130412,1744865,64.1926895801207,20.8479206420222
+"422","Butik","","BJURHOLM","Västerbottens län",7095993,1667171,63.9309353316534,19.2141902159353
+"423","Butik","","HEMAVAN","Västerbottens län",7302219,1467062,65.8189960911454,15.0845381720613
+"424","Butik","","LULEÅ","Norrbottens län",7290735,1792780,65.5850083234153,22.158721301842
+"425","Butik","Storheden","LULEÅ","Norrbottens län",7294037,1787226,65.6194182723318,22.0461516774658
+"426","Butik","","PITEÅ","Norrbottens län",7257994,1764136,65.3174522102302,21.4772472189531
+"427","Butik","","BODEN","Norrbottens län",7315107,1768520,65.8234673127029,21.6850576522661
+"428","Butik","","HAPARANDA","Norrbottens län",7329547,1879644,65.8395408845257,24.133529899786
+"429","Butik","","KIRUNA","Norrbottens län",7535647,1685990,67.8542317754407,20.227316826872
+"430","Butik","","GÄLLIVARE","Norrbottens län",7457070,1710575,67.1355249881746,20.6633770421251
+"431","Butik","","ARVIDSJAUR","Norrbottens län",7280877,1655389,65.5919928633076,19.1747273025355
+"432","Butik","","KALIX","Norrbottens län",7325614,1834308,65.8551419555288,23.1395224265019
+"433","Butik","","JOKKMOKK","Norrbottens län",7395623,1678246,66.6068124532986,19.8285706475218
+"434","Butik","","ÄLVSBYN","Norrbottens län",7295626,1739060,65.6728282018499,21.0081590425699
+"435","Butik","","PAJALA","Norrbottens län",7477304,1826393,67.2123639416327,23.368716244756
+"436","Butik","","ÖVERTORNEÅ","Norrbottens län",7387007,1850363,66.3834894046292,23.6557720109794
+"437","Butik","","ARJEPLOG","Norrbottens län",7329629,1594572,66.0524081312779,17.8923123708645
+"438","Butik","","ÖVERKALIX","Norrbottens län",7376273,1815037,66.3256394084319,22.8449752301648
+"439","Ombud","Svartsö Lanthandel","SKÄLVIK","Stockholms län",6595281.244,1663159.456,59.4463004556927,18.6817991278798
+"440","Ombud","Lilla Coop Ingmarsö","INGMARSÖ","Stockholms län",6597690.025,1667022.059,59.4663784578363,18.7516761113383
+"441","Ombud","Östanå Livs","ÅKERSBERGA","Stockholms län",6606368.693,1656603.219,59.5482004329618,18.5744991213706
+"442","Ombud","Linanäs Gästhamn","LJUSTERÖ","Stockholms län",6597794.869,1653399.262,59.4725104410494,18.5117491446474
+"443","Ombud","Konsum Möja","MÖJA","Stockholms län",6591320,1674156,59.4063860611323,18.8721504795582
+"444","Ombud","Ica Nära Stavsnäs","STAVSNÄS","Stockholms län",6577545.708,1664332.596,59.2868434870307,18.6889241679303
+"445","Ombud","Westerbergs Livs","SANDHAMN","Stockholms län",6578418.81,1677152.067,59.289500499105,18.9142291299008
+"446","Ombud","Runmarö Lanthandel","RUNMARÖ","Stockholms län",6576788,1667043,59.2789901330977,18.7358317154927
+"447","Ombud","Adelsö Butik","ADELSÖ","Stockholms län",6586549.448,1597678.233,59.3882604064568,17.524139310566
+"448","Ombud","Utö Livs AB","UTÖ","Stockholms län",6541447,1645107,58.9701351333902,18.3280341532859
+"449","Ombud","Butiken på Ornö","ORNÖ","Stockholms län",6550243.908,1647524.786,59.0482005070513,18.3758992587404
+"450","Ombud","Sandells Livs AB","MUSKÖ","Stockholms län",6547293,1636072,59.025532809485,18.1747092438968
+"451","Ombud","ICA Köpcenter","JÄRNA","Stockholms län",6553432,1600868,59.0903665655802,17.5648757604407
+"452","Ombud","Coop Hölö","HÖLÖ","Stockholms län",6546240.25,1599487.236,59.0261604634002,17.5375493592936
+"453","Ombud","Arholma Handel","ARHOLMA","Stockholms län",6641473.851,1685079.855,59.8511804087928,19.1080479885118
+"454","Ombud","Ica Barometern","VÄDDÖ","Stockholms län",6645948,1676515,59.8950191177552,18.9592740773816
+"455","Ombud","Ica Grisslehamn","GRISSLEHAMN","Stockholms län",6668418,1666984,60.1003872776016,18.8074446968954
+"456","Ombud","Pappersstugan","VÄDDÖ","Stockholms län",6653881,1667667,59.9698103832207,18.8078510853595
+"457","Ombud","Tempo Singö","GRISSLEHAMN","Stockholms län",6674991.399,1663174.204,60.1608433346006,18.7443039913409
+"458","Ombud","ICA Nära Edsbro","EDSBRO","Stockholms län",6644944,1650198,59.8964214734813,18.4889440445448
+"459","Ombud","Vätö Livs AB","VÄTÖ","Stockholms län",6636528,1676904,59.81042885055,18.9582115636692
+"460","Ombud","Ica Gräddö","GRÄDDÖ","Stockholms län",6631375,1681564,59.7622355985303,19.0366465024877
+"461","Ombud","Öbutiken Tjockö","TJOCKÖ","Stockholms län",6630453.198,1686296.704,59.7518804230722,19.1198990007038
+"462","Ombud","Spillersboda Lanthandel","NORRTÄLJE","Stockholms län",6624387,1671374,59.7039283986172,18.8498881595381
+"463","Ombud","ICA Blidö","BLIDÖ","Stockholms län",6617411,1677453,59.6388601266706,18.9518366277716
+"464","Ombud","ICA Nära Bergshamra","BERGSHAMRA","Stockholms län",6616985,1660448,59.6419227381636,18.6504264160961
+"465","Ombud","Coop nära Sorunda","SORUNDA","Stockholms län",6547189,1616629,59.0303427685574,17.8363421180897
+"466","Ombud","Skokloster Lanthandel AB","SKOKLOSTER","Uppsala län",6620414,1601836,59.6911038942114,17.6134675487229
+"467","Ombud","Ica Supermarket Heby","HEBY","Uppsala län",6647055.008,1559322.758,59.9384102950623,16.8663183055334
+"468","Ombud","Ica Tärnsjö","TÄRNSJÖ","Uppsala län",6671194,1562514,60.1545587210859,16.9307335006755
+"469","Ombud","Ica Nära Södersfors","SÖDERFORS","Uppsala län",6697279.809,1579111.581,60.3857402291809,17.2396891862955
+"470","Ombud","Coop Konsum Karlholmsbruk","KARLHOLMSBRUK","Uppsala län",6712674,1599947,60.5192316379766,17.6250162322627
+"471","Ombud","Ica Torget","SKÄRPLINGE","Uppsala län",6707617,1607481,60.4719332580541,17.7593791722726
+"472","Ombud","Kastbergs Livs","HÅLLNÄS","Uppsala län",6714874,1613837,60.5352801866931,17.879013941244
+"473","Ombud","Handlarn Järlåsa","JÄRLÅSA","Uppsala län",6641585,1577927,59.8862342321211,17.1969613524783
+"474","Ombud","Handlarn Oxsätra","BÄLINGE","Uppsala län",6654650.321,1586866.745,60.001680298715,17.3620492311932
+"475","Ombud","Tempo Vattholma","VATTHOLMA","Uppsala län",6656926,1607556,60.0172082524089,17.7338307465621
+"476","Ombud","Coop Nära Almunge","ALMUNGE","Uppsala län",6641932,1624371,59.8779876598089,18.0260979389706
+"477","Ombud","Örsundsbro Livs","ÖRSUNDSBRO","Uppsala län",6624934,1584660,59.7355050663351,17.3104231933394
+"478","Ombud","Tempo Fjärdhundra","FJÄRDHUNDRA","Uppsala län",6629106.242,1563140.156,59.7767703227061,16.9291493274279
+"479","Ombud","Coop Konsum Östhammar","ÖSTHAMMAR","Uppsala län",6685016,1642091,60.2585983803257,18.3720331565757
+"480","Ombud","Ullis Bazar","ALUNDA","Uppsala län",6662783,1626774,60.0642627324137,18.0817684736916
+"481","Ombud","Ica Supermarket Gimo","GIMO","Uppsala län",6675086,1632060,60.1729265351764,18.184550741376
+"482","Ombud","ICA Brukskanonen","ÖSTERBYBRUK","Uppsala län",6677142,1615639,60.1963440117959,17.8900945008565
+"483","Ombud","ICA Knuten","KNUTBY","Uppsala län",6645996,1637674,59.910217560929,18.2661084923689
+"484","Ombud","Coop Nära Högsjö","HÖGSJÖ","Södermanlands län",6545153,1492223,59.0278910703873,15.6697457935831
+"485","Ombud","ICA Nära Strandhallen","STJÄRNHOV","Södermanlands län",6551471,1569195,59.079077860004,17.0118746621791
+"486","Ombud","Coop Nära Nävekvarn","NÄVEKVARN","Södermanlands län",6501339,1557793,58.6307964721613,16.8000928198376
+"487","Ombud","Handlarn Jönåker","JÖNÅKER","Södermanlands län",6514026,1553182,58.745267224907,16.7237136020845
+"488","Ombud","Handlarn Vrena","VRENA","Södermanlands län",6542650.723,1568671.485,59.0000004400109,16.9999994313562
+"489","Ombud","Coop Nära Tystberga","TYSTBERGA","Södermanlands län",6526011,1582719,58.8481884334472,17.2381389717907
+"490","Ombud","Coop Konsum","HÄLLEFORSNÄS","Södermanlands län",6559236,1539566,59.1525502653681,16.49662581467
+"491","Ombud","Björkviks Handel","BJÖRKVIK","Södermanlands län",6524327,1540988,58.8390616849735,16.5150069075033
+"492","Ombud","Ica Julitahallen","JULITA","Södermanlands län",6558709.018,1515061.387,59.1493893897882,16.0683505279735
+"493","Ombud","Ica Nära Stora Sundby","STORA SUNDBY","Södermanlands län",6572389,1517828,59.2720822713984,16.1178113774492
+"494","Ombud","Coop Nära Ärla","ÄRLA","Södermanlands län",6573842,1549627,59.2825957247297,16.675760948739
+"495","Ombud","Ulrika Butik och Café ek. förening","ULRIKA","Östergötlands län",6444725,1478101,58.1258163458779,15.4335543531713
+"496","Ombud","ICA Nära Vahlströms","HORN","Östergötlands län",6419920,1501766,57.9036488346346,15.8349849527717
+"497","Ombud","Hycklinge Bensin & Service AB","HORN","Östergötlands län",6422163,1506813,57.9237399017061,15.9201697069328
+"498","Ombud","Ica Supermarket Rimforsa","RIMFORSA","Östergötlands län",6445939,1492930,58.1372031013382,15.6851729858838
+"499","Ombud","Pepparkvarnen Nära dig","LINKÖPING","Östergötlands län",6464232,1503482,58.3014836992265,15.8645719403167
+"500","Ombud","Tempo Björsäter","ÅTVIDABERG","Östergötlands län",6465327,1515581,58.3110540434518,16.0709868675347
+"501","Ombud","Sjöberga Lanthandel","ÅTVIDABERG","Östergötlands län",6452628,1533265,58.1960675556003,16.3708340004657
+"502","Ombud","Handlarn i Igelfors","FINSPÅNG","Östergötlands län",6524948.44,1493879.853,58.846540426473,15.6991595999981
+"503","Ombud","Coop Nära Rejmyre","REJMYRE","Östergötlands län",6523228,1507104,58.8310825503192,15.9281696491872
+"504","Ombud","Matöppet Ringarum","RINGARUM","Östergötlands län",6467920,1537568,58.3330066824899,16.4464687814119
+"505","Ombud","Ica Nära Bestorp","BESTORP","Östergötlands län",6456746.333,1495871.859,58.2342704964968,15.7349196270569
+"506","Ombud","Skeda Udde, Pepparkvarnens livs","LINKÖPING","Östergötlands län",6430667.464,1511519.279,58.000000519799,15.9999996190602
+"507","Ombud","Handlarn Nykil","NYKIL","Östergötlands län",6462826,1479015,58.2883704591244,15.4474298520468
+"508","Ombud","Ica Nära Brunnby","LJUNGSBRO","Östergötlands län",6485727,1482362,58.494116859575,15.502727890952
+"509","Ombud","Ica Supermarket Skärblacka","SKÄRBLACKA","Östergötlands län",6494703.937,1507710.323,58.5750004674643,15.9376995784911
+"510","Ombud","Ica nära Norsholm","NORSHOLM","Östergötlands län",6486896,1509433,58.5048701630977,15.9669866758629
+"511","Ombud","Coop Krokek","KOLMÅRDEN","Östergötlands län",6505946,1532428,58.6747853449762,16.3641231551321
+"512","Ombud","ICA Supermarket Östra Husby","VIKBOLANDET","Östergötlands län",6495094,1544355,58.576315278242,16.5675635368458
+"513","Ombud","Bottna Lanthandel","SÖDERKÖPING","Östergötlands län",6474981,1550630,58.3950830551831,16.6709589312352
+"514","Ombud","Sankt Anna Handel AB","ST ANNA","Östergötlands län",6471190,1558160,58.3601194905169,16.7987451614131
+"515","Ombud","Östensons Livs Borensberg","BORENSBERG","Östergötlands län",6493410,1469246,58.5623603891649,15.2767867457873
+"516","Ombud","ICA Nära Fornåsa","FORNÅSA","Östergötlands län",6484060,1466199,58.478197101986,15.2258262699067
+"517","Ombud","Ica Nära Tjällmo","TJÄLLMO","Östergötlands län",6510285,1474104,58.7141680105435,15.3583145509504
+"518","Ombud","Coop Konsum Skänninge","SKÄNNINGE","Östergötlands län",6474602,1457982,58.3925774906281,15.0867313560924
+"519","Ombud","Önnebo Lanthandel","MJÖLBY","Östergötlands län",6456488,1469071,58.2308820106481,15.2787545655948
+"520","Ombud","Handlarn i Brandstorp","BRANDSTORP","Jönköpings län",6442616.007,1405651.361,58.0973705243275,14.2052297320201
+"521","Ombud","Coop Smålandsstenar","SMÅLANDSSTENAR","Jönköpings län",6340023,1355423,57.1634782367181,13.4154628837128
+"522","Ombud","ICA Nära Danielssons Burseryd","BURSERYD","Jönköpings län",6344764,1347673,57.2035048142876,13.2846008751112
+"523","Ombud","Matglädjen Tempo","REFTELE","Jönköpings län",6340859,1366191,57.1742427555505,13.5928450123828
+"524","Ombud","Ica Supermarket Vaggeryd","VAGGERYD","Jönköpings län",6376049.516,1400692.259,57.498860576648,14.1487996657583
+"525","Ombud","Coop Nära Visingsö","VISINGSÖ","Jönköpings län",6436679.013,1413369.992,58.0456605249336,14.3382597220635
+"526","Ombud","Konsum Unnaryd","UNNARYD","Hallands län",6316514,1361597,56.9544424725832,13.5303699625237
+"527","Ombud","Coop Konsum Forserum","FORSERUM","Jönköpings län",6397939.94,1420685.392,57.6993005558587,14.4749996823797
+"528","Ombud","ICA Nära Malmbäck","MALMBÄCK","Jönköpings län",6384284,1419570,57.5765207458073,14.460841202088
+"529","Ombud","ICA Nära i Bredaryd","BREDARYD","Jönköpings län",6340533,1374969,57.1737917819359,13.7380311407251
+"530","Ombud","Ica Nära Landsbro","LANDSBRO","Jönköpings län",6360754,1445521,57.3691418800549,14.8997751808119
+"531","Ombud","Ica Nära Mathörnan","MARIANNELUND","Jönköpings län",6387911.78,1485947.874,57.6160375381431,15.570084733855
+"532","Ombud","ICA Nära Hjältevad","HJÄLTEVAD","Jönköpings län",6389476,1472409,57.6294559905466,15.3433764198261
+"533","Ombud","Coop Nära Älghult","ÄLGHULT","Kronobergs län",6320298,1485950,57.0089118609608,15.5739807575095
+"534","Ombud","ICA Nära Alstermo","ALSTERMO","Kronobergs län",6316569,1490536,56.9755433961253,15.649600966952
+"535","Ombud","Coop Konsum i Kosta","KOSTA","Kronobergs län",6301948,1475008,56.8436703389698,15.3957066891072
+"536","Ombud","ICA Nära Ryd","RYD","Kronobergs län",6260358,1431447,56.4658626565926,14.693072055693
+"537","Ombud","Handlarn Rävemåla","ÄLMEBODA","Kronobergs län",6269801,1466872,56.5544846874465,15.2665417346456
+"538","Ombud","Handlarn Linneryd","LINNERYD","Kronobergs län",6281608.877,1459057.016,56.6599005359036,15.1375995645355
+"539","Ombud","ICA Grytan Moheda","MOHEDA","Kronobergs län",6320312,1425264,57.0032011089268,14.5753161238941
+"540","Ombud","ICA Nära Dackehallen","VISLANDA","Kronobergs län",6296405,1417231,56.7872073100247,14.4509541644639
+"541","Ombud","ICA Nära Ströbergs","VÄXJÖ","Kronobergs län",6285546,1426460,56.6912613276389,14.6050348821614
+"542","Ombud","Tommy´s","LÖNASHULT","Kronobergs län",6281006,1420697,56.649558866544,14.5124046203598
+"543","Ombud","Handelsboden Häradsbäck","HÄRADSBÄCK","Kronobergs län",6267783,1416705,56.530150634492,14.4515994428884
+"544","Ombud","ICA Nära Liatorp","LIATORP","Kronobergs län",6283054,1405323,56.6650877299019,14.2611137667233
+"545","Ombud","Coop Nära Traryd","TRARYD","Kronobergs län",6274202,1373465,56.578117111717,13.7461962242926
+"546","Ombud","Ica Nära Strömsnäsbruk","STRÖMSNÄSBRUK","Kronobergs län",6271008,1372469,56.5491828776517,13.7315708444411
+"547","Ombud","Braås Järnhandel AB","BRAÅS","Kronobergs län",6326148.889,1454639.117,57.059430553261,15.0576195995117
+"548","Ombud","ICA Supermarket Ingelstad","INGELSTAD","Kronobergs län",6291417,1445814,56.7466229681921,14.9196094368755
+"549","Ombud","Kalvsviks Lanthandel","KALVSVIK","Kronobergs län",6290006,1433097,56.7323031799593,14.7121679442605
+"550","Ombud","ICA Supermarket Lammhult","LAMMHULT","Kronobergs län",6338854,1426104,57.169800459153,14.583670632782
+"551","Ombud","Matöppet i Agunnaryd","AGUNNARYD","Kronobergs län",6292397,1398577,56.7475419526423,14.147454330208
+"552","Ombud","Ica Nära Ryssby","RYSSBY","Kronobergs län",6305364,1399964,56.8642390539176,14.1650349419673
+"553","Ombud","ICA Nära Lidhult","LIDHULT","Kronobergs län",6302533,1355516,56.8271430851347,13.4384663480662
+"554","Ombud","Bylyckan","GRÖNSKÅRA","Kalmar län",6327904,1495385,57.0774038457736,15.7291273609838
+"555","Ombud","ICA Nära Skansen","MÖRBYLÅNGA","Kalmar län",6266593,1535755,56.5254936713566,16.3862113711469
+"556","Ombud","Ica Nära Grönhögen","DEGERHAMN","Kalmar län",6237983,1536892,56.2684815913937,16.4006684256581
+"557","Ombud","Ica Nära Södra Möckleby","DEGERHAMN","Kalmar län",6247819,1537993,56.3567255364756,16.4198514724553
+"558","Ombud","Ica Nära Krysset","VIRSERUM","Kalmar län",6375699.889,1399955.477,57.4955605823466,14.1366596659452
+"559","Ombud","Ica Nära Mörlunda","MÖRLUNDA","Kalmar län",6354864,1503395,57.3195043497286,15.8615652292903
+"560","Ombud","Ica Nära Fliseryd","FLISERYD","Kalmar län",6333608,1527845,57.1278090886569,16.2649862164034
+"561","Ombud","Allans Livs","VASSMOLÖSA","Kalmar län",6274035,1521377,56.5931957727437,16.153205270289
+"562","Ombud","ICA Nära Påryd","PÅRYD","Kalmar län",6271332,1507243,56.5693504969127,15.9230631769239
+"563","Ombud","Coop nära Alsterbro","ALSTERBRO","Kalmar län",6312786,1506624,56.9416240741969,15.9140545161205
+"564","Ombud","Handelsboden i Målerås","MÅLERÅS","Kalmar län",6309912,1485665,56.9156386295686,15.5698813136713
+"565","Ombud","Coop Konsum Figeholm","FIGEHOLM","Kalmar län",6361018,1544806,57.3725795196867,16.5499567901738
+"566","Ombud","Konsum Kristdala","KRISTDALA","Kalmar län",6363950,1523642,57.4004922166933,16.198474885023
+"567","Ombud","Coop Konsum Överum","ÖVERUM","Kalmar län",6429451,1530094,57.9882131901423,16.3139521909084
+"568","Ombud","Ica Nära Kusten","LOFTAHAMMAR","Kalmar län",6420613,1552923,57.9067457871572,16.69787569342
+"569","Ombud","Coop Nära Ankarsrum","ANKARSRUM","Kalmar län",6430667.464,1511519.279,58.000000519799,15.9999996190602
+"570","Ombud","Hjorteds Handelsträdgård AB","HJORTED","Kalmar län",6388784.16,1529821.66,57.6231105477151,16.304291637889
+"571","Ombud","Totebo Lanthandel AB","TOTEBO","Kalmar län",6389652,1522717,57.6313150362989,16.1854755678653
+"572","Ombud","Blankaholms Lanthandel","BLANKAHOLM","Kalmar län",6385260,1542692,57.5904379523229,16.51904871356
+"573","Ombud","Handlarn Gullringen","GULLRINGEN","Kalmar län",6408392.889,1494626.353,57.8001215312997,15.7148326289936
+"574","Ombud","Tempo Tuna","VIMMERBY","Kalmar län",6381350,1516850,57.5570286896682,16.0866933067684
+"575","Ombud","ICA Nära Byxelkrok","BYXELKROK","Kalmar län",6356024,1572471,57.3241919621467,17.0082300020651
+"576","Ombud","ICA Nära Böda","LÖTTORP","Kalmar län",6346924,1575889,57.241944077597,17.0621678416087
+"577","Ombud","Löttorpshallen","LÖTTORP","Kalmar län",6338370,1571772,57.1658123897441,16.9915317261558
+"578","Ombud","ICA Nyströms","FÅRÖ","Gotlands län",6432355,1702859,57.9691097405386,19.2336843087767
+"579","Ombud","ICA Supermarket Bunge","FÅRÖSUND","Gotlands län",6420047,1692834,57.8632297766926,19.0545899983272
+"580","Ombud","Stenkyrka Affären AB","TINGSTÄDE","Gotlands län",6411571.334,1660999.363,57.7998006486275,18.5131995563749
+"581","Ombud","Tempo Katthammarsvik","KATTHAMMARSVIK","Gotlands län",6370834,1682345,57.4263742724948,18.8410582142869
+"582","Ombud","Klinte Kiosk & Spel","KLINTEHAMN","Gotlands län",6364963,1643993,57.3874550548764,18.199821294834
+"583","Ombud","Ljugarns Handel","LJUGARN","Gotlands län",6360520,1674185,57.337076115319,18.6981099632429
+"584","Ombud","Hoburgshallen","BURGSVIK","Gotlands län",6325582,1650111,57.032190406183,18.2777199688488
+"585","Ombud","Ica Nära Torhallen","TORHAMN","Blekinge län",6218533,1501944,56.0952235584706,15.8364855811791
+"586","Ombud","Sturköhallen","STURKÖ","Blekinge län",6220627,1491753,56.1139615328478,15.6726824894481
+"587","Ombud","Ica Nära Drottningskär","DROTTNINGSKÄR","Blekinge län",6220598,1484679,56.1135257671612,15.5589722981556
+"588","Ombud","Ica Nära Senoren","RAMDALA","Blekinge län",6222340,1495837,56.1293997413816,15.7383045678765
+"589","Ombud","Tempo Holmsjö","HOLMSJÖ","Blekinge län",6253283,1485097,56.4070778139963,15.5638427187408
+"590","Ombud","Tempo Tving","TVING","Blekinge län",6242623,1478688,56.3110981797541,15.4608974473664
+"591","Ombud","Coop Nära Hasslö","HASSLÖ","Blekinge län",6220806,1479532,56.1152004711101,15.4762217903462
+"592","Ombud","Ica Nära Backaryd","BACKARYD","Blekinge län",6246908,1459610,56.3483356569708,15.152004425527
+"593","Ombud","ICA Nära Bräkne-Hoby","BRÄKNE-HOBY","Blekinge län",6234059,1457291,56.2327451304187,15.1165823479214
+"594","Ombud","Matöppet Hällevik","SÖLVESBORG","Blekinge län",6209929.45,1431095.69,56.0130004932908,14.7004994044453
+"595","Ombud","ICA Supermarket Brösarp","BRÖSARP","Skåne län",6178558,1393325,55.7244492208705,14.1075053194948
+"596","Ombud","Ica Nära Lönsboda","LÖNSBODA","Skåne län",6253147,1408324,56.3971956983896,14.3205880889048
+"597","Ombud","Heberleins delikatess kött & chark","FÖRSLÖV","Skåne län",6251099,1315387,56.3516915901003,12.8186810132526
+"598","Ombud","Torekov Båt & Motor","TOREKOV","Skåne län",6259527,1304031,56.4227046018297,12.6289871989286
+"599","Ombud","Matöppet Everöd","EVERÖD","Skåne län",6197976,1393002,55.8987048231981,14.094732417148
+"600","Ombud","Eltjänster","DEGEBERGA","Skåne län",6191083,1392652,55.8367452765023,14.0918686766201
+"601","Ombud","Hemköp Tollarp","TOLLARP","Skåne län",6202107,1385579,55.934082191616,13.9743821555754
+"602","Ombud","ICA Supermarket Kivik","KIVIK","Skåne län",6173924,1400475,55.6843642925839,14.2229320185377
+"603","Ombud","Matöppet Vinslöv","VINSLÖV","Skåne län",6221085,1382477,56.10368869566,13.9164728430656
+"604","Ombud","Vittsjö Blomsterhandel","VITTSJÖ","Skåne län",6248044,1367630,56.3417586549069,13.6645772411438
+"605","Ombud","Ica Supermarket Bjärnum","BJÄRNUM","Skåne län",6242365.34,1370257.985,56.2915206098789,13.70983934151
+"606","Ombud","Ica Nära Toppen","SÖSDALA","Skåne län",6213991.883,1367459.071,56.0361005974987,13.6787992530223
+"607","Ombud","Ica Nära Matlusten","TYRINGE","Skåne län",6271302.962,1397661,56.5579905877729,14.1408594683957
+"608","Ombud","ICA Supermarket Skanör","SKANÖR","Skåne län",6146475,1312460,55.4121513960079,12.8438059285974
+"609","Ombud","ICA Nära Röstånga","RÖSTÅNGA","Skåne län",6211169,1343087,56.0034143454124,13.2898202780153
+"610","Ombud","Möllebackens Livs Ven","Malmö","Skåne län",6202411.779,1305295.113,55.9110407230385,12.6912190704797
+"611","Ombud","Ica Nära Harlösa","HARLÖSA","Skåne län",6178733,1356903,55.7166409432435,13.5281985902678
+"612","Ombud","Handlarn i Löderup","LÖDERUP","Skåne län",6146886,1392877,55.4400004410317,14.1126676571832
+"613","Ombud","Coop Nära Smygehamn","SMYGEHAMN","Skåne län",6137026,1344388,55.3385228040163,13.3526689687922
+"614","Ombud","Ica Nära Arkelstorp","ARKELSTORP","Skåne län",6228219,1405437,56.172831168775,14.2827802249164
+"615","Ombud","Matöppet Simlångsdalen","SIMLÅNGSDALEN","Hallands län",6291229,1335825,56.7192123960335,13.1235383556421
+"616","Ombud","Ica Nära Oskarström","OSKARSTRÖM","Hallands län",6300822,1327137,56.8021210554673,12.975344503431
+"617","Ombud","Eliassons Kiosk & Spel","GETINGE","Hallands län",6303194.893,1312358.09,56.8176807340834,12.7320395047064
+"618","Ombud","AB Våxtorps Bilservice","VÅXTORP","Hallands län",6257799,1334163,56.4187416024993,13.1177967465498
+"619","Ombud","Ica Nära Hishult","HISHULT","Hallands län",6258477,1345906,56.4288002933063,13.3074848723332
+"620","Ombud","Konsum Knäred","KNÄRED","Hallands län",6268532,1346604,56.5192421562742,13.3128766770222
+"621","Ombud","ICA Vessige","VESSIGEBRO","Hallands län",6321268,1308234,56.9780515025376,12.6509642347491
+"622","Ombud","Fegenkiosken","FEGEN","Hallands län",6334479.716,1332297.195,57.1059006826325,13.0373995993668
+"623","Ombud","ICA Supermarket Ullared","ULLARED","Hallands län",6338776.416,1313012.015,57.1370007210597,12.7163996295558
+"624","Ombud","Handlarn Skällinge","Skällinge","Hallands län",6344577.354,1298258.604,57.1827687376861,12.4684566638178
+"625","Ombud","Hemköp Veddige","VEDDIGE","Hallands län",6354334,1290598,57.2667886757004,12.3337950443953
+"626","Ombud","Ica Nära Bua","BUA","Hallands län",6351601.478,1277885.138,57.2363107759848,12.1259697112132
+"627","Ombud","Källö-Knippla, Coop Konsum","KÄLLÖ-KNIPPLA","Västra Götalands län",6410350,1252764,57.7495944430217,11.651579912333
+"628","Ombud","Åstol Handelsbod","ÅSTOL","Västra Götalands län",6429893,1250138,57.9231382835276,11.5871576505955
+"629","Ombud","Ica Nära Dyröboden","DYRÖN","Västra Götalands län",6430219.501,1251623.12,57.9268907132018,11.6118100518839
+"630","Ombud","Tempo Mollösund","MOLLÖSUND","Västra Götalands län",6446956,1244346,58.0726211357276,11.4712392653673
+"631","Ombud","Käringöns Matbutik","KÄRINGÖN","Västra Götalands län",6451976.924,1238247.448,58.1140106881925,11.3626101680484
+"632","Ombud","Tempo Gullholmen","GULLHOLMEN","Västra Götalands län",6458936,1241088,58.1779752279726,11.4029580800871
+"633","Ombud","Konsum Klippan","BOHUS-MALMÖN","Västra Götalands län",6478260.378,1238632.568,58.3495006297603,11.3396002520191
+"634","Ombud","Ica Nära Bovall","BOVALLSTRAND","Västra Götalands län",6492372,1238568,58.4757673121857,11.3224519385001
+"635","Ombud","Sörbygdens Snabbköp","HEDEKAS","Västra Götalands län",6509448.089,1266282.406,58.6444005284578,11.7787002120835
+"636","Ombud","Tanumshede Järn och Färg AB","TANUMSHEDE","Västra Götalands län",6519982,1240661,58.7241327335609,11.3266673014802
+"637","Ombud","Tempo Resö","RESÖ","Västra Götalands län",6529395,1231942,58.8030476102369,11.1654189920764
+"638","Ombud","Ica Nära Grundsund","GRUNDSUND","Västra Götalands län",6462759.736,1242248.168,58.2128826585791,11.4183922782449
+"639","Ombud","Coop Konsum Fjällbacka","FJÄLLBACKA","Västra Götalands län",6506090,1237555,58.597934137001,11.2893504786072
+"640","Ombud","Ica Supermarket Skutan","HAMBURGSUND","Västra Götalands län",6501060,1236152,58.5520695624083,11.2711333483659
+"641","Ombud","Nössemarks Lanthandel Handlarn","ED","Västra Götalands län",6563976,1272990,59.1363086115473,11.8383009915843
+"642","Ombud","Coop Konsum Mustadfors","DALS LÅNGED","Västra Götalands län",6538496.611,1298835.221,58.9210104365175,12.3121501334979
+"643","Ombud","Coop Konsum Styrsö","Västra Frölunda","Västra Götalands län",6394988,1259601,57.6157125662406,11.7814169669752
+"644","Ombud","Affären på Asperö","Västra Frölunda","Västra Götalands län",6398655.156,1260639.772,57.6491107471942,11.79512991419
+"645","Ombud","Coop Nära Marstrand","MARSTRAND","Västra Götalands län",6425873,1250016,57.8870740958758,11.5893303968769
+"646","Ombud","Coop Konsum Brastad","BRASTAD","Västra Götalands län",6481197,1247394,58.3809184045811,11.4855790308025
+"647","Ombud","Ica Nära Sydkoster","SYDKOSTER","Västra Götalands län",6539135,1224719,58.885634860978,11.0288826434335
+"648","Ombud","Rossö Livs","STRÖMSTAD","Västra Götalands län",6535182,1232747,58.8553286598986,11.1723794528606
+"649","Ombud","Östads Livs","BULLAREN","Västra Götalands län",6525740,1254703,58.7838714788159,11.5620804539143
+"650","Ombud","ICA Nära Länghem","LÄNGHEM","Västra Götalands län",6389267,1346843,57.6024369300679,13.2431408586612
+"651","Ombud","ICA Nära Dalstorp","Dalstorp","Västra Götalands län",6389074.144,1362948.025,57.6058806027088,13.5123997206924
+"652","Ombud","Optimistens Lanthandel","GUSTAVSFORS","Västra Götalands län",6569152,1288820,59.1908239520899,12.1092235567368
+"653","Ombud","Sätila Bygg","SÄTILA","Västra Götalands län",6384788,1297723,57.5429752241451,12.4266061492343
+"654","Ombud","Bilisten","HORRED","Västra Götalands län",6363729,1299725,57.3550930398315,12.4771935701711
+"655","Ombud","Älekulla Livs","ÄLEKULLA","Västra Götalands län",6362075,1314891,57.3466703976803,12.7300217106766
+"656","Ombud","ICA Nära Cypressen","BRÅLANDA","Västra Götalands län",6498495,1298988,58.5626330906508,12.3505768897421
+"657","Ombud","Gittes Garn","SOLLEBRUNN","Västra Götalands län",6448702,1307215,58.1200552471226,12.5332690240029
+"658","Ombud","Hova Skoaffär","HOVA","Västra Götalands län",6527178.272,1408357.833,58.8568304131423,14.2172097901865
+"659","Ombud","Freijs Livs","LYRESTAD","Västra Götalands län",6521492,1399108,58.8037370100435,14.0595819482695
+"660","Ombud","Handelsboden i Kättilstorp","KÄTTILSTORP","Västra Götalands län",6437236,1376373,58.041898703994,13.7118925868963
+"661","Ombud","Konsum Nära Högboda","KIL","Värmlands län",6607314,1344428,59.5570121436833,13.0533182677363
+"662","Ombud","Bygga Jarnske","KOPPOM","Värmlands län",6626200,1294195,59.7045184754582,12.1482314689515
+"663","Ombud","Coop Nära Skillingsfors","SKILLINGSFORS","Värmlands län",6639174,1287261,59.8172318017896,12.0121565326005
+"664","Ombud","Coop Konsum Åmotfors","ÅMOTFORS","Värmlands län",6632049,1306530,59.7628416994387,12.361542857558
+"665","Ombud","Finnskogens ostaffär","TORSBY","Värmlands län",6678793,1326296,60.1905212382105,12.6733592936432
+"666","Ombud","Östmarks Handels AB","ÖSTMARK","Värmlands län",6688364,1331878,60.2786409394693,12.7658878926075
+"667","Ombud","Sundelins Handel","RÖJDÅFORS","Värmlands län",6700489,1323027,60.3835393779047,12.5955047510677
+"668","Ombud","Ica Nära Bograngen","BOGRANGEN","Värmlands län",6736080,1324756,60.7032194215365,12.5953316731409
+"669","Ombud","Coop Konsum Sysslebäck","SYSSLEBÄCK","Värmlands län",6738861,1339648,60.734397270315,12.8653741208733
+"670","Ombud","Ica Nära Likenäs","LIKENÄS","Värmlands län",6725242.566,1348674.76,60.6158430128458,13.041126885147
+"671","Ombud","Nordvärmlands Livs","AMBJÖRBY","Värmlands län",6710692,1355662,60.4879668658727,13.1791942632463
+"672","Ombud","Coop Nära Stöllet","STÖLLET","Värmlands län",6701906,1360355,60.4108427422511,13.2706242598714
+"673","Ombud","Långflons Stormarknad","HÖLJES","Värmlands län",6774271,1326709,61.0462812936232,12.5968353651106
+"674","Ombud","Silleruds Livsmedel","ÅRJÄNG","Värmlands län",6548268.168,1281371.265,59.0000004267309,12.0000002197897
+"675","Ombud","Nya Kötthallen i Töcksfors AB","TÖCKSFORS","Värmlands län",6605319,1275565,59.5079119476313,11.8402138114536
+"676","Ombud","Ica Nära Rottnahallen","GRÄSMARK","Värmlands län",6650988.886,1338251.752,59.9462001792475,12.9105200150977
+"677","Ombud","Coop Nära Lysvik","LYSVIK","Värmlands län",6658115,1351005,60.0149008411578,13.1332994073539
+"678","Ombud","Värmlands-Rasta","VÄSE","Värmlands län",6586171.534,1389188.841,59.3815903126992,13.8553898333111
+"679","Ombud","Coop Konsum Molkom","MOLKOM","Värmlands län",6610894,1382362,59.6015105857099,13.7217273338193
+"680","Ombud","Ica Nyvalls Bäckhammar","KRISTINEHAMN","Värmlands län",6561019,1407588,59.1603336581234,14.1896961565595
+"681","Ombud","AB Olas Livs","LESJÖFORS","Värmlands län",6652534,1408996,59.9817702115736,14.175032867861
+"682","Ombud","JLT:s Foto","EKSHÄRAD","Värmlands län",6675010,1371836,60.1734447539831,13.4958807347804
+"683","Ombud","ICA Nära Glava","GLAVA","Värmlands län",6607604,1316717,59.5483971882473,12.5637466457823
+"684","Ombud","Ica Nära Glava","GLAVA","Värmlands län",6607603.018,1316712.163,59.5483862705894,12.5636621081687
+"685","Ombud","Lundby Livs AB","MANGSKOG","Värmlands län",6629675,1332411,59.7528176307133,12.8233180492076
+"686","Ombud","Vikinghallen","VÄRMLANDS NYSÄTER","Värmlands län",6577569,1327316,59.2836762398505,12.7750517752405
+"687","Ombud","Coop Nära Svanskog","SVANSKOG","Värmlands län",6566513,1314092,59.1789881126668,12.5528858150149
+"688","Ombud","Soyas Ica-Hall","VRETSTORP","Örebro län",6545090,1446168,59.0240002947798,14.867887355719
+"689","Ombud","Pålsboda Järn & Färg","PÅLSBODA","Örebro län",6549338,1473149,59.0646829221796,15.3371111942074
+"690","Ombud","ICA Nära Åtorp","ÅTORP","Örebro län",6555840,1417540,59.1159050885732,14.3655544309861
+"691","Ombud","Ica Nära Glansen","GLANSHAMMAR","Örebro län",6577505,1476978,59.3177485852693,15.4008703489004
+"692","Ombud","Hemköp Fellingsbro","FELLINGSBRO","Örebro län",6590539.465,1487676.93,59.43520033208,15.5879995589108
+"693","Ombud","Ica Nära Virsbo","VIRSBO","Västmanlands län",6639147.857,1513520.87,59.8714772749571,16.046509440818
+"694","Ombud","Lunda Handel","HUDDUNGEBY","Uppsala län",6659542,1565614,60.0495132142721,16.9828032910626
+"695","Ombud","Ica Supermarket Skultuna","SKULTUNA","Västmanlands län",6622272,1534984,59.7187545070959,16.4268285196503
+"696","Ombud","ICA Köplusten","SALBOHED","Västmanlands län",6643568,1530374,59.9102576626747,16.3480034351559
+"697","Ombud","Kolsva Handel","KOLSVA","Västmanlands län",6608964,1502032,59.6007619083917,15.841128770156
+"698","Ombud","Lungers Handel","LUNGER","Västmanlands län",6577295,1492691,59.3164297455518,15.6768088679931
+"699","Ombud","Gulf/ Tempo","NÅS","Dalarnas län",6704505,1427657,60.4518111155634,14.4906309811586
+"700","Ombud","Lima Handel","LIMA","Dalarnas län",6783012,1338927,61.1298004294476,12.8152701543311
+"701","Ombud","ICA Rörbäcksnäs","LIMA","Dalarnas län",6783012,1338927,61.1298004294476,12.8152701543311
+"702","Ombud","Handlarn Sörsjön","SÖRSJÖN","Dalarnas län",6813674,1354703,61.4108035760964,13.0839958239555
+"703","Ombud","Ica Nära Dala-Floda","DALA-FLODA","Dalarnas län",6710660.72,1444869.774,60.5097691168198,14.8016185468585
+"704","Ombud","Tempo Björbo","BJÖRBO","Dalarnas län",6704783,1440877,60.4564594305294,14.7307031091229
+"705","Ombud","Coop Nära Boda Kyrkby","BODA","Dalarnas län",6766203,1467943,61.0107116868711,15.2124247958179
+"706","Ombud","Oreboden","FURUDAL","Dalarnas län",6786841,1465740,61.1957228754449,15.1679771224356
+"707","Ombud","Skattunge Handel","ORSA","Dalarnas län",6785970,1449140,61.1861017737404,14.8595535868293
+"708","Ombud","Särnaffär´n","SÄRNA","Dalarnas län",6844829.823,1359011.137,61.6916697788827,13.140719559087
+"709","Ombud","Fjällbua","IDRE","Dalarnas län",6888374,1317644,62.0642606603175,12.3163227826193
+"710","Ombud","Ica Nära Bärkehallen","SÖDERBÄRKE","Dalarnas län",6661226,1486208,60.0696280832542,15.5574416230552
+"711","Ombud","Handlar´n Venjan","VENJAN","Dalarnas län",6761189,1397218,60.9536535712605,13.9080986632375
+"712","Ombud","Svärdsjö Färg","SVÄRDSJÖ","Dalarnas län",6735676,1505292,60.7380217661286,15.9021125732321
+"713","Ombud","Hellboms Handel","ÅSHAMMAR","Dalarnas län",6732658,1524231,60.7102399148967,16.2489005116538
+"714","Ombud","Gulf Enviken","ENVIKEN","Dalarnas län",6743508,1497417,60.808336006319,15.7576506775182
+"715","Ombud","Bingsjö Lanthandel AB","ENVIKEN","Dalarnas län",6767517,1491464,61.0237168817628,15.647218041749
+"716","Ombud","Coop Konsum Bjursås","BJURSÅS","Dalarnas län",6735905.494,1480255.098,60.7396240946334,15.4431454056451
+"717","Ombud","Kiosken","STJÄRNSUND","Dalarnas län",6701766,1522209,60.4331131744257,16.2084099557764
+"718","Ombud","Handlarn Smedby","DALA-HUSBY","Dalarnas län",6696094,1512876,60.3826106170241,16.0385711616375
+"719","Ombud","ICA Mathyttan","LÅNGSHYTTAN","Dalarnas län",6703814,1512487,60.4519095833169,16.0319978464669
+"720","Ombud","ICA Supermarket Horndal","HORNDAL","Dalarnas län",6686359,1533139,60.2940944290792,16.4043390131979
+"721","Ombud","Coop Konsum Grängesberg","GRÄNGESBERG","Dalarnas län",6662151,1455582,60.0757516918957,15.0072749320835
+"722","Ombud","Ica Nära Grangärde","GRANGÄRDE","Dalarnas län",6683139,1454327,60.263969562676,14.9800186804073
+"723","Ombud","Coop Nära Sunnansjö","SUNNANSJÖ","Dalarnas län",6677863,1453030,60.2164733006709,14.9578159779241
+"724","Ombud","Preem Fredriksberg","FREDRIKSBERG","Dalarnas län",6669987.406,1420508.057,60.1407611721837,14.3743916882295
+"725","Ombud","Tempo Åmot","ÅMOTSBRUK","Gävleborgs län",6760818,1534840,60.9621633831047,16.4482394948594
+"726","Ombud","Alfta Bok o Pappershandel","ALFTA","Gävleborgs län",6803402,1513987,61.3455943114477,16.0664299652874
+"727","Ombud","Ilsbo Bensin och Service AB","ILSBO","Gävleborgs län",6861507,1565548,61.8616200353852,17.0504230576336
+"728","Ombud","ICA Starks Supermarket","HARMÅNGER","Gävleborgs län",6869075,1574177,61.9279276291521,17.2174351449931
+"729","Ombud","Kajutan","STOCKA","Gävleborgs län",6865932,1580464,61.8984575917162,17.3356857783529
+"730","Ombud","ICA Stjärnan","GNARP","Gävleborgs län",6883100,1575026,62.0535675577297,17.239491201658
+"731","Ombud","Coop Nära Hassela","HASSELA","Gävleborgs län",6888891,1547253,62.1100093384525,16.7101384851685
+"732","Ombud","Lotta-Boden","LOS","Jämtlands län",6847297.677,1466585.012,61.7382799193287,15.172769221879
+"733","Ombud","Edlunds Foto & Data","FÄRILA","Gävleborgs län",6854136,1504143,61.801082995411,15.8836203582252
+"734","Ombud","Tempo Ramsjö","RAMSJÖ","Gävleborgs län",6896717,1491896,62.1830931704448,15.6494540533005
+"735","Ombud","Järnhuset Järvsö AB","JÄRVSÖ","Gävleborgs län",6845018,1519335,61.7188023745466,16.1707029457943
+"736","Ombud","Konsum Norrsundet","NORRSUNDET","Gävleborgs län",6757791,1572372,60.9299261916435,17.1397753805378
+"737","Ombud","Ica Nära Bergby","Bergby","Gävleborgs län",6757638.64,1567019.113,60.9295001378521,17.0410331172876
+"738","Ombud","GNK Lagerköp","HEDESUNDA","Gävleborgs län",6697834,1566335,60.3930054152927,17.0082536025409
+"739","Ombud","Coop Konsum Storvik","STORVIK","Gävleborgs län",6718685,1539827,60.583598693774,16.5316975341726
+"740","Ombud","Ica Nära Järbo","JÄRBO","Gävleborgs län",6733388.225,1543251.784,60.7151901564474,16.5973992267089
+"741","Ombud","Ica Nära Österfärnebo","ÖSTERFÄRNEBO","Gävleborgs län",6688341,1554893,60.3095285165203,16.7981770787868
+"742","Ombud","Coop Konsum Bergvik-Hälsingland","BERGVIK","Gävleborgs län",6795397,1555624,61.2700559675383,16.841952105876
+"743","Ombud","Ica Nära Trönö","TRÖNÖDAL","Gävleborgs län",6809164.488,1555642.228,61.3935800600389,16.8463790674653
+"744","Ombud","Coop Konsum Kilafors","KILAFORS","Gävleborgs län",6790791,1540776,61.2305554411716,16.5642141136179
+"745","Ombud","Icas Spelboa","ARBRÅ","Gävleborgs län",6817424.512,1530521.017,61.4704800222172,16.3776491101941
+"746","Ombud","Coop Nära Enånger","ENÅNGER","Gävleborgs län",6826502,1563843,61.5478674103693,17.0057797740949
+"747","Ombud","ICA Supermarket Delsbohallen","DELSBO","Gävleborgs län",6854213,1539462,61.7997646883365,16.5532834102076
+"748","Ombud","ICA Nära Friggesund","BJURÅKER","Gävleborgs län",6864382,1538772,61.8910755668298,16.5423858561128
+"749","Ombud","Handlarn Svågadalen","BJURÅKER","Gävleborgs län",6873222,1527886,61.971345004223,16.3367533954424
+"750","Ombud","Tempo","NÄSVIKEN","Gävleborgs län",6849700,1556052,61.7572050116274,16.8663884866766
+"751","Ombud","Nära Dig","ÖVERTURINGEN","Västernorrlands län",6926885,1454352,62.451054682534,14.9207484029962
+"752","Ombud","Östins Järnhandel","FRÄNSTA","Västernorrlands län",6931816.781,1518831.915,62.4976398889602,16.1704088913684
+"753","Ombud","Ljustorp Handel","LJUSTORP","Västernorrlands län",6946177.749,1578812.459,62.6185639382356,17.3404507958076
+"754","Ombud","Ica Nära Söråker","SÖRÅKER","Västernorrlands län",6933893,1587758,62.5063750910393,17.5083315839982
+"755","Ombud","Mat & Nostalgi","VIKSJÖ","Västernorrlands län",6963845,1582404,62.77622910319,17.4189957277223
+"756","Ombud","ICA Supermarket Stöde","STÖDE","Västernorrlands län",6923094,1540210,62.4176863722889,16.5831137631321
+"757","Ombud","Ica Supermarket Matfors","MATFORS","Västernorrlands län",6915600.289,1562942.165,62.3473199484617,17.0201688700652
+"758","Ombud","Lucksta Livs AB Matnära","MATFORS","Västernorrlands län",6910342,1564581,62.2998714772081,17.0498475936239
+"759","Ombud","Tempo Indal","INDAL","Västernorrlands län",6940857,1566621,62.5732367940586,17.1009374212676
+"760","Ombud","Tempo Liden","LIDEN","Västernorrlands län",6954570.722,1551003.219,62.698739915295,16.8013188135989
+"761","Ombud","Ica Nära Strömmen","NORASTRÖM","Västernorrlands län",6975514,1615977,62.8717665293953,18.0841098639666
+"762","Ombud","ICA Nära Nordingrå","NORDINGRÅ","Västernorrlands län",6982410,1626318,62.9301498652224,18.2923361992619
+"763","Ombud","Servicepunkten i Mjällom","MJÄLLOM","Västernorrlands län",6988888,1633167,62.9857700094422,18.4322388355291
+"764","Ombud","Docksta Järn","DOCKSTA","Västernorrlands län",6996312.54,1627480.236,63.0543539470093,18.3259157002341
+"765","Ombud","Br. Petterssons Järn","ULLÅNGER","Västernorrlands län",6991246,1620631,63.0112817917171,18.1869085353108
+"766","Ombud","Nylands Järnhandel","NYLAND","Västernorrlands län",6990070,1599216,63.0072182063611,17.7636835127462
+"767","Ombud","Ica Nära Långsele","LÅNGSELE","Västernorrlands län",7008174.079,1563488.206,63.1775999069856,17.0656286875538
+"768","Ombud","Handlarn i Resele","NÄSÅKER","Västernorrlands län",7025135,1563659,63.3296945290973,17.0756811082851
+"769","Ombud","Coop Nära Näsåker","NÄSÅKER","Västernorrlands län",7037320,1555073,63.4404098399518,16.908521826918
+"770","Ombud","PA Bygg","JUNSELE","Västernorrlands län",7065741,1553179,63.6956153972012,16.8801355751771
+"771","Ombud","Edselehallen","EDSELE","Västernorrlands län",7032863,1536944,63.402766330319,16.5442779553348
+"772","Ombud","Åkerström & Company","BREDBYN","Västernorrlands län",7040409,1614572,63.4539529464982,18.1021024794565
+"773","Ombud","Lanthandeln i Solberg","SOLBERG","Västernorrlands län",7076966,1590514,63.7886571042882,17.6411073848452
+"774","Ombud","Konsum Skorped","SKORPED","Västernorrlands län",7032305,1602487,63.384978125597,17.8548083782141
+"775","Ombud","Sidensjö Handelsbod","SIDENSJÖ","Västernorrlands län",7022887,1624707,63.2935066296164,18.2914678408258
+"776","Ombud","Ulvö Handelsbod","ULVÖHAMN","Västernorrlands län",6994732.735,1643733.58,63.0341199483515,18.6454986766195
+"777","Ombud","Busskiosken Nätra AB","BJÄSTA","Västernorrlands län",7013069,1635626,63.2015635758923,18.5006829065591
+"778","Ombud","Husums Service Station","HUSUM","Västernorrlands län",7029756,1667477,63.3376201055,19.1498551528666
+"779","Ombud","Gideå Livs","GIDEÅ","Västernorrlands län",7055945,1660295,63.5754802050312,19.033022548382
+"780","Ombud","Flärke Lanthandel","GIDEÅ","Västernorrlands län",7055945,1660295,63.5754802050312,19.033022548382
+"781","Ombud","Hemlings Lanthandel","LÅNGVIKSMON","Västernorrlands län",7063710,1635545,63.6553897558001,18.5420327646718
+"782","Ombud","Konsum Närköp","TREHÖRNINGSJÖ","Västernorrlands län",7068709,1651363,63.6937481822675,18.8657536551445
+"783","Ombud","ICA Forsen","BISPGÅRDEN","Jämtlands län",6991181.531,1541196.144,63.0283998908169,16.6187987256762
+"784","Ombud","Affär´n i Borgvattnet","STUGUN","Jämtlands län",7034923,1501016,63.4231508329897,15.8253412074476
+"785","Ombud","ICA Nära Stugun","STUGUN","Jämtlands län",7006472,1489946,63.1677685746952,15.605452213897
+"786","Ombud","Bodsjö Diverse","BRÄCKE","Jämtlands län",6958054,1466407,62.7319766329367,15.148098100717
+"787","Ombud","Kälarne Livs","KÄLARNE","Jämtlands län",6985517,1514352,62.9796309575515,16.0880464042008
+"788","Ombud","Monikas Livs","SÖRBYGDEN","Jämtlands län",6963162.559,1510633.528,62.7791998609974,16.0132988176889
+"789","Ombud","Ica Nära Gällö","GÄLLÖ","Jämtlands län",6978353,1470917,62.9144730515605,15.232752971999
+"790","Ombud","Laxsjö Bua","FÖLLINGE","Jämtlands län",7078682.872,1450412.354,63.8121997495903,14.7982984095038
+"791","Ombud","K-G Olssons Verkstad o Bensin HB","FÖLLINGE","Jämtlands län",7063110,1441401,63.6711382522547,14.6212657209029
+"792","Ombud","Handlarn Rötviken","FÖLLINGE","Jämtlands län",7097331.135,1419644.071,63.973709686722,14.1641782980922
+"793","Ombud","Trångsvikens Bygdegårdsförening","TRÅNGSVIKEN","Jämtlands län",7026138,1410468,63.3331269717047,14.0175759261753
+"794","Ombud","Valsjöbua AB","VALSJÖBYN","Jämtlands län",7107769,1418768,64.0670981640223,14.1407304608246
+"795","Ombud","MBB Livs","OFFERDAL","Jämtlands län",7039956,1413179,63.4577012820524,14.0641702718145
+"796","Ombud","Kluksbua","ALSEN","Jämtlands län",6989041.608,1408543.131,62.9999996843242,13.9999988551063
+"797","Ombud","Lidsjöbergs Lanthandel","LIDSJÖBERG","Jämtlands län",7133656.476,1472519.928,64.3077398360569,15.2370981914012
+"798","Ombud","Ica H-Center","HAMMERDAL","Jämtlands län",7052737,1477461,63.5822402585672,15.3511310232265
+"799","Ombud","Ica Nära Gränsbua","GÄDDEDE","Jämtlands län",7155923.854,1420106.876,64.4991807301969,14.1423389431244
+"800","Ombud","Ica Blåsjöfjäll","STORA BLÅSJÖN","Jämtlands län",7193566,1418320,64.8362387644333,14.083894124114
+"801","Ombud","Ica Nära Backe","BACKE","Jämtlands län",7078357,1529548,63.8115528725269,16.4048067750818
+"802","Ombud","Ica Nära Rossön","ROSSÖN","Jämtlands län",7091328,1525617,63.9282135346393,16.3271602278967
+"803","Ombud","Norråkers Handel","NORRÅKER","Jämtlands län",7147778,1489840,64.4353615106251,15.5940251328073
+"804","Ombud","Ica Nära Hoting","HOTING","Jämtlands län",7112162.216,1519391.225,64.1154998994005,16.2028983906564
+"805","Ombud","Coop Extra Storlien","STORLIEN","Jämtlands län",7027585,1314829,63.3094081517543,12.1101012511616
+"806","Ombud","ICA Toppen","DUVED","Jämtlands län",7034790,1355820,63.3928096499092,12.9201491176352
+"807","Ombud","Ica Nära Mörsil","MÖRSIL","Jämtlands län",7024133,1392288,63.3101419787632,13.6562513268532
+"808","Ombud","Ica Nära Karl Ors Bua","HALLEN","Jämtlands län",7008376,1414007,63.174717781959,14.0976314230224
+"809","Ombud","ICA Nära Kall","JÄRPEN","Jämtlands län",7043202,1371163,63.4740656934336,13.2199535155219
+"810","Ombud","ICA Ottsjö Bua","UNDERSÅKER","Jämtlands län",7014731,1361766,63.2154159324985,13.056152284441
+"811","Ombud","Ica Nära Undersåker","UNDERSÅKER","Jämtlands län",7025371.052,1371541.014,63.3143995737892,13.2418387339969
+"812","Ombud","Ovikens Bygg Shop","OVIKEN","Jämtlands län",6988412.586,1425814.19,62.9982997191688,14.3409988365922
+"813","Ombud","Handlar'n Storsjö","STORSJÖ","Jämtlands län",6968564,1359698,62.8009065229972,13.0543531964743
+"814","Ombud","Ljungdalsfjällens turistbyrå","LJUNGDALEN","Jämtlands län",6974935,1346420,62.8526600778958,12.7885968613122
+"815","Ombud","Ica Klövsjö","KLÖVSJÖ","Jämtlands län",6936043,1417051,62.5267345648848,14.1939927198277
+"816","Ombud","Handsjö Handel","RÄTAN","Jämtlands län",6928421.843,1434386.033,62.4618497792886,14.5334790609592
+"817","Ombud","Ica Nära Lofsdalen","LOFSDALEN","Jämtlands län",6891424,1367806,62.1124897593997,13.2723905067336
+"818","Ombud","Ekbergs Fiske","VEMDALEN","Jämtlands län",6927317,1399907,62.4442512815716,13.8663166984035
+"819","Ombud","Vemhåträffen","VEMHÅN","Jämtlands län",6912066,1408616,62.3097209753001,14.0429560782284
+"820","Ombud","Hede Färg & Måleri","HEDE","Jämtlands län",6925007.457,1381548.09,62.4181496954332,13.5126191977372
+"821","Ombud","Linsells Livs","SVEG","Jämtlands län",6895247,1400237,62.1567527880189,13.8910829647719
+"822","Ombud","Ytterhogdals trafikbutik AB","YTTERHOGDAL","Jämtlands län",6895626,1455549,62.1707590111424,14.9519285526753
+"823","Ombud","ICA Fåker","FÅKER","Jämtlands län",6987276,1438851,62.9905359902067,14.5986186134757
+"824","Ombud","Colorama Sedinhuset","BRUNFLO","Jämtlands län",6996826,1450696,63.0780048413319,14.8293979803623
+"825","Ombud","Svegårdhs Livs","HÄGGENÅS","Jämtlands län",7031652,1454978,63.3909612761466,14.9044315662267
+"826","Ombud","Gräsmyr Bensin & Livs","GRÄSMYR","Västerbottens län",7079099,1688193,63.7690242089147,19.6212516510464
+"827","Ombud","Handlar'n Nyåker","NYÅKER","Västerbottens län",7077974,1672866,63.7668243508395,19.3099229806498
+"828","Ombud","Örträsk Livs HB","ÖRTRÄSK","Västerbottens län",7118227,1654737,64.1358123582171,18.9836902411113
+"829","Ombud","GoMaten","GRANÖ","Västerbottens län",7131908,1669825,64.2512264271623,19.3084246533857
+"830","Ombud","Handlarn Åmsele","ÅMSELE","Norrbottens län",7163445,1669926,64.5335257278092,19.3467198409685
+"831","Ombud","DäckTeam Ånäset","ÅNÄSET","Västerbottens län",7140891,1753561,64.280016012657,21.0438563097431
+"832","Ombud","Affärn i Bastuträsk AB","BASTUTRÄSK","Västerbottens län",7194114,1701376,64.7906930260486,20.0429095219915
+"833","Ombud","Slussforsboa","SLUSSFORS","Västerbottens län",7258807.733,1520600.171,65.4307201812742,16.2487278516069
+"834","Ombud","Konsum Tärnaby","TÄRNABY","Västerbottens län",7290142,1474856,65.7114000392755,15.2572858345125
+"835","Ombud","Affären Ammarnäs","AMMARNÄS","Västerbottens län",7317616.92,1518539.89,65.958250372907,16.2125275980304
+"836","Ombud","ICA Nära Blattnicksele","BLATTNICKSELE","Västerbottens län",7250033,1582948,65.3421745917381,17.5861792304483
+"837","Ombud","Jonssons Livs","GARGNÄS","Västerbottens län",7247363,1600570,65.3133099937799,17.9623473909463
+"838","Ombud","Catarinas Livs","SVANAVATTNET","Västerbottens län",7110878,1540897,64.102111683967,16.6438378900771
+"839","Ombud","Ormsjödalens ICA","DOROTEA","Västerbottens län",7145942,1509819,64.4189067474169,16.0086710789781
+"840","Ombud","Borgafjällens Lanthandel","BORGAFJÄLL","Västerbottens län",7192501,1465899,64.8349198813643,15.086497281521
+"841","Ombud","Dikanäs Fjällhandel","DIKANÄS","Västerbottens län",7236919,1508758,65.2349373438791,15.9922006910854
+"842","Ombud","Klimpfjällshandlarn","KLIMPFJÄLL","Västerbottens län",7218153,1453166,65.0634232948563,14.8097692504529
+"843","Ombud","Sista Utposten","KITTELFJÄLL","Västerbottens län",7238885,1487801,65.2524562051674,15.5438539278725
+"844","Ombud","Saxnäs Lanthandel","MARSFJÄLL","Västerbottens län",7207410,1478989,64.9697180079972,15.360045443993
+"845","Ombud","Handlarn Fredrika","FREDRIKA","Västerbottens län",7110232.488,1626846.156,64.0755299789718,18.4048286369492
+"846","Ombud","Matboa","TAVELSJÖ","Västerbottens län",7110425,1707810,64.0382203657194,20.060101713442
+"847","Ombud","ICA-fyren Obbola","OBBOLA","Västerbottens län",7073737.323,1722914.936,63.7007799268534,20.3152787275791
+"848","Ombud","Konsum Hörnefors","HÖRNEFORS","Västerbottens län",7064099,1703332,63.6263793601773,19.9078399959349
+"849","Ombud","Time Sävar","SÄVAR","Västerbottens län",7096322.009,1732654.201,63.896399921435,20.5453987832865
+"850","Ombud","ICA Nära Bullmark","BULLMARK","Västerbottens län",7111343,1728429,64.0334848786384,20.4820576174115
+"851","Ombud","Affär´n","HOLMÖN","Västerbottens län",7086268,1749311,63.7950829703231,20.8670363762492
+"852","Ombud","Bureå Bensin och Livs","BUREÅ","Västerbottens län",7179042,1757852,64.6175357880758,21.1988228729751
+"853","Ombud","Ica X-tra","BOLIDEN","Västerbottens län",7203740,1717111,64.8669575741868,20.3874555624498
+"854","Ombud","Affärn","KÅGE","Västerbottens län",7215727,1727383,64.9672753349321,20.6225858891603
+"855","Ombud","Ica Supermarket","BYSKE","Västerbottens län",7216375.224,1754862.846,64.9531899990068,21.2030192725335
+"856","Ombud","Coop Nära Jörn","JÖRN","Västerbottens län",7224034.478,1699094.37,65.0596931136935,20.0371030325111
+"857","Ombud","Lövångers Blommor AB","LÖVÅNGER","Västerbottens län",7151912,1765766,64.3692008945727,21.3143378379721
+"858","Ombud","OKQ8 Burträsk","BURTRÄSK","Västerbottens län",7166253.613,1732947.833,64.5212999688308,20.6598289958214
+"859","Ombud","Ica Bygdsiljum","BYGDSILJUM","Västerbottens län",7146487,1726902,64.3486849109216,20.5039353967858
+"860","Ombud","Finnbergs diversehandel","GLOMMERSTRÄSK","Norrbottens län",7245212.612,1678790.515,65.2607821824573,19.6339879900764
+"861","Ombud","Jäckviks Service HB","JÄCKVIK","Norrbottens län",7366190,1551858,66.3900758589165,16.9647628414182
+"862","Ombud","Slagnäs Lanthandel","SLAGNÄS","Norrbottens län",7278061,1608940,65.5857247350838,18.1663877918787
+"863","Ombud","K o M in Bageri och Lanthandel","KÅBDALIS","Norrbottens län",7344820.33,1688802.179,66.1462005018995,19.9894994036112
+"864","Ombud","Macken i Vuollerim","VUOLLERIM","Norrbottens län",7378108,1713664,66.4278348350235,20.5946912251901
+"865","Ombud","Konsum Sangis","SANGIS","Norrbottens län",7327787,1850342,65.8573122126572,23.4933433005592
+"866","Ombud","Handlar´n Vitvattnet","KALIX","Norrbottens län",7348618,1834161,66.0598958100015,23.1955003070188
+"867","Ombud","ICA Nyckeln","TÖRE","Norrbottens län",7329405,1811217,65.9121989568222,22.646497020774
+"868","Ombud","Coop Konsum Morjärv","MORJÄRV","Norrbottens län",7347142,1811830,66.0695217182657,22.7025545559935
+"869","Ombud","Rautilas Livs","JUOKSENGI","Norrbottens län",7408549,1856316,66.5680437779207,23.8493740680987
+"870","Ombud","IKs Mack","TÄRENDÖ","Norrbottens län",7469298.97,1795269.802,67.1733707463458,22.6338118098962
+"871","Ombud","Handlar'n Muodoslompolo","MUODOSLOMPOLO","Norrbottens län",7558565.649,1819158.981,67.9425011714094,23.4334736054306
+"872","Ombud","Åkes Livs","PAJALA","Norrbottens län",7542922,1807705,67.8158008240637,23.1185144167539
+"873","Ombud","Alskog i Junosuando","JUNOSUANDO","Norrbottens län",7497050,1786250,67.4292509978998,22.4958306358607
+"874","Ombud","Kangos Lanthandel","KANGOS","Norrbottens län",7503627.462,1792462.056,67.481750963415,22.6566822508839
+"875","Ombud","Ullattimacken","ULLATTI","Norrbottens län",7448082.448,1761647.111,67.0153607893535,21.8145710663947
+"876","Ombud","Ica Dyrlinds","GÄLLIVARE","Norrbottens län",7489998,1727336,67.4173357170502,21.1129042653073
+"877","Ombud","ICA Polar","HAKKAS","Norrbottens län",7436233,1751351,66.9183687846689,21.5545221346795
+"878","Ombud","Ica Nära Handelsboden i Råneå","RÅNEÅ","Norrbottens län",7321380,1795635,65.8555107562239,22.2885499013813
+"879","Ombud","E-Fyren AB","JÄVREBYN","Norrbottens län",7238753,1767111,65.1433311130275,21.5035463680431
+"880","Ombud","Olofssons Livs","LILLPITE","Norrbottens län",7262940,1748691,65.3736962228747,21.156366483516
+"881","Ombud","Långträsk Livs AB","LÅNGTRÄSK","Norrbottens län",7261157,1710263,65.3847286301719,20.3301257886881
+"882","Ombud","Forsens Livs","SIKFORS","Norrbottens län",7280379,1748931,65.5292304589214,21.1935203440603
+"883","Ombud","Ica Norrfjärden","NORRFJÄRDEN","Norrbottens län",7269647.587,1763958.108,65.4216000909883,21.4959796165075
+"884","Ombud","Gunnarsby Lanthandel","GUNNARSBYN","Norrbottens län",7344944.202,1771106.759,66.0874202845949,21.8036002107077
+"885","Ombud","Niemisels Livs Nära Dig","NIEMISEL","Norrbottens län",7338193,1780214,66.0192988978115,21.9890169004042
+"886","Ombud","Harads Maskin & Fritid","HARADS","Norrbottens län",7341295,1732766,66.0853694864432,20.9531560138366
+"887","Ombud","Seskarö Livs Handlarn","SESKARÖ","Norrbottens län",7315954,1863169,65.7379180155351,23.738978842324
+"888","Ombud","Coop Konsum Katterjåkk","RIKSGRÄNSEN","Norrbottens län",7594056.602,1597007.201,68.4208523016819,18.167718391433
+"889","Ombud","Coop Nära Vittangi","VITTANGI","Norrbottens län",7520959.015,1747327.834,67.6775413103094,21.6447416311852
+"890","Ombud","Coop Nära Svappavaara","SVAPPAVAARA","Norrbottens län",7515450.318,1722556.235,67.6482213697253,21.0520410688445
+"891","Ombud","Matsäcken","LANNAVAARA","Norrbottens län",7563387.717,1757006.952,68.0474615823829,21.9712323789807
+"892","Ombud","Karesuando Bensin","KARESUANDO","Norrbottens län",7608909,1772510,68.438624386252,22.4575485913032
+"893","Ombud","Handlarn i Lugnvik","LUGNVIK","Västerbottens län",6981672.792,1606921.521,62.9297463454,17.9102628199205

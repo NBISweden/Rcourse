@@ -52,9 +52,8 @@ RStudio or by typing `install.packages("ggmap")` in R.
 In order to be able to install the _rgdal_ library, you have to have the gdal software installed on your computer. OsX users who use Homebrew can do this 
 by going to Terminal and typing _brew install gdal_. Other users who want to have this installed can follow this link: <http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries>
 However, the _rgdal_ library is used in this lab for just one purpose: to convert from RT90 to WGS84 datum in order to display coordinates prroperly on Google Map. 
-If you are running into troubles or simply do not want to install gdal, you can download:  
-[BolagetUppsalaCoords.Rd](../files/BolagetUppsalaCoords.Rd)  
-and this file contains already converted coords for Uppsala. 
+The original Bolaget.csv file has coords in RT90 only, but we added 2 extra columns with the corresponding WGS84 coords. If you, however, feel like installing _rgdal_ and 
+doing conversion yourself, uncomment the #rgdal lines and comment the coords <- line.
 
 ```R
 # Load the libraries necessary for working with maps
@@ -62,35 +61,36 @@ and this file contains already converted coords for Uppsala.
 library(ggmap)
 library(maptools)
 library(sp)
-library(rgdal)
+# library(rgdal) #rgdal
 library(deldir)
-    
+
 # Download the map of Uppsala from Stamen Maps
-google.map <- get_map(c(17.63,59.84), zoom=12, maptype = 'toner')
-    
-# Load the list of System Bolaget shops -- skip if you are not using rgdal
-data <- read.table("Bolaget.csv", header=T, sep=";", quote="")
-    
-# Narrow down the list to Uppsala only -- skip if not using rgdal
+city.coords <- c(17.63,59.84) # coordinates of the city in WGS84 datum. Here, Uppsala.
+google.map <- get_map(city.coords, zoom=12, maptype = 'toner')
+
+# Load the list of System Bolaget shops
+data <- read.csv("~/Dropbox/WABI/Teaching/Rcourse/files/Bolaget.csv", header=T, sep=",", quote="\"")
+
+# Narrow down the list to Uppsala only or any other city you want.
+# If you change the city, remember to load new maps centered around your city 
+# with new city.coords
 data <- data[data$Address4 == "UPPSALA",]
-		
+
 # The description in the file says the provided coords are in the RT90 datum.
 # The map uses WGS84 thus we need a conversion from RT90 to WGS84:
-latlonRT90 <- data[,c('RT90x', 'RT90y')] # skip if not using rgdal
-colnames(latlonRT90) <- c('x','y') # skip if not using rgdal
+#latlonRT90 <- data[,c('RT90x', 'RT90y')] #rgdal
+# colnames(latlonRT90) <- c('x','y') #rgdal
 
 # EPSG codes for RT90 and WGS84 are 3021 and 4326, respectively. 
-# Here, we do the actual conversion. Skip next 4 lines if not using rgdal
-tmp <- data.frame(coords.x = latlonRT90$y, coords.y = latlonRT90$x)
-coordinates(tmp)=~coords.x+coords.y
-proj4string(tmp)=CRS("+init=epsg:3021") 
-coords <- spTransform(tmp, CRS("+init=epsg:4326"))
-# IF NOT USING RGDAL, load pre-converted data
-load('BolagetUppsalaCoords.Rd')
-# END OF IF
-		
+# Here, we do the actual conversion
+#tmp <- data.frame(coords.x = latlonRT90$y, coords.y = latlonRT90$x) #rgdal
+#coordinates(tmp)=~coords.x+coords.y #rgdal
+#proj4string(tmp)=CRS("+init=epsg:3021") #rgdal
+#coords <- spTransform(tmp, CRS("+init=epsg:4326")) #rgdal
+
 # Create the data frame for ggplot2
-coords <- data.frame(lat=coords@coords[,1], lon=coords@coords[,2])
+# coords <- data.frame(lat=coords@coords[,1], lon=coords@coords[,2]) #rgdal
+coords <- data.frame(lat=data$WGS84y, lon=data$WGS84x) # turn off if using rgdal
 
 # Do the Voronoi tesseleation
 voronoi <- deldir(coords)
@@ -98,20 +98,18 @@ voronoi <- deldir(coords)
 # Plot the map, shops density, shops as points and the tesselation lines.
 map <- ggmap(google.map)
 map +
-stat_density2d(data = coords, 
-	           aes(x = lat, y = lon,
-			   fill = ..level..,
-			   alpha = ..level..), 
-			   size = 0.01, bins = 50, 
-			   geom = "polygon") + 
-			   scale_fill_gradient(low = "green", high = "olivedrab", guide = FALSE) + 
-			   scale_alpha(range = c(0, 0.1), guide = FALSE) +
-			   geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2), 
-			                size = .6, linetype=2, data = voronoi$dirsgs, color= "olivedrab") +
-							geom_point(aes(x=lat, y=lon), data=coords, color='olivedrab')
-```  
-    
-```R	
+  stat_density2d(data = coords, 
+                 aes(x = lat, y = lon,
+                     fill = ..level..,
+                     alpha = ..level..), 
+                 size = 0.01, bins = 50, 
+                 geom = "polygon") + 
+  scale_fill_gradient(low = "green", high = "olivedrab", guide = FALSE) + 
+  scale_alpha(range = c(0, 0.1), guide = FALSE) +
+  geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2), 
+               size = .6, linetype=2, data = voronoi$dirsgs, color= "olivedrab") +
+  geom_point(aes(x=lat, y=lon), data=coords, color='olivedrab')
+
 # ICA & Coop
 ica.kml <- getKMLcoordinates(kmlfile="ica_Uppsala.kml", ignoreAltitude=T)
 tmp <- unlist(ica.kml)
@@ -124,10 +122,10 @@ google.map <- get_map(c(17.63,59.84), zoom=12)
 voronoi <- deldir(coords)
 
 map <- ggmap(google.map)
-	         map +
-			 scale_fill_gradient(low = "green", high = "olivedrab", guide = FALSE) + 
-			 scale_alpha(range = c(0, 0.1), guide = FALSE) + 
-			 geom_segment(aes(x = y1, y = x1, xend = y2, yend = x2), 
-			 size = .4, linetype=1, data = voronoi$dirsgs, color= "olivedrab") + 
-			 geom_point(aes(x=lon, y=lat, col=type), data=coords)
+map +
+  scale_fill_gradient(low = "green", high = "olivedrab", guide = FALSE) + 
+  scale_alpha(range = c(0, 0.1), guide = FALSE) + 
+  geom_segment(aes(x = y1, y = x1, xend = y2, yend = x2), 
+               size = .4, linetype=1, data = voronoi$dirsgs, color= "olivedrab") + 
+  geom_point(aes(x=lon, y=lat, col=type), data=coords)
 ```
