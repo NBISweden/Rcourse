@@ -48,6 +48,14 @@ working directory:
 If you cannot load the library install it either via the menu of
 RStudio or by typing `install.packages("ggmap")` in R.
 
+## IMPORTANT!
+In order to be able to install the _rgdal_ library, you have to have the gdal software installed on your computer. OsX users who use Homebrew can do this 
+by going to Terminal and typing _brew install gdal_. Other users who want to have this installed can follow this link: <http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries>
+However, the _rgdal_ library is used in this lab for just one purpose: to convert from RT90 to WGS84 datum in order to display coordinates prroperly on Google Map. 
+If you are running into troubles or simply do not want to install gdal, you can download:  
+[BolagetUppsalaCoords.Rd](../files/BolagetUppsalaCoords.Rd)  
+and this file contains already converted coords for Uppsala. 
+
 ```R
 # Load the libraries necessary for working with maps
 # Install them if missing
@@ -60,23 +68,26 @@ library(deldir)
 # Download the map of Uppsala from Stamen Maps
 google.map <- get_map(c(17.63,59.84), zoom=12, maptype = 'toner')
     
-# Load the list of System Bolaget shops
+# Load the list of System Bolaget shops -- skip if you are not using rgdal
 data <- read.table("Bolaget.csv", header=T, sep=";", quote="")
     
-# Narrow down the list to Uppsala only
+# Narrow down the list to Uppsala only -- skip if not using rgdal
 data <- data[data$Address4 == "UPPSALA",]
 		
 # The description in the file says the provided coords are in the RT90 datum.
 # The map uses WGS84 thus we need a conversion from RT90 to WGS84:
-latlonRT90 <- data[,c('RT90x', 'RT90y')]
-colnames(latlonRT90) <- c('x','y')
+latlonRT90 <- data[,c('RT90x', 'RT90y')] # skip if not using rgdal
+colnames(latlonRT90) <- c('x','y') # skip if not using rgdal
 
 # EPSG codes for RT90 and WGS84 are 3021 and 4326, respectively. 
-# Here, we do the actual conversion
+# Here, we do the actual conversion. Skip next 4 lines if not using rgdal
 tmp <- data.frame(coords.x = latlonRT90$y, coords.y = latlonRT90$x)
 coordinates(tmp)=~coords.x+coords.y
 proj4string(tmp)=CRS("+init=epsg:3021") 
 coords <- spTransform(tmp, CRS("+init=epsg:4326"))
+# IF NOT USING RGDAL, load pre-converted data
+load('BolagetUppsalaCoords.Rd')
+# END OF IF
 		
 # Create the data frame for ggplot2
 coords <- data.frame(lat=coords@coords[,1], lon=coords@coords[,2])
