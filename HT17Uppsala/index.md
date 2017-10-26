@@ -67,7 +67,7 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 **12.00-13.00** Lunch at BMC restaurant<br>
 **13:00-16.00** [Graphics in R: ggplot2](exercise/ggplots.md) (Thomas Källman/Marcin Kierczak, Sebastian DiLorenzo, Per Unneberg, Eva Freyhult)<br>
 
-##Bonus ggplot2 lab -- interactive plots with plotly, a tribute to Hans Rosling [Bonus Lab](exercise/gapminder/gapminder.html)
+### Bonus ggplot2 lab -- interactive plots with plotly, a tribute to Hans Rosling [Bonus Lab](exercise/gapminder/gapminder.html)
 
 ## Bonus -- an R game
 If you want to test your skills and hopefully have some fun at the same time, you can play an R game. To do this,
