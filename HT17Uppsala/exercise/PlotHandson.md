@@ -14,10 +14,9 @@ to create some nice-looking plots.
 First, we will produce some random data that we will later plot.
 Make a data frame with
 
-- 20 random coordinates (x,y) and
-- radius $r$ for each data point.
+- 20 random coordinates (x,y): *y* coming from *N(0,1)* -- normal distribution with mean=0 and sd=1
+- radius *r* for each data point, *r* coming from *N(0,1)*.
 - The *x* coord takes random values from 1 to 25 and
-- both the *y* and the radius *r* coord are samples from $N(0,1)$.
 - Each point (row of the data frame) has a name *ind1 ... ind25*,
 
 First, look at the defaults:
@@ -33,7 +32,7 @@ First, look at the defaults:
 		r <- rnorm(n=20, mean=0, sd=1) # radius from normal
 		names <- paste("ind", 1:20, sep="") # assign some names
 		data <- data.frame(cbind(X=x,Y=y, R=r), row.names=names)
-		plot(data[,1:2])
+		plot(data[,1:2], cex=data$R)
 	</pre>
 	</details>
 <br>
@@ -77,7 +76,7 @@ dimension).
 
 		#Create X axis
 		coords.x <- seq(min(data$X),max(data$X), by=1)
-		axis(side=1, # 1-left, 2-top, 3-right, 4-bottom
+		axis(side=1, # 1-bottom, 2-left, 3-top, 4-right
 		at=coords.x, # coordinates for tickmarks
 		cex.axis=.7 # make labels smaller
 		)
