@@ -61,11 +61,13 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 
 **Friday**
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
-**09:00-10:00** [Lecture: ggplot2](lecture/...) (Marcin Kierczak)<br>
-**10:00-11:00** [Live presentation: Explanatory programming](lectures/...) (Thomas Källman/Marcin Kierczak)<br>
-**11:00-12:00** Q&A session. (Thomas Källman, Marcin Kierczak, )<br>
+**09:00-10:00** [Lecture: ggplot2](lecture/Lecture_10_-_ggplot2.pdf) (Marcin Kierczak)<br>
+**10:15-10:45** [Live presentation: Explanatory programming](lectures/) (Thomas Källman/Marcin Kierczak)<br>
+**10:45-12:00** Q&A session. (Thomas Källman, Marcin Kierczak, )<br>
 **12.00-13.00** Lunch at BMC restaurant<br>
-**13:00-16.00** [Graphics in R: ggplot2](Exercises/...) (Thomas Källman/Marcin Kierczak, Sebastian DiLorenzo, Per Unneberg, Eva Freyhult)<br>
+**13:00-16.00** [Graphics in R: ggplot2](exercise/ggplots.md) (Thomas Källman/Marcin Kierczak, Sebastian DiLorenzo, Per Unneberg, Eva Freyhult)<br>
+
+##Bonus ggplot2 lab -- interactive plots with plotly, a tribute to Hans Rosling [Bonus Lab](exercise/gapminder/gapminder.html)
 
 ## Bonus -- an R game
 If you want to test your skills and hopefully have some fun at the same time, you can play an R game. To do this,
