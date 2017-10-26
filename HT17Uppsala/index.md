@@ -52,12 +52,12 @@ Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
 
 **Thursday**<br>
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>
-**09:00-10:00** [Lecture: Selected functions in R ](lectures/...) (Marcin Kierczak)<br>
-**10:00-11:00** [Lecture: Graphics](lectures/...) (Thomas Källman, Marcin Kierczak)<br>
-**11:00-12:00** [Exercise: Selected functions in R](exercise/...) (Thomas Källman/Marcin Kierczak, Eva Freyhult, Johan Reimegård)<br>
+**09:00-10:00** [Lecture: Selected functions in R ](lecture/Lecture_8_-_SelectedFns.pdf) (Marcin Kierczak)<br>
+**10:00-11:00** [Lecture: Graphics](lecture/Lecture_9_-_Graphics.pdf) (Marcin Kierczak)<br>
+**11:00-12:00** [Exercise: Selected functions in R](exercise/SelectedFns) (Thomas Källman/Marcin Kierczak, Eva Freyhult, Johan Reimegård)<br>
 **12:00-13:00** Lunch at BMC restaurant<br>
-**13:00-15:00** [Exercise: Selected functions in R cted.](exercise/...) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimegård)<br>
-**15:00-17:00** [Exercise: Graphics in R cted.](exercise/...) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimegård)<br>
+**13:00-15:00** [Exercise: Selected functions in R cted.](exercise/SelectedFns) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimegård)<br>
+**15:00-17:00** [Exercise: Graphics in R cted.](exercise/PlotHandson) (Thomas Källman/Marcin Kierczak, Johan Viklund, Johan Reimegård)<br>
 
 **Friday**
 Room: [Trippelrummet, E10, ground floor](../files/bmc_map.jpg)<br>

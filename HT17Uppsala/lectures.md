@@ -51,7 +51,7 @@ Control structures, iteration, recursion, variable scope
 </li>
 
 <li>
-<a href="lecture/Lecture_7_-_Loading_datatk.pdf">
+<a href="lecture/Lecture_7-_Loading_datatk.pdf">
 <h3>Wednesday part 2</h3>
 
 Loading data into R
@@ -59,7 +59,7 @@ Loading data into R
 </li>
 
 <li>
-<a href="lecture/Lecture_8_-_SelectedFns.pdff">
+<a href="lecture/Lecture_8_-_SelectedFns.pdf">
 <h3>Thursday part 1</h3>
 
 Selected functions in R
@@ -67,7 +67,7 @@ Selected functions in R
 </li>
 
 <li>
-<a href="lecture/Lecture_9_-_Graphics.pdff">
+<a href="lecture/Lecture_9_-_Graphics.pdf">
 <h3>Thursday part 2</h3>
 
 Graphics in R

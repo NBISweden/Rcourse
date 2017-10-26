@@ -40,7 +40,14 @@ Reading and writing data
 </li>
 
 <li>
-<a href="exercise.../PlotHandson">
+<a href="exercise/SelectedFns">
+<h3>Thursday</h3>
+Selected functions
+</a>
+</li>
+
+<li>
+<a href="exercise/PlotHandson">
 <h3>Thursday</h3>
 Base R graphics
 </a>
