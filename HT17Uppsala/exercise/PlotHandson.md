@@ -129,7 +129,7 @@ dimension).
    </details>
 <br>
 
-- plot datapoints so that their size is proportional to $e^r$ where
+- plot datapoints so that their size is proportional to $$e^r$$ where
   $r$ is the radius, points at even X should be round and blue and
   points at odd X square and grey.
   <details>
