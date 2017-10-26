@@ -289,7 +289,7 @@ model <- lm(body.fat ~ age + weight + height + neck + hip,  data=fat)
 summary(model)
 plot(model)
 #Remove outliers
-fat2 <- fat[-c(54, 39, 42), ]
+fat2 <- fat[-c(36, 39, 42, 216), ]
 model2 <- lm(body.fat ~ age + weight + height + neck + hip,  data=fat2)
 summary(model2)
 plot(model2)
