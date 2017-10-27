@@ -41,9 +41,9 @@ help for some of the functions and try to replot things with altered arguments (
 
 Before you start you should download the following files to your
 working directory:  
-[Bolaget.csv](../files/Bolaget.csv)  
-[coop_Uppsala.kml](../files/coop_Uppsala.kml)  
-[ica_Uppsala.kml](../files/ica_Uppsala.kml)  
+[Bolaget.csv](../../files/Bolaget.csv)  
+[coop_Uppsala.kml](../../files/coop_Uppsala.kml)  
+[ica_Uppsala.kml](../../files/ica_Uppsala.kml)  
 
 If you cannot load the library install it either via the menu of
 RStudio or by typing `install.packages("ggmap")` in R.
